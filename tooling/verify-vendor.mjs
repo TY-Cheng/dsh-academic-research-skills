@@ -87,6 +87,7 @@ if (manifest.schemaVersion !== 2) {
   process.exit(1);
 }
 const { skills, core, commands } = manifest.vendored;
+const NATIVE_SKILLS = ['ars-team'];
 verifySection('skills', join(ROOT, 'skills'), skills.files);
 for (const dir of core.directories) {
   verifySection(`core/${dir.destination}`, join(ROOT, dir.destination), dir.files);
@@ -104,11 +105,18 @@ if (failures.length) {
 const { default: apply } = await import(pathToFileURL(join(ROOT, 'lib', 'startup.js')).href);
 const registered = [];
 apply({ skills: { register: (skill) => registered.push(skill) } });
-const expectedRegistrations = skills.directories.length + commands.files.length;
+const expectedRegistrations =
+  skills.directories.length + commands.files.length + NATIVE_SKILLS.length;
 if (registered.length !== expectedRegistrations) {
   console.error(
     `registrar: expected ${expectedRegistrations} registrations, got ${registered.length}`,
   );
   process.exit(1);
+}
+for (const name of NATIVE_SKILLS) {
+  if (!registered.some((skill) => skill.name === name)) {
+    console.error(`registrar: native skill ${name} was not registered`);
+    process.exit(1);
+  }
 }
 console.log(`registrar: ${registered.length} registrations OK`);

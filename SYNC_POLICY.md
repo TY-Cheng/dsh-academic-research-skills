@@ -48,9 +48,15 @@ These files include each skill's `SKILL.md`, `agents/`, `references/`,
 
 **Porting layer** (DSH-specific; may diverge):
 
-- `lib/startup.js` (registration, `resourceBase`, and the `DSH_ARS_ROOT` path
-  note), `cordis.patch.yml`, `tooling/*.mjs`, `AGENTS.md`, `docs/agents/`,
-  `README.md`, `NOTICE.md`, package metadata, and CI.
+- `lib/startup.js` (registration, `resourceBase`, the `DSH_ARS_ROOT` path
+  note, and the native tools), `cordis.patch.yml`, `tooling/*.mjs`,
+  `native/`, `AGENTS.md`, `docs/agents/`, `README.md`, `NOTICE.md`, package
+  metadata, and CI.
+
+**Native layer (0.4.0, unreleased)**: `native/skills/ars-team` and the
+`ars_search`/`ars_lookup` tool definitions in `lib/startup.js`. This is
+DSH-specific orchestration on top of the vendored ARS roles; it does not change
+the vendored files or the 0.3.0 official-recognition baseline.
 
 ## Not vendored (current boundary)
 
@@ -78,7 +84,7 @@ ARS ships minor releases roughly every six weeks. The maintainer:
    if a local edit is needed, it belongs in the porting layer, not `skills/`,
    `scripts/`, `shared/`, or `agents/`.
 5. Runs `npm run verify`, the Python syntax check, and the package-contents check.
-6. Runs the DSH smoke test (currently 21 registrations). Before requesting
+6. Runs the DSH smoke test (currently 22 registrations). Before requesting
    official sibling recognition, runs the end-to-end `academic-pipeline`
    evidence run.
 7. Updates the package version and release notes, commits, and tags `vX.Y.Z`.
@@ -88,12 +94,13 @@ ARS ships minor releases roughly every six weeks. The maintainer:
 CI (`.github/workflows/verify-vendor.yml`) runs `node tooling/verify-vendor.mjs`
 on every push to `main` and every pull request. It fails on any missing, extra,
 or modified vendored file (skills, core directories, root core files, and
-generated commands), and on a registration count other than 21. The check is
+generated commands), and on a registration count other than 22. The check is
 offline and deterministic; it does not need the upstream checkout.
 
 ## Versioning and releases
 
-- Package versions are independent of ARS versions (`0.3.0`, `0.3.1`, ...).
+- Package versions are independent of ARS versions (`0.3.0`, `0.4.0`, ...).
+  `0.3.0` is the official-recognition baseline; `0.4.0` adds the native layer.
 - The README and release notes state the ARS version; `manifest.json` records
   the exact commit.
 - Release tags are immutable. Do not move a tag to re-sync content; publish a

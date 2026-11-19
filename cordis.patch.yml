@@ -1,15 +1,17 @@
 # dsh-academic-research-skills bundle patch.
 #
 # Mounts the ARS skill registrar into the profile's layer stack. On load it
-# registers 5 model-invocable skills (deep-research, academic-paper,
-# academic-paper-reviewer, academic-pipeline, sr-screener) and 16
-# user-invocable /ars-* command wrappers into ctx.skills, so the skill catalog
-# picks them up without any manual skill-root setup.
+# registers 5 vendored model-invocable skills (deep-research, academic-paper,
+# academic-paper-reviewer, academic-pipeline, sr-screener), 1 native team skill
+# (ars-team), and 16 user-invocable /ars-* command wrappers into ctx.skills, so
+# the skill catalog picks them up without any manual skill-root setup. When the
+# `tools` service is mounted it also registers the native ars_search/ars_lookup
+# tools.
 #
-# Requires the `skills` service, which dsh-base mounts in every standard
-# profile (row id `skill` -> @deepseek-ai/dsh-skill).
+# Requires the `skills` and `tools` services, which dsh-base mounts in every
+# standard profile.
 
 - insert:
     - id: ars-skills
       name: 'dsh-academic-research-skills/startup'
-      inject: [skills]
+      inject: [skills, tools]

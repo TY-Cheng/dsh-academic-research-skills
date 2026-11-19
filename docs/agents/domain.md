@@ -19,12 +19,14 @@ Single-context repo (this repo):
 ├── GLOSSARY.md
 ├── docs/adr/
 ├── lib/                                ← DSH registrar + cordis patch
+├── native/                             ← 0.4.0 native ars-team skill/tools
 ├── skills/                             ← 5 vendored ARS skills
 ├── scripts/                            ← vendored ARS shared Python tools
 ├── shared/                             ← vendored ARS schemas/contracts
 ├── agents/                             ← vendored ARS root agent roles
 ├── commands/                           ← generated DSH /ars-* wrappers
 ├── tooling/                            ← sync/verify/regenerate scripts
+├── .github/                            ← CI
 ├── manifest.json                       ← upstream pin + per-file hashes
 ├── SYNC_POLICY.md
 └── MODE_REGISTRY.md
