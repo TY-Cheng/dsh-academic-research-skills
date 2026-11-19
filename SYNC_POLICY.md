@@ -53,10 +53,11 @@ These files include each skill's `SKILL.md`, `agents/`, `references/`,
   `native/`, `AGENTS.md`, `docs/agents/`, `README.md`, `NOTICE.md`, package
   metadata, and CI.
 
-**Native layer (0.4.0, released)**: `native/skills/ars-team` and the
-`ars_search`/`ars_lookup` tool definitions in `lib/startup.js`. This is
-DSH-specific orchestration on top of the vendored ARS roles; it does not change
-the vendored files or the 0.3.0 official-recognition baseline.
+**Native layer (0.4.1, released)**: `native/skills/ars-team`, the
+`ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status` tool definitions
+in `lib/startup.js`, and the `ARS_PRESET` registration for `agentPresets`. This
+is DSH-specific orchestration on top of the vendored ARS roles; it does not
+change the vendored files or the 0.3.0 official-recognition baseline.
 
 ## Not vendored (current boundary)
 
@@ -99,8 +100,8 @@ offline and deterministic; it does not need the upstream checkout.
 
 ## Versioning and releases
 
-- Package versions are independent of ARS versions (`0.3.0`, `0.4.0`, ...).
-  `0.3.0` is the official-recognition baseline; `0.4.0` adds the native layer.
+- Package versions are independent of ARS versions (`0.3.0`, `0.4.1`, ...).
+  `0.3.0` is the official-recognition baseline; `0.4.1` adds the native layer.
 - The README and release notes state the ARS version; `manifest.json` records
   the exact commit.
 - Release tags are immutable. Do not move a tag to re-sync content; publish a

@@ -10,7 +10,7 @@ submission scaffold, not a claim of endorsement.
 | Item | Value |
 | --- | --- |
 | Sibling repository | https://github.com/TY-Cheng/dsh-academic-research-skills |
-| Plugin version | `dsh-academic-research-skills` 0.3.0 (official baseline); 0.4.0 native layer is additive, not part of the baseline |
+| Plugin version | `dsh-academic-research-skills` 0.3.0 (official baseline); 0.4.1 native layer is additive, not part of the baseline |
 | Upstream | https://github.com/Imbad0202/academic-research-skills |
 | Upstream pin | `6d9388674de1ad0437ad95db3d52f92b92204d84` (`v3.24.2-3-g6d93886`), tag `v3.24.2` |
 | License | CC-BY-NC-4.0, attribution retained |
@@ -49,14 +49,18 @@ submission scaffold, not a claim of endorsement.
   (`ctex` + `xelatex` for the 35-page PDF; `python-docx` for DOCX). They are
   working conversions, not journal typesetting.
 
-## Native layer (0.4.0, additive)
+## Native layer (0.4.1, additive)
 
-The 0.4.0 release adds, outside the vendored ARS core:
+The 0.4.1 release adds, outside the vendored ARS core:
 
 - `native/skills/ars-team` — the five-seat panel run as real `subagent`s on the
   DSH Team board (field analyst → five seats → editorial).
-- `ars_search` / `ars_lookup` — small native tools (OpenAlex search; DOI lookup
-  via OpenAlex/Crossref), registered only when the `tools` service is available.
+- `ars_search` / `ars_lookup` / `ars_integrity` / `ars_pipeline_status` —
+  native tools (OpenAlex search; DOI lookup via OpenAlex/Crossref; pipeline
+  integrity checker; stage-artifact inventory), registered only when `tools`
+  is available.
+- `ars-team` preset — registered when `agentPresets` is mounted; a new session
+  can select it to compose the team skill with the Team board.
 
 Validation: the final Stage 5 paper was reviewed by five seat subagents plus the
 field analyst and editorial synthesizer; outputs are in
@@ -75,7 +79,7 @@ is a process control, not proof of independent error processes.
   ownership or two-owner arrangement is claimed.
 - Independent execution of the five review seats **in the official e2e**. That
   run used inline role prompts; role separation is not a claim of independent
-  error processes. The additive 0.4.0 native layer was separately exercised with
+  error processes. The additive 0.4.1 native layer was separately exercised with
   five `subagent`s + a Team board; it does not retrofit the official 0.3.0 e2e.
 - Full-text, plagiarism, or complete COI verification. The review is
   abstract-level: 10/40 sources are preprints, 1 is title-level, 4 are partial;

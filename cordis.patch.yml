@@ -5,13 +5,14 @@
 # academic-paper-reviewer, academic-pipeline, sr-screener), 1 native team skill
 # (ars-team), and 16 user-invocable /ars-* command wrappers into ctx.skills, so
 # the skill catalog picks them up without any manual skill-root setup. When the
-# `tools` service is mounted it also registers the native ars_search/ars_lookup
-# tools.
+# `tools` service is mounted it also registers the native ars_search/ars_lookup/
+# ars_integrity/ars_pipeline_status tools; when `agentPresets` is mounted it
+# registers the selectable ARS Team preset.
 #
-# Requires the `skills` and `tools` services, which dsh-base mounts in every
-# standard profile.
+# Requires the `skills`, `tools`, and `agentPresets` services, which dsh-base
+# mounts in every standard profile.
 
 - insert:
     - id: ars-skills
       name: 'dsh-academic-research-skills/startup'
-      inject: [skills, tools]
+      inject: [skills, tools, agentPresets]
