@@ -2,17 +2,19 @@
 #
 # Mounts the ARS skill registrar into the profile's layer stack. On load it
 # registers 5 vendored model-invocable skills (deep-research, academic-paper,
-# academic-paper-reviewer, academic-pipeline, sr-screener), 1 native team skill
-# (ars-team), and 16 user-invocable /ars-* command wrappers into ctx.skills, so
-# the skill catalog picks them up without any manual skill-root setup. When the
-# `tools` service is mounted it also registers the native ars_search/ars_lookup/
-# ars_integrity/ars_pipeline_status tools; when `agentPresets` is mounted it
-# registers the selectable ARS Team preset.
+# academic-paper-reviewer, academic-pipeline, sr-screener), 2 native team skills
+# (ars-team, ars-pipeline-team), and 16 user-invocable /ars-* command wrappers
+# into ctx.skills, so the skill catalog picks them up without manual skill-root
+# setup. When `tools` is mounted it also registers the native ars_search/
+# ars_lookup/ars_integrity/ars_pipeline_status/ars_manifest tools; when
+# `agentPresets` is mounted it registers the selectable ARS Team preset; when
+# `workingDirectory` is mounted the workspace-scoped tools resolve relative
+# paths against the calling Session's current directory.
 #
-# Requires the `skills`, `tools`, and `agentPresets` services, which dsh-base
-# mounts in every standard profile.
+# Requires the `skills`, `tools`, `agentPresets`, and `workingDirectory`
+# services, which dsh-base mounts in every standard profile.
 
 - insert:
     - id: ars-skills
       name: 'dsh-academic-research-skills/startup'
-      inject: [skills, tools, agentPresets]
+      inject: [skills, tools, agentPresets, workingDirectory]

@@ -1,4 +1,4 @@
-# ARS Role Map — 0.4.3
+# ARS Role Map — 0.4.4
 
 This is the full inventory of the ARS role prompts shipped in the vendored core and the native layer. It corrects the 0.4.2 “39/32” shorthand.
 

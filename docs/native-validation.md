@@ -1,26 +1,25 @@
-# Native 0.4.3 — live validation checklist
+# Native 0.4.4 — live validation
 
-The package and profile are installed and offline-verified. The remaining check is a **new desktop session**: the current session was started against 0.3.0 and does not reload the 0.4.3 catalog.
+The 0.4.3 native layer passed the live check in a new desktop session: `ars-team` and `ars-pipeline-team` were listed as skills, `ars-team` was selectable as a preset, and `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, and `ars_manifest` were present. The smoke test also found one usability bug: `ars_pipeline_status` and `ars_integrity` resolved relative paths against the plugin root, not the calling Session's working directory. 0.4.4 fixes that by resolving relative paths through the Host `workingDirectory` service.
 
-## What is already verified
+## Verified offline
 
-- Profile dependency: `github:TY-Cheng/dsh-academic-research-skills#v0.4.3`; installed package version 0.4.3.
+- Profile dependency: `github:TY-Cheng/dsh-academic-research-skills#v0.4.4`; installed package version 0.4.4.
 - `node tooling/verify-vendor.mjs` in the installed package: 199 skills, 644 scripts, 155 shared, 4 agents, 4 root files, 16 commands, **23 registrations OK**.
 - The verifier's fake context warns `ctx.tools unavailable` and `ctx.agentPresets unavailable` — expected, because it only exercises the skill registrar. The real Host services are what the live session must show.
-- 0.4.0 panel evidence exists under `examples/dsh/iv-surface-review/stage3-team/`; 0.4.3 adds the pipeline Team skill, the preset, and the 5 tools.
+- The 0.4.4 relative-path harness: a fake `workingDirectory.ensure` returns the package checkout; `ars_pipeline_status` with `examples/dsh/iv-surface-review` returns the absolute workspace and the eight stage directories; `ars_integrity` with the same relative path checks the absolute workdir and returns 0 findings.
+- 0.4.0 panel evidence exists under `examples/dsh/iv-surface-review/stage3-team/`; 0.4.4 adds the pipeline Team skill, the preset, the 5 tools, and the path fix.
 
-## New-session checklist
+## New-session checklist for 0.4.4
 
-1. Open a **new desktop session** (not this one). The profile is already `#v0.4.3`; no reinstall is needed.
-2. In the skill list, confirm `ars-team` and `ars-pipeline-team` are present.
-3. In the tool list, confirm `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, `ars_manifest`.
-4. In the preset/agent selector, confirm `ars-team` is selectable.
-5. Run a small smoke:
-   - `ars_search` with a short IV-surface query; expect records.
-   - `ars_lookup` with a known DOI; expect metadata.
-   - `ars_pipeline_status` on `examples/dsh/iv-surface-review`; expect stage2/stage3/stage3-prime/stage3-team/stage4/stage4-prime/stage4.5/stage5.
-   - `ars_manifest` with no arguments; expect upstream `6d93886` and 1,006 vendored files.
-   - `ars_integrity` on an empty temp directory; expect 0 findings.
+1. Open a **new desktop session** after the profile is on `#v0.4.4`; the running session does not hot-reload a new plugin version.
+2. Confirm `ars-team` and `ars-pipeline-team` in the skill list.
+3. Confirm `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, `ars_manifest` in the tool list.
+4. Confirm `ars-team` in the preset/agent selector.
+5. Run the smoke:
+   - `ars_pipeline_status` with `examples/dsh/iv-surface-review` (relative) — expect the absolute workspace and stage dirs.
+   - `ars_integrity` with the same relative path — expect 0 findings and an absolute workdir.
+   - `ars_search` / `ars_lookup` / `ars_manifest` — expect records, metadata, and the pinned upstream.
 
 ## If something is missing
 
@@ -28,6 +27,6 @@ Collect the session's plugin list and the Host console lines containing `dsh-aca
 
 ## Known limits
 
-- The current session still has the 0.3.0 catalog; `skill("ars-team")` returned `unknown or no longer available`, and the tool list had no native tools. This is expected and is why the manual panel was used.
+- The current authoring session was started against an older catalog; `skill("ars-team")` returned `unknown or no longer available`, and the tool list had no native tools until the new session. This is expected and is why the manual panel was used for the 0.4.0 evidence.
 - `dsh --profile desktop --help` fails with `profile "desktop" is managed exclusively by the Electron application`; the desktop profile cannot be exercised headlessly.
 - The preset is selectable only where `agentPresets` is present; the offline verifier skips it by design.

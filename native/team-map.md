@@ -1,6 +1,6 @@
-# Native Team Mapping — 0.4.3
+# Native Team Mapping — 0.4.4
 
-Status: the review panel and the 10-stage pipeline Team mapping are implemented; the remaining ARS role prompts stay inline. This document is the stage/panel map for the 0.4.3 native layer; `native/role-map.md` is the full 46-prompt inventory.
+Status: the review panel and the 10-stage pipeline Team mapping are implemented; the remaining ARS role prompts stay inline. This document is the stage/panel map for the 0.4.4 native layer; `native/role-map.md` is the full 46-prompt inventory.
 
 ## 1. Agent preset
 
