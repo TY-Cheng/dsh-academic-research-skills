@@ -21,6 +21,9 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
   仅在 `tools` 服务挂载时注册，否则自动跳过
 - **可选 ARS Team agent preset**（0.4.1）：在 `agentPresets` 服务可用时注册，
   新会话可选择 `ars-team` 预设，组合 `ars-team` 技能与 Team board
+- **映射、验证与市场草稿**：[`native/team-map.md`](native/team-map.md)、
+  [`docs/native-validation.md`](docs/native-validation.md)、
+  [`docs/market/listing.md`](docs/market/listing.md)
 - **完整 ARS 核心工具层**：根 `scripts/`（Python 检查器、ledger、citation gate、
   adapters）、`shared/`（schema/合同）、根 `agents/` 与 `MODE_REGISTRY.md`，
   与上游对应文件逐字节一致
