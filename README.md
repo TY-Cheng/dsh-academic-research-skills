@@ -33,13 +33,14 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
 
 ## 安装
 
-要求：DeepSeek Harness（`dsh`）0.1.x，pnpm 可用。完整确定性工具链另需
-Python 3.9+，并安装随包依赖：
+要求：DeepSeek Harness（`dsh`）0.2.x（本次 e2e 在 0.2.2-rc.5 上验证），
+pnpm 可用。完整确定性工具链另需 Python 3.9+；建议在插件目录建 `.venv`：
 
 ```bash
-pip install -r requirements-dev.txt
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
 # 可选：PDF 内容分类器
-pip install -r requirements-pdf-content-classifier.txt
+.venv/bin/python -m pip install -r requirements-pdf-content-classifier.txt
 ```
 
 ```bash
@@ -49,7 +50,7 @@ dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 # 方式二：本地路径（开发调试）
 dsh plugin --profile web add <本仓库绝对路径>
 
-# 重启 dsh web 后生效（技能目录会自动出现）
+# 把 web 换成实际 profile（本次 e2e 用 desktop）；重启对应 profile 后生效
 ```
 
 安装后 `dsh.profile.bundles` 会追加 `dsh-academic-research-skills`，启动时
@@ -74,8 +75,9 @@ pin，`SYNC_POLICY.md` 说明 vendored 边界。
 - **路径解析**：注册时会在每个技能正文前加入 ARS package root 提示，
   `DSH_ARS_ROOT` 指向插件包根目录；`sr-screener` 自己的 `scripts/` 仍相对
   技能目录解析。这样 `python3 scripts/...` 不会误落到用户论文项目目录。
-- **子代理**：上游 43 个提示角色默认内联运行；4 个根 `agents/` 文件随包分发，
-  需要时可把其内容作为 `subagent` 工具的 prompt 使用。
+- **子代理**：5 个技能内共 42 个 agent 提示文件（另有 4 个根 `agents/`
+  文件）默认内联运行；4 个根 `agents/` 文件随包分发，需要时可把其内容作为
+  `subagent` 工具的 prompt 使用。
 - **命令包装为 DSH 适配版**：由上游 `commands/ars-*.md` 再生成并去掉 Claude
   Code 专属的 `Skill` 工具调用与 `${CLAUDE_PLUGIN_ROOT}` 路径，产物可直接在
   DSH 中执行（见下节）。
@@ -136,20 +138,22 @@ Provides, out of the box:
 
 ## Install
 
-Requires DeepSeek Harness 0.1.x and pnpm. The deterministic tooling also needs
-Python 3.9+ and the vendored dependencies:
+Requires DeepSeek Harness 0.2.x (tested on 0.2.2-rc.5) and pnpm. The
+deterministic tooling also needs Python 3.9+; a plugin-local `.venv` is
+recommended:
 
 ```bash
-pip install -r requirements-dev.txt
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
 # optional PDF content classifier
-pip install -r requirements-pdf-content-classifier.txt
+.venv/bin/python -m pip install -r requirements-pdf-content-classifier.txt
 ```
 
 ```bash
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 # or from a local checkout:
 dsh plugin --profile web add /path/to/this/repo
-# restart `dsh web`; the skills then appear in the session catalog
+# replace web with your profile (this e2e used desktop); restart it
 ```
 
 The bundle patch mounts `lib/startup.js`, which registers the 21 skills into
@@ -166,8 +170,9 @@ The bundle patch mounts `lib/startup.js`, which registers the 21 skills into
   package-root note; `DSH_ARS_ROOT` points at the plugin package root.
   `sr-screener`'s own `scripts/` still resolve relative to its skill directory,
   so `python3 scripts/...` does not fall through to the paper project.
-- **Subagents**: the 43 prompt roles run inline by default; the 4 root `agents/`
-  files ship with the package and can be used as `subagent` prompts.
+- **Subagents**: the 42 skill-agent prompt files (plus the 4 root `agents/`
+  files) run inline by default; the 4 root files ship with the package and can
+  be used as `subagent` prompts.
 - **Command wrappers are DSH-adapted**: the wrappers are regenerated from the
   upstream `commands/ars-*.md` and stripped of Claude Code's `Skill` tool calls
   and `${CLAUDE_PLUGIN_ROOT}` paths, so they run as-is under DSH.

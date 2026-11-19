@@ -33,7 +33,7 @@ The user’s instruction was “确认，直接一路跑到 stage 5”: Stage 2 
 
 ## What the e2e actually exercised
 
-- **Full ARS content:** 5 skills, 16 commands, root `scripts/`, `shared/`, `agents/`, `MODE_REGISTRY.md`, and the Python tool layer were installed and used.
+- **Full ARS content:** 5 skills, 16 commands, root `scripts/`, `shared/`, `agents/`, and `MODE_REGISTRY.md` were installed. The core Python tool layer was smoke-tested; the e2e workflow itself used the skills, the custom search scripts, and the format builder.
 - **DSH adapter:** path note (`DSH_ARS_ROOT` / package root), 21 registrations, command generation, and Python execution via the profile-local `.venv`.
 - **Deep research:** RQ Brief + methodology + DA checkpoint; OpenAlex discovery; abstract/DOI verification; synthesis; report compiler; editorial, ethics, and DA review; revision.
 - **Academic paper:** config, outline, argument blueprint, draft, citation compliance, bilingual abstract, internal peer review; integrity; 5-seat review; revision; re-review; final integrity; format conversion.
@@ -89,12 +89,8 @@ Pandoc is not installed in this environment; `stage5/build_formats.py` is a dete
 
 ## Official-recognition relevance and limits
 
-This directory is the **platform e2e evidence** the upstream `CONTRIBUTING.md` asks for: a complete `academic-pipeline` run on a real topic, with artifacts, verdicts, and disclosed limits. It does **not** by itself establish official sibling-distribution status. The remaining submission work is:
+This directory is the **platform e2e evidence** the upstream `CONTRIBUTING.md` asks for: a complete `academic-pipeline` run on a real topic, with artifacts, verdicts, and disclosed limits. It does **not** by itself establish official sibling-distribution status.
 
-1. A claims–evidence alignment table mapping the upstream’s required claims to this run and to the plugin’s verification output.
-2. A model-portability note (this run used the DSH inline agent roles; no external API-specific assumptions).
-3. A named maintainer statement and sync policy reference (`SYNC_POLICY.md`).
-4. A design issue on the upstream repository before requesting recognition.
-5. A decision on whether to include the 35-page PDF/DOCX or only the Markdown + review reports in the submission.
+The submission package is at [`docs/sibling-submission/`](../../../docs/sibling-submission/README.md): it contains the claims–evidence table, the model-portability note, the named-maintainer statement, and the design-issue draft. The remaining step is the upstream design issue and, after maintainer feedback, the recognition request. The binary-format question (link the PDF/DOCX or only Markdown + reports) is asked in the design issue.
 
 The known limits are not hidden: abstract-level evidence, 10 preprints, one title-level source, no full-text verification, no plagiarism scan, no full COI audit, S2 rate-limited at search time, no dual screening, and 311 non-advanced records not individually coded. The paper and the integrity reports state each one.
