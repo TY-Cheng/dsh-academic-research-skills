@@ -16,4 +16,4 @@ python3 scripts/ars_mark_read.py $ARGUMENTS --passport-path "<path>" --unmark
 
 Mode reference: `docs/design/2026-04-30-ars-v3.6.8-trust-provenance-and-drift-transparency-spec.md` §3.6 + Step 7.
 
-Note: this command was ported from the ARS Claude Code plugin (Imbad0202/academic-research-skills, CC-BY-NC-4.0). The deterministic tooling it references (scripts/*.py, MODE_REGISTRY.md, shared/) ships in the upstream repo — clone it alongside this plugin if you need script-based features such as the citation verification gate.
+Note: this command was ported from the ARS Claude Code plugin (Imbad0202/academic-research-skills, CC-BY-NC-4.0). The ARS core (scripts/, shared/, agents/, MODE_REGISTRY.md) is vendored in this package; resolve those paths against the package root (DSH_ARS_ROOT), not the paper project working directory.

@@ -20,4 +20,4 @@ python3 scripts/ars_cache_invalidate.py $ARGUMENTS
 
 Mode reference: `docs/design/2026-05-21-v3.10-182-promote-citation-gate-spec.md` §2 Delta 2.
 
-Note: this command was ported from the ARS Claude Code plugin (Imbad0202/academic-research-skills, CC-BY-NC-4.0). The deterministic tooling it references (scripts/*.py, MODE_REGISTRY.md, shared/) ships in the upstream repo — clone it alongside this plugin if you need script-based features such as the citation verification gate.
+Note: this command was ported from the ARS Claude Code plugin (Imbad0202/academic-research-skills, CC-BY-NC-4.0). The ARS core (scripts/, shared/, agents/, MODE_REGISTRY.md) is vendored in this package; resolve those paths against the package root (DSH_ARS_ROOT), not the paper project working directory.

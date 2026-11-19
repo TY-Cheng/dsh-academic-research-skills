@@ -28,19 +28,24 @@ contract-audited academic research pipeline
 - 本包中的 5 个技能包（`skills/deep-research`、`skills/academic-paper`、
   `skills/academic-paper-reviewer`、`skills/academic-pipeline`、
   `skills/sr-screener`，含其 `SKILL.md`、`agents/`、`references/`、
-  `templates/`、`examples/`、`scripts/`）以及 16 个命令定义（`commands/`）
+  `templates/`、`examples/`、`scripts/`）、16 个命令定义（`commands/`），
+  以及根 `scripts/`、`shared/`、`agents/`、`MODE_REGISTRY.md`、
+  `THIRD_PARTY.md` 与 Python 依赖清单（`requirements-*.txt`）
   **全部衍生自上游项目**，继续以
   **CC-BY-NC-4.0** 授权。任何再分发须保留本署名并仅限非商业用途。
-- 移植层（`lib/startup.js`、`cordis.patch.yml`、打包与文档）最初由
+- 移植层（`lib/startup.js`、`cordis.patch.yml`、`tooling/`、注册时的
+  ARS package root 路径提示、打包与文档）最初由
   `nullptr-DZF` 完成，现由 `TY-Cheng` 维护；为保持一致同样以
   **CC-BY-NC-4.0** 发布。
 
-The 5 skill bundles and 16 command definitions in this package are **derived
-from the upstream project** and remain licensed under **CC-BY-NC-4.0**; any
-redistribution must retain this attribution and stay non-commercial. The
-porting layer (registrar, bundle patch, packaging, docs) was originally
-written by `nullptr-DZF` and is now maintained by `TY-Cheng`, released under
-the same license for consistency.
+The 5 skill bundles, 16 command definitions, and the root `scripts/`,
+`shared/`, `agents/`, `MODE_REGISTRY.md`, `THIRD_PARTY.md`, and
+`requirements-*.txt` in this package are **derived from the upstream project**
+and remain licensed under **CC-BY-NC-4.0**; any redistribution must retain this
+attribution and stay non-commercial. The porting layer (registrar, bundle
+patch, `tooling/`, the ARS package-root path note, packaging, docs) was
+originally written by `nullptr-DZF` and is now maintained by `TY-Cheng`,
+released under the same license for consistency.
 
 ## 维护者 / Maintainer
 

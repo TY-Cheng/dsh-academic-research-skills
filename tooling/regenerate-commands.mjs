@@ -3,7 +3,7 @@
 // upstream Academic Research Skills checkout.
 //
 // Usage:
-//   node scripts/regenerate-commands.mjs <upstream-repo-path>
+//   node tooling/regenerate-commands.mjs <upstream-repo-path>
 //
 // Each wrapper is a DSH skill (name = upstream command name) marked
 // `disable-model-invocation: true` + `user-invocable: true`, so it fires only
@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 
 const upstream = resolve(process.argv[2] ?? '');
 if (!upstream) {
-  console.error('usage: node scripts/regenerate-commands.mjs <upstream-repo-path>');
+  console.error('usage: node tooling/regenerate-commands.mjs <upstream-repo-path>');
   process.exit(1);
 }
 
@@ -44,7 +44,7 @@ function readFrontmatter(raw) {
 // agent to call the Skill tool and to resolve plugin files from
 // ${CLAUDE_PLUGIN_ROOT}. DSH has neither, and the wrapper header below already
 // names the skill to load — so drop those Claude-specific instructions and
-// leave the remaining paths relative (the footer points at the upstream repo).
+// leave the remaining paths relative (the footer points at the package root).
 function sanitizeBody(body) {
   return body
     .replace(/^First invoke the Skill tool with `skill: "[^"]+"`.*\n?/m, '')
@@ -85,10 +85,10 @@ for (const file of files) {
     `---\nname: ${name}\ndescription: ${JSON.stringify(description)}\n` +
     `disable-model-invocation: true\nuser-invocable: true\n---\n\n${body}\n\n` +
     'Note: this command was ported from the ARS Claude Code plugin ' +
-    '(Imbad0202/academic-research-skills, CC-BY-NC-4.0). The deterministic ' +
-    'tooling it references (scripts/*.py, MODE_REGISTRY.md, shared/) ships in ' +
-    'the upstream repo — clone it alongside this plugin if you need script-based ' +
-    'features such as the citation verification gate.\n';
+    '(Imbad0202/academic-research-skills, CC-BY-NC-4.0). The ARS core ' +
+    '(scripts/, shared/, agents/, MODE_REGISTRY.md) is vendored in this ' +
+    'package; resolve those paths against the package root (DSH_ARS_ROOT), ' +
+    'not the paper project working directory.\n';
   mkdirSync(join(outputRoot, name), { recursive: true });
   writeFileSync(join(outputRoot, name, 'SKILL.md'), content, 'utf8');
   count += 1;

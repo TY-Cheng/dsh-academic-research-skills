@@ -1,0 +1,38 @@
+name: verify-vendor
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify vendored content and registrar
+        run: node tooling/verify-vendor.mjs
+
+      - name: Check Python syntax for the vendored core and skills
+        run: |
+          python3 - <<'PY'
+          import ast
+          from pathlib import Path
+          files = sorted([*Path('scripts').rglob('*.py'), *Path('skills').rglob('scripts/*.py')])
+          for path in files:
+              ast.parse(path.read_text(encoding='utf-8'), filename=str(path))
+          print(f'python syntax ok: {len(files)} files')
+          PY
+
+      - name: Check package contents
+        run: |
+          npm pack --dry-run --json > /tmp/ars-pack.json
+          node --input-type=commonjs -e "const p = require('/tmp/ars-pack.json')[0]; const required = ['manifest.json','SYNC_POLICY.md','lib/startup.js','cordis.patch.yml','scripts/check_pipeline_integrity.py','shared/sprint_contract.schema.json','agents/report_compiler_agent.md','MODE_REGISTRY.md','requirements-dev.txt','tooling/verify-vendor.mjs']; for (const f of required) if (!p.files.some((x) => x.path === f)) { console.error('missing ' + f); process.exit(1); } const bad = p.files.filter((x) => x.path.includes('__pycache__') || x.path.endsWith('.pyc') || x.path.includes('.pytest_cache')); if (bad.length) { console.error('unexpected caches: ' + bad.map((x) => x.path).join(', ')); process.exit(1); } console.log('package ok:', p.entryCount, 'files');"

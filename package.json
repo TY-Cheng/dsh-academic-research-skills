@@ -1,7 +1,7 @@
 {
   "name": "dsh-academic-research-skills",
-  "version": "0.2.0",
-  "description": "Academic Research Skills (ARS) for DeepSeek Harness: 5 research/writing/review/screening skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline, sr-screener) plus 16 /ars-* commands, ported from the ARS Claude Code plugin (upstream: Imbad0202/academic-research-skills, CC-BY-NC-4.0).",
+  "version": "0.3.0",
+  "description": "Academic Research Skills (ARS) for DeepSeek Harness: 5 research/writing/review/screening skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline, sr-screener), 16 /ars-* commands, and the full vendored ARS core (scripts/, shared/, agents/, MODE_REGISTRY.md), ported from the ARS Claude Code plugin (upstream: Imbad0202/academic-research-skills, CC-BY-NC-4.0).",
   "type": "module",
   "main": "lib/startup.js",
   "exports": {
@@ -13,12 +13,27 @@
   "files": [
     "lib",
     "skills",
+    "scripts",
+    "shared",
+    "agents",
     "commands",
+    "tooling",
     "cordis.patch.yml",
+    "manifest.json",
+    "SYNC_POLICY.md",
+    "MODE_REGISTRY.md",
+    "THIRD_PARTY.md",
+    "requirements-dev.txt",
+    "requirements-pdf-content-classifier.txt",
     "README.md",
     "NOTICE.md",
     "LICENSE"
   ],
+  "scripts": {
+    "sync": "node tooling/sync-upstream.mjs",
+    "verify": "node tooling/verify-vendor.mjs",
+    "commands:regen": "node tooling/regenerate-commands.mjs"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

@@ -18,10 +18,16 @@ Single-context repo (this repo):
 /
 ├── GLOSSARY.md
 ├── docs/adr/
-├── lib/
-├── skills/
-├── commands/
-└── scripts/
+├── lib/                                ← DSH registrar + cordis patch
+├── skills/                             ← 5 vendored ARS skills
+├── scripts/                            ← vendored ARS shared Python tools
+├── shared/                             ← vendored ARS schemas/contracts
+├── agents/                             ← vendored ARS root agent roles
+├── commands/                           ← generated DSH /ars-* wrappers
+├── tooling/                            ← sync/verify/regenerate scripts
+├── manifest.json                       ← upstream pin + per-file hashes
+├── SYNC_POLICY.md
+└── MODE_REGISTRY.md
 ```
 
 Multi-context repo (presence of `GLOSSARY-MAP.md` at the root):
