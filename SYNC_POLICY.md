@@ -53,7 +53,7 @@ These files include each skill's `SKILL.md`, `agents/`, `references/`,
   `native/`, `AGENTS.md`, `docs/agents/`, `README.md`, `NOTICE.md`, package
   metadata, and CI.
 
-**Native layer (0.4.0, unreleased)**: `native/skills/ars-team` and the
+**Native layer (0.4.0, released)**: `native/skills/ars-team` and the
 `ars_search`/`ars_lookup` tool definitions in `lib/startup.js`. This is
 DSH-specific orchestration on top of the vendored ARS roles; it does not change
 the vendored files or the 0.3.0 official-recognition baseline.

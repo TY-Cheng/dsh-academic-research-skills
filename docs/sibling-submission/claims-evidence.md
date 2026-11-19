@@ -5,7 +5,7 @@ README and in the e2e evidence bundle. It is deliberately narrower than every
 sentence in those documents: qualitative statements about usefulness or fit are
 not treated as measured claims.
 
-**Snapshot:** plugin 0.3.0; upstream pin
+**Snapshot:** plugin 0.3.0 official baseline; 0.4.0 native layer (additive); upstream pin
 `6d9388674de1ad0437ad95db3d52f92b92204d84`; e2e commit `40b7e77`; CI run
 `44530710616`; 2026-11-19.
 
@@ -31,7 +31,7 @@ not treated as measured claims.
 | 16 user-invocable commands | `find commands -mindepth 2 -name SKILL.md` → 16; `npm run verify` → 16 commands; `lib/startup.js` registers them | The e2e exercised the **skills**, not every slash wrapper. Command registration is proven; per-command runtime behavior is not exhaustively exercised. |
 | Full ARS core is carried | 1,006 vendored files: 199 + 644 + 155 + 4 + 4 | `commands/` is generated, and `docs/`, `evals/`, `examples/`, `hooks/`, `pi/`, `audits/` are not vendored. “Core” here means the five skills plus root `scripts/`, `shared/`, `agents/`, and four root files. |
 | Vendored files are byte-identical | `manifest.json` per-file SHA-256; `npm run verify`; CI | CI is offline against the manifest; the live `diff -qr` was run in the development checkout at sync time. |
-| 21 skills registered | `npm run verify` → “registered 21 skills”; “registrar: 21 registrations OK” | 5 skills + 16 commands. |
+| 21 skills registered in 0.3.0; 22 in 0.4.0 | `npm run verify` → “registered 21 skills” (0.3.0); 0.4.0 registers 22 (21 + native `ars-team`) | 0.3.0: 5 skills + 16 commands. 0.4.0 adds `ars-team`; the vendored count is unchanged. |
 | The Python tool layer ships | 644 `scripts/` files; `requirements-*.txt`; `470` Python files parsed by the CI AST check | Installed and smoke-tested. The e2e workflow used the skills, custom search scripts, and the format builder; it did **not** run every core checker end-to-end. |
 | `DSH_ARS_ROOT` path note prevents mis-resolution | `lib/startup.js`; e2e README § “What the e2e actually exercised”; Python calls used the profile-local `.venv` | Proves the note is injected; does not prove every possible relative path in every skill. `sr-screener`’s own `scripts/` is intentionally skill-local. |
 | Hooks are not ported | README § Differences; upstream `hooks/` are Claude Code-specific; DSH has no hook system | A platform difference, not a feature claim. |
@@ -58,7 +58,7 @@ not treated as measured claims.
 | No method ranking, no universal-benchmark claim, no regulatory determination | Paper abstract and §6; Stage 3/4 revisions | The paper is corpus-scoped and states this. |
 | Chinese abstract | `stage5/paper-final.md` § 摘要 | Simplified Chinese (zh-CN); ARS’s default pair is English + zh-TW; this is not a supported locale pack. |
 | PDF/DOCX/TeX/MD formats | `stage5/`; `build_formats.py` | Pandoc absent; PDF is a 35-page `ctex` + `xelatex` fallback; DOCX is structural; not journal typesetting. |
-| E2E used DSH inline roles | E2E README § What the e2e exercised; `model-portability.md` | One DSH session; no independent subagent/Team execution. |
+| E2E used DSH inline roles | E2E README § What the e2e exercised; `model-portability.md` | The official e2e used one DSH session with inline roles; the additive native panel is separate (F). |
 
 ## D. Claims narrowed or corrected for this package
 
@@ -73,8 +73,9 @@ not treated as measured claims.
   vendored.
 - **“Python tool layer used”** → installed and smoke-tested; the e2e’s integrity
   reports are agent-produced, not the output of a full checker run.
-- **“5-seat review”** → five role-separated prompts run inline, not independent
-  subagents; role separation is not a claim of independent error processes.
+- **“5-seat review” in the official e2e** → five role-separated prompts run
+  inline, not independent subagents; role separation is not a claim of
+  independent error processes. The additive 0.4.0 native panel is separate (F).
 - **“No PRISMA”** → the flow is PRISMA-style, not PRISMA-compliant; 311 records
   were not individually coded.
 - **“zh-CN abstract”** → an operator-language choice for the e2e, not a locale
@@ -88,7 +89,20 @@ not treated as measured claims.
 - No plagiarism scan, no complete COI/funding audit, no dual screening.
 - Semantic Scholar returned HTTP 429 at search time; Crossref returned one 429;
   no S2 verification layer.
-- One DeepSeek Harness run; no Claude baseline; no independent subagent panel.
+- Official e2e: one DeepSeek Harness inline run; no Claude baseline; no
+  independent subagent panel. The 0.4.0 native panel separately used five
+  subagents + a Team board; it is not a model benchmark and does not retrofit
+  the official e2e.
+
+## F. Native layer (0.4.0, additive)
+
+| Claim | Evidence | Coverage / caveat |
+| --- | --- | --- |
+| 0.4.0 adds a native team skill | `native/skills/ars-team/SKILL.md`; `lib/startup.js` `SKILL_DIRS`; `npm run verify` → 22 registrations | 0.3.0 remains 21; the official baseline is unchanged. |
+| The five-seat panel ran with real subagents | `examples/dsh/iv-surface-review/stage3-team/` (field analysis, five seat reports, editorial decision, roadmap); Team board tasks | One native-layer validation run; the official e2e used inline prompts. Role separation is not independent error processes. |
+| The native panel reached Major Revision | `stage3-team/editorial-decision.md`; six required majors + ten minor fixes | The paper’s Stage 3 decision; not a claim that the native layer improves review quality. |
+| Two native tools exist | `lib/startup.js` `ars_search`/`ars_lookup`; live tool test; `cordis.patch.yml` inject `[skills, tools]` | Registered only when the `tools` service is present; the current session was still 0.3.0, so the tools were not visible there. No exhaustive tool test. |
+| The 0.4.0 native layer is additive | `package.json` 0.4.0; `files` includes `native/`; vendored core unchanged; `npm run verify` 22 | Not part of the 0.3.0 official sibling baseline; the 0.3.0 package remains the pinned official evidence. |
 - The 35-page PDF and DOCX are working conversions, not journal typesetting.
 - The e2e is platform evidence for sibling recognition, not a model benchmark
   and not an endorsement by the ARS maintainer.

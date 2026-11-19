@@ -10,7 +10,7 @@ submission scaffold, not a claim of endorsement.
 | Item | Value |
 | --- | --- |
 | Sibling repository | https://github.com/TY-Cheng/dsh-academic-research-skills |
-| Plugin version | `dsh-academic-research-skills` 0.3.0 |
+| Plugin version | `dsh-academic-research-skills` 0.3.0 (official baseline); 0.4.0 native layer is additive, not part of the baseline |
 | Upstream | https://github.com/Imbad0202/academic-research-skills |
 | Upstream pin | `6d9388674de1ad0437ad95db3d52f92b92204d84` (`v3.24.2-3-g6d93886`), tag `v3.24.2` |
 | License | CC-BY-NC-4.0, attribution retained |
@@ -49,6 +49,22 @@ submission scaffold, not a claim of endorsement.
   (`ctex` + `xelatex` for the 35-page PDF; `python-docx` for DOCX). They are
   working conversions, not journal typesetting.
 
+## Native layer (0.4.0, additive)
+
+The 0.4.0 release adds, outside the vendored ARS core:
+
+- `native/skills/ars-team` — the five-seat panel run as real `subagent`s on the
+  DSH Team board (field analyst → five seats → editorial).
+- `ars_search` / `ars_lookup` — small native tools (OpenAlex search; DOI lookup
+  via OpenAlex/Crossref), registered only when the `tools` service is available.
+
+Validation: the final Stage 5 paper was reviewed by five seat subagents plus the
+field analyst and editorial synthesizer; outputs are in
+`examples/dsh/iv-surface-review/stage3-team/`; verdict **Major Revision**, six
+required majors and ten minor fixes. The official e2e remains the 0.3.0 inline
+run; the native panel is additive evidence, not a replacement. Role separation
+is a process control, not proof of independent error processes.
+
 ## What this package does **not** claim
 
 - Official sibling-distribution status; the design issue is open, and recognition
@@ -57,9 +73,10 @@ submission scaffold, not a claim of endorsement.
   English body and a Chinese abstract for the operator's convenience; ARS's
   default pair is English + Traditional Chinese (`zh-TW`). No locale-pack
   ownership or two-owner arrangement is claimed.
-- Independent execution of the five review seats. The e2e ran the role prompts
-  inline in one DSH session; role separation is not a claim of independent
-  error processes. DSH subagent/Team mapping is planned as native enhancement.
+- Independent execution of the five review seats **in the official e2e**. That
+  run used inline role prompts; role separation is not a claim of independent
+  error processes. The additive 0.4.0 native layer was separately exercised with
+  five `subagent`s + a Team board; it does not retrofit the official 0.3.0 e2e.
 - Full-text, plagiarism, or complete COI verification. The review is
   abstract-level: 10/40 sources are preprints, 1 is title-level, 4 are partial;
   no full text was available; S2 returned HTTP 429 at search time.

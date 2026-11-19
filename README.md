@@ -13,7 +13,7 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
   `academic-paper`（12-agent 论文写作，11 种模式）、`academic-paper-reviewer`
   （5 席位同行评审面板）、`academic-pipeline`（10 阶段全流水线编排）、
   `sr-screener`（协议驱动的系统综述记录筛选，8 种模式）
-- **1 个原生 DSH 团队技能**（0.4.0 原生层，尚未打 tag）：`ars-team`，
+- **1 个原生 DSH 团队技能**（0.4.0 原生层）：`ars-team`，
   用真实 `subagent` 跑五席位评审，而不是把角色提示内联在一个窗口里
 - **2 个原生工具**（0.4.0）：`ars_search`（OpenAlex 检索）与 `ars_lookup`
   （DOI 元数据，OpenAlex/Crossref）；仅在 `tools` 服务挂载时注册，否则自动跳过
@@ -48,11 +48,11 @@ python3 -m venv .venv
 ```
 
 ```bash
-# 方式一：GitHub 仓库（固定 v0.3.0，官方收录基线）
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
+# 方式一：GitHub 仓库（当前 v0.4.0；官方收录基线仍是 v0.3.0）
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.0
 
-# 0.4.0 原生层预览（ars-team + ars_search/ars_lookup；尚未打 tag）
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#main
+# 官方收录基线（不含 0.4.0 原生层）
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 
 # 方式二：本地路径（开发调试）
 dsh plugin --profile web add <本仓库绝对路径>
@@ -83,7 +83,7 @@ vendored 边界。
 - **路径解析**：注册时会在每个技能正文前加入 ARS package root 提示，
   `DSH_ARS_ROOT` 指向插件包根目录；`sr-screener` 自己的 `scripts/` 仍相对
   技能目录解析。这样 `python3 scripts/...` 不会误落到用户论文项目目录。
-- **原生层（0.4.0，尚未打 tag）**：`native/skills/ars-team` 把五席位评审
+- **原生层（0.4.0）**：`native/skills/ars-team` 把五席位评审
   映射为真实 `subagent`；`lib/startup.js` 在 `tools` 服务可用时注册
   `ars_search` / `ars_lookup`。vendored 内容不变，0.3.0 官方基线不受影响。
 - **子代理**：5 个 vendored 技能内共 42 个 agent 提示文件（另有 4 个根
@@ -128,7 +128,7 @@ Provides, out of the box:
 
 - **5 model-invocable skills**: `deep-research`, `academic-paper`,
   `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`
-- **1 native team skill** (0.4.0 native layer, untagged): `ars-team`, which runs
+- **1 native team skill** (0.4.0 native layer): `ars-team`, which runs
   the five-seat panel as real `subagent`s instead of inline role prompts
 - **2 native tools** (0.4.0): `ars_search` (OpenAlex search) and `ars_lookup`
   (DOI metadata via OpenAlex/Crossref); registered only when the `tools`
@@ -166,10 +166,10 @@ python3 -m venv .venv
 ```
 
 ```bash
-# stable / official-recognition baseline
+# current release (0.4.0 native layer; official-recognition baseline is v0.3.0)
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.0
+# official-recognition baseline (no 0.4.0 native layer)
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
-# 0.4.0 native-layer preview (ars-team + ars_search/ars_lookup; untagged)
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#main
 # or from a local checkout:
 dsh plugin --profile web add /path/to/this/repo
 # replace web with your profile (this e2e used desktop); restart it
@@ -189,7 +189,7 @@ The bundle patch mounts `lib/startup.js`, which registers the 22 skills
   package-root note; `DSH_ARS_ROOT` points at the plugin package root.
   `sr-screener`'s own `scripts/` still resolve relative to its skill directory,
   so `python3 scripts/...` does not fall through to the paper project.
-- **Native layer (0.4.0, untagged)**: `native/skills/ars-team` maps the
+- **Native layer (0.4.0)**: `native/skills/ars-team` maps the
   five-seat review to real `subagent`s; `lib/startup.js` registers
   `ars_search`/`ars_lookup` when the `tools` service is mounted. Vendored
   content is unchanged; the 0.3.0 official baseline is unaffected.
