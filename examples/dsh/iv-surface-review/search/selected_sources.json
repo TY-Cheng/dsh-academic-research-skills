@@ -1,0 +1,687 @@
+[
+  {
+    "doi": "10.1080/14697688.2013.819986",
+    "title": "Arbitrage-free SVI volatility surfaces",
+    "year": 2013,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Jim Gatheral",
+      "Antoine Jacquier"
+    ],
+    "cited_by_count": 373,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2951800488",
+    "bucket": "parametric",
+    "abstract": "In this article, we show how to calibrate the widely used SVI parameterization of the implied volatility smile in such a way as to guarantee the absence of static arbitrage. In particular, we exhibit a large class of arbitrage-free SVI volatility surfaces with a simple closed-form representation. We demonstrate the high quality of typical SVI fits with a numerical example using recent SPX options data."
+  },
+  {
+    "doi": "10.1137/120900320",
+    "title": "Generalized Arbitrage-Free SVI Volatility Surfaces",
+    "year": 2016,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "authors": [
+      "Gaoyue Guo",
+      "Antoine Jacquier",
+      "Claude Martini",
+      "Leo Neufcourt"
+    ],
+    "cited_by_count": 40,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3100730164",
+    "bucket": "parametric",
+    "abstract": "In this paper we propose a generalization of the recent work by Gatheral and Jacquier [J. Gatheral and A. Jacquier, Quant. Finance, 14 (2014), pp. 59--71] on explicit arbitrage-free parameterizations of implied volatility surfaces. We also discuss extensively the notion of arbitrage freeness and Roger Lee's moment formula using the recent analysis by Roper [M. Roper, Arbitrage-Free Implied Volatility Surfaces, preprint, School of Mathematics and Statistics, The University of Sydney, Sydney, New South Wales, Australia, 2010, ŭlhttp://www.maths.usyd.edu.au/u/pubs/publist/preprints/2010/roper-9.pdf]. We further exhibit an arbitrage-free volatility surface different from Gatheral's SVI parameterization."
+  },
+  {
+    "doi": "10.1080/14697680802595585",
+    "title": "Arbitrage-free smoothing of the implied volatility surface",
+    "year": 2009,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Matthias Reginald Fengler"
+    ],
+    "cited_by_count": 204,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2119074269",
+    "bucket": "parametric",
+    "abstract": "The pricing accuracy and pricing performance of local volatility models depends on the absence of arbitrage in the implied volatility surface. An input implied volatility surface that is not arbitrage-free can result in negative transition probabilities and consequently mispricings and false greeks. We propose an approach for smoothing the implied volatility smile in an arbitrage-free way. The method is simple to implement, computationally cheap and builds on the well-founded theory of natural smoothing splines under suitable shape constraints."
+  },
+  {
+    "doi": "10.48550/arxiv.1107.1834",
+    "title": "Implied Volatility Surface: Construction Methodologies and Characteristics",
+    "year": 2011,
+    "venue": "RePEc: Research Papers in Economics",
+    "authors": [
+      "Cristian Homescu"
+    ],
+    "cited_by_count": 34,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3123785140",
+    "bucket": "parametric",
+    "abstract": "The implied volatility surface (IVS) is a fundamental building block in computational finance. We provide a survey of methodologies for constructing such surfaces. We also discuss various topics which can influence the successful construction of IVS in practice: arbitrage-free conditions in both strike and time, how to perform extrapolation outside the core region, choice of calibrating functional and selection of numerical optimization algorithms, volatility surface dynamics and asymptotics."
+  },
+  {
+    "doi": "10.2139/ssrn.3402942",
+    "title": "Deep Smoothing of the Implied Volatility Surface",
+    "year": 2019,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Damien Ackerer",
+      "Nataša Tagasovska",
+      "Thibault Vatter"
+    ],
+    "cited_by_count": 86,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2951241921",
+    "bucket": "neural",
+    "abstract": "We present a neural network (NN) approach to fit and predict implied volatility surfaces (IVSs). Atypically to standard NN applications, financial industry practitioners use such models equally to replicate market prices and to value other financial instruments. In other words, low training losses are as important as generalization capabilities. Importantly, IVS models need to generate realistic arbitrage-free option prices, meaning that no portfolio can lead to risk-free profits. We propose an approach guaranteeing the absence of arbitrage opportunities by penalizing the loss using soft constraints. Furthermore, our method can be combined with standard IVS models in quantitative finance, thus providing a NN-based correction when such models fail at replicating observed market prices. This lets practitioners use our approach as a plug-in on top of classical methods. Empirical results show that this approach is particularly useful when only sparse or erroneous data are available. We also quantify the uncertainty of the model predictions in regions with few or no observations. We further explore how deeper NNs improve over shallower ones, as well as other properties of the network architecture. We benchmark our method against standard IVS models. By evaluating our method on both training sets, and testing sets, namely, we highlight both their capacity to reproduce observed prices and predict new ones.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "crossref"
+  },
+  {
+    "doi": "10.48550/arxiv.1810.03399",
+    "title": "Deep calibration of rough stochastic volatility models",
+    "year": 2018,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Christian Bayer",
+      "Benjamin Stemper"
+    ],
+    "cited_by_count": 76,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3121984249",
+    "bucket": "neural",
+    "abstract": "Sparked by Alòs, León, and Vives (2007); Fukasawa (2011, 2017); Gatheral, Jaisson, and Rosenbaum (2018), so-called rough stochastic volatility models such as the rough Bergomi model by Bayer, Friz, and Gatheral (2016) constitute the latest evolution in option price modeling. Unlike standard bivariate diffusion models such as Heston (1993), these non-Markovian models with fractional volatility drivers allow to parsimoniously recover key stylized facts of market implied volatility surfaces such as the exploding power-law behaviour of the at-the-money volatility skew as time to maturity goes to zero. Standard model calibration routines rely on the repetitive evaluation of the map from model parameters to Black-Scholes implied volatility, rendering calibration of many (rough) stochastic volatility models prohibitively expensive since there the map can often only be approximated by costly Monte Carlo (MC) simulations (Bennedsen, Lunde, & Pakkanen, 2017; McCrickerd & Pakkanen, 2018; Bayer et al., 2016; Horvath, Jacquier, & Muguruza, 2017). As a remedy, we propose to combine a standard Levenberg-Marquardt calibration routine with neural network regression, replacing expensive MC simulations with cheap forward runs of a neural network trained to approximate the implied volatility map. Numerical experiments confirm the high accuracy and speed of our approach."
+  },
+  {
+    "doi": "10.1609/aaai.v31i1.10505",
+    "title": "Gated Neural Networks for Option Pricing: Rationality by Design",
+    "year": 2017,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "authors": [
+      "Yongxin Yang",
+      "Yu Zheng",
+      "Timothy M. Hospedales"
+    ],
+    "cited_by_count": 41,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2524982171",
+    "bucket": "constraints",
+    "abstract": "We propose a neural network approach to price EU call options that significantly outperforms some existing pricing models and comes with guarantees that its predictions are economically reasonable. To achieve this, we introduce a class of gated neural networks that automatically learn to divide-and-conquer the problem space for robust and accurate pricing. We then derive instantiations of these networks that are 'rational by design' in terms of naturally encoding a valid call option surface that enforces no arbitrage principles. This integration of human insight within data-driven learning provides significantly better generalisation in pricing performance due to the encoded inductive bias in the learning, guarantees sanity in the model's predictions, and provides econometrically useful byproduct such as risk neutral density."
+  },
+  {
+    "doi": "10.21314/jcf.2020.390",
+    "title": "Neural Networks for Option Pricing and Hedging: A Literature Review",
+    "year": 2019,
+    "venue": "The Journal of Computational Finance",
+    "authors": [
+      "Johannes Ruf",
+      "Weiguan Wang"
+    ],
+    "cited_by_count": 263,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2985939035",
+    "bucket": "constraints",
+    "abstract": "Neural networks have been used as a nonparametric method for option pricing and hedging since the early 1990s. Far over a hundred papers have been published on this topic. This note intends to provide a comprehensive review. Papers are compared in terms of input features, output variables, benchmark models, performance measures, data partition methods, and underlying assets. Furthermore, related work and regularisation techniques are discussed.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "arxiv"
+  },
+  {
+    "doi": "10.1016/j.ejor.2020.12.003",
+    "title": "Option valuation under no-arbitrage constraints with neural networks",
+    "year": 2020,
+    "venue": "European Journal of Operational Research",
+    "authors": [
+      "Yi Cao",
+      "Xiaoquan Liu",
+      "Jia Zhai"
+    ],
+    "cited_by_count": 29,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3112507188",
+    "bucket": "constraints",
+    "abstract": "Publisher/web snippet: the paper proposes a hybrid graph neural network (hGNN) for option valuation that incorporates economic constraints and yields analytical expressions for European option Greeks, emphasizing interpretability relative to black-box neural models. (Partial snippet; full abstract not retrieved.)",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "web_snippet"
+  },
+  {
+    "doi": "10.1080/1350486x.2020.1846573",
+    "title": "Detecting and Repairing Arbitrage in Traded Option Prices",
+    "year": 2020,
+    "venue": "Applied Mathematical Finance",
+    "authors": [
+      "Samuel N. Cohen",
+      "Christoph Reisinger",
+      "Sheng Wang"
+    ],
+    "cited_by_count": 47,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3080283204",
+    "bucket": "constraints",
+    "abstract": "Option price data are used as inputs for model calibration, risk-neutral density estimation and many other financial applications. The presence of arbitrage in option price data can lead to poor performance or even failure of these tasks, making pre-processing of the data to eliminate arbitrage necessary. Most attention in the relevant literature has been devoted to arbitrage-free smoothing and filtering (i.e., removing) of data. In contrast to smoothing, which typically changes nearly all data, or filtering, which truncates data, we propose to repair data by only necessary and minimal changes. We formulate the data repair as a linear programming (LP) problem, where the no-arbitrage relations are constraints, and the objective is to minimize prices’ changes within their bid and ask price bounds. Through empirical studies, we show that the proposed arbitrage repair method gives sparse perturbations on data, and is fast when applied to real-world large-scale problems due to the LP formulation. In addition, we show that removing arbitrage from prices data by our repair method can improve model calibration with enhanced robustness and reduced calibration error."
+  },
+  {
+    "doi": "10.3390/risks7010016",
+    "title": "Pricing Options and Computing Implied Volatilities using Neural Networks",
+    "year": 2019,
+    "venue": "Risks",
+    "authors": [
+      "Shuaiqiang Liu",
+      "Cornelis W. Oosterlee",
+      "Sander M. Bohté"
+    ],
+    "cited_by_count": 172,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2914530128",
+    "bucket": "constraints",
+    "abstract": "This paper proposes a data-driven approach, by means of an Artificial Neural Network (ANN), to value financial options and to calculate implied volatilities with the aim of accelerating the corresponding numerical methods. With ANNs being universal function approximators, this method trains an optimized ANN on a data set generated by a sophisticated financial model, and runs the trained ANN as an agent of the original solver in a fast and efficient way. We test this approach on three different types of solvers, including the analytic solution for the Black-Scholes equation, the COS method for the Heston stochastic volatility model and Brent’s iterative root-finding method for the calculation of implied volatilities. The numerical results show that the ANN solver can reduce the computing time significantly."
+  },
+  {
+    "doi": "10.3905/jfds.2020.1.032",
+    "title": "PCA for Implied Volatility Surfaces",
+    "year": 2020,
+    "venue": "The Journal of Financial Data Science",
+    "authors": [
+      "Marco Avellaneda",
+      "Brian Healy",
+      "Andrew C. Papanicolaou",
+      "George Papanicolaou"
+    ],
+    "cited_by_count": 15,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3003830395",
+    "bucket": "nonparametric",
+    "abstract": "Principal component analysis (PCA) is a useful tool when trying to construct factor models from historical asset returns. For the implied volatilities of US equities, there is a PCA-based model with a principal eigenportfolio whose return time series lies close to that of an overarching market factor. The authors show that this market factor is the index resulting from the daily compounding of a weighted average of implied-volatility returns, with weights based on the options’ open interest and Vega. The authors also analyze the singular vectors derived from the tensor structure of the implied volatilities of S&P 500 constituents and find evidence indicating that some type of open interest- and Vega-weighted index should be one of at least two significant factors in this market. TOPICS:Statistical methods, simulations, big data/machine learning Key Findings • Principal component analysis of a comprehensive dataset of implied volatility surfaces from options on US equities shows that their collective behavior is captured by just nine factors, whereas the effective spatial dimension of the residuals is closer to 500 than to the nominal dimension of 28,000, revealing the large redundancy in the data. • Portfolios of implied volatility surface returns, weighed suitably by open interest and Vega, track the principal eigenportfolio associated with a market portfolio of options, in analogy to equity portfolios. • Retention of the tensor structure in the eigenportfolio analysis improves the tracking between the open interest–Vega weighted (tensor) implied volatility surface returns portfolio and the (tensor) eigenportfolio, indicating that data structure matters."
+  },
+  {
+    "doi": "10.1137/21m1443546",
+    "title": "Arbitrage-Free Implied Volatility Surface Generation with Variational Autoencoders",
+    "year": 2023,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "authors": [
+      "Brian Ning",
+      "Sebastian Jaimungal",
+      "Xiaorong Zhang",
+      "Maxime Bergeron"
+    ],
+    "cited_by_count": 59,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3193234940",
+    "bucket": "neural",
+    "abstract": "Abstract. We propose a hybrid method for generating arbitrage-free implied volatility (IV) surfaces consistent with historical data by combining model-free variational autoencoders (VAEs) with continuous time stochastic differential equation (SDE) driven models. We focus on two classes of SDE models: regime switching models and Lévy additive processes. By projecting historical surfaces onto the space of SDE model parameters, we obtain a distribution on the parameter subspace faithful to the data on which we then train a VAE. Arbitrage-free IV surfaces are then generated by sampling from the posterior distribution on the latent space, decoding to obtain SDE model parameters, and finally mapping those parameters to IV surfaces. We further refine the VAE model by including conditional features and demonstrate its superior generative out-of-sample performance. Finally, we showcase how our method can be used as a data augmentation tool to help practitioners manage the tail risk of option portfolios."
+  },
+  {
+    "doi": "10.1080/14697688.2020.1817974",
+    "title": "Deep Learning Volatility",
+    "year": 2019,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Blanka N. Horvath",
+      "Aitor Muguruza",
+      "Mehdi Tomas"
+    ],
+    "cited_by_count": 308,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3095372661",
+    "bucket": "neural",
+    "abstract": "",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "crossref"
+  },
+  {
+    "doi": "10.1080/14697688.2022.2135454",
+    "title": "A two-step framework for arbitrage-free prediction of the implied volatility surface",
+    "year": 2022,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Wenyong Zhang",
+      "Lingfei Li",
+      "Gongqiu Zhang"
+    ],
+    "cited_by_count": 31,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3176125230",
+    "bucket": "neural",
+    "abstract": "In this study, we propose a two-step framework to predict the implied volatility surface (IVS) in a manner that excludes static arbitrage. First, we select features to represent the surface and predict them. Second, we use the predicted features to construct the IVS using a deep neural network (DNN) model by incorporating constraints that can prevent static arbitrage. We consider three methods to extract features from the implied volatility data: principal component analysis, variational autoencoder, and sampling the surface. We predict these features using the long short-term memory model. Additionally, we use a long time series of implied volatility data for S&P500 index options to train our models. We find that two feature construction methods (i.e. sampling the surface and variational autoencoders combined with DNN for surface construction) are the best performers in the out-of-sample prediction. Furthermore, both of them substantially outperform a popular regression model. We also find that the DNN model for surface construction not only removes static arbitrage but also significantly reduces the prediction error compared with a standard interpolation method."
+  },
+  {
+    "doi": "10.1080/1350486x.2025.2471317",
+    "title": "VolGAN: A Generative Model for Arbitrage-Free Implied Volatility Surfaces",
+    "year": 2024,
+    "venue": "Applied Mathematical Finance",
+    "authors": [
+      "Milena Vuletić",
+      "Rama Cont"
+    ],
+    "cited_by_count": 57,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4408238689",
+    "bucket": "neural",
+    "abstract": "We introduce VolGAN, a generative model for arbitrage-free implied volatility surfaces. The model is trained on time series of implied volatility surfaces and underlying prices and is capable of generating realistic scenarios for joint dynamics of the implied volatility surface and the underlying asset. We illustrate the performance of the model by training it on SPX implied volatility time series and show that it is able to learn the covariance structure of the co-movements in implied volatilities and generate realistic dynamics for the (VIX) volatility index. In particular, the generative model is capable of simulating scenarios with non-Gaussian distributions of increments for state variables as well as time-varying correlations. Finally, we illustrate the use of VolGAN to construct data-driven hedging strategies for option portfolios, and show that these strategies can outperform Black-Scholes delta and delta-vega hedging."
+  },
+  {
+    "doi": "10.1080/1350486x.2023.2277960",
+    "title": "Simulation of Arbitrage-Free Implied Volatility Surfaces",
+    "year": 2023,
+    "venue": "Applied Mathematical Finance",
+    "authors": [
+      "Rama Cont",
+      "Milena Vuletić"
+    ],
+    "cited_by_count": 41,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4388832643",
+    "bucket": "neural",
+    "abstract": "We present a computationally tractable method for simulating arbitrage-free implied volatility surfaces.We illustrate how our method may be combined with a data-driven model based on historical SPX implied volatility data to generate dynamic scenarios for arbitrage-free implied volatility surfaces.Our approach conciliates static arbitrage constraints with a realistic representation of statistical properties of implied volatility co-movements."
+  },
+  {
+    "doi": "10.1080/1350486x.2023.2257217",
+    "title": "Arbitrage-Free Neural-SDE Market Models",
+    "year": 2021,
+    "venue": "Applied Mathematical Finance",
+    "authors": [
+      "Samuel N. Cohen",
+      "Christoph Reisinger",
+      "Sheng Wang"
+    ],
+    "cited_by_count": 81,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3165731524",
+    "bucket": "neural",
+    "abstract": "Modelling joint dynamics of liquid vanilla options is crucial for arbitrage-free pricing of illiquid derivatives and managing risks of option trade books. This paper develops a nonparametric model for the European options book respecting underlying financial constraints and while being practically implementable. We derive a state space for prices which are free from static (or model-independent) arbitrage and study the inference problem where a model is learnt from discrete time series data of stock and option prices. We use neural networks as function approximators for the drift and diffusion of the modelled SDE system, and impose constraints on the neural nets such that no-arbitrage conditions are preserved. In particular, we give methods to calibrate neural SDE models which are guaranteed to satisfy a set of linear inequalities. We validate our approach with numerical experiments using data generated from a Heston stochastic local volatility model."
+  },
+  {
+    "doi": "10.1002/fut.22302",
+    "title": "Multistep forecast of the implied volatility surface using deep learning",
+    "year": 2021,
+    "venue": "Journal of Futures Markets",
+    "authors": [
+      "Nikita Medvedev",
+      "Zhiguang Wang"
+    ],
+    "cited_by_count": 28,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2995189734",
+    "bucket": "neural",
+    "abstract": "Abstract Modeling implied volatility surface (IVS) is of paramount importance to price and hedge an option. We contribute to the literature by modeling the entire IVS using convolutional long‐short‐term memory (ConvLSTM) and long‐short‐term memory (LSTM) neural networks to produce multivariate and multistep forecasts of the S&P 500 IVS. Using daily SPX options data (2002–2019), we find that both LSTM and ConvLSTM fit the training data extremely well with mean absolute percentage error (MAPE) being 3.56% and 3.88%, respectively. The ConvLSTM (8.26% MAPE) model significantly outperforms LSTM and traditional time series models in predicting the IVS out of sample."
+  },
+  {
+    "doi": "10.1145/3447548.3467115",
+    "title": "Incorporating Prior Financial Domain Knowledge into Neural Networks for Implied Volatility Surface Prediction",
+    "year": 2021,
+    "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    "authors": [
+      "Yu Zheng",
+      "Yongxin Yang",
+      "Bowei Chen"
+    ],
+    "cited_by_count": 43,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3170345269",
+    "bucket": "neural",
+    "abstract": "In this paper we develop a novel neural network model for predicting implied volatility surface. Prior financial domain knowledge is taken into account. A new activation function that incorporates volatility smile is proposed, which is used for the hidden nodes that process the underlying asset price. In addition, financial conditions, such as the absence of arbitrage, the boundaries and the asymptotic slope, are embedded into the loss function. This is one of the very first studies which discuss a methodological framework that incorporates prior financial domain knowledge into neural network architecture design and model training. The proposed model outperforms the benchmarked models with the option data on the S&P 500 index over 20 years. More importantly, the domain knowledge is satisfied empirically, showing the model is consistent with the existing financial theories and conditions related to implied volatility surface."
+  },
+  {
+    "doi": "10.1142/s2705109925500051",
+    "title": "On Deep Calibration of (rough) Stochastic Volatility Models",
+    "year": 2025,
+    "venue": "The Journal of FinTech",
+    "authors": [
+      "Christian Bayer",
+      "Blanka N. Horvath",
+      "Aitor Muguruza",
+      "Benjamin Stemper",
+      "Mehdi Tomas"
+    ],
+    "cited_by_count": 89,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W2895507058",
+    "bucket": "neural",
+    "abstract": "Techniques from deep learning play a more and more important role for the important task of calibration of financial models. The pioneering paper by [Hernandez, A., 2017, Model calibration with neural networks, Risk] was a catalyst for resurfacing interest in research in this area. In this paper, we advocate an alternative (two-step) approach using deep learning techniques solely to learn the pricing map — from model parameters to prices or implied volatilities. Having a fast and accurate neural-network-based approximating pricing map (first step), we can then (second step) use traditional model calibration algorithms. In this work, we showcase a direct comparison of different potential approaches to the learning stage and present algorithms that provide a sufficient accuracy for practical use. In particular provide the first and simplest neural network-based calibration methods for rough volatility models with a constant initial volatility for which calibration can be done on the fly. We demonstrate the method via a hands-on calibration engine on the rough Bergomi model, for which classical calibration techniques are difficult to apply due to the high cost of all known numerical pricing methods. Furthermore, we display and compare different types of sampling and training methods and elaborate on their advantages under different objectives. As a further application we use the fast pricing method for a Bayesian analysis of the calibrated model."
+  },
+  {
+    "doi": "10.1145/3768292.3771252",
+    "title": "Arbitrage-Free Implied Volatility Surface Smoothing via Generative Adversarial Networks",
+    "year": 2025,
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "authors": [
+      "Victor Ginart Belmonte",
+      "Thomas Cole"
+    ],
+    "cited_by_count": 3,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4416198556",
+    "bucket": "neural",
+    "abstract": "Implied volatility surfaces play a fundamental role in the pricing and risk management of financial derivatives. However, as a result of estimation noise, they often contain arbitrage violations which need to be corrected to allow for effective pricing. Traditional smoothing techniques struggle to scale efficiently and usually need to be manually re-fitted to enforce no-arbitrage conditions. In this paper, we propose a novel deep learning framework that utilizes Generative Adversarial Networks (GANs) to smooth implied volatility surfaces while enforcing arbitrage constraints. Our approach transforms noisy, arbitrage-violating surfaces into smooth, arbitrage-free surfaces. Furthermore, we demonstrate that our model generalizes to data out-of-sample and offers significant improvements in computational performance over traditional methods. We describe the GAN architecture, the synthetic noise generation process, and the training strategy that enables these capabilities. Experimental results demonstrate that our GAN-based approach outperforms traditional smoothing techniques in both accuracy and speed, achieving the lowest mean squared error and runtime. These findings highlight its potential as a fast and reliable solution for denoising implied volatility surfaces at scale."
+  },
+  {
+    "doi": "10.1145/3858063.3858741",
+    "title": "Latent Flow Matching for Arbitrage-Aware Implied Volatility Surface Generation",
+    "year": 2026,
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "authors": [
+      "Dusica Bajalica",
+      "Oscar Brooks",
+      "Imen Ben Tahar",
+      "Tahar, Imen, Ben"
+    ],
+    "cited_by_count": 4,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W7223070923",
+    "bucket": "neural",
+    "abstract": "We propose an arbitrage-aware latent flow-matching framework for unconditional implied volatility surface generation. The method first compresses high-dimensional surfaces into a low-dimensional latent space using a variational autoencoder regularized by differentiable calendar-spread, call-spread and butterfly-arbitrage penalties. A flow-matching model then learns to transport a Gaussian prior toward the empirical latent distribution, and generated latent samples are decoded back into volatility surfaces. We evaluate the approach using marginal and surface-level Wasserstein distances, smile and skew diagnostics, pointwise quantile surfaces, financially interpretable shape metrics, and static no-arbitrage tests. The proposed model closely reproduces the empirical distribution and the main maturity-moneyness structures, achieves the best performance in the extreme Q99 regime, and generates 90.8% of surfaces satisfying all tested static no-arbitrage conditions. Overall, the results show that latent flow matching provides a favorable balance between distributional similarity, tail preservation, and financial consistency without requiring post-sampling reweighting."
+  },
+  {
+    "doi": "10.48550/arxiv.2509.01743",
+    "title": "Controllable Generation of Implied Volatility Surfaces with Variational Autoencoders",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Jing Wang",
+      "Shuaiqiang Liu",
+      "C. Vuik"
+    ],
+    "cited_by_count": 4,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4416696408",
+    "bucket": "neural",
+    "abstract": "This paper presents a deep generative modeling framework for controllably synthesizing implied volatility surfaces (IVSs) using a variational autoencoder (VAE). Unlike conventional data-driven models, our approach provides explicit control over meaningful shape features (e.g., volatility level, slope, curvature, term-structure) to generate IVSs with desired characteristics. In our framework, financially interpretable shape features are disentangled from residual latent factors. The target features are embedded into the VAE architecture as controllable latent variables, while the residual latent variables capture additional structure to preserve IVS shape diversity. To enable this control, IVS feature values are quantified via regression at an anchor point and incorporated into the decoder to steer generation. Numerical experiments demonstrate that the generative model enables rapid generation of realistic IVSs with desired features rather than arbitrary patterns, and achieves high accuracy across both single- and multi-feature control settings. For market validity, an optional post-generation latent-space repair algorithm adjusts only the residual latent variables to remove occasional violations of static no-arbitrage conditions without altering the specified features. Compared with black-box generators, the framework combines interpretability, controllability, and flexibility for synthetic IVS generation and scenario design."
+  },
+  {
+    "doi": "10.1145/3677052.3698601",
+    "title": "Whack-a-mole Online Learning: Physics-Informed Neural Network for Intraday Implied Volatility Surface",
+    "year": 2024,
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "authors": [
+      "Kentaro Hoshisashi",
+      "Carolyn E. Phelan",
+      "Paolo Barucca"
+    ],
+    "cited_by_count": 3,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4404369427",
+    "bucket": "neural",
+    "abstract": "Calibrating the time-dependent Implied Volatility Surface (IVS) using sparse market data is an essential challenge in computational finance, particularly for real-time applications. This task requires not only fitting market data but also satisfying a specified partial differential equation (PDE) and no-arbitrage conditions modelled by differential inequalities. This paper proposes a novel Physics-Informed Neural Networks (PINNs) approach called Whack-a-mole Online Learning (WamOL) to address this multi-objective optimisation problem. WamOL integrates self-adaptive and auto-balancing processes for each loss term, efficiently reweighting objective functions to ensure smooth surface fitting while adhering to PDE and no-arbitrage constraints and updating for intraday predictions. In our experiments, WamOL demonstrates superior performance in calibrating intraday IVS from uneven and sparse market data, effectively capturing the dynamic evolution of option prices and associated risk profiles. This approach offers an efficient solution for intraday IVS calibration, extending PINNs applications and providing a method for real-time financial modelling."
+  },
+  {
+    "doi": "10.1007/s00245-024-10184-9",
+    "title": "Neural Networks Can Detect Model-Free Static Arbitrage Strategies",
+    "year": 2024,
+    "venue": "Applied Mathematics & Optimization",
+    "authors": [
+      "Ariel Neufeld",
+      "Julian Sester"
+    ],
+    "cited_by_count": 5,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4402703396",
+    "bucket": "constraints",
+    "abstract": "In this paper we demonstrate both theoretically as well as numerically that neural networks can detect model-free static arbitrage opportunities whenever the market admits some. Due to the use of neural networks, our method can be applied to financial markets with a high number of traded securities and ensures almost immediate execution of the corresponding trading strategies. We provide examples using real financial data and prove that a single neural network can approximately solve a class of convex semi-algebraic problems.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "zbmath"
+  },
+  {
+    "doi": "10.1109/cifer67845.2026.11692406",
+    "title": "Observation-Anchored Arbitrage Repair for Sparse Implied Volatility Surface Completion",
+    "year": 2026,
+    "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+    "authors": [
+      "Yilin Xiong",
+      "Bofan Liu"
+    ],
+    "cited_by_count": 0,
+    "type": "conference-paper",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W7213913986",
+    "bucket": "constraints",
+    "abstract": "Completing dense implied volatility surfaces (IVS) from sparse option quotes is central to derivatives pricing and risk management. A financially admissible surface must satisfy calendar and butterfly no-arbitrage conditions, yet existing completion methods do not enforce these constraints while preserving observed market quotes. We propose a deterministic, observation-anchored two-step repair algorithm enforcing calendar constraints in total-variance space and butterfly constraints in normalized call-price space, modifying only unobserved grid cells. The algorithm is evaluated across five completion backends—linear interpolation, cubic spline, SABR, U-Net, and a conditional diffusion model—using real S&P 500 index (SPX) option data from OptionMetrics Ivy DB over 252 out-of-sample trading days at three holdout levels. Calendar violation rates were reduced to near-zero across all backends and sparsity levels. Butterfly violations were partially reduced, bounded below by an empirically observed floor of approximately 5.4% attributable to finite-precision rounding in the IV-to-call-price round-trip. Cubic spline with repair achieved the lowest reconstruction error at all holdout levels; the diffusion backend showed increased reconstruction error after repair alongside substantial calendar violation reduction. Ablation analysis confirmed that calendar and butterfly repair interact asymmetrically and that the combined pipeline is necessary. These findings support observation-anchored post-processing as a practical, model-agnostic approach for enforcing financial consistency in sparse IVS completion."
+  },
+  {
+    "doi": "10.1016/j.jocs.2026.102818",
+    "title": "SABR-informed multitask Gaussian process: A synthetic-to-real framework for implied volatility surface construction",
+    "year": 2026,
+    "venue": "Journal of Computational Science",
+    "authors": [
+      "Jirong Zhuang",
+      "Xuan Wu"
+    ],
+    "cited_by_count": 0,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4416508490",
+    "bucket": "nonparametric",
+    "abstract": "This study introduces a SABR-informed multitask Gaussian process for constructing implied volatility surfaces from sparse option quotes. A dense synthetic dataset generated by a calibrated SABR model is treated as an information source (source task), while market observations are the primary target task; the relationship is learned adaptively in a joint optimization. The proposed SABR-MTGP stabilizes data-sparse wings relative to a single-task GP and corrects systematic SABR misspecification; the implementation has two stages.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "sciencedirect_snippet"
+  },
+  {
+    "doi": "10.1016/j.ejor.2026.07.049",
+    "title": "Joint arbitrage-free smoothing of American call and put options surfaces",
+    "year": 2026,
+    "venue": "European Journal of Operational Research",
+    "authors": [
+      "Yuhang Yao",
+      "Zhenyu Cui",
+      "Qian Pan"
+    ],
+    "cited_by_count": 0,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W7202089472",
+    "bucket": "nonparametric",
+    "abstract": "In this paper, we propose a novel and computationally efficient methodology for joint arbitrage-free smoothing of American call and put option surfaces in the non-dividend case. We formulate a joint cubic spline smoothing framework and recast it as a quadratic programming problem; arbitrage constraints for both American calls and puts are embedded as linear constraints. Building on the joint smoothing technique, we develop two efficient calibration schemes for parametric models.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "ideas"
+  },
+  {
+    "doi": "10.1080/14697688.2026.2637739",
+    "title": "The implied volatility surface (also) is path-dependent",
+    "year": 2026,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Hervé Andrès",
+      "Alexandre Boumezoued",
+      "Benjamin Jourdain"
+    ],
+    "cited_by_count": 9,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W7147192631",
+    "bucket": "dynamics",
+    "abstract": "We propose a new model for the simulation of both the implied volatility surfaces and the underlying asset price. In the spirit of [Guyon, J. and Lekeufack, J., Volatility is (mostly) path-dependent. Quant. Finance, 2023, 23(9), 1221–1258] who are interested in the dependence of volatility indices (e.g. the VIX) on the paths of the associated equity indices (e.g. the S&P 500), we first study how vanilla options implied volatility can be predicted using the past trajectory of the underlying asset price. Our empirical study reveals that a large part of the movements in the at-the-money-forward implied volatility for times-to-maturity of up to two years can be explained using the past returns and their squares. Moreover, we show that this feedback effect gets weaker when the time-to-maturity increases. Building on this new stylized fact, we fit to historical data a parsimonious version of the SSVI parameterization [Gatheral, J. and Jacquier, A., Arbitrage-free SVI volatility surfaces. Quant. Finance, 2014, 14(1), 59–71] of the implied volatility surface relying on only four parameters and show that the two parameters ruling the at-the-money-forward implied volatility as a function of the time-to-maturity exhibit a path-dependent behavior with respect to the underlying asset price. Finally, we propose a model for the joint dynamics of the implied volatility surface and the underlying asset price. The latter is modeled using a variant of the path-dependent volatility model of Guyon and Lekeufack and the former is obtained by adding a feedback effect of the underlying asset price onto the two parameters ruling the at-the-money-forward implied volatility in the parsimonious SSVI parameterization and by specifying Ornstein-Uhlenbeck processes for the residuals of these two parameters and Jacobi processes for the two other parameters. Thanks to this model, we are able to simulate highly realistic paths of implied volatility surfaces that are free from static arbitrage."
+  },
+  {
+    "doi": "10.1137/24m1713107",
+    "title": "Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces",
+    "year": 2025,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "authors": [
+      "Nicola F. Zaugg",
+      "Leonardo Perotti",
+      "Lech Aleksander Grzelak"
+    ],
+    "cited_by_count": 6,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4417488419",
+    "bucket": "parametric",
+    "abstract": "Abstract. It is a market practice to express market-implied volatilities in some parametric form. The most popular parametrizations are based on or inspired by an underlying stochastic model, like the Heston model (SVI method [ Quant. Finance, 14 (2014), pp. 59–71]) or the SABR model (SABR-parametrization [ Wilmott Mag., (2002), pp. 84–108]). Their popularity is often driven by a closed-form representation enabling efficient calibration. However, these representations indirectly impose a model-specific volatility structure on observable market quotes. When the market’s volatility does not follow the parametric model regime, the calibration procedure will fail or lead to extreme parameters, indicating inconsistency. This article addresses this critical limitation—we propose an arbitrage-free framework for letting the parameters from the parametric implied volatility formula be random. The method enhances the existing parametrizations and enables a significant widening of the spectrum of permissible shapes of implied volatilities while preserving analyticity and, therefore, computation efficiency. We demonstrate the effectiveness of the novel method on real data from short-term index and equity options, where the standard parametrizations fail to capture market dynamics. Our results show that the proposed method is particularly powerful in modeling the implied volatility curves of short expiry options preceding an earnings announcement, when the risk-neutral probability density function exhibits a bimodal form."
+  },
+  {
+    "doi": "10.1137/20m1351060",
+    "title": "No Arbitrage SVI",
+    "year": 2022,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "authors": [
+      "Claude Martini",
+      "Arianna Mingone"
+    ],
+    "cited_by_count": 26,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3023887377",
+    "bucket": "parametric",
+    "abstract": "We fully characterize the absence of butterfly arbitrage in the stochastic volatility inspired (SVI) formula for implied total variance proposed by Gatheral in 2004. The main ingredient is an intermediate characterization of the necessary condition for no arbitrage obtained for any model by Fukasawa in 2012 that the inverse functions of the $-d_1$ and $-d_2$ of the Black--Scholes formula, viewed as functions of the log-forward moneyness, should be increasing. A natural rescaling of the SVI parameters and a meticulous analysis of the Durrleman condition allow us then to obtain simple range conditions on the parameters. This leads to a straightforward implementation of a least-squares calibration algorithm on the no arbitrage domain, which yields an excellent fit on the market data we used for our tests, with the guarantee to yield smiles with no butterfly arbitrage."
+  },
+  {
+    "doi": "10.1080/14697688.2022.2117076",
+    "title": "No arbitrage global parametrization for the eSSVI volatility surface",
+    "year": 2022,
+    "venue": "Quantitative Finance",
+    "authors": [
+      "Arianna Mingone"
+    ],
+    "cited_by_count": 15,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4297053339",
+    "bucket": "parametric",
+    "abstract": "This article describes a global and arbitrage-free parametrization of the eSSVI implied volatility surfaces introduced by Hendriks and Martini [The extended SSVI volatility surface. J. Comput. Finance, 2019, 22, 25–39]. A calibration of such surfaces has already been proposed by the quantitative research team at Zeliade Systems [Cohort et al., Robust calibration and arbitrage-free interpolation of SSVI slices. Decisions Econ. Finance, 2019, 42, 665–677], but the calibration algorithm is sequential in expiries (one maturity is calibrated after the other), lacking a global view on the surface. The alternative calibration suggested in this article targets all maturities at once and always guarantees an arbitrage-free fit of market data."
+  },
+  {
+    "doi": "10.3390/math11092108",
+    "title": "The Application of Symbolic Regression on Identifying Implied Volatility Surface",
+    "year": 2023,
+    "venue": "Mathematics",
+    "authors": [
+      "Jiayi Luo",
+      "Cindy Long Yu"
+    ],
+    "cited_by_count": 6,
+    "type": "article",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4367310051",
+    "bucket": "nonparametric",
+    "abstract": "One important parameter in the Black–Scholes option pricing model is the implied volatility. Implied volatility surface (IVS) is an important concept in finance that describes the variation of implied volatility across option strike price and time to maturity. Over the last few decades, economists and financialists have long tried to exploit the predictability in the IVS using various parametric models, which require deep understanding of financial practices in the area. In this paper, we explore how a data-driven machine learning method, symbolic regression, performs in identifying the implied volatility surface even without deep financial knowledge. Two different approaches of symbolic regression are explored through a simulation study and an empirical study using a large panel of option data in the United States options market."
+  },
+  {
+    "doi": "10.48550/arxiv.2406.11520",
+    "title": "Operator Deep Smoothing for Implied Volatility",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "authors": [
+      "Ruben Wiedemann",
+      "Antoine Jacquier",
+      "Lukas Gonon"
+    ],
+    "cited_by_count": 14,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4399795226",
+    "bucket": "neural",
+    "abstract": "We devise a novel method for nowcasting implied volatility based on neural operators. Better known as implied volatility smoothing in the financial industry, nowcasting of implied volatility means constructing a smooth surface that is consistent with the prices presently observed on a given option market. Option price data arises highly dynamically in ever-changing spatial configurations, which poses a major limitation to foundational machine learning approaches using classical neural networks. While large models in language and image processing deliver breakthrough results on vast corpora of raw data, in financial engineering the generalization from big historical datasets has been hindered by the need for considerable data pre-processing. In particular, implied volatility smoothing has remained an instance-by-instance, hands-on process both for neural network-based and traditional parametric strategies. Our general operator deep smoothing approach, instead, directly maps observed data to smoothed surfaces. We adapt the graph neural operator architecture to do so with high accuracy on ten years of raw intraday S&P 500 options data, using a single model instance. The trained operator adheres to critical no-arbitrage constraints and is robust with respect to subsampling of inputs (occurring in practice in the context of outlier removal). We provide extensive historical benchmarks and showcase the generalization capability of our approach in a comparison with classical neural networks and SVI, an industry standard parametrization for implied volatility. The operator deep smoothing approach thus opens up the use of neural networks on large historical datasets in financial engineering."
+  },
+  {
+    "doi": "10.2139/ssrn.4803161",
+    "title": "Gaussian Processes for Implied Volatility Estimation",
+    "year": 2024,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Tejas Appana",
+      "Andrew Carranti",
+      "Arjun Koshal",
+      "Adam Moszczyński",
+      "Matthew Thomas"
+    ],
+    "cited_by_count": 0,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4396765896",
+    "bucket": "nonparametric",
+    "abstract": "The accurate modeling of the implied volatility surface holds great importance in option pricing, trading, and hedging. Significant research has been devoted to this task, ranging from mathematical models to machine-learning solutions. However, these approaches generate point estimates based on imperfect market data, which can lead to inaccurate and misleading models. Gaussian Processes, a Bayesian nonparametric method, have addressed this challenge. They generate posterior distributions of implied volatility functions, producing confidence intervals and quantifiable measures of model uncertainty. We improve upon this approach by incorporating temporal dynamics into a Gaussian Process to capture trends in changing implied volatility surfaces over time. Our model is then applied to end-of-day option quotes, showing high accuracy that can outperform traditional parametric models in implied volatility estimation and option pricing. Our findings could significantly impact hedging strategies, as the distribution that our model derives accounts for a spectrum of scenarios, enabling a more nuanced assessment of risk. Using our model's output, we will further validate this application by conducting empirical tests and simulating hedging strategies under various market conditions. We expect this to demonstrate the effectiveness of our approach in reducing risk exposure compared to traditional methods, thereby providing a tangible measure of the practical benefits of incorporating our Gaussian Process method in the real world.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "crossref"
+  },
+  {
+    "doi": "10.48550/arxiv.2310.16703",
+    "title": "No-Arbitrage Deep Calibration for Volatility Smile and Skewness",
+    "year": 2023,
+    "venue": "RePEc: Research Papers in Economics",
+    "authors": [
+      "Kentaro Hoshisashi",
+      "Carolyn E. Phelan",
+      "Paolo Barucca"
+    ],
+    "cited_by_count": 10,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4387964091",
+    "bucket": "neural",
+    "abstract": "Volatility smile and skewness are two key properties of option prices that are represented by the implied volatility (IV) surface. However, IV surface calibration through nonlinear interpolation is a complex problem due to several factors, including limited input data, low liquidity, and noise. Additionally, the calibrated surface must obey the fundamental financial principle of the absence of arbitrage, which can be modeled by various differential inequalities over the partial derivatives of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network (DCNN), which is an enhancement of a multilayer perceptron (MLP) that incorporates derivatives in the objective function. DCNN allows us to generate a smooth surface and incorporate the no-arbitrage condition thanks to the derivative terms in the loss function. In numerical experiments, we train the model using prices generated with the SABR model to produce smile and skewness parameters. We carry out different settings to examine the stability of the calibrated model under different conditions. The results show that DCNNs improve the interpolation of the implied volatility surface with smile and skewness by integrating the computation of the derivatives, which are necessary and sufficient no-arbitrage conditions. The developed algorithm also offers practitioners an effective tool for understanding expected market dynamics and managing risk associated with volatility smile and skewness."
+  },
+  {
+    "doi": "10.2139/ssrn.4623940",
+    "title": "Volatility Transformers: an optimal transport-inspired approach to arbitrage-free shaping of implied volatility surfaces",
+    "year": 2023,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Valer Zetocha"
+    ],
+    "cited_by_count": 5,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W4389116974",
+    "bucket": "neural",
+    "abstract": "We introduce a framework for generating arbitrage-free transformations of an implied volatility surface based on optimal transport maps between suitable distributions. We exemplify our approach by solving standard tasks related to volatility surface alterations like time extrapolation, modification of skew or term structure of volatility, introduction of a market event, removal of arbitrage and generation of volatility surface dynamics. The approach is not limited to the volatility surface transformations but can be useful in a wider area of applications related to synthetic market data generation.",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "crossref"
+  },
+  {
+    "doi": "",
+    "title": "KRIGING FOR IMPLIED VOLATILITY SURFACE",
+    "year": 2021,
+    "venue": "HAL",
+    "authors": [
+      "Areski Cousin",
+      "Djibril Gueye"
+    ],
+    "cited_by_count": 2,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W3184266889",
+    "bucket": "nonparametric",
+    "abstract": "Implied volatility surface is of crucial interest for risk management and exotic option pricing models. Its construction is usually carried out in accordance with the arbitrage-free principle. This condition leads to shape restrictions on the option prices such as monotonicity with respect to maturities and convexity with respect to strike prices. In this paper, we propose a new arbitrage-free construction method that extends classical spline techniques by additionally allowing for quantification of uncertainty. The proposed method extends the constrained kriging techniques developed in [MB16] and [CMR16] to the context of volatility surface construction. Assuming a Gaussian process prior, the posterior price surface becomes a truncated Gaussian field given shape constraints and market observations. Prices of illiquid instruments can also be incorporated when considered as noisy observations. Starting from a suitable finite-dimensional approximation of the Gaussian process prior, the no-arbitrage condition on the entire input domain is characterized by a finite number of linear inequality constraints. We define the most likely response surface and the most-likely noise values as the solution of a quadratic optimization problem. We use Hamiltonian Monte Carlo technics to simulate the posterior truncated Gaussian surface and build pointwise confidence bands. The Gaussian process hyper-parameters are estimated using maximum likelihood. The method is illustrated on Euro Stoxx 50 option prices by building no-arbitrage volatility surfaces and their corresponding confidence bands."
+  },
+  {
+    "doi": "10.2139/ssrn.7577418",
+    "title": "Trainable Hard Constraints: Architectural Enforcement of Arbitrage-Free Implied Volatility Surfaces via Automatic Differentiation",
+    "year": 2026,
+    "venue": "SSRN Electronic Journal",
+    "authors": [
+      "Anagha S"
+    ],
+    "cited_by_count": 0,
+    "type": "preprint",
+    "is_retracted": false,
+    "openalex_id": "https://openalex.org/W7221033217",
+    "bucket": "constraints",
+    "abstract": "<div> Static no-arbitrage conditions on implied volatility surfaces are usually imposed through a </div> <div> parametric form or a training penalty. Parametric fits to sparse, noisy quotes are not auto- </div> <div> matically arbitrage-free, and penalties give no confidence away from the points where they are </div> <div> applied. As a proof of concept, we ask whether convexity in log-moneyness and monotonicity in </div> <div> Maturity can be built into a neural total-variance surface by architecture while it stays trainable. </div> <div> with automatic differentiation, and what this costs in accuracy. The network is positive, con- </div> <div> vex in log-moneyness and non-decreasing in maturity at every input; it combines input-convex </div> <div> blocks gated by non-negative maturity ramps and uses an output-scale calibration at initializa- </div> <div> tion. We test it on synthetic data from rejection-sampled arbitrage-free SVI slices with Gaussian </div> <div> noise (standard deviation 0.02) and stratified masking, in three regimes with five seeds each, </div> <div> against per-slice SVI, SSVI, a soft-penalty MLP, and a Dugas-style ablation, on clean data and </div> <div> under a calendar-inversion stress test. On clean data the hard-constrained model has 0.00%. </div> <div> convexity, Durrleman, and calendar violations in all 15 runs (tolerance 10⁻⁴). The soft penalty </div> <div> MLP shows 0.00–0.04% convexity, 0.00–0.84% Durrleman, and 0.00–0.02% calendar violations </div> <div> and per-slice SVI shows 2.69–3.88% Durrleman and 17.86–31.02% calendar violations. The </div> <div> guarantee costs accuracy: overall RMSE in total variance is 0.0099, 0.0124, and 0.0176 (normal, </div> <div> high-skew, stressed) against 0.0074, 0.0096, and 0.0135 for SSVI and 0.0092, 0.0112, and 0.0154 </div> <div> for the soft-penalty MLP. Removing the output-scale calibration raises RMSE by about an or<span>der of magnitude. Under a calendar-inversion stress test, the hard-constrained model again has</span> </div> <div> 0.00% violations, against 0.20% calendar violations for the soft-penalty MLP and 29.86% for </div> <div> per-slice SVI, and every model’s accuracy degrades. The data are synthetic and well specified </div> <div> for SVI; convexity and monotonicity are guaranteed, whereas Durrleman’s condition is audited </div> <div> empirically. </div>",
+    "s2_error": "HTTP Error 429: ",
+    "abstract_source": "crossref"
+  }
+]
