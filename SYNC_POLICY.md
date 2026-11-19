@@ -53,7 +53,7 @@ These files include each skill's `SKILL.md`, `agents/`, `references/`,
   `native/`, `AGENTS.md`, `docs/agents/`, `README.md`, `NOTICE.md`, package
   metadata, and CI.
 
-**Native layer (0.4.2, released)**: `native/skills/ars-team`, `native/skills/ars-pipeline-team`, the
+**Native layer (0.4.3, released)**: `native/skills/ars-team`, `native/skills/ars-pipeline-team`, the
 `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`
 tool definitions in `lib/startup.js`, and the `ARS_PRESET` registration for
 `agentPresets`. This
@@ -101,8 +101,8 @@ offline and deterministic; it does not need the upstream checkout.
 
 ## Versioning and releases
 
-- Package versions are independent of ARS versions (`0.3.0`, `0.4.2`, ...).
-  `0.3.0` is the official-recognition baseline; `0.4.2` adds the native layer.
+- Package versions are independent of ARS versions (`0.3.0`, `0.4.3`, ...).
+  `0.3.0` is the official-recognition baseline; `0.4.3` adds the native layer.
 - The README and release notes state the ARS version; `manifest.json` records
   the exact commit.
 - Release tags are immutable. Do not move a tag to re-sync content; publish a

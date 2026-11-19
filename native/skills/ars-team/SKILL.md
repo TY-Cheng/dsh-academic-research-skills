@@ -24,7 +24,8 @@ If no author-confirmed target or `ReviewTargetContext` exists, every seat must r
 
 Read these from `$DSH_ARS_ROOT/skills/academic-paper-reviewer/agents/`:
 
-- `field_analyst_agent.md`
+- `field_analyst_agent.md` — pre-panel field analysis
+- `eic_agent.md` — Journal-Fit seat; combine with the field analysis’s reviewer configuration card. There is no separate `journal_fit_reviewer_agent.md` in the vendored set.
 - `methodology_reviewer_agent.md`
 - `domain_reviewer_agent.md`
 - `perspective_reviewer_agent.md`

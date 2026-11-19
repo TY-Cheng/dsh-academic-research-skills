@@ -5,7 +5,7 @@ README and in the e2e evidence bundle. It is deliberately narrower than every
 sentence in those documents: qualitative statements about usefulness or fit are
 not treated as measured claims.
 
-**Snapshot:** plugin 0.3.0 official baseline; 0.4.2 native layer (additive); upstream pin
+**Snapshot:** plugin 0.3.0 official baseline; 0.4.3 native layer (additive); upstream pin
 `6d9388674de1ad0437ad95db3d52f92b92204d84`; e2e commit `40b7e77`; CI run
 `44530710616`; 2026-11-19.
 
@@ -31,7 +31,7 @@ not treated as measured claims.
 | 16 user-invocable commands | `find commands -mindepth 2 -name SKILL.md` → 16; `npm run verify` → 16 commands; `lib/startup.js` registers them | The e2e exercised the **skills**, not every slash wrapper. Command registration is proven; per-command runtime behavior is not exhaustively exercised. |
 | Full ARS core is carried | 1,006 vendored files: 199 + 644 + 155 + 4 + 4 | `commands/` is generated, and `docs/`, `evals/`, `examples/`, `hooks/`, `pi/`, `audits/` are not vendored. “Core” here means the five skills plus root `scripts/`, `shared/`, `agents/`, and four root files. |
 | Vendored files are byte-identical | `manifest.json` per-file SHA-256; `npm run verify`; CI | CI is offline against the manifest; the live `diff -qr` was run in the development checkout at sync time. |
-| 21 skills registered in 0.3.0; 23 in 0.4.2 | `npm run verify` → “registered 21 skills” (0.3.0); 0.4.2 registers 23 (21 + `ars-team` + `ars-pipeline-team`) | 0.3.0: 5 skills + 16 commands. 0.4.2 adds `ars-team` and `ars-pipeline-team`; the vendored count is unchanged. |
+| 21 skills registered in 0.3.0; 23 in 0.4.3 | `npm run verify` → “registered 21 skills” (0.3.0); 0.4.3 registers 23 (21 + `ars-team` + `ars-pipeline-team`) | 0.3.0: 5 skills + 16 commands. 0.4.3 adds `ars-team` and `ars-pipeline-team`; the vendored count is unchanged. |
 | The Python tool layer ships | 644 `scripts/` files; `requirements-*.txt`; `470` Python files parsed by the CI AST check | Installed and smoke-tested. The e2e workflow used the skills, custom search scripts, and the format builder; it did **not** run every core checker end-to-end. |
 | `DSH_ARS_ROOT` path note prevents mis-resolution | `lib/startup.js`; e2e README § “What the e2e actually exercised”; Python calls used the profile-local `.venv` | Proves the note is injected; does not prove every possible relative path in every skill. `sr-screener`’s own `scripts/` is intentionally skill-local. |
 | Hooks are not ported | README § Differences; upstream `hooks/` are Claude Code-specific; DSH has no hook system | A platform difference, not a feature claim. |
@@ -98,14 +98,14 @@ not treated as measured claims.
 - The e2e is platform evidence for sibling recognition, not a model benchmark
   and not an endorsement by the ARS maintainer.
 
-## F. Native layer (0.4.2, additive)
+## F. Native layer (0.4.3, additive)
 
 | Claim | Evidence | Coverage / caveat |
 | --- | --- | --- |
-| 0.4.2 adds native team skills | `native/skills/ars-team/SKILL.md`, `native/skills/ars-pipeline-team/SKILL.md`; `lib/startup.js` `SKILL_DIRS`; `npm run verify` → 23 registrations | 0.3.0 remains 21; the official baseline is unchanged. |
+| 0.4.3 adds native team skills | `native/skills/ars-team/SKILL.md`, `native/skills/ars-pipeline-team/SKILL.md`; `lib/startup.js` `SKILL_DIRS`; `npm run verify` → 23 registrations | 0.3.0 remains 21; the official baseline is unchanged. |
 | The five-seat panel ran with real subagents | `examples/dsh/iv-surface-review/stage3-team/` (field analysis, five seat reports, editorial decision, roadmap); Team board tasks | One native-layer validation run; the official e2e used inline prompts. Role separation is not independent error processes. |
 | The native panel reached Major Revision | `stage3-team/editorial-decision.md`; six required majors + ten minor fixes | The paper’s Stage 3 decision; not a claim that the native layer improves review quality. |
 | Five native tools exist | `lib/startup.js` `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`; `cordis.patch.yml` inject `[skills, tools, agentPresets]` | Registered only when the `tools` service is present; the current session was still 0.3.0, so the tools were not visible there. No exhaustive tool test. |
 | The ARS Team preset is registered | `lib/startup.js` `ARS_PRESET`; `cordis.patch.yml` inject `agentPresets`; fake-context harness | Preset selection requires a new desktop session; not exercised in the current 0.3.0 session. |
 | The native Team mapping is documented | `native/team-map.md`; `ars-team` skill; 0.4.0 panel artifacts | Seven review roles (field, five seats, editorial) and the 10 pipeline stages are mapped; the other 32 non-review ARS prompts remain inline. This is not a one-to-one 39-agent mapping. |
-| The 0.4.2 native layer is additive | `package.json` 0.4.2; `files` includes `native/`; vendored core unchanged; `npm run verify` 23 | Not part of the 0.3.0 official sibling baseline; the 0.3.0 package remains the pinned official evidence. |
+| The 0.4.3 native layer is additive | `package.json` 0.4.3; `files` includes `native/`; vendored core unchanged; `npm run verify` 23 | Not part of the 0.3.0 official sibling baseline; the 0.3.0 package remains the pinned official evidence. |

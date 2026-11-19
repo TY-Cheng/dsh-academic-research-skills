@@ -19,7 +19,7 @@ Single-context repo (this repo):
 ├── GLOSSARY.md
 ├── docs/adr/
 ├── lib/                                ← DSH registrar + cordis patch
-├── native/                             ← 0.4.2 native team skills/tools
+├── native/                             ← 0.4.3 native team skills/tools
 ├── skills/                             ← 5 vendored ARS skills
 ├── scripts/                            ← vendored ARS shared Python tools
 ├── shared/                             ← vendored ARS schemas/contracts

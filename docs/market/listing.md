@@ -1,11 +1,11 @@
 # DSH Plugin Market — listing draft (not published)
 
-Draft for a future DSH plugin-market submission. The 0.3.0 package remains the official sibling-recognition baseline; 0.4.2 is the native release. Do not publish until the live 0.4.2 validation in a new desktop session passes.
+Draft for a future DSH plugin-market submission. The 0.3.0 package remains the official sibling-recognition baseline; 0.4.3 is the native release. Do not publish until the live 0.4.3 validation in a new desktop session passes.
 
 ## Identity
 
 - **Name:** `dsh-academic-research-skills`
-- **Version:** 0.4.2
+- **Version:** 0.4.3
 - **Tagline:** Full ARS academic-research pipeline for DeepSeek Harness — 5 skills, 16 `/ars-*` commands, a native review Team, and 4 research tools.
 - **Repository:** https://github.com/TY-Cheng/dsh-academic-research-skills
 - **Issues:** https://github.com/TY-Cheng/dsh-academic-research-skills/issues
@@ -17,13 +17,13 @@ Draft for a future DSH plugin-market submission. The 0.3.0 package remains the o
 - 5 vendored ARS skills: `deep-research`, `academic-paper`, `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`.
 - 16 `/ars-*` commands generated from the upstream command sources.
 - Full upstream core: `scripts/`, `shared/`, `agents/`, `MODE_REGISTRY.md`, `THIRD_PARTY.md`, `requirements*.txt` — 1,006 files pinned to ARS `v3.24.2` (`6d93886`).
-- Native 0.4.2 layer: `ars-team` and `ars-pipeline-team` skills, selectable `ars-team` agent preset, and `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, `ars_manifest`.
+- Native 0.4.3 layer: `ars-team` and `ars-pipeline-team` skills, selectable `ars-team` agent preset, and `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, `ars_manifest`.
 - E2E evidence: a complete academic-pipeline run in `examples/dsh/iv-surface-review/` (6,804-word paper, 40 refs, 8 tables, appendices, PDF/DOCX/TeX).
 
 ## Install
 
 ```bash
-dsh plugin --profile <profile> add github:TY-Cheng/dsh-academic-research-skills#v0.4.2
+dsh plugin --profile <profile> add github:TY-Cheng/dsh-academic-research-skills#v0.4.3
 ```
 
 Official-recognition baseline (no native layer):
@@ -56,6 +56,6 @@ Keywords: academic research, literature review, paper writing, peer review, cita
 
 ## Not yet done
 
-- Live 0.4.2 validation in a new desktop session (`docs/native-validation.md`).
+- Live 0.4.3 validation in a new desktop session (`docs/native-validation.md`).
 - Official sibling recognition: upstream issue #1126 is open with no reply; 0.3.0 remains the baseline.
 - Marketplace listing submission and promotion are intentionally deferred.

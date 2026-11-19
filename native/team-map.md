@@ -1,6 +1,6 @@
-# Native Team Mapping — 0.4.2
+# Native Team Mapping — 0.4.3
 
-Status: the review panel and the 10-stage pipeline Team mapping are implemented; the remaining ARS role prompts stay inline. This document is the canonical map for the 0.4.2 native layer.
+Status: the review panel and the 10-stage pipeline Team mapping are implemented; the remaining ARS role prompts stay inline. This document is the stage/panel map for the 0.4.3 native layer; `native/role-map.md` is the full 46-prompt inventory.
 
 ## 1. Agent preset
 
@@ -35,16 +35,17 @@ Rules: claim before complete; no seat reads another seat's output; the field ana
 
 ## 3. Role prompts
 
-The seats use the vendored reviewer prompts:
+The seats use these vendored reviewer prompts:
 
-- `skills/academic-paper-reviewer/agents/journal_fit_reviewer_agent.md`
+- `skills/academic-paper-reviewer/agents/eic_agent.md` — Journal-Fit seat (with the field analysis reviewer configuration card)
 - `skills/academic-paper-reviewer/agents/methodology_reviewer_agent.md`
 - `skills/academic-paper-reviewer/agents/domain_reviewer_agent.md`
 - `skills/academic-paper-reviewer/agents/perspective_reviewer_agent.md`
 - `skills/academic-paper-reviewer/agents/devils_advocate_reviewer_agent.md`
 - `skills/academic-paper-reviewer/agents/editorial_synthesizer_agent.md`
+- `skills/academic-paper-reviewer/agents/field_analyst_agent.md` — pre-panel field analysis
 
-The `ars-team` skill supplies the field-analyst and orchestration instructions. The panel is a role-separated prompt workflow, not five independent error processes.
+There is no separate `journal_fit_reviewer_agent.md` in the vendored set. The `ars-team` skill supplies the field-analyst and orchestration instructions. The panel is a role-separated prompt workflow, not five independent error processes. Full inventory: [`native/role-map.md`](role-map.md).
 
 ## 4. Native tools
 
@@ -79,7 +80,7 @@ The pipeline skill delegates Stage 3 to `ars-team`; it does not duplicate the fi
 
 Mapped natively: the 7-role review panel (field + 5 seats + editorial), the 10-stage pipeline task graph, the Team board, the `ars-team` preset, and the 5 tools.
 
-Not mapped as separate Team roles: the 32 other ARS roles across `deep-research` (12), `academic-paper` (12), and `academic-pipeline` (8). Those stages continue as inline skill prompts; the preset makes the ARS plugin available, but does not create one DSH agent per upstream role. Mapping all 39 roles one-to-one would add 32 review-less agents and is deliberately deferred — it would multiply cost without a validated benefit.
+Not mapped as separate Team roles: the 39 inline prompts (35 skill + 4 root). The 35 skill prompts are `deep-research` 14, `academic-paper` 12, `academic-pipeline` 5, `sr-screener` 4; the 4 root prompts are aliases. The 7 review prompts are the panel; the 39 inline prompts execute inside their stage skills. Mapping all 46 one-to-one would add 39 inline agents and is deliberately deferred — it would multiply cost without a validated benefit. Full inventory: `native/role-map.md`.
 
 ## 7. Evidence
 

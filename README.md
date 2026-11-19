@@ -13,13 +13,13 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
   `academic-paper`（12-agent 论文写作，11 种模式）、`academic-paper-reviewer`
   （5 席位同行评审面板）、`academic-pipeline`（10 阶段全流水线编排）、
   `sr-screener`（协议驱动的系统综述记录筛选，8 种模式）
-- **2 个原生 DSH 团队技能**（0.4.2 原生层）：`ars-team` 用真实 `subagent` 跑五席位评审；
+- **2 个原生 DSH 团队技能**（0.4.3 原生层）：`ars-team` 用真实 `subagent` 跑五席位评审；
   `ars-pipeline-team` 把 10 阶段流水线映射成 Team board 的 stage task graph
-- **5 个原生工具**（0.4.2）：`ars_search`（OpenAlex 检索）、`ars_lookup`
+- **5 个原生工具**（0.4.3）：`ars_search`（OpenAlex 检索）、`ars_lookup`
   （DOI 元数据，OpenAlex/Crossref）、`ars_integrity`（调用 vendored
   `check_pipeline_integrity.py`）、`ars_pipeline_status`（流水线阶段产物盘点）与
   `ars_manifest`（pinned upstream/内容计数）；仅在 `tools` 服务挂载时注册，否则自动跳过
-- **可选 ARS Team agent preset**（0.4.2）：在 `agentPresets` 服务可用时注册，
+- **可选 ARS Team agent preset**（0.4.3）：在 `agentPresets` 服务可用时注册，
   新会话可选择 `ars-team` 预设，组合 `ars-team` 技能与 Team board
 - **映射、验证与市场草稿**：[`native/team-map.md`](native/team-map.md)、
   [`docs/native-validation.md`](docs/native-validation.md)、
@@ -55,10 +55,10 @@ python3 -m venv .venv
 ```
 
 ```bash
-# 方式一：GitHub 仓库（当前 v0.4.2；官方收录基线仍是 v0.3.0）
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.2
+# 方式一：GitHub 仓库（当前 v0.4.3；官方收录基线仍是 v0.3.0）
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.3
 
-# 官方收录基线（不含 0.4.2 原生层）
+# 官方收录基线（不含 0.4.3 原生层）
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 
 # 方式二：本地路径（开发调试）
@@ -90,7 +90,7 @@ vendored 边界。
 - **路径解析**：注册时会在每个技能正文前加入 ARS package root 提示，
   `DSH_ARS_ROOT` 指向插件包根目录；`sr-screener` 自己的 `scripts/` 仍相对
   技能目录解析。这样 `python3 scripts/...` 不会误落到用户论文项目目录。
-- **原生层（0.4.2）**：`native/skills/ars-team` 把五席位评审
+- **原生层（0.4.3）**：`native/skills/ars-team` 把五席位评审
   映射为真实 `subagent`；`native/skills/ars-pipeline-team` 把 10 阶段流水线
   映射为 Team board 的 stage task graph；`lib/startup.js` 在 `tools` 服务
   可用时注册 `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/
@@ -138,15 +138,15 @@ Provides, out of the box:
 
 - **5 model-invocable skills**: `deep-research`, `academic-paper`,
   `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`
-- **2 native team skills** (0.4.2 native layer): `ars-team`, which runs the
+- **2 native team skills** (0.4.3 native layer): `ars-team`, which runs the
   five-seat panel as real `subagent`s, and `ars-pipeline-team`, which maps the
   10 pipeline stages onto a Team-board stage task graph
-- **5 native tools** (0.4.2): `ars_search` (OpenAlex search), `ars_lookup`
+- **5 native tools** (0.4.3): `ars_search` (OpenAlex search), `ars_lookup`
   (DOI metadata via OpenAlex/Crossref), `ars_integrity` (runs the vendored
   `check_pipeline_integrity.py`), `ars_pipeline_status` (stage-artifact
   inventory), and `ars_manifest` (pinned upstream/content counts); registered
   only when the `tools` service is mounted, skipped otherwise
-- **Optional ARS Team agent preset** (0.4.2): registered when `agentPresets` is
+- **Optional ARS Team agent preset** (0.4.3): registered when `agentPresets` is
   mounted; a new session can select the `ars-team` preset, which composes the
   `ars-team` skill with the Team board
 - **Full ARS core**: root `scripts/` (Python checkers, ledger, citation gate,
@@ -182,9 +182,9 @@ python3 -m venv .venv
 ```
 
 ```bash
-# current release (0.4.2 native layer; official-recognition baseline is v0.3.0)
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.2
-# official-recognition baseline (no 0.4.2 native layer)
+# current release (0.4.3 native layer; official-recognition baseline is v0.3.0)
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.3
+# official-recognition baseline (no 0.4.3 native layer)
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 # or from a local checkout:
 dsh plugin --profile web add /path/to/this/repo
@@ -205,7 +205,7 @@ The bundle patch mounts `lib/startup.js`, which registers the 22 skills
   package-root note; `DSH_ARS_ROOT` points at the plugin package root.
   `sr-screener`'s own `scripts/` still resolve relative to its skill directory,
   so `python3 scripts/...` does not fall through to the paper project.
-- **Native layer (0.4.2)**: `native/skills/ars-team` maps the five-seat review
+- **Native layer (0.4.3)**: `native/skills/ars-team` maps the five-seat review
   to real `subagent`s; `native/skills/ars-pipeline-team` maps the 10 stages onto
   a Team-board stage task graph; `lib/startup.js` registers
   `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`
