@@ -31,16 +31,19 @@ contract-audited academic research pipeline
   `templates/`、`examples/`、`scripts/`）以及 16 个命令定义（`commands/`）
   **全部衍生自上游项目**，继续以
   **CC-BY-NC-4.0** 授权。任何再分发须保留本署名并仅限非商业用途。
-- 移植层（`lib/startup.js`、`cordis.patch.yml`、打包与文档）为
-  `nullptr-DZF` 的新增作品，为保持一致同样以 **CC-BY-NC-4.0** 发布。
+- 移植层（`lib/startup.js`、`cordis.patch.yml`、打包与文档）最初由
+  `nullptr-DZF` 完成，现由 `TY-Cheng` 维护；为保持一致同样以
+  **CC-BY-NC-4.0** 发布。
 
 The 5 skill bundles and 16 command definitions in this package are **derived
 from the upstream project** and remain licensed under **CC-BY-NC-4.0**; any
 redistribution must retain this attribution and stay non-commercial. The
-porting layer (registrar, bundle patch, packaging, docs) is new work by
-`nullptr-DZF`, released under the same license for consistency.
+porting layer (registrar, bundle patch, packaging, docs) was originally
+written by `nullptr-DZF` and is now maintained by `TY-Cheng`, released under
+the same license for consistency.
 
-## 打包者 / Packager
+## 维护者 / Maintainer
 
-- GitHub: https://github.com/nullptr-DZF
-- 本仓库 / This repo: https://github.com/nullptr-DZF/dsh-academic-research-skills
+- 维护者 / Maintainer: TY-Cheng — https://github.com/TY-Cheng
+- 本仓库 / This repo: https://github.com/TY-Cheng/dsh-academic-research-skills
+- 原始移植 / Original port: nullptr-DZF — https://github.com/nullptr-DZF/dsh-academic-research-skills

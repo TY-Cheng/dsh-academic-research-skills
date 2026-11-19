@@ -23,14 +23,17 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
 > [academic-research-skills](https://github.com/Imbad0202/academic-research-skills)，
 > 全部内容（含移植层）遵循 **CC-BY-NC-4.0**（非商业用途），详见
 > [NOTICE.md](NOTICE.md) 与 [LICENSE](LICENSE)。
+>
+> 本仓库是 nullptr-DZF 原始 DSH 移植的维护分支，由 TY-Cheng 维护；
+> 上游仍是 Imbad0202 的 ARS。
 
 ## 安装
 
 要求：DeepSeek Harness（`dsh`）0.1.x，pnpm 可用。
 
 ```bash
-# 方式一：GitHub 仓库（公开后可用）
-dsh plugin --profile web add github:nullptr-DZF/dsh-academic-research-skills
+# 方式一：GitHub 仓库（固定 v0.2.0）
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.2.0
 
 # 方式二：本地路径（开发调试）
 dsh plugin --profile web add <本仓库绝对路径>
@@ -101,13 +104,16 @@ Provides, out of the box:
 > Everything in this repo (including the porting layer) is licensed
 > **CC-BY-NC-4.0** — non-commercial use only. See [NOTICE.md](NOTICE.md) and
 > [LICENSE](LICENSE).
+>
+> This is the maintained fork of nullptr-DZF's original DSH port,
+> maintained by TY-Cheng; upstream remains Imbad0202's ARS.
 
 ## Install
 
 Requires DeepSeek Harness 0.1.x and pnpm.
 
 ```bash
-dsh plugin --profile web add github:nullptr-DZF/dsh-academic-research-skills
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.2.0
 # or from a local checkout:
 dsh plugin --profile web add /path/to/this/repo
 # restart `dsh web`; the skills then appear in the session catalog

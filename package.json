@@ -1,7 +1,7 @@
 {
   "name": "dsh-academic-research-skills",
-  "version": "0.1.0",
-  "description": "Academic Research Skills (ARS) for DeepSeek Harness: 4 research/writing/review skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline) plus 16 /ars-* commands, ported from the ARS Claude Code plugin (upstream: Imbad0202/academic-research-skills, CC-BY-NC-4.0).",
+  "version": "0.2.0",
+  "description": "Academic Research Skills (ARS) for DeepSeek Harness: 5 research/writing/review/screening skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline, sr-screener) plus 16 /ars-* commands, ported from the ARS Claude Code plugin (upstream: Imbad0202/academic-research-skills, CC-BY-NC-4.0).",
   "type": "module",
   "main": "lib/startup.js",
   "exports": {
@@ -37,14 +37,23 @@
     "scholarly-publishing"
   ],
   "author": {
-    "name": "nullptr-DZF",
-    "url": "https://github.com/nullptr-DZF"
+    "name": "TY-Cheng",
+    "url": "https://github.com/TY-Cheng"
   },
+  "contributors": [
+    {
+      "name": "nullptr-DZF",
+      "url": "https://github.com/nullptr-DZF"
+    }
+  ],
   "license": "CC-BY-NC-4.0",
-  "homepage": "https://github.com/nullptr-DZF/dsh-academic-research-skills",
+  "homepage": "https://github.com/TY-Cheng/dsh-academic-research-skills#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nullptr-DZF/dsh-academic-research-skills.git"
+    "url": "git+https://github.com/TY-Cheng/dsh-academic-research-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TY-Cheng/dsh-academic-research-skills/issues"
   },
   "dependencies": {}
 }
