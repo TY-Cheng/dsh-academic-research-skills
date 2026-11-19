@@ -1,6 +1,6 @@
-# Native Team Mapping — 0.4.1
+# Native Team Mapping — 0.4.2
 
-Status: the review-stage Team mapping is implemented and exercised; the remaining ARS stages stay inline. This document is the canonical map for the 0.4.1 native layer.
+Status: the review panel and the 10-stage pipeline Team mapping are implemented; the remaining ARS role prompts stay inline. This document is the canonical map for the 0.4.2 native layer.
 
 ## 1. Agent preset
 
@@ -54,15 +54,35 @@ The `ars-team` skill supplies the field-analyst and orchestration instructions. 
 | `ars_lookup` | DOI lookup via OpenAlex or Crossref | Single DOI; title check; no batch |
 | `ars_integrity` | Runs vendored `scripts/check_pipeline_integrity.py --json` on a workspace | Uses package `.venv` or `python3`; no shell |
 | `ars_pipeline_status` | Lists pipeline stage/paper/review directories and Markdown files | Read-only inventory; no content review |
+| `ars_manifest` | Returns the pinned upstream repository/commit, vendored counts, and the not-vendored boundary | Reads `manifest.json`; no upstream fetch |
 
-## 5. What is mapped, what is not
+## 5. Full pipeline Team
 
-Mapped natively: the 7-role review panel (field + 5 seats + editorial), the Team board, the `ars-team` preset, and the 4 tools.
+`native/skills/ars-pipeline-team` maps the 10 stages onto a Team-board task graph:
+
+| Task | Stage | Depends on |
+|---|---|---|
+| `p1-research` | 1 research | — |
+| `p2-write` | 2 write | `p1-research` |
+| `p2.5-integrity` | 2.5 integrity | `p2-write` |
+| `p3-review` | 3 peer review | `p2.5-integrity` PASS |
+| `p4-revise` | 4 revision | `p3-review` |
+| `p3p-re-review` | 3′ verification | `p4-revise` |
+| `p4p-re-revise` | 4′ re-revision (if Major) | `p3p-re-review` |
+| `p4.5-integrity` | 4.5 final integrity | `p3p-re-review` / `p4p-re-revise` |
+| `p5-finalize` | 5 finalize | `p4.5-integrity` PASS |
+| `p6-process` | 6 process record (optional) | `p5-finalize` |
+
+The pipeline skill delegates Stage 3 to `ars-team`; it does not duplicate the five-seat procedure. It maps stages, not all 39 upstream role prompts.
+
+## 6. What is mapped, what is not
+
+Mapped natively: the 7-role review panel (field + 5 seats + editorial), the 10-stage pipeline task graph, the Team board, the `ars-team` preset, and the 5 tools.
 
 Not mapped as separate Team roles: the 32 other ARS roles across `deep-research` (12), `academic-paper` (12), and `academic-pipeline` (8). Those stages continue as inline skill prompts; the preset makes the ARS plugin available, but does not create one DSH agent per upstream role. Mapping all 39 roles one-to-one would add 32 review-less agents and is deliberately deferred — it would multiply cost without a validated benefit.
 
-## 6. Evidence
+## 7. Evidence
 
 - 0.4.0 panel: `examples/dsh/iv-surface-review/stage3-team/` — field 2,336 words; Journal-Fit 4,575; R1 5,737; R2 4,883; R3 3,772; DA 4,385; editorial 1,386 + roadmap 1,044; all five seats Major Revision; six majors + ten minor; no Critical.
-- 0.4.1 fake-context harness: 22 skills + 4 tools + `ars-team` preset; `ars_pipeline_status` listed stage2/stage3/stage3-prime/stage3-team/stage4/stage4-prime/stage4.5/stage5; `ars_integrity` on an empty workspace returned 0 findings.
+- 0.4.2 fake-context smoke: 23 skills + 5 tools + `ars-team` preset; `ars_manifest` returned upstream `6d93886`, 199 skills, 803 core-directory files, 4 core root files, 1,006 vendored total, 16 commands; `ars_pipeline_status` listed stage2/stage3/stage3-prime/stage3-team/stage4/stage4-prime/stage4.5/stage5.
 - Live new-session selection is pending; see `docs/native-validation.md`.

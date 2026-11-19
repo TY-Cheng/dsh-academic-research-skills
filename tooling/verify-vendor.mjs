@@ -87,7 +87,7 @@ if (manifest.schemaVersion !== 2) {
   process.exit(1);
 }
 const { skills, core, commands } = manifest.vendored;
-const NATIVE_SKILLS = ['ars-team'];
+const NATIVE_SKILLS = ['ars-team', 'ars-pipeline-team'];
 verifySection('skills', join(ROOT, 'skills'), skills.files);
 for (const dir of core.directories) {
   verifySection(`core/${dir.destination}`, join(ROOT, dir.destination), dir.files);
