@@ -1,6 +1,6 @@
 # DSH Plugin Market — listing draft (not published)
 
-Draft for the DSH plugin-market submission. The 0.3.0 package remains the official sibling-recognition baseline; 0.4.4 is the current native release. The 0.4.3 live desktop session passed (2 skills, preset, 5 tools); 0.4.4 fixes the relative-path bug found there. The 0.4.4 profile is installed; a new 0.4.4 desktop session is the last live check before submission.
+Draft for community Plugin Market submission. The 0.3.0 package is the proposed baseline for separate upstream sibling recognition; 0.4.4 is the current native release. The 0.4.3 live desktop session passed (2 skills, preset, 5 tools); a fresh 0.4.4 session confirmed the fix for the relative-path bug found there.
 
 ## Identity
 
@@ -8,6 +8,7 @@ Draft for the DSH plugin-market submission. The 0.3.0 package remains the offici
 - **Version:** 0.4.4
 - **Tagline:** Full ARS academic-research pipeline for DeepSeek Harness — 5 skills, 16 `/ars-*` commands, a native review Team, and 5 native tools.
 - **Repository:** https://github.com/TY-Cheng/dsh-academic-research-skills
+- **Market install source:** Git, repository root, commit `2e4da620d697dec68ab74ef86dc94a0bb559924a`
 - **Release:** https://github.com/TY-Cheng/dsh-academic-research-skills/releases/tag/v0.4.4
 - **Issues:** https://github.com/TY-Cheng/dsh-academic-research-skills/issues
 - **Maintainer:** TY-Cheng
@@ -28,7 +29,7 @@ Draft for the DSH plugin-market submission. The 0.3.0 package remains the offici
 dsh plugin --profile <profile> add github:TY-Cheng/dsh-academic-research-skills#v0.4.4
 ```
 
-Official-recognition baseline (no native layer):
+Proposed upstream sibling-recognition baseline (no native layer):
 
 ```bash
 dsh plugin --profile <profile> add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
@@ -44,7 +45,7 @@ python3 -m venv .venv
 
 ## Requirements / compatibility
 
-- DSH 0.2.x; tested on the desktop profile with CLI 0.2.2-rc.5.
+- Tested on macOS with DSH `0.2.2-rc.5`: isolated `web` profile for installation and a separate desktop session for the two-tool relative-path smoke. Other DSH versions and platforms were not verified in these runs.
 - The native tools/preset require the Host `tools` and `agentPresets` services; the skills work without them.
 - Model-portability note: the e2e used a DeepSeek `deepseek-flash` session, not Claude. See `docs/sibling-submission/model-portability.md`.
 
@@ -56,8 +57,13 @@ Short description:
 
 Keywords: academic research, literature review, paper writing, peer review, citations, arXiv, OpenAlex, DeepSeek Harness, DSH.
 
+## Installation and desktop validation
+
+The pinned v0.4.4 commit installed successfully into a fresh `web` profile with an empty pnpm store. The lockfile resolved the exact SHA, `--dump-config` included the plugin patch, and the offline registrar verified 23 registrations. This did not exercise the native tools or agent preset in the isolated profile. See the [clean installation result](../native-validation.md#clean-install-from-the-pinned-commit-044).
+
+The 0.4.4 relative-path smoke passed: `ars_pipeline_status` and `ars_integrity` both resolved the input against the calling session's working directory. `ars_pipeline_status` returned eight stage directories. `ars_integrity` reported zero findings with empty `phase_dirs`, so this run does not establish integrity coverage. See the [live desktop result](../native-validation.md#live-desktop-result-044).
+
 ## Not yet done
 
-- Live 0.4.4 validation in a new desktop session (`docs/native-validation.md`); the 0.4.3 live session already passed.
 - Official sibling recognition: upstream issue #1126 is open with no reply; 0.3.0 remains the baseline.
 - Marketplace submission and promotion: this listing is ready; submission/promo is a user decision.
