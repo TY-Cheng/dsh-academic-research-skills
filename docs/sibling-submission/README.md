@@ -1,7 +1,7 @@
 # DSH sibling-distribution submission package
 
-**Status:** draft — the upstream design issue is pending; official sibling
-recognition has **not** been requested or granted.
+**Status:** design issue open — [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126);
+official sibling recognition has **not** been requested or granted.
 
 This package collects the material the upstream ARS maintainer asks for in
 `CONTRIBUTING.md` § *Platform ports* → *Sibling distribution*. It is the
@@ -16,7 +16,7 @@ submission scaffold, not a claim of endorsement.
 | License | CC-BY-NC-4.0, attribution retained |
 | Named maintainer | TY-Cheng ([@TY-Cheng](https://github.com/TY-Cheng)) |
 | E2E evidence | [`examples/dsh/iv-surface-review/`](../../examples/dsh/iv-surface-review/README.md) |
-| Design issue | <!-- DESIGN_ISSUE_URL --> *(pending)* |
+| Design issue | [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126) |
 
 ## Submission checklist
 
@@ -29,7 +29,7 @@ submission scaffold, not a claim of endorsement.
 | Full `academic-pipeline` run under `examples/` | [`examples/dsh/iv-surface-review/README.md`](../../examples/dsh/iv-surface-review/README.md); final paper and all stage reports | done |
 | Claims–evidence alignment | [`claims-evidence.md`](claims-evidence.md) | done |
 | Model-portability note | [`model-portability.md`](model-portability.md) | done |
-| Design issue opened before requesting recognition | [`design-issue.md`](design-issue.md) | **pending** |
+| Design issue opened before requesting recognition | [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126); body retained in [`design-issue.md`](design-issue.md) | done |
 
 ## E2E at a glance
 
@@ -51,7 +51,8 @@ submission scaffold, not a claim of endorsement.
 
 ## What this package does **not** claim
 
-- Official sibling-distribution status; the design issue is the first step.
+- Official sibling-distribution status; the design issue is open, and recognition
+  is the next step.
 - A supported Simplified-Chinese (`zh-CN`) locale pack. The e2e paper used an
   English body and a Chinese abstract for the operator's convenience; ARS's
   default pair is English + Traditional Chinese (`zh-TW`). No locale-pack
@@ -81,4 +82,4 @@ binaries can be omitted from the link rather than regenerated.
 | [`claims-evidence.md`](claims-evidence.md) | Claim → evidence → coverage table for the README and e2e claims |
 | [`model-portability.md`](model-portability.md) | Tested platform/model, divergences, and non-claims |
 | [`maintainer.md`](maintainer.md) | Named-maintainer statement and sync/triage commitments |
-| [`design-issue.md`](design-issue.md) | Body of the upstream design issue (draft until posted) |
+| [`design-issue.md`](design-issue.md) | Body of the upstream design issue, posted as [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126) |

@@ -21,7 +21,7 @@ not treated as measured claims.
 | Full `academic-pipeline` e2e under `examples/` | The port ran the full pipeline on a real topic | [`examples/dsh/iv-surface-review/README.md`](../../examples/dsh/iv-surface-review/README.md); final paper and stage reports | One run; see the limits in § E. |
 | Claims–evidence alignment | This table | This file | Covers the load-bearing claims, not every sentence. |
 | Model-portability note | The e2e ran on DeepSeek Harness, not Claude | [`model-portability.md`](model-portability.md) | One model, one run; no Claude baseline. |
-| Design issue before recognition | The design issue is the first upstream contact | [`design-issue.md`](design-issue.md) | Pending at the time of writing; URL added after posting. |
+| Design issue before recognition | The design issue is the first upstream contact | [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126) | Open as #1126; recognition not yet requested. |
 
 ## B. Repository README claims
 
