@@ -21,6 +21,9 @@ jobs:
       - name: Verify vendored content and registrar
         run: node tooling/verify-vendor.mjs
 
+      - name: Check native workspace read boundaries
+        run: node --test tooling/workspace-tools.test.mjs
+
       - name: Check Python syntax for the vendored core and skills
         run: |
           python3 - <<'PY'

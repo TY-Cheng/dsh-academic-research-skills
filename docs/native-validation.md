@@ -1,4 +1,31 @@
-# Native 0.4.4 — live validation
+# Native DSH validation
+
+## Workspace read boundaries (0.4.6)
+
+The [#577](https://github.com/polang233/dsh-plugin-index/issues/577#issuecomment-7034741304)
+fix uses the calling Session's recorded workspace root. Its current directory
+only interprets relative arguments. Status omits linked entries, and integrity
+rejects links in paths the vendored checker can inspect.
+
+On macOS with DSH `0.2.2-rc.5`, the locally packed plugin was installed into a
+temporary `DSH_HOME` and headless profile. The profile mounted DSH's own
+`agentPresets` registry because stock headless does not provide it. A loopback
+Messages fixture supplied fixed calls without a provider account, live model,
+or desktop profile changes. The real DSH session's JSON tool events showed:
+
+- `ars_pipeline_status` accepted a relative directory inside the Session
+  workspace and returned the expected stage and Markdown filename.
+- `ars_integrity` accepted the same directory and the actual Python checker
+  discovered the synthetic Phase 5 directory.
+- Both tools rejected an empty temporary directory outside the workspace,
+  returning the plugin's workspace-boundary error.
+
+The offline regression command is `node --test tooling/workspace-tools.test.mjs`.
+It also covers missing session authorization and linked entries. This scope
+assumes a stable filesystem tree; it does not establish OS-level read sandboxing
+or protection against concurrent tree replacement. The paper E2E was not rerun.
+
+## Historical native validation (0.4.4)
 
 The 0.4.3 native layer passed the live check in a new desktop session: `ars-team` and `ars-pipeline-team` were listed as skills, `ars-team` was selectable as a preset, and `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, and `ars_manifest` were present. The smoke test also found one usability bug: `ars_pipeline_status` and `ars_integrity` resolved relative paths against the plugin root, not the calling Session's working directory. 0.4.4 fixes that by resolving relative paths through the Host `workingDirectory` service.
 

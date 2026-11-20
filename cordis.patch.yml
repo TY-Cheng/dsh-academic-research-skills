@@ -9,7 +9,7 @@
 # ars_lookup/ars_integrity/ars_pipeline_status/ars_manifest tools; when
 # `agentPresets` is mounted it registers the selectable ARS Team preset; when
 # `workingDirectory` is mounted the workspace-scoped tools resolve relative
-# paths against the calling Session's current directory.
+# paths against the calling Session's current directory, within its header root.
 #
 # Requires the `skills`, `tools`, `agentPresets`, and `workingDirectory`
 # services, which dsh-base mounts in every standard profile.
