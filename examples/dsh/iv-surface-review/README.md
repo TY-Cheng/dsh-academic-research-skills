@@ -26,10 +26,10 @@ The paper is corpus-scoped. It does not rank methods, does not claim a universal
 | 3′. Re-review | `stage3-prime/re-review.md` | **Minor Revision**; 2 copy-edits |
 | 4′. Copy-edit | `stage4-prime/paper-v3.md` | Tables renumbered 1–8; year note |
 | 4.5 Final integrity | `stage4.5-integrity.md` | **PASS**, bounded coverage; 7 advisories |
-| 5. Finalize | `stage5/` | Final MD/DOCX/TeX/PDF; APA 7.0 confirmed |
+| 5. Finalize | `stage5/` | Final MD/DOCX/TeX/PDF; APA 7.0 used |
 | 6. Process summary | — | Not run (author stopped at Stage 5) |
 
-The user’s instruction was “确认，直接一路跑到 stage 5”: Stage 2 → Stage 5 ran without per-stage confirmation, but the mandatory integrity and review gates were executed and recorded. No gate was skipped.
+The user authorized the run through Stage 5 in advance. Both integrity checks and both reviews ran and are recorded. The bundle does not record separate user replies to the Stage 3 or Stage 3′ review decisions or to the Stage 5 entry gate (confirmation to proceed and citation-style choice), so those user checkpoints were not validated. Both integrity checks reported PASS; the path where the user decides what to do after three unsuccessful fix-and-recheck rounds was not exercised.
 
 ## What the e2e actually exercised
 

@@ -47,7 +47,7 @@ not treated as measured claims.
 
 | Claim | Evidence | Coverage / caveat |
 | --- | --- | --- |
-| The full pipeline ran, Stage 1 → Stage 5 | E2E README § Pipeline verdicts; stage directories and reports | One run; the operator explicitly stopped after Stage 5; Stage 6 not run. |
+| The pipeline stages ran, Stage 1 → Stage 5 | E2E README § Pipeline verdicts; stage directories and reports | One run; it did not validate the Stage 3, 3′, or Stage 5 entry user decisions, or the unresolved integrity FAIL path. Stage 6 not run. |
 | Stage 2 internal review → Major Revision → v1.2 | `stage2/phase6-review.md`; `stage2/paper-draft.md` v1.2 (6,315 words) | Internal review was an inline role; not an external editor. |
 | Stage 2.5 integrity → PASS (bounded) | `stage2.5-integrity.md`; 5 advisories | Abstract-level checks; no full text/plagiarism/COI. |
 | Stage 3 five-seat review → Major Revision | `stage3/` (field analysis, five seat reports, editorial decision, roadmap) | Role-separated prompts run inline; not independent subagents; not a claim of independent error processes. |

@@ -59,20 +59,8 @@ There is no separate `journal_fit_reviewer_agent.md` in the vendored set. The `a
 
 ## 5. Full pipeline Team
 
-`native/skills/ars-pipeline-team` maps the 10 stages onto a Team-board task graph:
-
-| Task | Stage | Depends on |
-|---|---|---|
-| `p1-research` | 1 research | — |
-| `p2-write` | 2 write | `p1-research` |
-| `p2.5-integrity` | 2.5 integrity | `p2-write` |
-| `p3-review` | 3 peer review | `p2.5-integrity` PASS |
-| `p4-revise` | 4 revision | `p3-review` |
-| `p3p-re-review` | 3′ verification | `p4-revise` |
-| `p4p-re-revise` | 4′ re-revision (if Major) | `p3p-re-review` |
-| `p4.5-integrity` | 4.5 final integrity | `p3p-re-review` / `p4p-re-revise` |
-| `p5-finalize` | 5 finalize | `p4.5-integrity` PASS |
-| `p6-process` | 6 process record (optional) | `p5-finalize` |
+See the [`ars-pipeline-team` task graph](skills/ars-pipeline-team/SKILL.md#task-graph)
+for stage dependencies and the checkpoints that hold downstream tasks.
 
 The pipeline skill delegates Stage 3 to `ars-team`; it does not duplicate the five-seat procedure. It maps stages, not all 39 upstream role prompts.
 

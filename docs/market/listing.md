@@ -1,6 +1,6 @@
 # DSH Plugin Market — listing draft (not published)
 
-Draft for community Plugin Market submission. The 0.3.0 package is the proposed baseline for separate upstream sibling recognition; 0.4.4 is the current native release. The 0.4.3 live desktop session passed (2 skills, preset, 5 tools); a fresh 0.4.4 session confirmed the fix for the relative-path bug found there.
+Draft for the v0.4.4 community Plugin Market submission. The 0.3.0 package is the proposed baseline for separate upstream sibling recognition. The 0.4.3 live desktop session passed (2 skills, preset, 5 tools); a fresh 0.4.4 session confirmed the fix for the relative-path bug found there.
 
 ## Identity
 
