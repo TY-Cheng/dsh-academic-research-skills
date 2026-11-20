@@ -39,8 +39,8 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
 > 全部内容（含移植层）遵循 **CC-BY-NC-4.0**（非商业用途），详见
 > [NOTICE.md](NOTICE.md) 与 [LICENSE](LICENSE)。
 >
-> 本仓库是 nullptr-DZF 原始 DSH 移植的维护分支，由 TY-Cheng 维护；
-> 上游仍是 Imbad0202 的 ARS。
+> 本仓库是由 TY-Cheng 维护的社区 DSH 移植，源自 nullptr-DZF 的移植版本，
+> 不是 ARS 官方发行版；上游仍是 Imbad0202 的 ARS。
 
 ## 安装
 
@@ -55,10 +55,10 @@ python3 -m venv .venv
 ```
 
 ```bash
-# 方式一：GitHub 仓库（当前 v0.4.4；官方收录基线仍是 v0.3.0）
+# 方式一：GitHub 仓库（当前 v0.4.4）
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.4
 
-# 官方收录基线（不含 0.4.4 原生层）
+# 提交上游审查的 e2e 使用 v0.3.0（不含 0.4.4 原生层）
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 
 # 方式二：本地路径（开发调试）
@@ -68,7 +68,7 @@ dsh plugin --profile web add <本仓库绝对路径>
 ```
 
 安装后 `dsh.profile.bundles` 会追加 `dsh-academic-research-skills`，启动时
-`lib/startup.js` 把 22 个技能（5 个 vendored + 1 个 `ars-team` + 16 个命令）
+`lib/startup.js` 把 23 个入口（5 个 vendored 技能 + 2 个原生技能 + 16 个命令）
 注册进 `ctx.skills`；`manifest.json` 记录上游 pin，`SYNC_POLICY.md` 说明
 vendored 边界。
 
@@ -82,8 +82,11 @@ vendored 边界。
 
 ## 与上游的差异
 
-- **hooks 不移植**：上游 `hooks/hooks.json`（写保护 guard、SessionStart 播报）
-  是 Claude Code 专属；DSH 无 hook 系统，写保护由 DSH 自身文件沙箱承担。
+- **hooks 不移植**：上游 Claude Code 的按角色写入 guard 与 SessionStart
+  播报在此移植版中不可用。macOS 上，DSH `0.2.2-rc.5` 的文件写入与
+  Bash 后端在实测的 `workspace-write` 策略下允许 workspace 内写入、
+  拒绝向测试用的相邻目录写入。这是宿主写入边界，不等同于 ARS 的按角色
+  guard。见[实测与适用范围](docs/sibling-submission/claims-evidence.md#g-dsh-sandbox-write-boundary-smoke-test)。
 - **完整核心已 vendor**：`skills/`、`scripts/`、`shared/`、根 `agents/`、
   `MODE_REGISTRY.md` 与上游对应文件逐字节一致；`commands/` 是生成的 DSH
   适配层。Python 依赖见上。
@@ -95,7 +98,7 @@ vendored 边界。
   映射为 Team board 的 stage task graph；`lib/startup.js` 在 `tools` 服务
   可用时注册 `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/
   `ars_manifest`，在 `agentPresets` 可用时注册可选 `ars-team` preset。
-  vendored 内容不变，0.3.0 官方基线不受影响。
+  vendored 内容不变；原生层验证与提交上游审查的 v0.3.0 e2e 分开。
 - **子代理**：5 个 vendored 技能内共 42 个 agent 提示文件（另有 4 个根
   `agents/` 文件）默认内联运行；`ars-team` 用 `subagent` 分工跑五席位。
   角色分离是流程控制，不是独立误差过程的证明。
@@ -119,7 +122,7 @@ node tooling/regenerate-commands.mjs <上游仓库路径>
 
 ```bash
 node tooling/sync-upstream.mjs <上游仓库路径>   # 复制核心 + 生成命令 + 写 manifest
-npm run verify                                  # 离线哈希校验 + 22 个注册断言
+npm run verify                                  # 离线哈希校验 + 23 个注册断言
 ```
 
 ---
@@ -165,8 +168,9 @@ Provides, out of the box:
 > **CC-BY-NC-4.0** — non-commercial use only. See [NOTICE.md](NOTICE.md) and
 > [LICENSE](LICENSE).
 >
-> This is the maintained fork of nullptr-DZF's original DSH port,
-> maintained by TY-Cheng; upstream remains Imbad0202's ARS.
+> This community DSH port is maintained by TY-Cheng and builds on
+> nullptr-DZF's original port. It is not an official ARS release;
+> upstream remains Imbad0202's ARS.
 
 ## Install
 
@@ -182,22 +186,27 @@ python3 -m venv .venv
 ```
 
 ```bash
-# current release (0.4.4 native layer; official-recognition baseline is v0.3.0)
+# current release (v0.4.4)
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.4
-# official-recognition baseline (no 0.4.4 native layer)
+# v0.3.0 used for the e2e submitted for upstream review (no 0.4.4 native layer)
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 # or from a local checkout:
 dsh plugin --profile web add /path/to/this/repo
 # replace web with your profile (this e2e used desktop); restart it
 ```
 
-The bundle patch mounts `lib/startup.js`, which registers the 22 skills
-(5 vendored + `ars-team` + 16 commands) into `ctx.skills` at boot.
+The bundle patch mounts `lib/startup.js`, which registers 23 entries
+(5 vendored skills, 2 native skills, and 16 commands) into `ctx.skills` at boot.
 
 ## Differences from upstream
 
-- **Hooks are not ported**: upstream `hooks/` are Claude Code specific; DSH has
-  no hook system (write protection is DSH's file sandbox).
+- **Hooks are not ported**: the upstream Claude Code per-role write-scope
+  guard and SessionStart announcement are unavailable in this port. On macOS,
+  DSH `0.2.2-rc.5`'s file-write and Bash backends under the tested
+  `workspace-write` policy allowed writes inside the workspace and denied the
+  tested writes to a sibling directory. This is host-level confinement,
+  not the ARS per-role guard. See the
+  [test and its limits](docs/sibling-submission/claims-evidence.md#g-dsh-sandbox-write-boundary-smoke-test).
 - **Full core is vendored**: `skills/`, `scripts/`, `shared/`, root `agents/`,
   and `MODE_REGISTRY.md` are byte-identical to upstream; `commands/` is the
   generated DSH adapter layer. Python dependencies are listed above.
@@ -210,8 +219,8 @@ The bundle patch mounts `lib/startup.js`, which registers the 22 skills
   a Team-board stage task graph; `lib/startup.js` registers
   `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`
   when the `tools` service is mounted, and an optional `ars-team` preset when
-  `agentPresets` is mounted. Vendored content is unchanged; the 0.3.0 official
-  baseline is unaffected.
+  `agentPresets` is mounted. Vendored content is unchanged; the native
+  validation is separate from the v0.3.0 e2e submitted for upstream review.
 - **Subagents**: the 42 skill-agent prompt files (plus the 4 root `agents/`
   files) run inline by default; `ars-team` uses `subagent`s for the five seats.
   Role separation is a process control, not proof of independent error
@@ -235,5 +244,5 @@ For a routine sync and offline check:
 
 ```bash
 node tooling/sync-upstream.mjs <upstream-checkout>   # copy core + regenerate commands + manifest
-npm run verify                                      # hashes + 22 registration assertions
+npm run verify                                      # hashes + 23 registration assertions
 ```

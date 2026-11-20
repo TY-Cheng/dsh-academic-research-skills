@@ -5,7 +5,7 @@ README and in the e2e evidence bundle. It is deliberately narrower than every
 sentence in those documents: qualitative statements about usefulness or fit are
 not treated as measured claims.
 
-**Snapshot:** plugin 0.3.0 official baseline; 0.4.4 native layer (additive); upstream pin
+**Snapshot:** plugin 0.3.0 e2e submitted for upstream review; 0.4.4 native layer (additive); upstream pin
 `6d9388674de1ad0437ad95db3d52f92b92204d84`; e2e commit `40b7e77`; CI run
 `44530710616`; 2026-11-19.
 
@@ -21,7 +21,7 @@ not treated as measured claims.
 | Full `academic-pipeline` e2e under `examples/` | The port ran the full pipeline on a real topic | [`examples/dsh/iv-surface-review/README.md`](../../examples/dsh/iv-surface-review/README.md); final paper and stage reports | One run; see the limits in § E. |
 | Claims–evidence alignment | This table | This file | Covers the load-bearing claims, not every sentence. |
 | Model-portability note | The e2e ran on DeepSeek Harness, not Claude | [`model-portability.md`](model-portability.md) | One model, one run; no Claude baseline. |
-| Design issue before recognition | The design issue is the first upstream contact | [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126) | Open as #1126; recognition not yet requested. |
+| Design issue before recognition | The design issue is the first upstream contact | [#1126](https://github.com/Imbad0202/academic-research-skills/issues/1126#issuecomment-7028130236) | Sibling shape accepted in principle; upstream README recognition is pending review. |
 
 ## B. Repository README claims
 
@@ -34,7 +34,8 @@ not treated as measured claims.
 | 21 skills registered in 0.3.0; 23 in 0.4.4 | `npm run verify` → “registered 21 skills” (0.3.0); 0.4.4 registers 23 (21 + `ars-team` + `ars-pipeline-team`) | 0.3.0: 5 skills + 16 commands. 0.4.4 adds `ars-team` and `ars-pipeline-team`; the vendored count is unchanged. |
 | The Python tool layer ships | 644 `scripts/` files; `requirements-*.txt`; `470` Python files parsed by the CI AST check | Installed and smoke-tested. The e2e workflow used the skills, custom search scripts, and the format builder; it did **not** run every core checker end-to-end. |
 | `DSH_ARS_ROOT` path note prevents mis-resolution | `lib/startup.js`; e2e README § “What the e2e actually exercised”; Python calls used the profile-local `.venv` | Proves the note is injected; does not prove every possible relative path in every skill. `sr-screener`’s own `scripts/` is intentionally skill-local. |
-| Hooks are not ported | README § Differences; upstream `hooks/` are Claude Code-specific; DSH has no hook system | A platform difference, not a feature claim. |
+| The upstream Claude Code hooks are not ported | README § Differences; upstream `hooks/` | The per-role write-scope guard is unavailable in this port. |
+| DSH enforced the tested workspace write boundary | [Contributor-run sandbox smoke test](#g-dsh-sandbox-write-boundary-smoke-test) | Bundled file and Bash backends on macOS, under the tested `workspace-write` policy only; not ARS hook equivalence. |
 | 42 skill-agent prompt files + 4 root agent files run inline | `find skills -path '*/agents/*.md' -type f \| wc -l` → 42; `find agents -type f \| wc -l` → 4; e2e README | The e2e ran the role prompts inline in one session; it did **not** run them as independent DSH subagents. The README previously said “43”; corrected to 42 + 4. |
 | 16 commands are generated, not hand-written | `commands/ars-*/SKILL.md`; `tooling/regenerate-commands.mjs`; CI checks 16 command files | Generator output is verified by hash; the slash commands were not all exercised in the e2e. |
 | Install from `#v0.3.0` works on DSH | Tag `v0.3.0` at `96e4e4d`; e2e installed it on DSH desktop; `dsh --version` = `0.2.2-rc.5` | Tested on the desktop profile; the README examples use `web` as a placeholder and now say to substitute the actual profile. |
@@ -58,7 +59,7 @@ not treated as measured claims.
 | No method ranking, no universal-benchmark claim, no regulatory determination | Paper abstract and §6; Stage 3/4 revisions | The paper is corpus-scoped and states this. |
 | Chinese abstract | `stage5/paper-final.md` § 摘要 | Simplified Chinese (zh-CN); ARS’s default pair is English + zh-TW; this is not a supported locale pack. |
 | PDF/DOCX/TeX/MD formats | `stage5/`; `build_formats.py` | Pandoc absent; PDF is a 35-page `ctex` + `xelatex` fallback; DOCX is structural; not journal typesetting. |
-| E2E used DSH inline roles | E2E README § What the e2e exercised; `model-portability.md` | The official e2e used one DSH session with inline roles; the additive native panel is separate (F). |
+| E2E used DSH inline roles | E2E README § What the e2e exercised; `model-portability.md` | The v0.3.0 e2e used one DSH session with inline roles; the additive native panel is separate (F). |
 
 ## D. Claims narrowed or corrected for this package
 
@@ -73,7 +74,7 @@ not treated as measured claims.
   vendored.
 - **“Python tool layer used”** → installed and smoke-tested; the e2e’s integrity
   reports are agent-produced, not the output of a full checker run.
-- **“5-seat review” in the official e2e** → five role-separated prompts run
+- **“5-seat review” in the v0.3.0 e2e** → five role-separated prompts run
   inline, not independent subagents; role separation is not a claim of
   independent error processes. The additive 0.4.0 native panel is separate (F).
 - **“No PRISMA”** → the flow is PRISMA-style, not PRISMA-compliant; 311 records
@@ -89,10 +90,10 @@ not treated as measured claims.
 - No plagiarism scan, no complete COI/funding audit, no dual screening.
 - Semantic Scholar returned HTTP 429 at search time; Crossref returned one 429;
   no S2 verification layer.
-- Official e2e: one DeepSeek Harness inline run; no Claude baseline; no
+- v0.3.0 e2e: one DeepSeek Harness inline run; no Claude baseline; no
   independent subagent panel. The 0.4.0 native panel separately used five
   subagents + a Team board; it is not a model benchmark and does not retrofit
-  the official e2e.
+  the v0.3.0 e2e.
 
 - The 35-page PDF and DOCX are working conversions, not journal typesetting.
 - The e2e is platform evidence for sibling recognition, not a model benchmark
@@ -102,10 +103,51 @@ not treated as measured claims.
 
 | Claim | Evidence | Coverage / caveat |
 | --- | --- | --- |
-| 0.4.4 adds native team skills | `native/skills/ars-team/SKILL.md`, `native/skills/ars-pipeline-team/SKILL.md`; `lib/startup.js` `SKILL_DIRS`; `npm run verify` → 23 registrations | 0.3.0 remains 21; the official baseline is unchanged. |
-| The five-seat panel ran with real subagents | `examples/dsh/iv-surface-review/stage3-team/` (field analysis, five seat reports, editorial decision, roadmap); Team board tasks | One native-layer validation run; the official e2e used inline prompts. Role separation is not independent error processes. |
+| 0.4.4 adds native team skills | `native/skills/ars-team/SKILL.md`, `native/skills/ars-pipeline-team/SKILL.md`; `lib/startup.js` `SKILL_DIRS`; `npm run verify` → 23 registrations | 0.3.0 remains 21; the submitted e2e is unchanged. |
+| The five-seat panel ran with real subagents | `examples/dsh/iv-surface-review/stage3-team/` (field analysis, five seat reports, editorial decision, roadmap); Team board tasks | One native-layer validation run; the v0.3.0 e2e used inline prompts. Role separation is not independent error processes. |
 | The native panel reached Major Revision | `stage3-team/editorial-decision.md`; six required majors + ten minor fixes | The paper’s Stage 3 decision; not a claim that the native layer improves review quality. |
 | Five native tools exist | `lib/startup.js` `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`; `cordis.patch.yml` inject `[skills, tools, agentPresets]` | Registered only when the `tools` service is present; the current session was still 0.3.0, so the tools were not visible there. No exhaustive tool test. |
 | The ARS Team preset is registered | `lib/startup.js` `ARS_PRESET`; `cordis.patch.yml` inject `agentPresets`; fake-context harness | Preset selection requires a new desktop session; not exercised in the current 0.3.0 session. |
 | The native Team mapping is documented | `native/team-map.md`; `ars-team` skill; 0.4.0 panel artifacts | Seven review roles (field, five seats, editorial) and the 10 pipeline stages are mapped; the other 32 non-review ARS prompts remain inline. This is not a one-to-one 39-agent mapping. |
-| The 0.4.4 native layer is additive | `package.json` 0.4.4; `files` includes `native/`; vendored core unchanged; `npm run verify` 23 | Not part of the 0.3.0 official sibling baseline; the 0.3.0 package remains the pinned official evidence. |
+| The 0.4.4 native layer is additive | `package.json` 0.4.4; `files` includes `native/`; vendored core unchanged; `npm run verify` 23 | Separate from the v0.3.0 e2e submitted for upstream review. |
+
+## G. DSH sandbox write boundary smoke test
+
+**Run:** 2026-11-20 (Asia/Singapore), macOS 26.6.2 arm64, installed DSH
+desktop bundle `0.2.2-rc.5`. Ran the bundled components directly in an
+isolated in-process Cordis context, with no DSH profile loaded, no ARS plugin
+mounted, no model calls, and no approval or escalation requests.
+
+**Method:** Create two disposable sibling directories, `workspace/` and
+`sibling/`, outside the system temp areas (which can be writable even in
+`workspace-write`). Seed `sibling/sentinel.txt` with `original\n`. Mount
+`SessionProjectionRegistry`, `SandboxPolicyService`, `SandboxedFileSystem`,
+`LocalSandboxProvider`, `LocalSubprocessRuntime`, and `SandboxBashExecutor`.
+Set the policy fallback root to the parent, create a Session with
+`cwd = workspace/`, then resolve its policy and assert that the effective
+root is the Session cwd, the mode is `workspace-write`, and there are no
+additional writable roots. Use that policy for each file write
+(`ctx.fs.writeText` on a resolved target) and each Bash invocation
+(`ctx.shell.resolve` → `execute` → `result`, with the workspace as workdir
+and a 5-second timeout). Both write the same `probe\n` payload to an absolute
+target, via Bash `printf` redirection for the shell cases. Check disk contents
+directly after each call.
+
+| Target operation | DSH file backend | DSH Bash backend (macOS Seatbelt) |
+| --- | --- | --- |
+| Create inside the workspace | Allowed; expected content read back | Exit 0, `denied: false`; expected content read back |
+| Overwrite the existing sibling sentinel | `FS_SANDBOX_DENIED`; original bytes unchanged | Exit 1, `denied: true`, `Operation not permitted`; original bytes unchanged |
+| Create a new file in the sibling directory | `FS_SANDBOX_DENIED`; file absent | Exit 1, `denied: true`, `Operation not permitted`; file absent |
+
+**Result:** 6/6 cases passed; the Bash executor reported
+`enforcement: full` on all three calls, with no timeout. That field is the
+runtime's report for the selected runner, not evidence of exhaustive
+coverage. The disposable directories were removed after the probe.
+
+**Limits:** This is separate from the v0.3.0 e2e and tests only direct writes
+through the two bundled backends under one policy on one host. It does not
+validate live desktop profile wiring, approval UI, other tools or modes,
+other platforms, or authorization within the workspace by ARS role.
+The ARS per-role write-scope hook remains unported. For the difference
+between host file and process controls, see the version-pinned
+[DSH sandbox documentation](https://github.com/deepseek-ai/deepseek-harness/blob/dsh-v0.2.2-rc.5/docs/subsystems/sandbox.md).

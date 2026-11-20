@@ -19,8 +19,8 @@ architecture/review, Sonnet for execution; never Haiku).
 | Evidence | [`examples/dsh/iv-surface-review/`](../../examples/dsh/iv-surface-review/README.md) |
 
 The exact DSH session model identifier is the runtime's responsibility; the
-agent reported `deepseek-flash` for this run. No Claude model was available or
-tested in this environment.
+agent reported `deepseek-flash` for this run. No Claude run was made, so
+divergence from the Claude baseline was not tested.
 
 ## How the ARS roles ran
 
@@ -29,23 +29,25 @@ tested in this environment.
 - The Stage 3 “five-seat panel” was five role-separated prompts (Journal-Fit,
   R1, R2, R3, DA) plus editorial synthesis — not five independent model
   instances. Role separation is not a claim of independent error processes.
-- The native DSH `subagent`/Team mapping is **not** part of v0.3.0. It is the
-  next enhancement; until then, “5 seats” means five prompts, not five isolated
-  agents.
+- The native DSH `subagent`/Team mapping is **not** part of v0.3.0. In this
+  e2e, “5 seats” means five prompts, not five isolated agents. The later
+  native-layer validation is [separate](../native-validation.md).
 - The 16 generated `/ars-*` command wrappers were registered, but the e2e
   exercised the skills rather than every slash wrapper.
-- Hooks are not ported; DSH has no hook system. Write protection is the DSH
-  file sandbox.
+- The upstream Claude Code hooks, including the per-role write-scope guard,
+  are not ported. The separate
+  [DSH sandbox check](claims-evidence.md#g-dsh-sandbox-write-boundary-smoke-test)
+  covers workspace confinement for specific backends and policy, not the ARS
+  per-role guard or model behavior in this run.
 
-## Observed divergences from the Claude baseline
+## Observations from the DSH run
 
-These are behaviors observed in **this one DeepSeek Harness run**, not a
-controlled comparison:
+These observations describe **one DeepSeek Harness run**, not a controlled
+comparison with Claude:
 
 1. **Execution topology.** The Claude Code distribution can run role prompts as
-   separate subagents; this run kept them inline. This is a platform/agent
-   difference, not an ARS content change. It reduces independence between the
-   “seats” and between the writer and reviewer roles.
+  separate subagents; this run kept them inline. The “seats” and the writer
+  and reviewer roles were not independently executed in this run.
 2. **Evidence depth.** The run worked at metadata/abstract level: 10/40 sources
    are preprints, one is title-level, four are partial; full texts were not
    available. The paper and integrity reports disclose this rather than
@@ -97,10 +99,8 @@ controlled comparison:
 The DSH port is **platform-viable**: the vendored ARS content registers and
 runs; the full pipeline reached a disclosed, corpus-scoped paper; the integrity
 and review gates were executed and their limits recorded. The run is **one
-non-Claude data point**, not a portability proof. If the upstream requires a
-Claude-run e2e or a model matrix before sibling recognition, that can be added;
-the current bundle should be read as DSH platform evidence plus a candid
-portability caveat.
+non-Claude data point**, not a portability proof. This bundle provides DSH
+platform evidence only; it does not establish model parity.
 
 See [`claims-evidence.md`](claims-evidence.md) for the claim-by-claim evidence
 table and [`README.md`](README.md) for the submission checklist.
