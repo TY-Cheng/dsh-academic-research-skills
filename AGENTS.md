@@ -11,3 +11,8 @@ Five canonical triage roles, default label strings. See `docs/agents/triage-labe
 ### Domain docs
 
 Single-context: `GLOSSARY.md` at the root, ADRs under `docs/adr/`. See `docs/agents/domain.md`.
+
+### Language
+
+Docs are bilingual where needed: English first, Chinese second. `README.md`
+links both sections via `#english` and `#中文` anchors.

@@ -2,6 +2,134 @@
 
 [English](#english) · [中文](#中文)
 
+<a name="english"></a>
+
+# English
+
+A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin
+port of Claude Code's
+[Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)
+(v3.24.4, CC-BY-NC-4.0). The package also carries the full ARS core:
+`scripts/`, `shared/`, root `agents/`, and `MODE_REGISTRY.md`.
+
+Provides, out of the box:
+
+- **5 model-invocable skills**: `deep-research`, `academic-paper`,
+  `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`
+- **2 native team skills** (0.4.4 native layer): `ars-team`, which runs the
+  five-seat panel as real `subagent`s, and `ars-pipeline-team`, which maps the
+  10 pipeline stages onto a Team-board stage task graph
+- **5 native tools** (0.4.4): `ars_search` (OpenAlex search), `ars_lookup`
+  (DOI metadata via OpenAlex/Crossref), `ars_integrity` (runs the vendored
+  `check_pipeline_integrity.py`), `ars_pipeline_status` (stage-artifact
+  inventory), and `ars_manifest` (pinned upstream/content counts); registered
+  only when the `tools` service is mounted, skipped otherwise
+- **Optional ARS Team agent preset** (0.4.4): registered when `agentPresets` is
+  mounted; a new session can select the `ars-team` preset, which composes the
+  `ars-team` skill with the Team board
+- **Full ARS core**: root `scripts/` (Python checkers, ledger, citation gate,
+  adapters), `shared/` (schemas/contracts), root `agents/`, and
+  `MODE_REGISTRY.md`, byte-identical to upstream
+- **16 user-invocable commands**: `/ars-full`, `/ars-plan`, `/ars-reviewer`,
+  `/ars-lit-review`, `/ars-abstract`, `/ars-revision`, `/ars-outline`,
+  `/ars-citation-check`, `/ars-disclosure`, `/ars-format-convert`,
+  `/ars-rebuttal-audit`, `/ars-revision-coach`, `/ars-cache-invalidate`,
+  `/ars-mark-read`, `/ars-unmark-read`, `/ars-3w`
+
+> **Attribution**: this is a DSH port of ARS; skill content and commands are
+> derived from Cheng-I Wu's
+> [academic-research-skills](https://github.com/Imbad0202/academic-research-skills).
+> Everything in this repo (including the porting layer) is licensed
+> **CC-BY-NC-4.0** — non-commercial use only. See [NOTICE.md](NOTICE.md) and
+> [LICENSE](LICENSE).
+>
+> This community DSH port is maintained by TY-Cheng and builds on
+> nullptr-DZF's original port. It is not an official ARS release;
+> upstream remains Imbad0202's ARS.
+
+## Install
+
+The current version is `v0.4.7`. See the [release notes](docs/releases/v0.4.7.md).
+
+Requires DeepSeek Harness 0.2.x (tested on 0.2.2-rc.5) and pnpm. The
+deterministic tooling also needs Python 3.9+; a plugin-local `.venv` is
+recommended:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+# optional PDF content classifier
+.venv/bin/python -m pip install -r requirements-pdf-content-classifier.txt
+```
+
+```bash
+# current release (v0.4.7)
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.7
+# v0.3.0 used for the e2e submitted for upstream review (no 0.4.4 native layer)
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
+# or from a local checkout:
+dsh plugin --profile web add /path/to/this/repo
+# replace web with your profile (this e2e used desktop); restart it
+```
+
+The bundle patch mounts `lib/startup.js`, which registers 23 entries
+(5 vendored skills, 2 native skills, and 16 commands) into `ctx.skills` at boot.
+
+## Differences from upstream
+
+- **Hooks are not ported**: the upstream Claude Code per-role write-scope
+  guard and SessionStart announcement are unavailable in this port. On macOS,
+  DSH `0.2.2-rc.5`'s file-write and Bash backends under the tested
+  `workspace-write` policy allowed writes inside the workspace and denied the
+  tested writes to a sibling directory. This is host-level confinement,
+  not the ARS per-role guard. See the
+  [test and its limits](docs/sibling-submission/claims-evidence.md#g-dsh-sandbox-write-boundary-smoke-test).
+- **Full core is vendored**: `skills/`, `scripts/`, `shared/`, root `agents/`,
+  and `MODE_REGISTRY.md` are byte-identical to upstream; `commands/` is the
+  generated DSH adapter layer. Python dependencies are listed above.
+- **Path resolution**: every registered skill body is prefixed with an ARS
+  package-root note; `DSH_ARS_ROOT` points at the plugin package root.
+  `sr-screener`'s own `scripts/` still resolve relative to its skill directory,
+  so `python3 scripts/...` does not fall through to the paper project.
+- **Native layer (0.4.4)**: `native/skills/ars-team` maps the five-seat review
+  to real `subagent`s; `native/skills/ars-pipeline-team` maps the 10 stages onto
+  a Team-board stage task graph; `lib/startup.js` registers
+  `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`
+  when the `tools` service is mounted, and an optional `ars-team` preset when
+  `agentPresets` is mounted. Vendored content is unchanged; the native
+  validation is separate from the v0.3.0 e2e submitted for upstream review.
+- **Subagents**: the 42 skill-agent prompt files (plus the 4 root `agents/`
+  files) run inline by default; `ars-team` uses `subagent`s for the five seats.
+  Role separation is a process control, not proof of independent error
+  processes.
+- **Command wrappers are DSH-adapted**: the wrappers are regenerated from the
+  upstream `commands/ars-*.md` and stripped of Claude Code's `Skill` tool calls
+  and `${CLAUDE_PLUGIN_ROOT}` paths, so they run as-is under DSH.
+
+## Regenerating command wrappers
+
+`commands/` is generated from upstream `commands/ars-*.md`:
+
+```bash
+node tooling/regenerate-commands.mjs <upstream-checkout-path>
+```
+
+Regeneration also strips Claude Code's `Skill` tool call and
+`${CLAUDE_PLUGIN_ROOT}` paths.
+
+For a routine sync and offline check:
+
+```bash
+node tooling/sync-upstream.mjs <upstream-checkout>   # copy core + regenerate commands + manifest
+npm run verify                                      # hashes + 23 registration assertions
+```
+
+---
+
+<a name="中文"></a>
+
+# 中文
+
 DeepSeek Harness（DSH）插件：把 Claude Code 的
 [Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)
 （v3.24.4，CC-BY-NC-4.0）移植为 DSH 技能，并随包携带完整 ARS 核心工具层
@@ -125,128 +253,4 @@ node tooling/regenerate-commands.mjs <上游仓库路径>
 ```bash
 node tooling/sync-upstream.mjs <上游仓库路径>   # 复制核心 + 生成命令 + 写 manifest
 npm run verify                                  # 离线哈希校验 + 23 个注册断言
-```
-
----
-
-<a name="english"></a>
-
-# English
-
-A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin
-port of Claude Code's
-[Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)
-(v3.24.4, CC-BY-NC-4.0). The package also carries the full ARS core:
-`scripts/`, `shared/`, root `agents/`, and `MODE_REGISTRY.md`.
-
-Provides, out of the box:
-
-- **5 model-invocable skills**: `deep-research`, `academic-paper`,
-  `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`
-- **2 native team skills** (0.4.4 native layer): `ars-team`, which runs the
-  five-seat panel as real `subagent`s, and `ars-pipeline-team`, which maps the
-  10 pipeline stages onto a Team-board stage task graph
-- **5 native tools** (0.4.4): `ars_search` (OpenAlex search), `ars_lookup`
-  (DOI metadata via OpenAlex/Crossref), `ars_integrity` (runs the vendored
-  `check_pipeline_integrity.py`), `ars_pipeline_status` (stage-artifact
-  inventory), and `ars_manifest` (pinned upstream/content counts); registered
-  only when the `tools` service is mounted, skipped otherwise
-- **Optional ARS Team agent preset** (0.4.4): registered when `agentPresets` is
-  mounted; a new session can select the `ars-team` preset, which composes the
-  `ars-team` skill with the Team board
-- **Full ARS core**: root `scripts/` (Python checkers, ledger, citation gate,
-  adapters), `shared/` (schemas/contracts), root `agents/`, and
-  `MODE_REGISTRY.md`, byte-identical to upstream
-- **16 user-invocable commands**: `/ars-full`, `/ars-plan`, `/ars-reviewer`,
-  `/ars-lit-review`, `/ars-abstract`, `/ars-revision`, `/ars-outline`,
-  `/ars-citation-check`, `/ars-disclosure`, `/ars-format-convert`,
-  `/ars-rebuttal-audit`, `/ars-revision-coach`, `/ars-cache-invalidate`,
-  `/ars-mark-read`, `/ars-unmark-read`, `/ars-3w`
-
-> **Attribution**: this is a DSH port of ARS; skill content and commands are
-> derived from Cheng-I Wu's
-> [academic-research-skills](https://github.com/Imbad0202/academic-research-skills).
-> Everything in this repo (including the porting layer) is licensed
-> **CC-BY-NC-4.0** — non-commercial use only. See [NOTICE.md](NOTICE.md) and
-> [LICENSE](LICENSE).
->
-> This community DSH port is maintained by TY-Cheng and builds on
-> nullptr-DZF's original port. It is not an official ARS release;
-> upstream remains Imbad0202's ARS.
-
-## Install
-
-The current version is `v0.4.7`. See the [release notes](docs/releases/v0.4.7.md).
-
-Requires DeepSeek Harness 0.2.x (tested on 0.2.2-rc.5) and pnpm. The
-deterministic tooling also needs Python 3.9+; a plugin-local `.venv` is
-recommended:
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-dev.txt
-# optional PDF content classifier
-.venv/bin/python -m pip install -r requirements-pdf-content-classifier.txt
-```
-
-```bash
-# current release (v0.4.7)
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.7
-# v0.3.0 used for the e2e submitted for upstream review (no 0.4.4 native layer)
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
-# or from a local checkout:
-dsh plugin --profile web add /path/to/this/repo
-# replace web with your profile (this e2e used desktop); restart it
-```
-
-The bundle patch mounts `lib/startup.js`, which registers 23 entries
-(5 vendored skills, 2 native skills, and 16 commands) into `ctx.skills` at boot.
-
-## Differences from upstream
-
-- **Hooks are not ported**: the upstream Claude Code per-role write-scope
-  guard and SessionStart announcement are unavailable in this port. On macOS,
-  DSH `0.2.2-rc.5`'s file-write and Bash backends under the tested
-  `workspace-write` policy allowed writes inside the workspace and denied the
-  tested writes to a sibling directory. This is host-level confinement,
-  not the ARS per-role guard. See the
-  [test and its limits](docs/sibling-submission/claims-evidence.md#g-dsh-sandbox-write-boundary-smoke-test).
-- **Full core is vendored**: `skills/`, `scripts/`, `shared/`, root `agents/`,
-  and `MODE_REGISTRY.md` are byte-identical to upstream; `commands/` is the
-  generated DSH adapter layer. Python dependencies are listed above.
-- **Path resolution**: every registered skill body is prefixed with an ARS
-  package-root note; `DSH_ARS_ROOT` points at the plugin package root.
-  `sr-screener`'s own `scripts/` still resolve relative to its skill directory,
-  so `python3 scripts/...` does not fall through to the paper project.
-- **Native layer (0.4.4)**: `native/skills/ars-team` maps the five-seat review
-  to real `subagent`s; `native/skills/ars-pipeline-team` maps the 10 stages onto
-  a Team-board stage task graph; `lib/startup.js` registers
-  `ars_search`/`ars_lookup`/`ars_integrity`/`ars_pipeline_status`/`ars_manifest`
-  when the `tools` service is mounted, and an optional `ars-team` preset when
-  `agentPresets` is mounted. Vendored content is unchanged; the native
-  validation is separate from the v0.3.0 e2e submitted for upstream review.
-- **Subagents**: the 42 skill-agent prompt files (plus the 4 root `agents/`
-  files) run inline by default; `ars-team` uses `subagent`s for the five seats.
-  Role separation is a process control, not proof of independent error
-  processes.
-- **Command wrappers are DSH-adapted**: the wrappers are regenerated from the
-  upstream `commands/ars-*.md` and stripped of Claude Code's `Skill` tool calls
-  and `${CLAUDE_PLUGIN_ROOT}` paths, so they run as-is under DSH.
-
-## Regenerating command wrappers
-
-`commands/` is generated from upstream `commands/ars-*.md`:
-
-```bash
-node tooling/regenerate-commands.mjs <upstream-checkout-path>
-```
-
-Regeneration also strips Claude Code's `Skill` tool call and
-`${CLAUDE_PLUGIN_ROOT}` paths.
-
-For a routine sync and offline check:
-
-```bash
-node tooling/sync-upstream.mjs <upstream-checkout>   # copy core + regenerate commands + manifest
-npm run verify                                      # hashes + 23 registration assertions
 ```
