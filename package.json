@@ -1,6 +1,6 @@
 {
   "name": "dsh-academic-research-skills",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Academic Research Skills (ARS) for DeepSeek Harness: 5 vendored research/writing/review/screening skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline, sr-screener), 2 native team skills (ars-team, ars-pipeline-team), 16 /ars-* commands, 5 native tools (ars_search, ars_lookup, ars_integrity, ars_pipeline_status, ars_manifest), and the full vendored ARS core (scripts/, shared/, agents/, MODE_REGISTRY.md), ported from the ARS Claude Code plugin (upstream: Imbad0202/academic-research-skills, CC-BY-NC-4.0).",
   "type": "module",
   "main": "lib/startup.js",

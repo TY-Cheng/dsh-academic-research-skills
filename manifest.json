@@ -2,15 +2,15 @@
   "schemaVersion": 2,
   "upstream": {
     "repository": "https://github.com/Imbad0202/academic-research-skills",
-    "version": "3.24.2",
-    "tag": "v3.24.2",
-    "commit": "6d9388674de1ad0437ad95db3d52f92b92204d84",
-    "describe": "v3.24.2-3-g6d93886",
+    "version": "3.24.4",
+    "tag": "v3.24.4",
+    "commit": "23807f987024f2e038d12fd9e4e5d2a7cc228674",
+    "describe": "v3.24.4",
     "license": "CC-BY-NC-4.0"
   },
   "maintainer": "TY-Cheng",
   "syncPolicy": "SYNC_POLICY.md",
-  "syncedAt": "2026-11-19T09:41:33.341Z",
+  "syncedAt": "2026-11-23T02:23:08.436Z",
   "vendored": {
     "skills": {
       "source": "upstream root skill directories",
@@ -25,19 +25,19 @@
       "files": [
         {
           "path": "skills/academic-paper-reviewer/SKILL.md",
-          "sha256": "61c0b64e0b0cfe4bdbba2a9c50f35a56b4b3d4d63235d0f538e39205ea064ccb"
+          "sha256": "f65faaf1414f95c729307af7604ef253bb93ccf80484af61bc9f390b68141bd6"
         },
         {
           "path": "skills/academic-paper-reviewer/agents/devils_advocate_reviewer_agent.md",
-          "sha256": "a3ddde4c1e26e9e8603f71e47b3afb0c83131e0428b84048c0c3e634f19e5b5c"
+          "sha256": "3f39bad01d78a403da4318ed477acde13c3171ca61e96ee24c9404dade5ec1de"
         },
         {
           "path": "skills/academic-paper-reviewer/agents/domain_reviewer_agent.md",
-          "sha256": "706a70fab08a37dff52f6e097787cf8d5712fff02bcce87ac0a184109f478f55"
+          "sha256": "5f09b9b348814370c14185d6266622766ef36ab0942a14809c077771f5cbc932"
         },
         {
           "path": "skills/academic-paper-reviewer/agents/editorial_synthesizer_agent.md",
-          "sha256": "75209938bfcb77ae203435580f74cc539b522168312429606137b8c3557e3b6f"
+          "sha256": "0c01d0cf49dbaf16b18b73c605da6cc67935ba6c6f96b10401ab61a2fed975a4"
         },
         {
           "path": "skills/academic-paper-reviewer/agents/eic_agent.md",
@@ -45,7 +45,7 @@
         },
         {
           "path": "skills/academic-paper-reviewer/agents/field_analyst_agent.md",
-          "sha256": "26dacdebdfdd70373cf93167c7b02cca41306fe21f9a25a5d615f7aea61dadee"
+          "sha256": "6e35978abd6faec092f5f4e0b82c57e4d1dc7197d4ba40d9ed770fccc8b478ec"
         },
         {
           "path": "skills/academic-paper-reviewer/agents/methodology_reviewer_agent.md",
@@ -57,15 +57,15 @@
         },
         {
           "path": "skills/academic-paper-reviewer/examples/hei_paper_review_example.md",
-          "sha256": "d64f2280fa17fe2f94f8f177a9ef40e412ced68f4da03987199b5507606e07ff"
+          "sha256": "0c38c0f6b458da336ce5e314cdb3f035f3fe41acbf1d33e22c5fedb21600026e"
         },
         {
           "path": "skills/academic-paper-reviewer/examples/interdisciplinary_review_example.md",
-          "sha256": "c6cb1168a34c11bfd083cf94606417aa5da3c6ddff7d8064ca3809222fd9f957"
+          "sha256": "db0d7ac8a3846905ef91b8ccbefe7bbd7d40cd0f4fb15b3fa41c3cd4c4eca486"
         },
         {
           "path": "skills/academic-paper-reviewer/examples/subclaim_decomposition_example.md",
-          "sha256": "71b6c6923a3e0cc597f87da1ae95f2e422d2617a833475ef8a1d6cb148caeff3"
+          "sha256": "bfeb7a3c1823416937bafe45638afc47237989e4d283689563220f2a7dfd570a"
         },
         {
           "path": "skills/academic-paper-reviewer/references/calibration_mode_protocol.md",
@@ -93,7 +93,7 @@
         },
         {
           "path": "skills/academic-paper-reviewer/references/re_review_mode_protocol.md",
-          "sha256": "25ec67e5cd22fe449d8385f704ce8fdb9b2a2725c9776fb0d306cc3bfca270cb"
+          "sha256": "cc31aa7ee8011b2f824673041334001a8cd458b724749230d9a51e1b1d443d02"
         },
         {
           "path": "skills/academic-paper-reviewer/references/review_criteria_framework.md",
@@ -101,7 +101,7 @@
         },
         {
           "path": "skills/academic-paper-reviewer/references/review_panel_provenance_protocol.md",
-          "sha256": "0e3e8c7e64dc4ac61a5a6a973698515a387eb71dd10e8131b9c2ea617859d439"
+          "sha256": "e286bad76ed8f084fb51630e1fd1d49d8740cb5d08187d363711fd829b6c2d2e"
         },
         {
           "path": "skills/academic-paper-reviewer/references/review_quality_thinking.md",
@@ -109,11 +109,11 @@
         },
         {
           "path": "skills/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md",
-          "sha256": "fb11e4ebb5dd72b17018486409623f0e7bae21728830adf2c7ea1093ae2b0b8b"
+          "sha256": "91d9742d8f00fe5370d5c574d2708126513dd752376342920dde3d3788be65a8"
         },
         {
           "path": "skills/academic-paper-reviewer/references/sprint_contract_protocol.md",
-          "sha256": "501c9c42a592e625df46a18027af9d8023b680ba9bdf87b2ae3f77bc84eb2810"
+          "sha256": "1e3ae19563f45f975e1518bd2193c6dccae4ed2317fbdb8b1bf2ec76e8878d8b"
         },
         {
           "path": "skills/academic-paper-reviewer/references/statistical_reporting_standards.md",
@@ -124,8 +124,12 @@
           "sha256": "9a163c97714ddcd4f3d7bcb2beb72ca454c880fe08c255afb43177f3db17ed57"
         },
         {
+          "path": "skills/academic-paper-reviewer/templates/author_letter_template.md",
+          "sha256": "77fba648037cd5073cccb060caee59e062f62b86686bb3bcfded5c162c312670"
+        },
+        {
           "path": "skills/academic-paper-reviewer/templates/editorial_decision_template.md",
-          "sha256": "32c5921c74943c92651967379c550d007c66076bf50607abbb719eaa2b7c1341"
+          "sha256": "09054e89b5466dc9535f85d754b33fbe79ab9f6d66e05b508f2e1224371fa6d2"
         },
         {
           "path": "skills/academic-paper-reviewer/templates/peer_review_report_template.md",
@@ -137,11 +141,11 @@
         },
         {
           "path": "skills/academic-paper/SKILL.md",
-          "sha256": "8a7bb8ae8bfebefb9e3ea4a11ab2a42c024dd6a27d4ecc04c2865471ab8137b3"
+          "sha256": "1ec96c8b8db42e8481ece4004b4e03527116f89948a994a4befb50f6542a5917"
         },
         {
           "path": "skills/academic-paper/agents/abstract_bilingual_agent.md",
-          "sha256": "a07ba6aa5dbc8c87a8a829ba0619810fba6dec37c240231739ff6da31e74288d"
+          "sha256": "ac22eb3c47e5251d2052ec13489798c166b0c318c24ba851a62493a299598384"
         },
         {
           "path": "skills/academic-paper/agents/argument_builder_agent.md",
@@ -149,15 +153,15 @@
         },
         {
           "path": "skills/academic-paper/agents/citation_compliance_agent.md",
-          "sha256": "c998ec3371487e42f2aadc3f86bf919c528715fb8989de8255cd7e42b0a4881e"
+          "sha256": "3c364c64cfe26d7c63f59cba5a8fee01099deaba431c7450887a18d1aa5c9a06"
         },
         {
           "path": "skills/academic-paper/agents/draft_writer_agent.md",
-          "sha256": "50b78a42cce703385e2991cd42e6c9b32144f4605a316d2920c83dd65d8035bc"
+          "sha256": "6f876f84f8852e983b6f770b2e5c9b56cd5d9554bfee0d3ac34dc692c7efa674"
         },
         {
           "path": "skills/academic-paper/agents/formatter_agent.md",
-          "sha256": "f8a7ab7c017ed415eebe2eb0db63f02098649d0cf58fd2b41e7af50feb3e3405"
+          "sha256": "4cc81e36a8c7f9fdc96db77ba294edfc9428639c4a1cbdfb1d46dcb215a99891"
         },
         {
           "path": "skills/academic-paper/agents/intake_agent.md",
@@ -169,11 +173,11 @@
         },
         {
           "path": "skills/academic-paper/agents/peer_reviewer_agent.md",
-          "sha256": "b10b2caafcb634047a41f65d85f7399ebebedb53573e32649f6bc98422632779"
+          "sha256": "7972e55616c9b8d35364d1669d05329307b2186db02f4b0b0e56c52249b2b048"
         },
         {
           "path": "skills/academic-paper/agents/revision_coach_agent.md",
-          "sha256": "d833e953034db451c5f1ad353c5a9a8e49121a463afb33979885bf8f54f330ae"
+          "sha256": "b756343ed02628ca46efc738adcecf3150acb2a5a70b73f6cff69cf90b9b76f5"
         },
         {
           "path": "skills/academic-paper/agents/socratic_mentor_agent.md",
@@ -253,11 +257,11 @@
         },
         {
           "path": "skills/academic-paper/references/citation_format_switcher.md",
-          "sha256": "4f0f2ba43ddf656845a737cad53eb9e69bf8e6924fd6ff2a420ed156c5ace739"
+          "sha256": "87f1fa99eb2ac1310845069f78d346a6d9ff091d801c1dd98bca83bd3c3fa997"
         },
         {
           "path": "skills/academic-paper/references/committee_correspondence_protocol.md",
-          "sha256": "7b3ab9b7bdb4bbc458c963758609cee4a1c07006664c1b97734a3847766370bf"
+          "sha256": "41bfd84ba0e81164ec97b0ae6cb89d5a68bbc9b8c9d479e78f0a4520e10d2b8a"
         },
         {
           "path": "skills/academic-paper/references/credit_authorship_guide.md",
@@ -297,7 +301,7 @@
         },
         {
           "path": "skills/academic-paper/references/mode_selection_guide.md",
-          "sha256": "3edff1dacbc6bbceab9ad32c5b94506f6022e7362e64b887a37a35759b6ebd68"
+          "sha256": "d5abb66c525aa2f73b7934ea7599a52c5ee799f6654eb8fa6081d72434fe2f14"
         },
         {
           "path": "skills/academic-paper/references/paper_structure_patterns.md",
@@ -317,7 +321,7 @@
         },
         {
           "path": "skills/academic-paper/references/revision_patch_protocol.md",
-          "sha256": "fb8887ef8544d11ca44fcec55ce52dd7019d91bcce2d4645222e7b9906b36c40"
+          "sha256": "db7bf775469e686866185a002c9005201eafc5d69a2a5953061909154b665bde"
         },
         {
           "path": "skills/academic-paper/references/statistical_visualization_standards.md",
@@ -333,7 +337,7 @@
         },
         {
           "path": "skills/academic-paper/references/workflow_phase_details.md",
-          "sha256": "aeb21337678815f83401bad7c8c0d01ea7a6a55aad42346abae3b6f6375fb2ff"
+          "sha256": "51d381acd25e6aa56074fe2ffd5d50c295a51e227bb4872b35b31b6d3e53596a"
         },
         {
           "path": "skills/academic-paper/references/writing_judgment_framework.md",
@@ -389,7 +393,7 @@
         },
         {
           "path": "skills/academic-pipeline/SKILL.md",
-          "sha256": "5519dcd757d157efa72b27268c4aaa0ec1eb3019ebdbe3cde5d51ac22d76bf28"
+          "sha256": "cca9a5d29e1a0825e008bdf609c2230e9fcc8c87891681eeb77bfba32b247cf6"
         },
         {
           "path": "skills/academic-pipeline/agents/claim_ref_alignment_audit_agent.md",
@@ -405,7 +409,7 @@
         },
         {
           "path": "skills/academic-pipeline/agents/pipeline_orchestrator_agent.md",
-          "sha256": "8f7126803e8da0834d34ae7be3de2261d4fdab26ab930ade45a94ffb8c067320"
+          "sha256": "856590701c76b12347d0709d713d6f1a281841dfa26ad9a9e8f8ba0232b56d87"
         },
         {
           "path": "skills/academic-pipeline/agents/state_tracker_agent.md",
@@ -829,6 +833,10 @@
           "destination": "scripts",
           "files": [
             {
+              "path": "scripts/_anchored_open.py",
+              "sha256": "3d0ea2efcec29c573740ec3b5c6aa0bd674bd17caf80361390972295a6ba86d3"
+            },
+            {
               "path": "scripts/_block_parser.py",
               "sha256": "1ffdd0495af973312b4c19db3482512d7a582d7a98a4967e5e43159ee749369b"
             },
@@ -838,7 +846,7 @@
             },
             {
               "path": "scripts/_ci_pytest_manifest.toml",
-              "sha256": "7251a568aaff789816a513cc82507c453fb9e6fdb1690e6b5c02627b04ba7ef7"
+              "sha256": "7ce44a7c57f1f05a0e75a3c6e265f79c408a4cb83f532344e0b9fe5fd9748628"
             },
             {
               "path": "scripts/_claim_audit_constants.py",
@@ -871,6 +879,10 @@
             {
               "path": "scripts/_text_similarity.py",
               "sha256": "fef61e5f1aa568a4d4e703e77ed68342326be04b4083b3d6309ae6e2dc8a35fc"
+            },
+            {
+              "path": "scripts/_unspaced_scripts.py",
+              "sha256": "f5879827d10ab39e00787c25d22a31f86ddf44f5e55d105f1b0bc6e31bf5b32d"
             },
             {
               "path": "scripts/adapters/README.md",
@@ -1014,7 +1026,7 @@
             },
             {
               "path": "scripts/adjudication_activity.py",
-              "sha256": "2bff31aca8a402d2439350aa76cbe52b4968a639aa40cdb1f45ae6cd47aedea3"
+              "sha256": "e378d0a3ce73cb85e483529c3422cb3a5364c1987afe787162f67b88730ef546"
             },
             {
               "path": "scripts/announce-ars-loaded.sh",
@@ -1101,6 +1113,10 @@
               "sha256": "d4a03bbd2768c2cbac3b3b96574bd0a440aff307b1782b6bfe4f1f5d8fef1603"
             },
             {
+              "path": "scripts/check_1098_premise_rule_sync.py",
+              "sha256": "9e2743f98051be6dffddd350f398114bc3b1101d05272e268646ad6290abc87f"
+            },
+            {
               "path": "scripts/check_215_field_norm.py",
               "sha256": "dd777ca5d0e8bc39003ea349de136ab97d3a7398e06a7a5dc6ece868743de914"
             },
@@ -1142,7 +1158,7 @@
             },
             {
               "path": "scripts/check_670_revision_roadmap_integration.py",
-              "sha256": "f16fc76c0512bcc23f971aef6990175ade4425e5a241b20b48e223826acbc86f"
+              "sha256": "98370d0e4ebb2cddec87ac26f66c6c74fb6032d09b7f61ef9e395fc1f153c7a2"
             },
             {
               "path": "scripts/check_673_adjudication_activity.py",
@@ -1163,6 +1179,10 @@
             {
               "path": "scripts/check_audit_artifact_consistency.py",
               "sha256": "3c4696f0e1feb3437c04042d744f2e6c826945be9264f5c22bb464f55f1f7e6f"
+            },
+            {
+              "path": "scripts/check_author_letter.py",
+              "sha256": "b7e8b46ed40b9c8efee9d75b1fe4a7e2e2719c0e6b4c7eb495cc5b6e63668dc2"
             },
             {
               "path": "scripts/check_benchmark_report.py",
@@ -1346,11 +1366,11 @@
             },
             {
               "path": "scripts/check_phase_conformance.py",
-              "sha256": "8b296a906a2c9a479e2eb0f1cd537ccdd26604b239f399a31f001fcd098490de"
+              "sha256": "60bab41e5074801a805658b6c3f5827e317f88b02ccd032df99e436678da84e4"
             },
             {
               "path": "scripts/check_pipeline_boundary_semantics.py",
-              "sha256": "ba492c9e63483904f37a146d7828d0d93e1b05da321bfee784663af888ff9b04"
+              "sha256": "a4ae4bdd5ee2897728f95549337ac49412e2982455516ff333aecd7be384eaa6"
             },
             {
               "path": "scripts/check_pipeline_integrity.py",
@@ -1402,7 +1422,7 @@
             },
             {
               "path": "scripts/check_reviewer_card_confirmation.py",
-              "sha256": "053824df8658c696169250d6aeeb24ec953380a3ffd84cc721f77ea87977aa9d"
+              "sha256": "43e358c8df8cb4abc47e9709f6d01bc84624f5ace6b2c186f058fe9b7edb17e5"
             },
             {
               "path": "scripts/check_reviewer_data_fences.py",
@@ -1422,7 +1442,7 @@
             },
             {
               "path": "scripts/check_reviewer_sprint_prompt_sync.py",
-              "sha256": "e3a78d445a97a1ddcbdced85fb2a36742c3578366390bb3dc94b7850f7b7d9b9"
+              "sha256": "ab5216be8fd1d25e625d92e2645e5d23eb4c9560da6be040581317f86408d162"
             },
             {
               "path": "scripts/check_revision_claim_drift_suite_v2.py",
@@ -1430,7 +1450,7 @@
             },
             {
               "path": "scripts/check_revision_token_conservation.py",
-              "sha256": "19908ee8469d25497796190ec9a731d510c9db8ad7484da24ac657971aa853fb"
+              "sha256": "a5324b1e6c6bab3bbf782aa8dd3d486301a2c062e3c9680ac9eef66f7ec9a066"
             },
             {
               "path": "scripts/check_risk_register.py",
@@ -1438,7 +1458,7 @@
             },
             {
               "path": "scripts/check_role_scoped_contract.py",
-              "sha256": "d87c26eae7420e55bd06bf5bad32aa90b3347ee156c105927112ad19a6a44301"
+              "sha256": "1691fe6e6733411439dc88372b39f2a78bf22ce46e391ae2b0fbedd528f9802d"
             },
             {
               "path": "scripts/check_routing_core_sync.py",
@@ -1470,7 +1490,7 @@
             },
             {
               "path": "scripts/check_spec_consistency.py",
-              "sha256": "c26ec790d55410bea849cd04e18237979c3fd7b8aba6573de412bf5723368888"
+              "sha256": "43a10d27d60123780de79c04e776a3e8710f5f1d77f083422a6f53cf8dc97ada"
             },
             {
               "path": "scripts/check_sprint_contract.py",
@@ -1630,7 +1650,7 @@
             },
             {
               "path": "scripts/cross_model_smoke_test.sh",
-              "sha256": "cc56ce0c5b8f4b33e86b0b95a47667d0c2cfc4ec847a982dc79eee9cf1b04376"
+              "sha256": "a095c62b4661d756366bab4054560c0da9ed288bd0f4112dc0f0239ab97f6d4a"
             },
             {
               "path": "scripts/cross_model_smoke_test_codex.sh",
@@ -1638,11 +1658,11 @@
             },
             {
               "path": "scripts/cross_model_verification/gemini_is_grounded.jq",
-              "sha256": "dca0e3f7f9e42df2210a7dbca34a2b07ae2c43149d3b97dd68fb7bd7cd85b82a"
+              "sha256": "983665688f8570121de04a35768a4f5be91d56504aad78a393cc1b5b4a19363f"
             },
             {
               "path": "scripts/cross_model_verification/gemini_sources.jq",
-              "sha256": "3ef688472bf1b6d514bfc792e111f2ca692ee79246482134c2021ffbdf4bac0c"
+              "sha256": "80d731098a7526f68bd40c2a1ad14eb4e107e553a6e974239a2cb65e5602ec2c"
             },
             {
               "path": "scripts/cross_model_verification/normalize_compat_verdict.py",
@@ -1650,11 +1670,11 @@
             },
             {
               "path": "scripts/cross_model_verification/openai_effort_guard.sh",
-              "sha256": "f974038177ba0e9b331b4e9841075bc9e311322abe34c9ce2c937ce407e5b7de"
+              "sha256": "b5e9a8043f0a1574e38c792e4a82e1925ea1102fbb58af8ec697c2e3a6b5665d"
             },
             {
               "path": "scripts/cross_model_verification/openai_has_completed_web_search.jq",
-              "sha256": "80042b207a355864cc8dd0abaee358e7a34d967558ee10eef6de8313310d427f"
+              "sha256": "5747453f36424a1d631c0f8bbeab21640317409235f0f575d9691e303ddcb09a"
             },
             {
               "path": "scripts/cross_model_verification/openai_sources.jq",
@@ -1678,7 +1698,7 @@
             },
             {
               "path": "scripts/dispatch_panel_claim_audit.py",
-              "sha256": "63687da44deac31b80ca3b8862c4c39d5c0612e9daa941d465c5d78f1639845d"
+              "sha256": "241bc24c0b4aac3ba2e24172558bdeed0950cb822a1870b7173f019fa26b9641"
             },
             {
               "path": "scripts/evidence_rows.py",
@@ -2265,6 +2285,10 @@
               "sha256": "6dabb3ef8db3940afaed779829e75c3a678aaa645d8e7acaadaaa81e88fe76b2"
             },
             {
+              "path": "scripts/gen_unspaced_scripts.py",
+              "sha256": "77f6093d935347d0e65930fac0af089f1dcdaa962915d841bc72297f4ce37624"
+            },
+            {
               "path": "scripts/human_read_attestation_resolver.py",
               "sha256": "d8c0b39e9bf209ad704e0bb59d8055e7c432e9229d512191a354e38a52ca8d4e"
             },
@@ -2274,7 +2298,7 @@
             },
             {
               "path": "scripts/inquiry_branch_ledger.py",
-              "sha256": "831e5438a182d44dd68df7fa82ae65eacf4560e3096ede672fb90b36338004f1"
+              "sha256": "6aae0bfcd01cbbecd097261478665a774d1df6988dbbcd6c47528903e2f804a2"
             },
             {
               "path": "scripts/legacy/ars_apply_revision_patch_v1_0.py",
@@ -2362,15 +2386,15 @@
             },
             {
               "path": "scripts/review_criteria_binding.py",
-              "sha256": "c31b564a1b9f7b6cfffbebec31ffd5fb3e5f5cc3a844fe7f1f41dd793dec6e40"
+              "sha256": "e6d027a969cb3a629cb05b269a620ba881fa137abf05b80be7cfacb5e769ef83"
             },
             {
               "path": "scripts/review_panel_provenance.py",
-              "sha256": "e9799434044f27014efdcf327697b3b623b6b817cd1c42fcc47745efdfa3468c"
+              "sha256": "2799e82314d744637e1cea5ed8d1526c3d522b09aed870747dbfa35486e81b26"
             },
             {
               "path": "scripts/revision_roadmap.py",
-              "sha256": "5341358d489a550b56f0e7efde850c551b6d9df41106b0462e2f804ab4de9998"
+              "sha256": "381a7ee69fdd024fbd98f725d6424fd34e00c908096e6bf4fb3aa89f90c40bda"
             },
             {
               "path": "scripts/run_ci_pytest_manifest.py",
@@ -2402,7 +2426,7 @@
             },
             {
               "path": "scripts/run_review_criteria_constructive_value.py",
-              "sha256": "50a0ca64c6fa118714a26dab462dd311a7d2267c4cf8909203c27b0dc731cfa9"
+              "sha256": "becdd5463902c9d455c6ccd69211524f701050e6c903f8c692d595276b3a6f6f"
             },
             {
               "path": "scripts/run_role_topology_utility_dry_run.py",
@@ -2414,7 +2438,7 @@
             },
             {
               "path": "scripts/score_review_criteria_constructive_value.py",
-              "sha256": "1f1c2be5844da3be0933d71fd1c305f9d697cf8601efcc582bffddc8e1d1fd7f"
+              "sha256": "f445e3d3392b23524e5b0a2d43ed2b8e97f08da45b9510b6938d75e2672b0d06"
             },
             {
               "path": "scripts/semantic_scholar_client.py",
@@ -2454,7 +2478,11 @@
             },
             {
               "path": "scripts/test_adjudication_activity.py",
-              "sha256": "0c37e41794e293580aebaa009bd8ee481a686029252bb1b0550245945dbf85e4"
+              "sha256": "2af278048a2d7c7fbe6d0cc00f0f13f4bf95053c9654ad3218d439071d6e40b0"
+            },
+            {
+              "path": "scripts/test_anchored_open.py",
+              "sha256": "04307da103882064b4293ac87974f3973adcf39d6f4d523820ee30981b655d48"
             },
             {
               "path": "scripts/test_ars_anchorize_draft.py",
@@ -2490,7 +2518,7 @@
             },
             {
               "path": "scripts/test_audit_panel_claims.py",
-              "sha256": "d8f7228834095b59ca353bdddee1b12b31af59677487c2e0c8360211501895ae"
+              "sha256": "eabe5267742250d5d4df9d765af579d5480e07025c6515ef03c3be3a68c9c3e7"
             },
             {
               "path": "scripts/test_audit_schemas.py",
@@ -2523,6 +2551,10 @@
             {
               "path": "scripts/test_build_submission_packet_manifest.py",
               "sha256": "287a24ee8cf0a35f23c183c372f27d2624eba0a62d99930f260bdb3971b3237f"
+            },
+            {
+              "path": "scripts/test_check_1098_premise_rule_sync.py",
+              "sha256": "05c51a742e5cd49c44610e5a74e65d41bb9a5a0b7c0d2b9053178561f755b5f5"
             },
             {
               "path": "scripts/test_check_215_field_norm.py",
@@ -2566,7 +2598,7 @@
             },
             {
               "path": "scripts/test_check_670_revision_roadmap_integration.py",
-              "sha256": "fbc10a2a04ca6557e276b8ce51e48280d26d7bbff4d2495f206e61cf65af6af7"
+              "sha256": "e87860ff5c3d2778c61d2e02d0f9641398253ca4e9c64172613ff9b4d124b5b7"
             },
             {
               "path": "scripts/test_check_673_adjudication_activity.py",
@@ -2587,6 +2619,10 @@
             {
               "path": "scripts/test_check_audit_artifact_consistency.py",
               "sha256": "9ffb85bca3f45f67ee776f7584f3f1418534f14db518189ac9b1330ccef080f8"
+            },
+            {
+              "path": "scripts/test_check_author_letter.py",
+              "sha256": "6f0bd962f09935d89cddcde63b058cdb7d5e5449703621c7a0e31cd3510b7be9"
             },
             {
               "path": "scripts/test_check_benchmark_report.py",
@@ -2630,7 +2666,7 @@
             },
             {
               "path": "scripts/test_check_committee_correspondence.py",
-              "sha256": "743100e066b61c906272381fd72d4c1e4c5f8d7d067096bb09679630394f6c32"
+              "sha256": "38f583cb7675a2b951c9bd508019fa4a24dc57b2d11cae7fd5be7faf1beb1fd3"
             },
             {
               "path": "scripts/test_check_compliance_report.py",
@@ -2746,7 +2782,7 @@
             },
             {
               "path": "scripts/test_check_phase_conformance.py",
-              "sha256": "ac1524f3ab5f16e78fdd5c7e33cacef622f0a6cb502c4da36408fd3fd3052b89"
+              "sha256": "d1d6d60f9ac64fbc48a854478b2b3078001c5145656460a80470101631c5cef5"
             },
             {
               "path": "scripts/test_check_pipeline_boundary_semantics.py",
@@ -2794,7 +2830,7 @@
             },
             {
               "path": "scripts/test_check_reviewer_card_confirmation.py",
-              "sha256": "d78ad1646577b104d4e4a5ccda28254eae1da013840c20da53e4e234873b22d4"
+              "sha256": "8ff1d534a7f649686348eaab15cba4bdc83d53a2fc0b8881cb1d0322710a668b"
             },
             {
               "path": "scripts/test_check_reviewer_data_fences.py",
@@ -2822,7 +2858,7 @@
             },
             {
               "path": "scripts/test_check_revision_token_conservation.py",
-              "sha256": "0415b0b5411f02fde2c43a3ecee3212c04d9d1b8ddb63fa856f8acd04c1a2228"
+              "sha256": "f36818201061410ce728cb2d95cb34ffe083326da610c1102526f6db23317446"
             },
             {
               "path": "scripts/test_check_risk_register.py",
@@ -3042,7 +3078,7 @@
             },
             {
               "path": "scripts/test_cross_model_verification_guards.py",
-              "sha256": "a4caadafc02ecc3c7b7c3e5b143c820d4c8cc59b4a2c8a3c432df35f436e34bb"
+              "sha256": "d3f152d1ef82da403bfff848ba31f309a6e9d844954c24d1f987b1cd84f71813"
             },
             {
               "path": "scripts/test_crossref_client.py",
@@ -3058,7 +3094,7 @@
             },
             {
               "path": "scripts/test_dispatch_panel_claim_audit.py",
-              "sha256": "37f8bbb9e61ec46b329db128fc8105d158e1f15ac36f8ff225741ef49c7c5c02"
+              "sha256": "0ff5dabac6baed86b9dba78d1f951e82e71461ff3b98227486549d8bf4906bc4"
             },
             {
               "path": "scripts/test_e2e_claim_audit.py",
@@ -3206,7 +3242,7 @@
             },
             {
               "path": "scripts/test_review_criteria_binding.py",
-              "sha256": "a48b3f7a2a9084d89d6e24ddae6894b8a9025a0f587f656f645949eaf5420baf"
+              "sha256": "c9edc6ee7792197f4470a30c99a986bd7f0df055ca2b43b4247cde58670bf0e2"
             },
             {
               "path": "scripts/test_review_panel_provenance.py",
@@ -3219,6 +3255,10 @@
             {
               "path": "scripts/test_revision_roadmap.py",
               "sha256": "8c51ace7a521196bf4ed7b59cff1b9f7887233ef4ad7fce074302dc58b17e5a6"
+            },
+            {
+              "path": "scripts/test_revision_roadmap_consensus_levels.py",
+              "sha256": "ad68d1dc6872f444f26f8fee242271b72f48ce751b25bfe4d0e125a4c3d42073"
             },
             {
               "path": "scripts/test_run_ci_pytest_manifest.py",
@@ -3311,6 +3351,10 @@
             {
               "path": "scripts/test_uncited_assertion.py",
               "sha256": "6be9b5bec26cc8240c29c1edfdb8accc4630aecb6e91db737074e2b675dc0506"
+            },
+            {
+              "path": "scripts/test_unspaced_scripts.py",
+              "sha256": "87d9f2095039db7cd4b6b03d8ed65f492e3baf402983ac945bc10e982c6cf20d"
             },
             {
               "path": "scripts/test_v3_6_7_phase_6_6.py",
@@ -3444,7 +3488,7 @@
             },
             {
               "path": "shared/contracts/README.md",
-              "sha256": "c9a56e09d247c18a9ddf5a8058605de7afdfc18bb0a3a3c125b06332799023fc"
+              "sha256": "e1df730c53db79c2799840ee6b79c2a58aa889b2c5b833b16d239fa6d423ce2b"
             },
             {
               "path": "shared/contracts/activity/adjudication_activity_input.schema.json",
@@ -3784,7 +3828,7 @@
             },
             {
               "path": "shared/contracts/review_target/review_criteria_binding_manifest.schema.json",
-              "sha256": "d8a8e0561dc3d9931b67f6c4cc875a57984b7a5cd47f44324706a3be28bdd298"
+              "sha256": "001a879dcdc58e0712182ce0aa42fe67816ad393cf0bab81cbba7941a0edff10"
             },
             {
               "path": "shared/contracts/review_target/review_criteria_source_receipt.schema.json",
@@ -3800,7 +3844,7 @@
             },
             {
               "path": "shared/contracts/reviewer/full.json",
-              "sha256": "e9712090d2469fea15a37b8e22d4e137afbcb2bf38d5789939c5df56738ef7af"
+              "sha256": "d958bc2ade7d9d154954c33fd424766697a8b6ef664854800a3106d804ee7e5c"
             },
             {
               "path": "shared/contracts/reviewer/methodology_focus.json",
@@ -3808,7 +3852,7 @@
             },
             {
               "path": "shared/contracts/reviewer/review_panel_provenance.schema.json",
-              "sha256": "5ffd1746485fa96619a079f2e5b81f78ee74bfcf6b3014914b7accae554e9307"
+              "sha256": "51ec7017e90dcaeadd8d3b831495a2ba51a464ac20f176616958930329e95120"
             },
             {
               "path": "shared/contracts/reviewer/review_panel_provenance_carrier.schema.json",
@@ -3816,7 +3860,7 @@
             },
             {
               "path": "shared/contracts/reviewer/review_panel_provenance_input.schema.json",
-              "sha256": "6b3b0efc727186d2e25fdbb2d2655023935807eb3ef9bda08ea7d6acd0bc38b3"
+              "sha256": "3160e295503684035d12317603307cc92b9fcf3d60e8697333bfe5991a4cc253"
             },
             {
               "path": "shared/contracts/revision/author_adjudication.schema.json",
@@ -3864,7 +3908,7 @@
             },
             {
               "path": "shared/contracts/revision/revision_roadmap.schema.json",
-              "sha256": "8d578a7eab4de4c4c2d2274292b8d351da552429c595edf2a0f0d1405287e081"
+              "sha256": "4eb35443c5f2dd658a728ef560c340d9b5d9e2de54f3fbd1ca304013b9a6db60"
             },
             {
               "path": "shared/contracts/submission/format_profile.example.yaml",
@@ -3888,7 +3932,7 @@
             },
             {
               "path": "shared/cross_model_verification.md",
-              "sha256": "498b4f2b5c24681741ae4a25dad43354d71f6719be9c07a6820cdb94309e028a"
+              "sha256": "85ee229f74a81d07cdf0db269d1d68d59e5f28fc37eda4b7fb4c469539b21818"
             },
             {
               "path": "shared/evals_lift_report.schema.json",
@@ -3900,7 +3944,7 @@
             },
             {
               "path": "shared/handoff_schemas.md",
-              "sha256": "adfd21750e321484350e6780257e2c8b8db6f565bf4a82d2c68b0b5540b80f16"
+              "sha256": "a75f2c0c83d68b475ba0332d8fb7f655375d56d04c3f6a6d8ec5bf28e1f68a32"
             },
             {
               "path": "shared/human_subjects_authority_registry.json",
@@ -3912,7 +3956,7 @@
             },
             {
               "path": "shared/model_tiering.md",
-              "sha256": "3f4bff162a25ba8816c307e0d23c87aadcc4b8f0f510ef513d4b9644cfa2da64"
+              "sha256": "f15e6597ff36651507fbd8ee96a3e51f3b41738a15a519b0a00548d0f642a89f"
             },
             {
               "path": "shared/output_language_pair.md",
@@ -4059,12 +4103,12 @@
         {
           "source": "upstream MODE_REGISTRY.md",
           "path": "MODE_REGISTRY.md",
-          "sha256": "532f44512441f70eedad1c449ce470752793abc6cdb0b1b0e74a3b0b45f99b1f"
+          "sha256": "c580450185c3b162fa3caecc6b620b7a105b067b3c1851e3dac634a037560ff2"
         },
         {
           "source": "upstream THIRD_PARTY.md",
           "path": "THIRD_PARTY.md",
-          "sha256": "ccfb19e8636c63fea505c99ccbd39a386ec2a6a57633cb95dbd9af20afc5d6d6"
+          "sha256": "77a5b44637e7a15458ea49f7685ed4b7eb8bee26d3687f42a60c4484c21ccfd3"
         },
         {
           "source": "upstream requirements-dev.txt",
@@ -4137,7 +4181,7 @@
         },
         {
           "path": "commands/ars-revision-coach.md",
-          "sha256": "97766494820726f72dac85c7a67dc46556f38e248ec448db9330f652ca2bbfff"
+          "sha256": "8e1bc36dc3ba30ed8ef9c30ebbcf5368e6aebba6db679a4e4da94aa6247066fe"
         },
         {
           "path": "commands/ars-revision.md",
@@ -4203,7 +4247,7 @@
         },
         {
           "path": "commands/ars-revision-coach/SKILL.md",
-          "sha256": "81009046a7b19342d3991ad593a6813bca91abcab20e0eb5d6b53f26f73fc48b"
+          "sha256": "ec698556c5ba79a8943f58e62f4790baed5407fcd2124ac5495291b3258d315b"
         },
         {
           "path": "commands/ars-revision/SKILL.md",

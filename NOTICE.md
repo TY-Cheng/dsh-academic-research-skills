@@ -21,7 +21,7 @@ contract-audited academic research pipeline
 | 作者 / Author | Cheng-I Wu |
 | 作者主页 / Author URL | https://github.com/Imbad0202 |
 | 上游仓库 / Upstream repo | https://github.com/Imbad0202/academic-research-skills |
-| 上游版本 / Upstream version | 3.24.2 |
+| 上游版本 / Upstream version | 3.24.4 |
 | 上游许可 / Upstream license | [CC-BY-NC-4.0](LICENSE) |
 
 ## 内容归属 / Content ownership

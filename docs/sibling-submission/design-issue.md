@@ -10,17 +10,17 @@ distribution*, before any recognition request.
 
 The sibling shape is:
 
-- Separate repository; ARS `v3.24.2` pinned at
-  [`6d93886`](https://github.com/Imbad0202/academic-research-skills/commit/6d9388674de1ad0437ad95db3d52f92b92204d84)
-  (`v3.24.2-3-g6d93886`) in
+- Separate repository; ARS `v3.24.4` pinned at
+  [`23807f9`](https://github.com/Imbad0202/academic-research-skills/commit/23807f987024f2e038d12fd9e4e5d2a7cc228674)
+  (`v3.24.4`) in
   [`manifest.json`](https://github.com/TY-Cheng/dsh-academic-research-skills/blob/main/manifest.json).
 - Written sync policy:
   [`SYNC_POLICY.md`](https://github.com/TY-Cheng/dsh-academic-research-skills/blob/main/SYNC_POLICY.md)
   (six-week cadence, offline drift check, immutable release tags).
-- **1,006 vendored files** kept byte-identical: 199 skill files, 644 root
+- **1,017 vendored files** kept byte-identical: 200 skill files, 654 root
   `scripts/` files, 155 `shared/` files, 4 root `agents/` files, and 4 root
   files (`MODE_REGISTRY.md`, `THIRD_PARTY.md`, two requirements files).
-  `npm run verify` checks the per-file SHA-256 and 21 registrations; CI
+  `npm run verify` checks the per-file SHA-256 and 23 registrations; CI
   [`verify-vendor`](https://github.com/TY-Cheng/dsh-academic-research-skills/actions/runs/44530710616)
   passes on `main`.
 - DSH-specific code is confined to the outer adapter: `lib/startup.js`,

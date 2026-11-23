@@ -12,7 +12,8 @@ or `MODE_REGISTRY.md`; those remain byte-identical to upstream.
   `lib/startup.js` when the DSH `tools` service is mounted. They query OpenAlex
   and Crossref; they do not shell out to Python.
 
-The native layer is additive: the 1,006 vendored files and the 0.3.0
-official-recognition baseline are unchanged. `npm run verify` expects 22 skill
-registrations (5 vendored + `ars-team` + 16 command wrappers); the native tools
-are skipped in the offline verifier, which has no `tools` service.
+The native layer is additive: the 1,017 vendored files and the 0.3.0
+official-recognition baseline are unchanged. `npm run verify` expects 23 skill
+registrations (5 vendored + `ars-team` + `ars-pipeline-team` + 16 command
+wrappers); the native tools are skipped in the offline verifier, which has no
+`tools` service.

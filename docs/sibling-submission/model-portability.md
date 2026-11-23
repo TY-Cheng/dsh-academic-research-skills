@@ -75,9 +75,9 @@ comparison with Claude:
 
 ## What is deterministic (not model-dependent)
 
-- Vendored content: 1,006 files; per-file SHA-256 in `manifest.json`;
+- Vendored content: 1,017 files; per-file SHA-256 in `manifest.json`;
   `npm run verify`; CI `verify-vendor`.
-- Registration: 5 skills + 16 commands = 21.
+- Registration: 5 skills + 16 commands = 21; 23 with the native team skills.
 - Package contents: `npm pack --dry-run` includes the core, `manifest.json`,
   `SYNC_POLICY.md`, `lib/startup.js`, `cordis.patch.yml`; no `__pycache__`/`.pyc`.
 - Python syntax: 470 files parse in CI.

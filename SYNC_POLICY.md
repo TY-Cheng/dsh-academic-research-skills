@@ -10,8 +10,8 @@ outer DSH routing/adapter layer is platform-specific.
 | Field | Value |
 | --- | --- |
 | Repository | https://github.com/Imbad0202/academic-research-skills |
-| Version | ARS v3.24.2 |
-| Commit | `6d9388674de1ad0437ad95db3d52f92b92204d84` (`v3.24.2-3-g6d93886`) |
+| Version | ARS v3.24.4 |
+| Commit | `23807f987024f2e038d12fd9e4e5d2a7cc228674` (`v3.24.4`) |
 | License | CC-BY-NC-4.0 |
 
 [manifest.json](manifest.json) is the source of truth for the pin and the
@@ -20,12 +20,12 @@ checked by `tooling/verify-vendor.mjs`.
 
 ## What is vendored
 
-**Byte-identical, no local edits** (1,006 files at this pin):
+**Byte-identical, no local edits** (1,017 files at this pin):
 
-- `skills/` — the 5 upstream root skill directories, 199 files:
+- `skills/` — the 5 upstream root skill directories, 200 files:
   `deep-research/`, `academic-paper/`, `academic-paper-reviewer/`,
   `academic-pipeline/`, `sr-screener/`.
-- `scripts/` — upstream root `scripts/`, 644 files (464 Python helpers,
+- `scripts/` — upstream root `scripts/`, 654 files (474 Python helpers,
   checkers, ledger/citation clients, adapters, fixtures, and tests).
 - `shared/` — upstream root `shared/`, 155 files (118 JSON schemas/contracts,
   36 Markdown references, 1 YAML file).
@@ -96,7 +96,7 @@ ARS ships minor releases roughly every six weeks. The maintainer:
 CI (`.github/workflows/verify-vendor.yml`) runs `node tooling/verify-vendor.mjs`
 on every push to `main` and every pull request. It fails on any missing, extra,
 or modified vendored file (skills, core directories, root core files, and
-generated commands), and on a registration count other than 22. The check is
+generated commands), and on a registration count other than 23. The check is
 offline and deterministic; it does not need the upstream checkout.
 
 ## Versioning and releases
