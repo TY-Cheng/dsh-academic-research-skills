@@ -1,0 +1,546 @@
+{
+ "ledger": {
+  "total": 41,
+  "evidence": {
+   "proof": 17,
+   "numerical test": 16,
+   "assumption": 8
+  },
+  "audit": [
+   "G5",
+   "G6",
+   "N2",
+   "N6",
+   "R5",
+   "R7"
+  ],
+  "time": [
+   "C2",
+   "C3",
+   "C5",
+   "G1",
+   "G2",
+   "G3",
+   "G7",
+   "P8",
+   "R8",
+   "S5"
+  ],
+  "dyn": {
+   "D0": 34,
+   "D1": 4,
+   "D2": 3,
+   "D3": 0
+  },
+  "comp": {
+   "DC": 0,
+   "RC": 30,
+   "NC": 11
+  },
+  "coverage": {
+   "full": 34,
+   "partial": 4,
+   "metadata-only": 3
+  },
+  "level": {
+   "VI": 40,
+   "VII": 1
+  },
+  "peer": {
+   "yes": 29,
+   "preprint": 11,
+   "practitioner": 1
+  },
+  "family_n": {
+   "P": 8,
+   "N": 6,
+   "R": 9,
+   "G": 8,
+   "S": 5,
+   "C": 5
+  },
+  "audit_evidence": {
+   "proof": [
+    "G6"
+   ],
+   "test": [
+    "G5",
+    "N2",
+    "N6",
+    "R5",
+    "R7"
+   ],
+   "assumption": []
+  },
+  "audit_partition": {
+   "16+1+5+11+8": 41,
+   "1+5": 6
+  }
+ },
+ "families": {
+  "P": {
+   "proof": 6,
+   "test": 0,
+   "assumption": 2,
+   "audit": 0,
+   "time": 1,
+   "comp": {
+    "DC": 0,
+    "RC": 4,
+    "NC": 4
+   }
+  },
+  "N": {
+   "proof": 0,
+   "test": 6,
+   "assumption": 0,
+   "audit": 2,
+   "time": 0,
+   "comp": {
+    "DC": 0,
+    "RC": 6,
+    "NC": 0
+   }
+  },
+  "R": {
+   "proof": 3,
+   "test": 4,
+   "assumption": 2,
+   "audit": 2,
+   "time": 1,
+   "comp": {
+    "DC": 0,
+    "RC": 6,
+    "NC": 3
+   }
+  },
+  "G": {
+   "proof": 4,
+   "test": 3,
+   "assumption": 1,
+   "audit": 2,
+   "time": 4,
+   "comp": {
+    "DC": 0,
+    "RC": 8,
+    "NC": 0
+   }
+  },
+  "S": {
+   "proof": 1,
+   "test": 2,
+   "assumption": 2,
+   "audit": 0,
+   "time": 1,
+   "comp": {
+    "DC": 0,
+    "RC": 4,
+    "NC": 1
+   }
+  },
+  "C": {
+   "proof": 3,
+   "test": 1,
+   "assumption": 1,
+   "audit": 0,
+   "time": 3,
+   "comp": {
+    "DC": 0,
+    "RC": 2,
+    "NC": 3
+   }
+  }
+ },
+ "seminal": {
+  "ids": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5"
+  ],
+  "n": 5,
+  "in_window": 36,
+  "year_min": 1999,
+  "year_max": 2026,
+  "evidence": {
+   "proof": 1,
+   "numerical test": 2,
+   "assumption": 2
+  },
+  "in_window_evidence": {
+   "proof": 16,
+   "numerical test": 14,
+   "assumption": 6
+  }
+ },
+ "retrieval": {
+  "queries": 31,
+  "requested": 775,
+  "returned": 750,
+  "still_failed": 1,
+  "recovered_note": "Second pass recovered 20 queries; 1 still failed.",
+  "unique_records": 430,
+  "screening_counts": {
+   "INCLUDED": 41,
+   "FORECASTING_OR_TRADING": 21,
+   "RELEVANT_NOT_SELECTED": 40,
+   "OFF_TOPIC": 141,
+   "PRE_2015_BACKGROUND": 86,
+   "PUBLICATION_TYPE": 32,
+   "DUPLICATE_VERSION": 31,
+   "OUT_OF_SCOPE_ASSET": 34,
+   "MODEL_CALIBRATION_PRICING": 4
+  },
+  "excluded": 389,
+  "included": 41,
+  "records_sum_check": 430,
+  "preprint_pct": 26.83
+ },
+ "reliability": {
+  "sample": 16,
+  "agree": {
+   "family": 12,
+   "evidence": 10,
+   "audit": 15,
+   "time": 16,
+   "dyn": 16,
+   "comp": 10
+  },
+  "cells": 96,
+  "total_agree": 79,
+  "disputes": 17,
+  "kappa_evidence": 0.47,
+  "dispute_rows": [
+   [
+    "P7",
+    "family",
+    "P",
+    "C"
+   ],
+   [
+    "N2",
+    "audit",
+    "Y",
+    "N"
+   ],
+   [
+    "N2",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "N5",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "R2",
+    "evidence",
+    "proof",
+    "assumption"
+   ],
+   [
+    "R2",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "R3",
+    "evidence",
+    "proof",
+    "assumption"
+   ],
+   [
+    "G6",
+    "family",
+    "G",
+    "N"
+   ],
+   [
+    "G6",
+    "evidence",
+    "proof",
+    "numerical test"
+   ],
+   [
+    "G7",
+    "family",
+    "G",
+    "N"
+   ],
+   [
+    "G7",
+    "evidence",
+    "proof",
+    "numerical test"
+   ],
+   [
+    "G7",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "C3",
+    "family",
+    "C",
+    "P"
+   ],
+   [
+    "C3",
+    "evidence",
+    "proof",
+    "assumption"
+   ],
+   [
+    "C3",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "S1",
+    "comp",
+    "RC",
+    "NC"
+   ],
+   [
+    "S2",
+    "evidence",
+    "numerical test",
+    "assumption"
+   ]
+  ]
+ },
+ "word_counts": {
+  "v1.3": 7768,
+  "v2.0": 7979,
+  "v3.0": 7878
+ },
+ "abstract": {
+  "en_words": 288,
+  "zh_chars": 451,
+  "tables": 6,
+  "figures": 2,
+  "references": 41
+ },
+ "formula": {
+  "c": 0.3937802091360112,
+  "c_prime": -0.6015586028362829,
+  "c_second": -0.5336453501314508,
+  "c_second_minus_c_prime": 0.06791325270483217,
+  "K": 60.653065971263345,
+  "true_prefactor": 0.027182818284590453,
+  "printed_prefactor": 0.044816890703380644,
+  "prefactor_ratio_printed_over_true": 1.648721270700128,
+  "true_C_second": 0.001846073607390924,
+  "printed_C_second": 0.0030436608237835333,
+  "numeric_C_second_central": -0.014505983373880246,
+  "printed_matches_numeric": false,
+  "true_matches_numeric": false
+ },
+ "stated_vs_recomputed": {
+  "41 = 36+5": [
+   41,
+   41
+  ],
+  "29 yes + 11 preprint + 1 practitioner": [
+   41,
+   41
+  ],
+  "34/4/3 coverage": [
+   [
+    34,
+    4,
+    3
+   ],
+   [
+    34,
+    4,
+    3
+   ]
+  ],
+  "17/16/8 evidence": [
+   [
+    17,
+    16,
+    8
+   ],
+   [
+    17,
+    16,
+    8
+   ]
+  ],
+  "audit 6": [
+   6,
+   6
+  ],
+  "offset 16+1+5+11+8": [
+   41,
+   41
+  ],
+  "time 10": [
+   10,
+   10
+  ],
+  "dyn 34/4/3/0": [
+   [
+    34,
+    4,
+    3,
+    0
+   ],
+   [
+    34,
+    4,
+    3,
+    0
+   ]
+  ],
+  "comp 0/30/11": [
+   [
+    0,
+    30,
+    11
+   ],
+   [
+    0,
+    30,
+    11
+   ]
+  ],
+  "retrieval 775/750/430/389/41": [
+   [
+    775,
+    750,
+    430,
+    389,
+    41
+   ],
+   [
+    775,
+    750,
+    430,
+    389,
+    41
+   ]
+  ],
+  "preprint pct 26.8": [
+   26.8,
+   26.8
+  ],
+  "table3 fam": [
+   [
+    6,
+    0,
+    2
+   ],
+   [
+    0,
+    6,
+    0
+   ],
+   [
+    3,
+    4,
+    2
+   ],
+   [
+    4,
+    3,
+    1
+   ],
+   [
+    1,
+    2,
+    2
+   ],
+   [
+    3,
+    1,
+    1
+   ]
+  ],
+  "table5 fam": [
+   [
+    0,
+    4,
+    4
+   ],
+   [
+    0,
+    6,
+    0
+   ],
+   [
+    0,
+    6,
+    3
+   ],
+   [
+    0,
+    8,
+    0
+   ],
+   [
+    0,
+    4,
+    1
+   ],
+   [
+    0,
+    2,
+    3
+   ]
+  ],
+  "seminal 5 (1999-2014)": [
+   5,
+   5
+  ],
+  "in-window 36": [
+   36,
+   36
+  ],
+  "in-window evidence 16/14/6": [
+   [
+    16,
+    14,
+    6
+   ],
+   [
+    16,
+    14,
+    6
+   ]
+  ],
+  "seminal evidence 1/2/2": [
+   [
+    1,
+    2,
+    2
+   ],
+   [
+    1,
+    2,
+    2
+   ]
+  ],
+  "word v3": [
+   7878,
+   7761
+  ],
+  "word v2": [
+   7979,
+   7862
+  ],
+  "word v1.3": [
+   7768,
+   7641
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+We consider the classical problem of building an arbitrage-free implied volatility surface from bid-ask quotes. We design a fast numerical procedure, for which we prove the convergence, based on the Sinkhorn algorithm that has been recently used to solve efficiently (martingale) optimal transport problems.

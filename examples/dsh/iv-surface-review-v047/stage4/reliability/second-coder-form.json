@@ -1,0 +1,263 @@
+{
+  "coder": "second-coder (independent, blind to first-analyst codes)",
+  "inputs": ["stage4/reliability/blind-handbook.md", "stage4/second-coder-input.json"],
+  "rows": [
+    {
+      "id": "P1",
+      "family": "P",
+      "evidence_status": "proof",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Abstract presents 'explicit arbitrage-free parameterizations' and exhibits an arbitrage-free surface: formal construction over a class, so proof under D.2.",
+        "audit": "No violation, residual, or pass-rate statistic on its own output in the abstract; audit N under D.3.",
+        "time_axis": "Object is a static SVI surface, not a calendar-indexed panel, path, or process; N under D.4.",
+        "dynamic": "No process-level condition stated; only static arbitrage-freeness, so D0 under D.5.",
+        "comparability": "No number reported in the abstract, so nothing placeable beside another row's number; NC under D.7."
+      }
+    },
+    {
+      "id": "P4",
+      "family": "P",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Metadata-only: title asserts no theorem or numerical result; conservative assumption per D.8 metadata-only rule.",
+        "audit": "Title states calibration/interpolation, not a check on its own output; N per D.8 default.",
+        "time_axis": "SSVI slices only; no calendar-indexed object in title or metadata; N under D.4.",
+        "dynamic": "No process-level condition in title; static slice interpolation, so D0 under D.5.",
+        "comparability": "Metadata-only and no metric or number named, so NC per D.8 default."
+      }
+    },
+    {
+      "id": "P7",
+      "family": "C",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Metadata-only: title asserts conditions, not a theorem or numerical result; conservative assumption under D.8.",
+        "audit": "Title states conditions, not a violation statistic computed on its own output; N under D.3.",
+        "time_axis": "Conditions for a single SSVI/S3 curve, not a calendar-indexed family; N under D.4.",
+        "dynamic": "No process-level condition; curve admissibility conditions are static, so D0 under D.5.",
+        "comparability": "Metadata-only and no metric or number named, so NC per D.8 default."
+      }
+    },
+    {
+      "id": "N2",
+      "family": "N",
+      "evidence_status": "numerical test",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Historical benchmarks and accuracy comparison with SVI are numerical support; no theorem, so numerical test under D.2.",
+        "audit": "Accuracy and robustness benchmarks, not a violation or residual rate on its own output; N under D.3.",
+        "time_axis": "Object is a smoothed surface for prices presently observed; ten years are training data, not indexing; N under D.4.",
+        "dynamic": "No process-level no-arbitrage condition stated or checked; static constraints only, so D0 under D.5.",
+        "comparability": "Only qualitative high accuracy, no number in the abstract; NC under D.7."
+      }
+    },
+    {
+      "id": "N5",
+      "family": "N",
+      "evidence_status": "numerical test",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Experiments compare accuracy and compute time against ANN/state of the art; numerical test, no theorem, under D.2.",
+        "audit": "Title says minimal arbitrage violations, but the abstract reports no violation statistic on its own output; N under D.3.",
+        "time_axis": "Static volatility surfaces, no date-indexed panel or process; N under D.4.",
+        "dynamic": "No process-level condition; penalties enforce static no-arbitrage in training, so D0 under D.5.",
+        "comparability": "No number reported, only qualitative outperformance; NC under D.7."
+      }
+    },
+    {
+      "id": "R2",
+      "family": "R",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Convergence proof is about the algorithm, not admissibility of the repaired surface; assumption under D.2.",
+        "audit": "No violation or residual statistic on its own output; convergence is a method residual, N under D.3.",
+        "time_axis": "Builds one surface from bid-ask quotes, no calendar-indexed object; N under D.4.",
+        "dynamic": "No process-level condition; martingale optimal transport is a static coupling, so D0 under D.5.",
+        "comparability": "No number reported in the abstract; NC under D.7."
+      }
+    },
+    {
+      "id": "R3",
+      "family": "R",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Construction is asserted to yield arbitrage-free curves, but no theorem or numerical result is presented; assumption under D.2.",
+        "audit": "No violation, residual, or pass-rate statistic on its interpolated output; N under D.3.",
+        "time_axis": "Maturity interpolation of strikes is not calendar engagement; N under D.4 exclusion.",
+        "dynamic": "No process-level condition; interpolation across maturities is static, so D0 under D.5.",
+        "comparability": "No number reported in the abstract; NC under D.7."
+      }
+    },
+    {
+      "id": "R4",
+      "family": "R",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Metadata-only: title asserts smoothing, no theorem or numerical result; conservative assumption under D.8.",
+        "audit": "Title states smoothing, not a violation check on its own output; N per D.8 default.",
+        "time_axis": "American call and put surfaces; no calendar-indexed object named; N under D.4.",
+        "dynamic": "No process-level condition in title; smoothing is static, so D0 under D.5.",
+        "comparability": "Metadata-only and no metric or number named, so NC per D.8 default."
+      }
+    },
+    {
+      "id": "R5",
+      "family": "R",
+      "evidence_status": "numerical test",
+      "audit": "Y",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "RC",
+      "reasons": {
+        "evidence_status": "Reports calendar and butterfly violation rates and reconstruction errors supporting admissibility; no theorem, numerical test under D.2.",
+        "audit": "Violation rates on its own repaired output with calendar and butterfly conditions named; tolerance unstated but audit Y under D.3.",
+        "time_axis": "Object is a per-date surface; 252 trading days are evaluation samples, not a date-indexed family; N under D.4.",
+        "dynamic": "Calendar and butterfly constraints are static per-date conditions, never dynamic enforcement; D0 under D.5.",
+        "comparability": "Reports numeric violation and reconstruction results placeable beside other rows, but dataset and protocol differ; RC under D.7."
+      }
+    },
+    {
+      "id": "G6",
+      "family": "N",
+      "evidence_status": "numerical test",
+      "audit": "Y",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "RC",
+      "reasons": {
+        "evidence_status": "Architecture guarantees convexity and monotonicity, but no theorem is stated; violation and RMSE tests, numerical test under D.2.",
+        "audit": "0.00% convexity, Durrleman, and calendar violations in 15 runs with tolerance 1e-4 on its own output; Y under D.3.",
+        "time_axis": "Maturity monotonicity is not calendar engagement; no date-indexed object; N under D.4 exclusion.",
+        "dynamic": "Calendar violations are maturity conditions on one date's surface, static; D0 under D.5.",
+        "comparability": "RMSE and violation rates reported, placeable beside other rows, but synthetic data and metrics differ; RC under D.7."
+      }
+    },
+    {
+      "id": "G7",
+      "family": "N",
+      "evidence_status": "numerical test",
+      "audit": "N",
+      "time_axis": "Y",
+      "dynamic": "D2",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Numerical validation on Heston-generated data; the linear-inequality guarantee is asserted, no theorem, numerical test under D.2.",
+        "audit": "No violation or residual statistic on the fitted family over dates; validation experiments only, N under D.3.",
+        "time_axis": "Object is an SDE model of joint dynamics from discrete time series, so date-indexed; Y under D.4.",
+        "dynamic": "Constrained state space and neural nets keep surfaces static-admissible; no check over dates, D2 under D.5.",
+        "comparability": "No number reported in the abstract; Heston-generated validation is not placeable; NC under D.7."
+      }
+    },
+    {
+      "id": "C3",
+      "family": "P",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "Y",
+      "dynamic": "D2",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Empirical path-dependence results support the model, not the static-arbitrage claim, which is asserted; assumption under D.2.",
+        "audit": "No violation, residual, or pass-rate statistic on its own simulated paths; N under D.3.",
+        "time_axis": "Object is a path-dependent joint dynamics model of surface and underlying; Y under D.4.",
+        "dynamic": "SSVI/OU/Jacobi model class keeps simulated surfaces static-admissible; no check over dates, D2 under D.5.",
+        "comparability": "Only qualitative a large part, no number reported; NC under D.7."
+      }
+    },
+    {
+      "id": "C4",
+      "family": "C",
+      "evidence_status": "proof",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Abstract states it proves BBF, SABR, and rough SABR asymptotically arbitrage-free; theorem-level support, proof under D.2.",
+        "audit": "No violation or residual statistic on a constructed output; proof only, N under D.3.",
+        "time_axis": "Asymptotic approximation formula, not a calendar-indexed surface family; N under D.4.",
+        "dynamic": "No process-level condition; asymptotic static arbitrage-freeness only, D0 under D.5.",
+        "comparability": "No number reported in the abstract; NC under D.7."
+      }
+    },
+    {
+      "id": "C5",
+      "family": "C",
+      "evidence_status": "numerical test",
+      "audit": "N",
+      "time_axis": "Y",
+      "dynamic": "D1",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Empirical analysis of 2576 stocks over 26 years reports martingale-defect findings; numerical test, no theorem, under D.2.",
+        "audit": "Martingale defects are computed on market data, not the row's own constructed surface; N under D.3.",
+        "time_axis": "26-year stock panel with temporal clustering, object indexed by calendar time; Y under D.4.",
+        "dynamic": "Names and diagnoses a martingale-defect process condition but checks no constructed date-indexed family; D1 under D.5.",
+        "comparability": "No numeric result in the abstract, only sample size; NC under D.7."
+      }
+    },
+    {
+      "id": "S1",
+      "family": "S",
+      "evidence_status": "proof",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Exhibits a large class of arbitrage-free SVI surfaces with closed-form representation; formal construction, proof under D.2.",
+        "audit": "Numerical example reports fit quality, not a violation statistic on its own output; N under D.3.",
+        "time_axis": "Static SVI surface construction; maturity axis only, not calendar time; N under D.4.",
+        "dynamic": "No process-level condition; static arbitrage-freeness only, D0 under D.5.",
+        "comparability": "No number given for the SPX numerical example; NC under D.7."
+      }
+    },
+    {
+      "id": "S2",
+      "family": "S",
+      "evidence_status": "assumption",
+      "audit": "N",
+      "time_axis": "N",
+      "dynamic": "D0",
+      "comparability": "NC",
+      "reasons": {
+        "evidence_status": "Shape-constrained smoothing is asserted arbitrage-free, with no theorem or numerical result; assumption under D.2.",
+        "audit": "No violation or residual statistic on its own smoothed output; negative transition probabilities motivate only, N under D.3.",
+        "time_axis": "Static smile smoothing, no calendar-indexed object; N under D.4.",
+        "dynamic": "No process-level condition; shape-constrained smoothing is static, D0 under D.5.",
+        "comparability": "No number reported in the abstract; NC under D.7."
+      }
+    }
+  ],
+  "note": "Coded from the supplied records and handbook only; no first-analyst columns were read."
+}

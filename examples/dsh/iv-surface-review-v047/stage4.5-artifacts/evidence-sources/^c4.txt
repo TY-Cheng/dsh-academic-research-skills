@@ -1,0 +1,1 @@
+Following-up Fukasawa and Gatheral (Frontiers of Mathematical Finance, 2022), we prove that the BBF formula, the SABR formula, and the rough SABR formula provide asymptotically arbitrage-free approximations of the implied volatility under, respectively, the local volatility model, the SABR model, and the rough SABR model.

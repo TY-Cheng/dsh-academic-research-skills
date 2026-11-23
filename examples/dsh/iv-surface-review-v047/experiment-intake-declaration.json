@@ -1,0 +1,8 @@
+{
+  "schema": "experiment-intake-declaration/1.0",
+  "status": "no_experiments_declared",
+  "declared_by": "scholar",
+  "declared_at": "2026-11-23",
+  "basis": "Structured corpus review; the run executes no experiment, benchmark, or data collection. All quantitative results in the manuscript are recomputations over the frozen 41-record ledger and the vendored integrity artifacts.",
+  "declared_by_note": "The unattended e2e run operator recorded the declaration on the scholar-author behalf under the Stage 1 preauthorization; no separate human data collection exists."
+}

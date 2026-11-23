@@ -1,0 +1,430 @@
+001 2023 h15 c62    Arbitrage-Free Implied Volatility Surface Generation with Variational Autoencoders || SIAM Journal on Financial Mathemat
+002 2022 h14 c32    A two-step framework for arbitrage-free prediction of the implied volatility surface || Quantitative Finance
+003 2024 h13 c58    VolGAN: A Generative Model for Arbitrage-Free Implied Volatility Surfaces || Applied Mathematical Finance
+004 2023 h12 c42    Simulation of Arbitrage-Free Implied Volatility Surfaces || Applied Mathematical Finance
+005 2019 h10 c90    Deep Smoothing of the Implied Volatility Surface || SSRN Electronic Journal
+006 2026 h10 c9     Forecasting implied volatility surface with generative diffusion models || SSRN Electronic Journal
+007 2026 h10 c0     Latent-Space No-Arbitrage Geometry of Generative Models for Implied Volatility Surfaces || arXiv (Cornell University)
+008 2026 h10 c0     Trainable Hard Constraints: Architectural Enforcement of Arbitrage-Free Implied Volatility Surfaces via Automatic Differ || SSRN Electronic Journal
+009 2013 h9 c389   Arbitrage-free SVI volatility surfaces || Quantitative Finance
+010 2026 h8 c0     Arbitrage-Constrained Diffusion-Inspired Denoising for Sparse Implied Volatility Surface Reconstruction || Journal of Mathematical Finance an
+011 2026 h8 c0     Deep Learning for Option Pricing and Implied Volatility Surfaces: A No-Arbitrage Neural Network Approach with a Frontier || Research Square
+012 2021 h7 c83    Arbitrage-Free Neural-SDE Market Models || Applied Mathematical Finance
+013 2026 h7 c4     Latent Flow Matching for Arbitrage-Aware Implied Volatility Surface Generation || ACM International Conference on AI
+014 2021 h7 c2     KRIGING FOR IMPLIED VOLATILITY SURFACE || HAL
+015 2011 h6 c36    Implied Volatility Surface: Construction Methodologies and Characteristics || RePEc: Research Papers in Economic
+016 2023 h6 c6     Computing Volatility Surfaces using Generative Adversarial Networks with Minimal Arbitrage Violations || RePEc: Research Papers in Economic
+017 2025 h6 c4     Arbitrage-Free Implied Volatility Surface Smoothing via Generative Adversarial Networks || ACM International Conference on AI
+018 2026 h6 c1     Arbitrage-Free Implied Volatility Surface Reconstruction via Additive Martingales || arXiv (Cornell University)
+019 2016 h5 c43    Generalized Arbitrage-Free SVI Volatility Surfaces || SIAM Journal on Financial Mathemat
+020 2021 h5 c43    Incorporating Prior Financial Domain Knowledge into Neural Networks for Implied Volatility Surface Prediction || ACM SIGKDD Conference on Knowledge
+021 2019 h5 c31    Building Arbitrage-Free Implied Volatility: Sinkhorn's Algorithm and Variants || SSRN Electronic Journal
+022 2021 h5 c28    Multistep forecast of the implied volatility surface using deep learning || Journal of Futures Markets
+023 2026 h5 c2     Volatility Surface Reconstruction using Deep Learning under No-Arbitrage Constraints || arXiv (Cornell University)
+024 2018 h5 c1     Implied Volatility Surface Construction || DiVA at Umeå University (Umeå Univ
+025 2026 h5 c0     Arbitrage Opportunity Identification Model Based on Stochastic Modelling of Implied Volatility Surfaces || Transactions on Economics Business
+026 2026 h5 c0     Decoupled Probabilistic Forecasting and Arbitrage-Aware Refinement of Implied Volatility Surfaces || arXiv (Cornell University)
+027 2026 h5 c0     Observation-Anchored Arbitrage Repair for Sparse Implied Volatility Surface Completion || IEEE Conference on Computational I
+028 2026 h5 c0     Replication package for: Arbitrage-Constrained Neural Interpolation of the Implied Volatility Surface: Evidence from NSE || Zenodo (CERN European Organization
+029 2020 h4 c118   A Generative Adversarial Network Approach to Calibration of Local Stochastic Volatility Models || Risks
+030 2020 h4 c49    Detecting and Repairing Arbitrage in Traded Option Prices || Applied Mathematical Finance
+031 2019 h4 c29    Model-Free Stochastic Collocation for an Arbitrage-Free Implied Volatility, Part II || Risks
+032 2022 h4 c16    No arbitrage global parametrization for the eSSVI volatility surface || Quantitative Finance
+033 2019 h4 c14    Model-free stochastic collocation for an arbitrage-free implied volatility: Part I || Decisions in Economics and Finance
+034 2023 h4 c10    No-Arbitrage Deep Calibration for Volatility Smile and Skewness || RePEc: Research Papers in Economic
+035 2025 h4 c5     Meta‑Learning Neural Process for Implied Volatility Surfaces with SABR-induced Priors || SSRN Electronic Journal
+036 2025 h4 c4     Controllable Generation of Implied Volatility Surfaces with Variational Autoencoders || arXiv (Cornell University)
+037 2025 h4 c0     PHYSICS-INFORMED NEURAL NETWORKS FOR ARBITRAGE-FREE VOLATILITY SURFACE CONSTRUCTION IN INCOMPLETE MARKETS || AI and Data Science Journal
+038 2026 h4 c0     Implied volatility models without static arbitrage || arXiv (Cornell University)
+039 2013 h4 c0     Arbitrage-Free Mix Var Volatility Surfaces and Applications || SSRN Electronic Journal
+040 2026 h4 c0     Arbitrage-Free Gaussian Process Interpolation for Implied Volatility Surfaces || 
+041 2026 h4 c0     anagha07x/Trainable-Hard-Constraints-Architectural-Enforcement-of-Arbitrage-Free-Implied-Volatility-Surfaces: v1.0.0 - I || Zenodo (CERN European Organization
+042 2009 h3 c208   Arbitrage-free smoothing of the implied volatility surface || Quantitative Finance
+043 2019 h3 c178   Pricing Options and Computing Implied Volatilities using Neural Networks || Risks
+044 2012 h3 c18    Generalised arbitrage-free SVI volatility surfaces || RePEc: Research Papers in Economic
+045 2022 h3 c15    Creating Synthetic Volatility Surfaces using Generative Adversarial Networks with Static Arbitrage Loss Conditions || IEEE Symposium Series on Computati
+046 2024 h3 c11    Enhancing Deep Hedging of Options with Implied Volatility Surface Feedback Information || SSRN Electronic Journal
+047 2026 h3 c11    The implied volatility surface (also) is path-dependent || Quantitative Finance
+048 2019 h3 c7     Gated deep neural networks for implied volatility surfaces || arXiv (Cornell University)
+049 2024 h3 c3     Whack-a-mole Online Learning: Physics-Informed Neural Network for Intraday Implied Volatility Surface || ACM International Conference on AI
+050 2025 h3 c2     Forecasting Implied Volatility Surface with Generative Diffusion Models || SSRN Electronic Journal
+051 2023 h3 c1     No-Arbitrage in Financial Economics: Solution of the Mystery of Implied Volatility and S&P 500 Volatility Index || Management Studies
+052 2016 h3 c0     Arbitrage-Free interpolation if Implied Volatility Surface || SSRN Electronic Journal
+053 2026 h3 c0     ART-Diff: Arbitrage-Consistent, Regime-Aware and Tail-Calibrated Diffusion for Implied Volatility Surfaces || Communications in computer and inf
+054 2026 h3 c0     Generative Adversarial Networks for Inpainting Implied Volatility Surfaces || Mathematics
+055 2026 h3 c0     The Mathematics of Volatility Surfaces || arXiv (Cornell University)
+056 2026 h3 c0     WSVI: A Dimensionless Shape Family for Implied Volatility and Its Static No-Arbitrage Structure || arXiv (Cornell University)
+057 2026 h3 c0     Arbitrage-Free Construction of Volatility Surfaces in the Ultra-Short Tenor Regime: Applications to 0DTE Options and Sta || SSRN Electronic Journal
+058 2026 h3 c0     SABR-informed multitask Gaussian process: A synthetic-to-real framework for implied volatility surface construction || Journal of Computational Science
+059 2026 h3 c0     Arbitrage-Aware Probabilistic Multi-Step Forecasting of Implied Volatility Surfaces: Joint Generation of Surface-Return  || Alexandria (UniSG) (University of 
+060 2026 h3 c0     Arbitrage-Aware Probabilistic Multi-Step Forecasting of Implied Volatility Surfaces: Joint Generation of Surface-Return  || arXiv (Cornell University)
+061 2019 h2 c311   Deep Learning Volatility || Quantitative Finance
+062 1997 h2 c297   Calibrating volatility surfaces via relative-entropy minimization || Applied Mathematical Finance
+063 2015 h2 c273   Arbitrage and duality in nondominated discrete-time models || The Annals of Applied Probability
+064 2010 h2 c122   The Econometrics of Option Pricing || Elsevier eBooks
+065 2018 h2 c76    Deep calibration of rough stochastic volatility models || arXiv (Cornell University)
+066 2025 h2 c71    Deep Learning Statistical Arbitrage || Management Science
+067 2008 h2 c69    Arbitrage-free market models for option prices: the multi-strike case || Finance and Stochastics
+068 2025 h2 c55    GAN-Enhanced Implied Volatility Surface Reconstruction for Option Pricing Error Mitigation || IEEE Access
+069 2013 h2 c49    A NEW LOOK AT SHORT‐TERM IMPLIED VOLATILITY IN ASSET PRICE MODELS WITH JUMPS || Mathematical Finance
+070 2024 h2 c44    Joint SPX & VIX calibration with Gaussian polynomial volatility models: Deep pricing with quantization hints || Mathematical Finance
+071 2017 h2 c41    Gated Neural Networks for Option Pricing: Rationality by Design || Proceedings of the AAAI Conference
+072 2018 h2 c38    Online adaptive machine learning based algorithm for implied volatility surface modeling || Knowledge-Based Systems
+073 2020 h2 c30    Option valuation under no-arbitrage constraints with neural networks || European Journal of Operational Re
+074 2013 h2 c24    Arbitrage-free implied volatility surfaces for options on single stock futures || The North American Journal of Econ
+075 2026 h2 c19    Random Neural Networks for Rough Volatility || Applied Mathematics & Optimization
+076 2016 h2 c19    From arbitrage to arbitrage-free implied volatilities || The Journal of Computational Finan
+077 2025 h2 c15    Operator Deep Smoothing for Implied Volatility || International Conference on Learni
+078 2025 h2 c14    Deep Hedging with Options Using the Implied Volatility Surface || SSRN Electronic Journal
+079 2000 h2 c13    A Bayesian approach for constructing implied volatility surfaces through neural networks || The Journal of Computational Finan
+080 2026 h2 c12    SANOS Smooth strictly Arbitrage-free Non-parametric Option Surfaces || arXiv (Cornell University)
+081 2015 h2 c10    Introducing the Implied Volatility Surface Parametrization (IVP): Application to the FX Market || Wilmott
+082 2017 h2 c8     Implied volatility and state price density estimation: arbitrage analysis || Computational Management Science
+083 2023 h2 c6     Volatility Transformers: an optimal transport-inspired approach to arbitrage-free shaping of implied volatility surfaces || SSRN Electronic Journal
+084 2020 h2 c6     Quantile LASSO in arbitrage-free option markets || Econometrics and Statistics
+085 2020 h2 c6     Robust Calibration For SVI Model Arbitrage Free || SSRN Electronic Journal
+086 2025 h2 c6     Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces || SIAM Journal on Financial Mathemat
+087 2023 h2 c6     The Application of Symbolic Regression on Identifying Implied Volatility Surface || Mathematics
+088 2022 h2 c5     On asymptotically arbitrage-free approximations of the implied volatility || Frontiers of Mathematical Finance
+089 2006 h2 c5     Calibration Design of Implied Volatility Surfaces || RePEc: Research Papers in Economic
+090 2018 h2 c4     Arbitrage-free conditions for implied volatility surface by Delta || The North American Journal of Econ
+091 2012 h2 c3     From Implied to Local Volatility Surface || SSRN Electronic Journal
+092 2015 h2 c2     No Arbitrage Conditions and Characters of Implied Volatility Surface: A Review for Implied Volatility Modelers || SSRN Electronic Journal
+093 2020 h2 c2     Arbitrage-free interpolation of call option prices || Statistics & Risk Modeling
+094 2025 h2 c2     A Risk-Neutral Neural Operator for Arbitrage-Free SPX-VIX Term Structures || arXiv (Cornell University)
+095 2019 h2 c1     The Calibrated SSVI Method - Implied Volatility Surface Construction || KTH Publication Database DiVA (KTH
+096 2026 h2 c1     Universal Diffusion Models for Implied Volatility Surfaces: Learning Shared Dynamics Across Stocks || arXiv (Cornell University)
+097 2026 h2 c0     Integrating the implied regularity (Ht) into implied volatility models: A study on free arbitrage model || Journal of Economic Analysis
+098 2024 h2 c0     Building arbitrage-free implied volatility surface by minimizing entropy || SSRN Electronic Journal
+099 2017 h2 c0     Calibration of Hybrid Model and Arbitrage-Free Implied Volatility Surface || World Academy of Science, Engineer
+100 2026 h2 c0     Implementing Neural SDEs for Data-Driven Dynamics of the Bitcoin Option Surface || Risks
+101 2020 h2 c0     Machine Learning Based Intraday Calibration of End of Day Implied Volatility Surfaces || KTH Publication Database DiVA (KTH
+102 2026 h2 c0     Fine-tuning the Dynamic SABR Model for Arbitrage-free Local Stochastic Volatility Models in Equities and FX Markets || SSRN Electronic Journal
+103 2026 h2 c0     Fine-tuning the Dynamic SABR Model for Arbitrage-free Local Stochastic Volatility Models in Equities and FX Markets || SSRN Electronic Journal
+104 2026 h2 c0     Regime-Adaptive Volatility Surface Arbitrage || SSRN Electronic Journal
+105 2016 h2 c0     Option Volatility & Arbitrage Opportunities || LSU Scholarly Repository (Louisian
+106 2012 h2 c0     Factor Models For Call Price Surface Without Static Arbitrage || eCommons (Cornell University)
+107 2015 h2 c0     Simulation of Implied Volatility Surfaces via Tangent Levy Models || RePEc: Research Papers in Economic
+108 2026 h2 c0     Conditional Diffusion Models for Nonparametric Probabilistic Forecasting of the Implied Volatility Surface under Sparse  || SSRN Electronic Journal
+109 2026 h2 c0     Contract-Level Binary Prediction of Implied Volatility Surfaces Using Transformers || The Journal of Derivatives
+110 2005 h2 c0     DSFM fitting of Implied Volatility Surfaces || RePEc: Research Papers in Economic
+111 2024 h2 c0     Gaussian Processes for Implied Volatility Estimation || SSRN Electronic Journal
+112 2026 h2 c0     Forecasting Implied Volatility Surfaces with Conditional Generative Diffusion Models || SSRN Electronic Journal
+113 2026 h2 c0     Generative Bayesian Computation for Volatility Surfaces || SSRN Electronic Journal
+114 2024 h2 c0     Degree of Irrationality: Sentiment and Implied Volatility Surface || RePEc: Research Papers in Economic
+115 2006 h1 c1135  The Volatility Surface: A Practitioner's Guide || 
+116 2015 h1 c1056  Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle || The Journal of Finance
+117 2000 h1 c599   Jump-Diffusion Processes: Volatility Smile Fitting and Numerical Methods for Option Pricing || Review of Derivatives Research
+118 2003 h1 c360   Losing Money on Arbitrage: Optimal Dynamic Portfolio Choice in Markets with Arbitrage Opportunities || Review of Financial Studies
+119 2008 h1 c343   BEHAVIORAL PORTFOLIO SELECTION IN CONTINUOUS TIME || Mathematical Finance
+120 1998 h1 c330   Penalty methods for American options with stochastic volatility || Journal of Computational and Appli
+121 2020 h1 c317   How Neural Networks Extrapolate: From Feedforward to Graph Neural Networks || arXiv (Cornell University)
+122 2019 h1 c273   Neural Networks for Option Pricing and Hedging: A Literature Review || The Journal of Computational Finan
+123 2003 h1 c256   Using neural networks for forecasting volatility of S&P 500 Index futures prices || Journal of Business Research
+124 2018 h1 c239   The Anatomy of Inference: Generative Models and Brain Structure || Frontiers in Computational Neurosc
+125 2008 h1 c222   A multifactor volatility Heston model || Quantitative Finance
+126 2005 h1 c218   A note on sufficient conditions for no arbitrage || Finance research letters
+127 1994 h1 c213   Implied volatility functions in arbitrage-free term structure models || Journal of Financial Economics
+128 1997 h1 c169   The migration of volatiles on the surfaces of Mercury and the Moon || Journal of Geophysical Research At
+129 2019 h1 c165   A neural network-based framework for financial model calibration || Journal of Mathematics in Industry
+130 2024 h1 c160   Fin-GAN: forecasting and classifying financial time series via generative adversarial networks || Quantitative Finance
+131 2005 h1 c138   Static-arbitrage upper bounds for the prices of basket options || Quantitative Finance
+132 2006 h1 c130   Implied Volatility: Statics, Dynamics, and Probabilistic Interpretation || Kluwer Academic Publishers eBooks
+133 2006 h1 c129   A semiparametric factor model for implied volatility surface dynamics || Journal of Financial Econometrics
+134 2021 h1 c127   An Overview of Variational Autoencoders for Source Separation, Finance, and Bio-Signal Applications || Entropy
+135 1998 h1 c116   Improving the pricing of options: a neural network approach || Journal of Forecasting
+136 2022 h1 c116   Electricity Price Prediction for Energy Storage System Arbitrage: A Decision-Focused Approach || IEEE Transactions on Smart Grid
+137 2012 h1 c112   HEDGING UNDER ARBITRAGE || Mathematical Finance
+138 2020 h1 c105   No‐arbitrage implies power‐law market impact and rough volatility || Mathematical Finance
+139 2017 h1 c102   Clearing and Pricing for Coordinated Gas and Electricity Day-Ahead Markets Considering Wind Power Uncertainty || IEEE Transactions on Power Systems
+140 2022 h1 c99    Energy data generation with Wasserstein Deep Convolutional Generative Adversarial Networks || Energy
+141 2022 h1 c98    Review on the transport capacity management of oil and gas pipeline network: Challenges and opportunities of future pipe || Energy Strategy Reviews
+142 2014 h1 c97    Arbitrage-Free SABR || Wilmott
+143 2019 h1 c93    A regularity structure for rough volatility || Mathematical Finance
+144 2008 h1 c92    Static super-replicating strategies for a class of exotic options || Insurance Mathematics and Economic
+145 2025 h1 c90    On Deep Calibration of (rough) Stochastic Volatility Models || The Journal of FinTech
+146 2022 h1 c82    A generative adversarial network for synthetization of regions of interest based on digital mammograms || Scientific Reports
+147 2022 h1 c80    Deep learning for volatility forecasting in asset management || Soft Computing
+148 2013 h1 c80    ASYMPTOTICS FOR EXPONENTIAL LÉVY PROCESSES AND THEIR VOLATILITY SMILE: SURVEY AND NEW RESULTS || International Journal of Theoretic
+149 2011 h1 c76    Implied Volatility Surface: Construction Methodologies and Characteristics || SSRN Electronic Journal
+150 2020 h1 c75    Implied Stochastic Volatility Models || Review of Financial Studies
+151 2019 h1 c72    Pointwise Arbitrage Pricing Theory in Discrete Time || Mathematics of Operations Research
+152 2021 h1 c71    Implied volatility directional forecasting: a machine learning approach || Quantitative Finance
+153 2007 h1 c65    Conditions on option prices for absence of arbitrage and exact calibration || Journal of Banking & Finance
+154 2021 h1 c65    Volatility Bursts: A Discrete-time Option Model with Multiple Volatility Components || SSRN Electronic Journal
+155 2005 h1 c61    Static-arbitrage optimal subreplicating strategies for basket options || Insurance Mathematics and Economic
+156 2021 h1 c60    Deep calibration of the quadratic rough Heston model || RePEc: Research Papers in Economic
+157 2005 h1 c60    Static arbitrage bounds on basket option prices || Mathematical Programming
+158 2022 h1 c60    Variational Autoencoders: A Hands-Off Approach to Volatility || The Journal of Financial Data Scie
+159 2020 h1 c59    A neural network approach to understanding implied volatility movements || Quantitative Finance
+160 2001 h1 c59    Pricing, no-arbitrage bounds and robust hedging of instalment options || Quantitative Finance
+161 2014 h1 c59    Can we forecast the implied volatility surface dynamics of equity options? Predictability and economic value tests || Journal of Banking & Finance
+162 2022 h1 c57    Behind the Leaves: Estimation of Occluded Grapevine Berries With Conditional Generative Adversarial Networks || Frontiers in Artificial Intelligen
+163 2012 h1 c56    A LOW-BIAS SIMULATION SCHEME FOR THE SABR STOCHASTIC VOLATILITY MODEL || International Journal of Theoretic
+164 2020 h1 c54    Time Series Simulation by Conditional Generative Adversarial Net || International Journal of Neural Ne
+165 2021 h1 c54    Deep Hedging under Rough Volatility || Risks
+166 2008 h1 c50    Stochastic Local Volatility || SSRN Electronic Journal
+167 2019 h1 c48    Calibrating Rough Volatility Models: A Convolutional Neural Network Approach || Quantitative Finance
+168 2021 h1 c46    A network-aware market mechanism for decentralized district heating systems || Applied Energy
+169 2021 h1 c45    Risk Measures: Robustness, Elicitability, and Backtesting || Annual Review of Statistics and It
+170 2011 h1 c45    Option Data and Modeling BSM Implied Volatility || Springer eBooks
+171 2024 h1 c40    AI in Financial Mathematics: Predicting Market Fluctuations and Risk || 
+172 2020 h1 c38    Generation of geometric interpolations of building types with deep variational autoencoders || Design Science
+173 2022 h1 c38    Option Pricing Based on GA-BP neural network || Procedia Computer Science
+174 2022 h1 c37    Mixed Integer Linear Program model for optimized scheduling of a vanadium redox flow battery with variable efficiencies, || Journal of Energy Storage
+175 2025 h1 c36    Credit Risk Identification in Supply Chains Using Generative Adversarial Networks || International Conference on Advanc
+176 2021 h1 c35    A Quantum Generative Adversarial Network for distributions || Quantum Machine Intelligence
+177 2020 h1 c34    Index Tracking with Cardinality Constraints: A Stochastic Neural Networks Approach || Proceedings of the AAAI Conference
+178 2021 h1 c32    Dynamic functional time-series forecasts of foreign exchange implied volatility surfaces || International Journal of Forecasti
+179 2015 h1 c32    Asymptotics of Forward Implied Volatility || SIAM Journal on Financial Mathemat
+180 2023 h1 c31    Regeneration of pavement surface textures using M‐sigmoid‐normalized generative adversarial networks || Computer-Aided Civil and Infrastru
+181 2012 h1 c31    Robust Estimation of Shape Constrained State Price Density Surfaces || The Journal of Derivatives
+182 2002 h1 c30    Volatility, open interest, volume, and arbitrage: evidence from the S&P 500 futures market || Applied Economics Letters
+183 2009 h1 c30    Static-arbitrage lower bounds on the prices of basket options via linear programming || Quantitative Finance
+184 1999 h1 c30    Nonparametric estimation of an implied volatility surface || The Journal of Computational Finan
+185 2012 h1 c29    Empirical performance of a spline-based implied volatility surface || Journal of Derivatives & Hedge Fun
+186 2021 h1 c29    Weak transport for non‐convex costs and model‐independence in a fixed‐income market || Mathematical Finance
+187 2011 h1 c28    MODEL-FREE IMPLIED VOLATILITY: FROM SURFACE TO INDEX || International Journal of Theoretic
+188 1999 h1 c27    CALIBRATING VOLATILITY SURFACES VIA RELATIVE-ENTROPY MINIMIZATION || WORLD SCIENTIFIC eBooks
+189 2007 h1 c27    No-Arbitrage Dynamics for a Tractable SABR Term Structure Libor Model || SSRN Electronic Journal
+190 2022 h1 c27    No Arbitrage SVI || SIAM Journal on Financial Mathemat
+191 2021 h1 c26    Interest Rate Volatility and No-Arbitrage Affine Term Structure Models || Management Science
+192 2003 h1 c25    Alternative Neural Network Approach for Option Pricing and Hedging || SSRN Electronic Journal
+193 2014 h1 c25    Finite Difference Techniques for Arbitrage Free SABR || The Journal of Computational Finan
+194 2013 h1 c25    A Model-Free No-arbitrage Price Bound for Variance Options || Applied Mathematics & Optimization
+195 2020 h1 c25    The complete Gaussian kernel in the multi-factor Heston model: Option pricing and implied volatility applications || European Journal of Operational Re
+196 2019 h1 c24    Enriching Financial Datasets with Generative Adversarial Networks || Research Repository (Delft Univers
+197 2018 h1 c24    Volatility Model Calibration With Convolutional Neural Networks || SSRN Electronic Journal
+198 2019 h1 c24    Robust calibration and arbitrage-free interpolation of SSVI slices || Decisions in Economics and Finance
+199 2026 h1 c24    Deep Learning from Implied Volatility Surfaces || SSRN Electronic Journal
+200 2019 h1 c24    Pricing options with exponential Lévy neural network || Expert Systems with Applications
+201 2021 h1 c23    Variational Autoencoders: A Hands-Off Approach to Volatility || SSRN Electronic Journal
+202 2025 h1 c22    Barrier option pricing and volatility surface predicting with an extended physics-informed neural network || Expert Systems with Applications
+203 2016 h1 c22    A forward equation for barrier options under the Brunick & Shreve Markovian projection || Quantitative Finance
+204 2017 h1 c22    Arbitrage Pricing Theory for Idiosyncratic Variance Factors || Journal of Financial Econometrics
+205 2024 h1 c21    FuNVol: multi-asset implied volatility market simulator using functional principal components and neural SDEs || Quantitative Finance
+206 2019 h1 c20    Modern SABR Analytics: Formulas and Insights for Quants, Former Physicists and Mathematicians || SpringerBriefs in quantitative fin
+207 2016 h1 c19    B-spline techniques for volatility modeling || The Journal of Computational Finan
+208 2011 h1 c19    A New Simple Approach for Constructing Implied Volatility Surfaces || 
+209 2012 h1 c18    No-arbitrage implied volatility functions: Empirical evidence from KOSPI 200 index options || Journal of Empirical Finance
+210 2024 h1 c18    Valuing distributed energy resources for non-wires alternatives || Electric Power Systems Research
+211 2012 h1 c18    ON PROPERTIES OF ANALYTICALLY SOLVABLE FAMILIES OF LOCAL VOLATILITY DIFFUSION MODELS || Mathematical Finance
+212 2016 h1 c16    Approximate Arbitrage-Free Option Pricing Under the SABR Model || Journal of Economic Dynamics and C
+213 2008 h1 c16    A Stochastic Volatility Alternative to SABR || Journal of Applied Probability
+214 2021 h1 c16    Deep Learning Based Dynamic Implied Volatility Surface || SSRN Electronic Journal
+215 2020 h1 c16    PCA for Implied Volatility Surfaces || The Journal of Financial Data Scie
+216 2024 h1 c16    The Statistical Limit of Arbitrage || National Bureau of Economic Resear
+217 1998 h1 c15    Beyond implied volatility || arXiv (Cornell University)
+218 2021 h1 c15    Distribution Optimal Power Flow With Energy Sharing Via a Peer-To-Peer Transactive Market || Frontiers in Energy Research
+219 2012 h1 c15    A new look at short-term implied volatility in asset price models with jumps || RePEc: Research Papers in Economic
+220 2016 h1 c15    Gated Neural Networks for Option Pricing: Rationality by Design || arXiv (Cornell University)
+221 2020 h1 c15    BOUNDS ON MULTI-ASSET DERIVATIVES VIA NEURAL NETWORKS || International Journal of Theoretic
+222 2025 h1 c14    Neural Tangent Kernel in Implied Volatility Forecasting: A Nonlinear Functional Autoregression Approach || Journal of Business and Economic S
+223 2008 h1 c14    Arbitrage-free market models for liquid options || 
+224 2024 h1 c14    Finance-Informed Neural Network: Learning the Geometry of Option Pricing || RePEc: Research Papers in Economic
+225 2023 h1 c13    FuNVol: A Multi-Asset Implied Volatility Market Simulator using Functional Principal Components and Neural SDEs || RePEc: Research Papers in Economic
+226 2013 h1 c13    B-spline techniques for volatility modeling || RePEc: Research Papers in Economic
+227 2016 h1 c13    A Backward Dual Representation for the Quantile Hedging of Bermudan Options || SIAM Journal on Financial Mathemat
+228 2020 h1 c13    Forecasting Implied Volatility Smile Surface via Deep Learning and Attention Mechanism || SSRN Electronic Journal
+229 2010 h1 c12    Computing general static-arbitrage bounds for European basket options via Dantzig-Wolfe decomposition || Algorithmic operations research
+230 2011 h1 c12    Information Aggregation, Investment, and Managerial Incentives || National Bureau of Economic Resear
+231 2017 h1 c12    Simulation of Implied Volatility Surfaces via Tangent Lévy Models || SIAM Journal on Financial Mathemat
+232 2019 h1 c12    Forecasting Implied Volatility Smile Surface via Deep Learning and Attention Mechanism || RePEc: Research Papers in Economic
+233 2006 h1 c11    The volatility of the instantaneous spot interest rate implied by arbitrage pricing—A dynamic Bayesian approach || Automatica
+234 2016 h1 c11    No-Arbitrage and Hedging with Liquid American Options || Mathematics of Operations Research
+235 2018 h1 c10    A Neural Network Approach to Understanding Implied Volatility Movements || SSRN Electronic Journal
+236 2024 h1 c10    Approximation Rates for Deep Calibration of (Rough) Stochastic Volatility Models || SIAM Journal on Financial Mathemat
+237 2011 h1 c10    A Class of Term Structures for SVI Implied Volatility || SSRN Electronic Journal
+238 2025 h1 c10    Data-driven hedging with generative models || Annals of Operations Research
+239 2005 h1 c10    Implied Calibration and Moments Asymptotics in Stochastic Volatility Jump Diffusion Models || SSRN Electronic Journal
+240 2014 h1 c10    Heston model: shifting on the volatility surface || Use Siena air (University of Siena
+241 2023 h1 c9     FuNVol: A Multi-Asset Implied Volatility Market Simulator using Functional Principal Components and Neural SDEs || SSRN Electronic Journal
+242 2022 h1 c9     Hedging Option Books Using Neural-SDE Market Models || Applied Mathematical Finance
+243 2005 h1 c9     Predictable Dynamics in the S&P 500 Index Options Implied Volatility Surface || 
+244 2025 h1 c9     A Variational Autoencoder Approach to Conditional Generation of Possible Future Volatility Surfaces || The Journal of Financial Data Scie
+245 2022 h1 c8     From Stochastic to Rough Volatility: A New Deep Learning Perspective on Hedging || Fractal and Fractional
+246 2004 h1 c8     Static Arbitrage Bounds on Basket Option Prices || SSRN Electronic Journal
+247 2001 h1 c8     Pricing, No-Arbitrage Bounds and Robust Hedging of Installment Options || SSRN Electronic Journal
+248 2003 h1 c8     Fitting the Smile Revisited: A Least Squares Kernel Estimator for the Implied Volatility Surface || Alexandria (UniSG) (University of 
+249 2020 h1 c8     AHEAD: Ad Hoc Electronic Auction Design || Frontiers of Mathematical Finance
+250 2015 h1 c7     Computation of the implied discount rate and volatility for an overdefined system using stochastic optimization || IMA Journal of Management Mathemat
+251 2025 h1 c7     Robust financial calibration: a Bayesian approach for neural stochastic differential equations || The Journal of Computational Finan
+252 2023 h1 c7     Non-adversarial training of Neural SDEs with signature kernel scores || RePEc: Research Papers in Economic
+253 2019 h1 c7     Neural Networks Based Dynamic Implied Volatility Surface || SSRN Electronic Journal
+254 2020 h1 c7     Volatility model calibration with neural networks a comparison between direct and indirect methods || RePEc: Research Papers in Economic
+255 2018 h1 c7     Local-Stochastic Volatility for Vanilla Modeling: A Tractable and Arbitrage Free Approach to Option Pricing || SSRN Electronic Journal
+256 2009 h1 c7     Efficient option pricing with multi-factor equity-interest rate hybrid models || Research Repository (Delft Univers
+257 2023 h1 c7     Applying Deep Learning to Calibrate Stochastic Volatility Models || SSRN Electronic Journal
+258 2024 h1 c6     Deep Learning Interpretability for Rough Volatility || SSRN Electronic Journal
+259 2025 h1 c6     Variational Autoencoders for Completing the Volatility Surfaces || Journal of risk and financial mana
+260 2021 h1 c6     Neural Options Pricing || RePEc: Research Papers in Economic
+261 2016 h1 c6     Necessary and Sufficient No-Arbitrage Conditions for the SSVI/S3 Volatility Curve || SSRN Electronic Journal
+262 2002 h1 c5     Asset Mispricing, Arbitrage, and Volatility || 
+263 2021 h1 c5     Short Communication: Dynamics of Symmetric SSVI Smiles and Implied Volatility Bubbles || SIAM Journal on Financial Mathemat
+264 2020 h1 c5     A Bayesian nonparametric approach to option pricing || Brazilian Review of Finance
+265 2021 h1 c5     A note on the option price and ‘Mass at zero in the uncorrelated SABR model and implied volatility asymptotics’ || Quantitative Finance
+266 2024 h1 c5     Solving The Dynamic Volatility Fitting Problem: A Deep Reinforcement Learning Approach || SSRN Electronic Journal
+267 2024 h1 c5     Neural Networks Can Detect Model-Free Static Arbitrage Strategies || Applied Mathematics & Optimization
+268 2022 h1 c5     Pontryagin Optimal Control via Neural Networks || arXiv (Cornell University)
+269 2020 h1 c5     ASYMPTOTICS OF THE TIME-DISCRETIZED LOG-NORMAL SABR MODEL: THE IMPLIED VOLATILITY SURFACE || Probability in the Engineering and
+270 2019 h1 c4     Arbitrage Free Approximations to Candidate Volatility Surface Quotations || Journal of risk and financial mana
+271 2023 h1 c4     A Neural Network Approach to Understanding Implied Volatility Movements || World Scientific lecture notes in 
+272 2010 h1 c4     VALUATION FUNCTIONALS AND STATIC NO ARBITRAGE OPTION PRICING FORMULAS || Journal of the Korea Society for I
+273 2003 h1 c4     Early unwinding of options-futures arbitrage with bid/ask quotations and transaction prices || Global Finance Journal
+274 2004 h1 c4     A Harmonic Analysis Solution to the Static Basket Arbitrage Problem || SSRN Electronic Journal
+275 2018 h1 c4     A Spectral Approach to Pricing of Arbitrage-Free SABR Discrete Barrier Options || Computational Economics
+276 2025 h1 c4     The Quadratic Local Variance Gamma Model: An Arbitrage-Free Interpolation of Class C3 for Option Prices || The Journal of Derivatives
+277 2011 h1 c4     Arbitrage pricing theory in international markets || Digital Library of Theses and Diss
+278 2024 h1 c4     Probabilistic Multi-Product Trading of Hydro Power Plants in Sequential Intraday and Frequency-Regulation Markets || IEEE Transactions on Energy Market
+279 2025 h1 c4     Data-driven hedging with generative models || SSRN Electronic Journal
+280 2016 h1 c4     Gated Neural Networks for Option Pricing: Rationality by Design || RePEc: Research Papers in Economic
+281 2022 h1 c3     Hedging option books using neural-SDE market models || arXiv (Cornell University)
+282 2024 h1 c3     Martingale defects in the volatility surface and bubble conditions in the underlying || Review of Derivatives Research
+283 2025 h1 c3     Explicit and Effectively Symmetric Schemes for Neural SDEs on Lie Groups || arXiv (Cornell University)
+284 2004 h1 c3     Static versus Dynamic Arbitrage Bounds on Multivariate Option Prices || arXiv (Cornell University)
+285 2007 h1 c3     Forecasting Implied Volatility Surfaces || SSRN Electronic Journal
+286 2003 h1 c3     The dynamics of implied volatilities: A common principal components approach || RePEc: Research Papers in Economic
+287 2018 h1 c3     Implied volatility parameterization based on a machine learning polynomial approach || Intelligent Data Analysis
+288 1999 h1 c3     Virtual Arbitrage Pricing Theory || RePEc: Research Papers in Economic
+289 2014 h1 c3     Discrete, Non Probabilistic Market Models. Arbitrage and Pricing Intervals || RePEc: Research Papers in Economic
+290 2013 h1 c3     Market mechanisms to allow trading of impervious cover || UC Research Repository  (Universit
+291 2020 h1 c3     Distributed Control of Clustered Populations of Thermostatic Loads in Multi-Area Systems: A Mean Field Game Approach || Energies
+292 2025 h1 c3     Data-driven hedging with generative models || SSRN Electronic Journal
+293 2023 h1 c3     Interpolation of missing swaption volatility data using variational autoencoders || Behaviormetrika
+294 2024 h1 c3     A new encoding of implied volatility surfaces for their synthetic generation || IET conference proceedings.
+295 2011 h1 c3     Neural Networks as Semiparametric Option Pricing Tool || ASEP
+296 2025 h1 c3     Studies of Issues on Hybrid Neural Networks for Pricing Financial Options || Artificial Intelligence and Applic
+297 2014 h1 c3     Implied Volatility Function Approximation with Korean ELWs (Equity-Linked Warrants) via Gaussian Processes || Management Science and Financial E
+298 2016 h1 c3     Implied Volatility Forecasting in the Options Market: A Survey || Sains Humanika
+299 2024 h1 c3     Convex Volatility Interpolation || SSRN Electronic Journal
+300 2026 h1 c2     Option pricing under regime-switching jump-diffusion dynamics with transaction costs: a neural SDE approach || Review of Derivatives Research
+301 2022 h1 c2     Hedging Option Books Using Neural-SDE Market Models || SSRN Electronic Journal
+302 2020 h1 c2     Volatility Model Calibration with Neural Networks a Comparison between Direct and Indirect Methods || SSRN Electronic Journal
+303 2024 h1 c2     Multi-Timescale Recurrent Neural Networks Beat Rough Volatility for Intraday Volatility Prediction || Risks
+304 2021 h1 c2     Sailing in rough waters: Examining volatility of fMRI noise || Magnetic Resonance Imaging
+305 2016 h1 c2     Extending the SSVI model with arbitrage-free conditions || Research Repository (Delft Univers
+306 2010 h1 c2     Modeling Implied Volatility Surfaces Using Two-dimensional Cubic Spline with Estimated Grid Points || Industrial Engineering & Managemen
+307 2015 h1 c2     Arbitrage-free methods to price European options under the SABR model || Research Repository (Delft Univers
+308 2026 h1 c2     From Arbitrage Removal to Density Extraction: A Model-Free Framework for Short-Dated Options || arXiv (Cornell University)
+309 2011 h1 c2     Libor Market Models with stochastic volatility and CMS spread option pricing || OPen Access Repositorium der Unive
+310 2026 h1 c2     The Risk-Neutral Crash Frontier: Sharp Joint Bounds on Crash Probability and Conditional Depth from Option Bid-Ask Quote || SSRN Electronic Journal
+311 2024 h1 c2     Whack-a-mole Learning: Physics- Informed Deep Calibration for Implied Volatility Surface || IEEE Conference on Computational I
+312 2021 h1 c2     Predicting Arbitrage-free American Option Prices Using Artificial Neural Network with Pseudo Inputs || Industrial Engineering & Managemen
+313 2026 h1 c2     DER Day-Ahead Offering: A Neural Network Column-and-Constraint Generation Approach || IEEE Power Engineering Society Gen
+314 2026 h1 c2     Physics-informed neural networks for solving derivative-constrained partial differential equations || Physical review. E
+315 2022 h1 c2     Arbitrage-free smile construction on FX option markets using Garman-Kohlhagen deltas and implied volatilities || Review of Derivatives Research
+316 2021 h1 c1     Generative Adversarial Network: Some Analytical Perspectives || RePEc: Research Papers in Economic
+317 2020 h1 c1     Rough volatility models: small-time asymptotics and calibration || 
+318 2024 h1 c1     Unsupervised Learning-based Calibration Scheme for Rough Volatility Models || RePEc: Research Papers in Economic
+319 2020 h1 c1     Arbitrage Bounds on Currency Basket Options || Mathematical and Computational App
+320 2025 h1 c1     Hexagon-Net: Heterogeneous Cross-View Aligned Graph Attention Networks for Implied Volatility Surface Prediction || ACM SIGKDD Conference on Knowledge
+321 2014 h1 c1     Arbitrage-free prediction of the implied volatility smile || RePEc: Research Papers in Economic
+322 2014 h1 c1     Arbitrage-Free Prediction of the Implied Volatility Smile || SSRN Electronic Journal
+323 2020 h1 c1     Digital Option Valuation With the SABR Model || Wilmott
+324 2020 h1 c1     An arbitrage-free interpolation of class $C^2$ for option prices || RePEc: Research Papers in Economic
+325 2003 h1 c1     Arbitrage and pricing in a general model with flows || Applicationes Mathematicae
+326 2026 h1 c1     From No-Arbitrage to Foundation Models: A Review of Financial-Mathematics-Constrained Generative AI and Deep Learning fo || SSRN Electronic Journal
+327 2025 h1 c1     Proof-Carrying No-Arbitrage Surfaces: Constructive PCA-Smolyak Meets Chain-Consistent Diffusion with c-EMOT Certificates || arXiv (Cornell University)
+328 2026 h1 c1     RIDGE: An Autonomous Framework for Validation and Method Discovery in LLM-Generated Option Pricing || arXiv (Cornell University)
+329 2025 h1 c1     The Offshore Origins of Regulatory Arbitrage: Charting a Critical Conceptual History || SSRN Electronic Journal
+330 2025 h1 c1     Robust Pricing and Hedging of American Options in Continuous Time || arXiv (Cornell University)
+331 2026 h1 c1     The McCormick Martingale Optimal Transport || SIAM Journal on Financial Mathemat
+332 2020 h1 c1     Aging-aware battery dispatch optimization for grid applications || DR-NTU (Nanyang Technological Univ
+333 2026 h1 c1     Two-stage techno-economic planning of distributed energy resources as non-wire alternatives in distribution networks || International Journal of Electrica
+334 2023 h1 c1     Towards Data-Driven Volatility Modeling with Variational Autoencoders || Communications in computer and inf
+335 2024 h1 c1     Filling in Missing FX Implied Volatilities with Uncertainties: Improving VAE-Based Volatility Imputation || RePEc: Research Papers in Economic
+336 2026 h1 c1     Diffusion models for dynamic volatility surface generation and data-driven hedging || ACM International Conference on AI
+337 2025 h1 c1     Risk-Sensitive Option Market Making with Arbitrage-Free eSSVI Surfaces: A Constrained RL and Stochastic Control Bridge || arXiv (Cornell University)
+338 2019 h1 c1     Option Pricing Using Neural Networks || 
+339 2019 h1 c1     Modelling option prices using neural networks || BRAC University Institutional Repo
+340 2026 h1 c1     Fast, Reliable, and Error-Bounded Option Pricing with Pretrained Neural Networks: A GJR--GARCH Study || arXiv (Cornell University)
+341 2025 h1 c1     Empirical Models of the Time Evolution of SPX Option Prices || SSRN Electronic Journal
+342 2024 h1 c1     SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories || Proceedings of the ACM on Programm
+343 2026 h1 c1     A Wiener Chaos Approach to Martingale Modelling and Implied Volatility Calibration || arXiv (Cornell University)
+344 2026 h1 c1     Mixture-Preserving, Arbitrage-Free Interpolation for Volatility-Surface Models || arXiv (Cornell University)
+345 2025 h1 c0     T-Vol: Arbitrage-Aware 3D Implied Volatility Surfaces with Transformers || International Conference on Virtua
+346 ---- h1 c0     Arbitrage tests and surface of implied volatility: An empirical analysis of high frequency data || RePEc: Research Papers in Economic
+347 2026 h1 c0     Generative Adversarial Networks (GAN) for Synthetic Financial Data and Portfolio Optimization || International Journal of Research 
+348 2019 h1 c0     Relaxed Wasserstein, Generative Adversarial Networks, Variational Autoencoders and their applications || eScholarship (California Digital L
+349 2018 h1 c0     Improving Realism in Synthetic Barcode Images using Generative Adversarial Networks || DiVA (Linkoping University)
+350 2026 h1 c0     Shield tunnelling operational parameters predictions using generative adversarial networks || KSCE Journal of Civil Engineering
+351 2026 h1 c0     Structured Neural SDEs for Functional Calibration || arXiv (Cornell University)
+352 2026 h1 c0     SDECast: Probabilistic Weather Forecasting in Continuous Time with Neural SDEs || arXiv (Cornell University)
+353 2026 h1 c0     SDE-Constrained Lévy-Driven Neural SDEs for Predictability-Aware Exchange Rate Forecasting || Journal of risk and financial mana
+354 2000 h1 c0     A Bayesian approach for constructing implied volatility surfaces through neural networks || The Journal of Computational Finan
+355 2022 h1 c0     Correct Modeling of SH 50ETF Option Implied Volatility Based on Neural Network || Lecture notes on data engineering 
+356 2026 h1 c0     Forecasting realized volatility with the implied volatility surface: an image-based approach || The Journal of Risk
+357 2022 h1 c0     Asset Movement Forcasting with the Implied Volatility Surface Analysis Based on SABR Model || IEEE International Conference on I
+358 2025 h1 c0     Physics-Informed Neural Networks for Financial Volatility Model Calibration || UCL Discovery (University College 
+359 2025 h1 c0     An Efficient Calibration Framework for Volatility Derivatives under Rough Volatility with Jumps || arXiv (Cornell University)
+360 2019 h1 c0     Rough volatility models || DepositOnce
+361 2026 h1 c0     Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models || arXiv (Cornell University)
+362 2026 h1 c0     Neural Network Calibration of the Heston Stochastic Volatility Model || Advances in Economics Management a
+363 2024 h1 c0     The power of neural networks in stochastic volatility modeling || The Journal of Risk
+364 2020 h1 c0     Historical Analysis of Rough Volatility Models to the SPX Market || SSRN Electronic Journal
+365 2008 h1 c0     Arbitrage, volatility, and pricing options on IBEX-35 spanish index: an empirical examination || Dialnet (Universidad de la Rioja)
+366 2015 h1 c0     The arbitrage inconsistencies of implied volatility extraction in connection to calendar bandwidth || ASEP
+367 2013 h1 c0     Static-arbitrage bounds on Basket option price via LP || 대한산업공학회 춘계공동학술대회 논문집
+368 2026 h1 c0     Physics Constrained Learning Framework for Arbitrage Free Implied Volatility Surface Reconstruction Evidence from NSE Ni || 
+369 2026 h1 c0     Arbitrage-Free Pricing at Inception: Break-Even Implied Volatility Surfaces, Volatility Skew and Smile, and Options Risk || Zenodo (CERN European Organization
+370 2026 h1 c0     Quasi-Explicit Recovery of Heston Parameters from SSVI-Parameterized Volatility Surfaces || SSRN Electronic Journal
+371 2025 h1 c0     Comparative Analysis of forecasting techniques for the Implied Volatility Surface || ResearchSpace (University of Auckl
+372 2026 h1 c0     Empirical Evidence of Rough Volatility in Bitcoin Options: A Rough Bergomi Approach || SSRN Electronic Journal
+373 2025 h1 c0     Operator-Based Implied Volatility Smoothing: An Approach to Improve GNO Efficiency Using Bivariate Cubic B-Splines || Communications in computer and inf
+374 2026 h1 c0     Constructing and Fitting Implied Volatility Surfaces: A Practitioner Framework Using SVI Parametrization || SSRN Electronic Journal
+375 2026 h1 c0     The Market already Knew: A Pre-registered Falsification of TimesFM-3 on the SPY Implied-volatility Surface || SSRN Electronic Journal
+376 2023 h1 c0     Estimating implied volatility surfaces using Bayesian splines under shape restrictions || Digital Library of Theses and Diss
+377 2017 h1 c0     Forecasting the implied volatility surface in risk-management applications || Research Repository (Delft Univers
+378 2026 h1 c0     Implied Volatility Surface Predictability: Evidence from TAIEX Index Options || SSRN Electronic Journal
+379 2026 h1 c0     One-X Property Conjecture, Stochastic Orders and Implied Volatility Surface Construction || SSRN Electronic Journal
+380 2026 h1 c0     Predictive Information in the Implied Volatility Surface: Evidence from U.S. and Chinese Option Markets || Advances in Economics Management a
+381 2009 h1 c0     Nonparametric Fitting of Implied Volatility Surface || Journal of Wuhan University of Tec
+382 2000 h1 c0     Nonparametric estimation of an implied volatility surface || The Journal of Computational Finan
+383 2025 h1 c0     Nonparametric Correction of Path-Dependent Implied Volatility Surface || Digital Repository (National Repos
+384 2026 h1 c0     Bias-reduced nonparametric local volatility: Stable numerical method without building the continuous implied volatility  || Mathematics and Computers in Simul
+385 2017 h1 c0     Closed-Form Implied Volatility Surfaces for Stochastic Volatility Models || SSRN Electronic Journal
+386 2026 h1 c0     Arbitrage-Free Volatility Surface Construction: SVI, SABR, SSVI, and Vanna-Volga Calibration Methods || SSRN Electronic Journal
+387 2015 h1 c0     Arbitrage-free approaches for pricing interest rate derivatives under the SABR model || Research Repository (Delft Univers
+388 2017 h1 c0     Efficient, Arbitrage Free Option Prices from Stochastic Volatility || SSRN Electronic Journal
+389 2020 h1 c0     A Note on the Option Price and 'Mass at Zero in the Uncorrelated SABR Model and Implied Volatility Asymptotics' || SSRN Electronic Journal
+390 2020 h1 c0     Arbitrage-free prediction of implied volatility: a comparison study || LA Referencia (Red Federada de Rep
+391 2005 h1 c0     Application of Smoothing Techniques to Implied Volatility || edoc Publication server (Humboldt 
+392 2026 h1 c0     Economically Interpretable Arbitrage-Free Option Prices: Physical GBM Benchmarks and Smile-Preserving Arbitrage-Consiste || 
+393 2026 h1 c0     DETERMINISTIC ARBITRAGE, BID–ASK OPTION BOUNDS, LOCALIZED ARBITRAGE PORTFOLIOS, AND ARBITRAGE-CONSISTENT PROJECTION || International Journal of Theoretic
+394 2026 h1 c0     Option Pricing Based on Implied Volatility Forecasting and No-Arbitrage Projection Correction: Evidence from SSE 50ETF O || Advances in economics, business an
+395 2025 h1 c0     Market and Arbitrage Pricing || Cambridge University Press eBooks
+396 2025 h1 c0     Arbitrage-Free Option Price Surfaces via Chebyshev Tensor Bases and a Hamiltonian Fog Post-Fit || arXiv (Cornell University)
+397 2023 h1 c0     Unraveling Market Inefficiencies: Weak Arbitrage and the Information-Based Model for Option Pricing || Journal of Mathematical Finance
+398 2026 h1 c0     Quantifying Repair Risk in Crypto Option Surfaces || ACM International Conference on AI
+399 2026 h1 c0     AFNO: Universal Certifiably-Arbitrage-Free Operator Learning Framework for European Call-Price Surfaces || SSRN Electronic Journal
+400 2026 h1 c0     Dynamic h(L)GJMM: Conditional Volatility Surfaces, Martingale Couplings and Filtration-dependent Option Pricing || SSRN Electronic Journal
+401 2025 h1 c0     An Optimal Transport approach to arbitrage correction: application to Volatility Stress-Tests || RePEc: Research Papers in Economic
+402 2026 h1 c0     Finance-Informed Operator Learning for Option Pricing with Quantum-Compatible Realizations || arXiv (Cornell University)
+403 2023 h1 c0     Aggregation of financial markets || RePEc: Research Papers in Economic
+404 2025 h1 c0     Aggregation of financial markets || Frontiers of Mathematical Finance
+405 2012 h1 c0     Multi-objective road pricing: a game theoretic and multi-level optimization approach || University of Twente Research Info
+406 2025 h1 c0     Sufficient A Priori Conditions for the Linear Relaxation of the Energy Storage Scheduling Problem || arXiv (Cornell University)
+407 2026 h1 c0     Non-convex integer programming: a deterministic solution method of the large block sale problem || arXiv (Cornell University)
+408 2026 h1 c0     Reconstructing The Volatility Surface : A Comparison of a GARCH Option Pricing Model and a Variational Autoencoder || DiVA at Umeå University (Umeå Univ
+409 2026 h1 c0     Crisis-Aware Variational Autoencoders for Stress Testing Volatility Surfaces || Research Square
+410 2026 h1 c0     Unsupervised Learning of Equity Market Dynamics: A Variational Autoencoder Approach || SSRN Electronic Journal
+411 2025 h1 c0     Hybrid VAE-LSTM Framework for Multi-Asset Implied Volatility Forecasting with Cross-Sectional Constraints || Frontiers in Interdisciplinary App
+412 2026 h1 c0     Using an Attention-Based Permutation-Invariant VAE to Model Volatility Surfaces || Lund University Publications Stude
+413 2025 h1 c0     Asymptotic Analysis of Implied Volatility Under Stochastic Volatility Jump-Diffusion Models || Zenodo (CERN European Organization
+414 2020 h1 c0     Session 9 - Forecasting: Multi-Step Forecast of the Implied Volatility Surface Using Deep Learning || 
+415 2026 h1 c0     Modelling Implied Volatility Surface Using B-Splines Incorporating Physics-Informed Deep B-Spline Networks (PI-DeepBSNs) || International Journal of Science E
+416 2026 h1 c0     Reliability Diagnostics for Physics-Informed Neural Option-Pricing Models: Residual-Error Geometry, Greek Stability, and || Research Square
+417 2026 h1 c0     Neural Networks Learning the Radon--Nikodym Derivative: Empirical Option Pricing in Incomplete Markets || arXiv (Cornell University)
+418 2026 h1 c0     Joint arbitrage-free smoothing of American call and put options surfaces || European Journal of Operational Re
+419 2024 h1 c0     Arbitrage equilibrium and the emergence of universal microstructure in deep neural networks || arXiv (Cornell University)
+420 2026 h1 c0     AP-PEN: A Hard-Constrained, Physics-Enforced Network for Convenience-Yield Inversion from Commodity Futures || SSRN Electronic Journal
+421 2026 h1 c0     Neural Slack Variables for Shape Constraints || arXiv (Cornell University)
+422 2025 h1 c0     Neural Network-based Approximation of Synthetic Market Generators || Publication Server of Kaiserslaute
+423 2026 h1 c0     Physics-Informed Neural Networks for Local Volatility Surface Calibration via the Dupire Equation || SSRN Electronic Journal
+424 2022 h1 c0     Applications of machine learning in asset pricing, prediction of extreme returns and implied volatility surface || Iowa State University Digital Repo
+425 2016 h1 c0     Information Content of Iron Butterfly Arbitrage Bounds || University of North Texas Digital 
+426 2026 h1 c0     Compiling and forecasting implied volatility surfaces via survey sampling, tempered inverse-probability sequence learnin || arXiv (Cornell University)
+427 2009 h1 c0     Investigations into Alternative Sources of Disturbance and Bias in the Implied Volatility Surface || W&M Publish (College of William & 
+428 2011 h1 c0     Rational bubble, short-dated volatility forecasting and extract more from the volatility surface || London School of Economics and Pol
+429 2012 h1 c0     Arbitrages in the Volatility Surface Interpolation and Extrapolation || SSRN Electronic Journal
+430 2013 h1 c0     Modelling and Numerics of S&P CNX Nifty Index Option Implied Volatility Surface || SSRN Electronic Journal

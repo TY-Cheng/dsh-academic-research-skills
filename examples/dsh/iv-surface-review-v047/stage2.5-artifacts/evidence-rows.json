@@ -1,0 +1,1850 @@
+[
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-015-C2",
+  "claim": {
+   "claim_id": "CLM-015",
+   "text": "A dynamic condition constrains a family of surfaces indexed by calendar time, and the natural formulation is a filtered probability space on which the option-price process is a martingale under a measure consistent with the numéraire (Niu, 2015)<!--ref:C2--><!--anchor:section:2.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 2.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "C2",
+   "display_label": "Niu (2015)",
+   "source_content_sha256": "b2f0cd66097da4114f3223b242c749d6ed9ccf357691109635c6074041569010",
+   "source_content_utf8_bytes": 906,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "2.2",
+   "value_decoded": "2.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "a56be4b8a1e4649848b4fe6d59c48671fd1308b434a4defb9be84537db9f0b38"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "static arbitrage and talk about no dynamic arbitrage. Finally, we will show that when we are building models, check the last group of conditions, which",
+   "excerpt_sha256": "c5d477d39fad0a6371f68084cba83215d747db80c9f676f77c6038542b42a99f",
+   "source_span_utf8": {
+    "start": 700,
+    "end": 851
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "be63b79f126239fe5679ebf05c48622a9e7a98525144686b8370a555f22437a4"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-019-P8",
+  "claim": {
+   "claim_id": "CLM-019",
+   "text": "A parametric family reports time-indexed arbitrage probabilities, which is a statement about a model's parameters over time rather than a path-level test of the fitted surface (Barski & Wiśniewolski, 2026 [preprint])<!--ref:P8--><!--anchor:section:2.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 2.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "P8",
+   "display_label": "Barski & Wiśniewolski (2026)",
+   "source_content_sha256": "e8307037e37efbaa917eecf81b14c74ea03cb465b7a3a00546457dcb105aded1",
+   "source_content_utf8_bytes": 760,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "2.2",
+   "value_decoded": "2.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "223948f58dc93ec777655509faa33520f1af8fe748a82ebd23df329406d3fffb"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "absence of static arbitrage in models describing the stochastic evolution of implied volatility surfaces. For Gaussian factor models, we derive explicit formulas for the probabilities",
+   "excerpt_sha256": "3d7f6815636f3d9d06ef0754446de7829b90180b86add91d144fdde365fb5333",
+   "source_span_utf8": {
+    "start": 19,
+    "end": 202
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "2ad4ca2733a3fed0c8ecef3a10502173cfdb434b0df955a7abc9349985787187"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-020-C5",
+  "claim": {
+   "claim_id": "CLM-020",
+   "text": "A single-stock panel examines martingale defects and bubble conditions and is dynamic-adjacent, but it is scope-flagged (Stahl & Blauth, 2024)<!--ref:C5--><!--anchor:section:2.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 2.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "C5",
+   "display_label": "Stahl & Blauth (2024)",
+   "source_content_sha256": "19352ce5d3f5bc587d27bffda8572296724335421e37dca257f67fc9574b2156",
+   "source_content_utf8_bytes": 986,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "2.2",
+   "value_decoded": "2.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "6eca61b289d7cb55712075abe424aed4d5891992d1c9f3eec28fe8d584bcd269"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "correlation between stock and option prices. We operationalize this theoretical result and analyze stock price bubbles in 2576 stocks over 26 years. Martingale defect conditions",
+   "excerpt_sha256": "937bbde9e779276d58a9577a7e16e9d195e3fb381eb0579a96731dec740af832",
+   "source_span_utf8": {
+    "start": 284,
+    "end": 461
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "095fb13ed16205aeb89f4d3b3959e929569d560da89b9b2e4486fa20eef39f19"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-053-S2",
+  "claim": {
+   "claim_id": "CLM-053",
+   "text": "The family's baseline is the shape-constrained smoothing spline, which showed that ignoring the constraint matters, before the four-family split existed (Fengler, 2009)<!--ref:S2--><!--anchor:section:4.3-->.",
+   "paper_locator": "paper-draft.md v1.3, section 4.3",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "S2",
+   "display_label": "Fengler (2009)",
+   "source_content_sha256": "f42408b058281009881f50c2a3e4e4bf66e4852a048e3c4104eedb086e073e10",
+   "source_content_utf8_bytes": 550,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "4.3",
+   "value_decoded": "4.3"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "554d63c7e4f0c26acfb49a1fd733ee408cf917b51eabb77d40ece0b265e3e49e"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "implied volatility surface that is not arbitrage-free can result in negative transition probabilities and consequently mispricings and false greeks. We propose an approach for smoothing",
+   "excerpt_sha256": "39cf9f63680ad0a7fc7785a8373a45bddc143ec776c46baab45931f7b33d33ca",
+   "source_span_utf8": {
+    "start": 152,
+    "end": 337
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "46e8d12a78c2279b02df83780addae79053e981b766dec5b5208386680447aba"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-G5",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "G5",
+   "display_label": "Bajalica et al. (2026)",
+   "source_content_sha256": "40faf71e177965ac58754206535d981a9c0625c22638c43dbbdbd365ff3aa461",
+   "source_content_utf8_bytes": 1179,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "69c6642280996abea952bc41fcb27924bf5c928209ee0052636d6b3ee0703cae"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "The method first compresses high-dimensional surfaces into a low-dimensional latent space using a variational autoencoder regularized by differentiable calendar-spread, call-spread and butterfly-arbitrage penalties. A flow-matching",
+   "excerpt_sha256": "961e9af42dc1c1b87827f4af1c334ef63f06f83b0ae2d91638ac7624eed1b5f2",
+   "source_span_utf8": {
+    "start": 118,
+    "end": 349
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "3ed86b7197c8bcaabee1b5e29d3b13b89e99f646fc070402782db7da7c23288c"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-G6",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "G6",
+   "display_label": "Anagha (2026)",
+   "source_content_sha256": "69b54f15269d1d6e655ebf331b2dc3f4040ce019536db6f4af682d678cca8fe7",
+   "source_content_utf8_bytes": 2672,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "9927abc301cab918e64d0c5eabf6a24581321ca6d12474c7ee90890ab644d4de"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "&lt;div&gt; under a calendar-inversion stress test. On clean data the hard-constrained model has 0.00%. &lt;/div&gt; &lt;div&gt; convexity, Durrleman, and calendar violations in all 15 runs",
+   "excerpt_sha256": "c014377f6aa99905a36506e34f30719133bccdff80ff0d55b40dc77e66d6eb3a",
+   "source_span_utf8": {
+    "start": 1322,
+    "end": 1511
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "da6992adcf11d872d9f8208e2b6083add0dce395302499402bc92e39cfd5e570"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-N2",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "N2",
+   "display_label": "Wiedemann et al. (2025)",
+   "source_content_sha256": "72bb26641fe5cab924756a23b852dd5526fef6b606078323c3710c73bec96f21",
+   "source_content_utf8_bytes": 1710,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "a9c610cdd5ac034194ded86078d448822121d346288c64ac696d26619f57611b"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "maps observed data to smoothed surfaces. We adapt the graph neural operator architecture to do so with high accuracy on ten years of raw intraday",
+   "excerpt_sha256": "f1e0b08e35b1e982677c4a2e862dffda4edfeb96637281db063c1ec3cf83ad61",
+   "source_span_utf8": {
+    "start": 983,
+    "end": 1128
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "455260909fc249a873d5272a14a449babce97398f042deaabb83a41d52c9c751"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-N6",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "N6",
+   "display_label": "Hoshisashi et al. (2023)",
+   "source_content_sha256": "79c0b321b3eed45f2a894dfe5bf442137939299621d50d5188565885fc35db76",
+   "source_content_utf8_bytes": 1560,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "19daaa1f7b8fc0e537aa91a05e5adc0762cdc15ba1ddfbb0c17be123bcbb70f2"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "of the option price with respect to the expiration time and the strike price. To address these challenges, we have introduced a Derivative-Constrained Neural Network",
+   "excerpt_sha256": "1e066cb830f802ea8e51ce42dbf6bb47a3f4d7cbc9a44dd3a5560aa9caa82c4c",
+   "source_span_utf8": {
+    "start": 495,
+    "end": 660
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "6aba2d0f332a61cb5271dc94112da0f7016ce7126419ef85315c9cdfb49a8af1"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-R5",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "R5",
+   "display_label": "Xiong & Liu (2026)",
+   "source_content_sha256": "8727069a90c4b17b9e1c73b9bc41dd19f6ca4cbce0afc41bf513f27d9e26e168",
+   "source_content_utf8_bytes": 1625,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "ac20e55fc16c62dd9bdb85a02402aa4ce6779ba92cf8f7cb078b1a53f23e5c3a"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "and butterfly no-arbitrage conditions, yet existing completion methods do not enforce these constraints while preserving observed market quotes. We propose a deterministic, observation-anchored two-step repair",
+   "excerpt_sha256": "7f779b647217c113f9bd074479cb89fa7ca3eccf9e9e966774b7d5a7d2097ed9",
+   "source_span_utf8": {
+    "start": 187,
+    "end": 396
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "026601429f115c13f9f4d5889b5f25f8480bb5622a7cb0905bda2dff77ca60df"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-063-R7",
+  "claim": {
+   "claim_id": "CLM-063",
+   "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": "R7",
+   "display_label": "Alvarez (2025)",
+   "source_content_sha256": "70d2241b06f9a9e79d46fcbade83c13fd670a2adfb40ed462e25689af41f39e8",
+   "source_content_utf8_bytes": 1901,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.1",
+   "value_decoded": "5.1"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "a89fe41aac43cee69e81759d9bec784d93586c3de809afad6ca720c25b58903c"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "We study the construction of arbitrage-free option price surfaces from noisy bid-ask quotes across strike and maturity. Our starting point is a Chebyshev representation of",
+   "excerpt_sha256": "c7a12a53347969dae33c02694efd3dacb16991f0632e91250f4c51f6e679a3e0",
+   "source_span_utf8": {
+    "start": 0,
+    "end": 171
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "df09747aeb03c8430518faf11c154fb2190df1de808c111e040bc89e803864a0"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-066-LEDGER",
+  "claim": {
+   "claim_id": "CLM-066",
+   "text": "Preprints are labelled wherever cited, so a reader can see that three of the six audit rows are preprints (N6, R7, G6).",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Preprint flags: N6, R7, G6 are the three audit rows coded preprint; N2 (ICLR), R5 (IEEE CIFEr), G5 (ACM ICAIF) are peer-reviewed.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "e1e9ed06742e662ecbdc7fef88fe254711a7f84b7bdc73f1aa4d88b736cf3521"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-072-G6",
+  "claim": {
+   "claim_id": "CLM-072",
+   "text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "G6",
+   "display_label": "Anagha (2026)",
+   "source_content_sha256": "69b54f15269d1d6e655ebf331b2dc3f4040ce019536db6f4af682d678cca8fe7",
+   "source_content_utf8_bytes": 2672,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.2",
+   "value_decoded": "5.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "e0579522709b40dffc2848c2d0a08c8abd0321e16bda3ac3df709b081b767e66"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "SSVI, a soft-penalty MLP, and a Dugas-style ablation, on clean data and &lt;/div&gt; &lt;div&gt; under a calendar-inversion stress test. On clean data the hard-constrained model",
+   "excerpt_sha256": "b39e0d737cab4202b3505ca3f6c03558b2ac8257d56664bd3dd325a8a9d8411c",
+   "source_span_utf8": {
+    "start": 1237,
+    "end": 1414
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "bc705cba24b2f45759c1501e34932f08f8d5ac488392c90fedc4b00eaa0869d3"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-072-N4",
+  "claim": {
+   "claim_id": "CLM-072",
+   "text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "N4",
+   "display_label": "Sidogi et al. (2022)",
+   "source_content_sha256": "003a59dd0b6a3f0b048f49162c56d636bbadd695b64fdb682072832784719eea",
+   "source_content_utf8_bytes": 1601,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.2",
+   "value_decoded": "5.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "4da2a245d713b97489e5bac6d79b4c06bd46ec67072d9f91f2c059486835750a"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "options contracts across different views at maturity and strike price, capturing a comprehensive investor view of future financial market trends. A problem often encountered with",
+   "excerpt_sha256": "87eb20045fbfcbbab1c2dbebe9dab75e2b4eb00c76523481aaacaf90f0cb0136",
+   "source_span_utf8": {
+    "start": 159,
+    "end": 337
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "8b720da6eae060246faa377f1e765cea4ccd9d2ea0fd8f1ecc84897cd9cc39bc"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-072-N5",
+  "claim": {
+   "claim_id": "CLM-072",
+   "text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "N5",
+   "display_label": "Na et al. (2023)",
+   "source_content_sha256": "42b80823e37132d71a464ee1558cc09f92e85123ea5abd5cd90847721c5ea38e",
+   "source_content_utf8_bytes": 1021,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.2",
+   "value_decoded": "5.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "698fbea45a4e27f781379103fa16c7834477284848c353d0067d524522a58719"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "method by comparing with the state-of-the-art methods for computing implied and local volatility surfaces. We show that our GAN model can outperform artificial neural network",
+   "excerpt_sha256": "11e568e98fb209e7f0c1a757434d19d17c2b53b57ee03e534a4d2868d6353409",
+   "source_span_utf8": {
+    "start": 785,
+    "end": 959
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "ed383251523b354e59a2333ff8b24b11c45139b53bd16eee0727cad89677c45b"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-072-R5",
+  "claim": {
+   "claim_id": "CLM-072",
+   "text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "R5",
+   "display_label": "Xiong & Liu (2026)",
+   "source_content_sha256": "8727069a90c4b17b9e1c73b9bc41dd19f6ca4cbce0afc41bf513f27d9e26e168",
+   "source_content_utf8_bytes": 1625,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.2",
+   "value_decoded": "5.2"
+  },
+  "verdict": "VERIFIED",
+  "detail": "Claim restates the source's reported mechanism/result within the abstract's scope; excerpt is the best-matching abstract sentence.",
+  "content_handling": {
+   "contains_external_text": true,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "miss",
+   "key_sha256": "3e2ebdc86dd932b269fe4cfb39d83c912d06cfc278b51a0e9d501db7e8533466"
+  },
+  "excerpt": {
+   "state": "agent_extracted",
+   "text": "The algorithm is evaluated across five completion backends—linear interpolation, cubic spline, SABR, U-Net, and a conditional diffusion model—using real S&P 500 index (SPX) option data",
+   "excerpt_sha256": "ee508965dbfcebb676129ecfc5aa02a16e659f18ef30bb88bd8fd31b960b9f8c",
+   "source_span_utf8": {
+    "start": 558,
+    "end": 746
+   },
+   "captured_at": "2026-11-23T04:06:04Z"
+  },
+  "row_sha256": "48422ad7e7aa3d76815d47411702f7bd4099b5d11c7f5e907caa584d48af8088"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-073-C1",
+  "claim": {
+   "claim_id": "CLM-073",
+   "text": "A neural detector of model-free static arbitrage exists as an independent auditor, but it is never applied to another row in this corpus (Neufeld & Sester, 2024)<!--ref:C1--><!--anchor:section:5.2-->.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": "C1",
+   "display_label": "Neufeld & Sester (2024)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "section",
+   "value_encoded": "5.2",
+   "value_decoded": "5.2"
+  },
+  "verdict": "UNVERIFIABLE_ACCESS",
+  "detail": "Abstract text not retrievable from OpenAlex or Crossref at Stage 2.5; Stage 1 record holds abstract_status=abstract and the key finding, but the source text cannot be re-read in this session.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "source_missing",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "3086e2df2eb4412467787b4942e814d77d941c11307e3d433990f3faeffba780"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-089-LEDGER",
+  "claim": {
+   "claim_id": "CLM-089",
+   "text": "| P6 | Le Floc’h (2025) | Parametric | proof | RC | full | yes | 4.1 |",
+   "paper_locator": "paper-draft.md v1.3, section Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Appendix B row P6 matches selected_sources.json/phase3-synthesis.md (proof, RC, full abstract, peer-reviewed, cited in 4.1).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "1074c4f2d7503f197dbec56ee650d4ac479aa35e432f2fd9a0fe3824a3f38601"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-093-LEDGER",
+  "claim": {
+   "claim_id": "CLM-093",
+   "text": "| R2 | De March & Henry-Labordère (2019) | Repair | proof | RC | partial | no [preprint] | 4.3 |",
+   "paper_locator": "paper-draft.md v1.3, section Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Appendix B row R2 matches selected_sources.json/phase3-synthesis.md (proof, RC, partial abstract 307 chars, preprint, cited in 4.3).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "c9e611b64f0a684bf58ae70ff75d181df7c818e342d617ec52568fd862ccd217"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-100-LEDGER",
+  "claim": {
+   "claim_id": "CLM-100",
+   "text": "| R9 | Madan & Schoutens (2019) | Repair | numerical test | RC | full | yes | 4.3 |",
+   "paper_locator": "paper-draft.md v1.3, section Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Appendix B row R9 matches selected_sources.json/phase3-synthesis.md (numerical test, RC, full abstract, peer-reviewed, cited in 4.3).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "31d717c5404049868d388d96d8b93eeb91e6f6e981357ea84a169b2bd75bc7ce"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X01-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X01",
+   "text": "The corpus is 41 sources — 36 published in 2015–2026 and 5 seminal precursors — of which 29 are peer-reviewed and 11 are preprints, coded on eight fields and read at abstract level; no systematic-review compliance or method ranking is claimed.",
+   "paper_locator": "paper-draft.md v1.3, section Abstract",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Recomputed: 41 selected_sources.json records; 36 in-window (2015-2026) + 5 precursors (1999-2014); 29 peer_reviewed=true, 11 preprints (incl. N3 SSRN), 1 practitioner (S3); 8 coded fields per Appendix C; abstract coverage 34 full + 4 partial.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "5dd113e5bc4e42058ce143f9d6fe4cc4d4f8572a0325a43e195ada587e97bc6e"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X02-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X02",
+   "text": "Seventeen sources assert their guarantee at proof level, 16 report a numerical test, and 8 assert admissibility with neither.",
+   "paper_locator": "paper-draft.md v1.3, section Abstract",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Recomputed from phase3-synthesis.md and selected_sources.json: proof 17, numerical test 16, assumption 8; 17+16+8 = 41.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "40be32d054d30d94ba87c1aaed28c7368020290dbd0d277a18eafb7cb69eeac3"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X03-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X03",
+   "text": "As reported in the abstracts, the certified object in all 41 rows is a single date's surface, and no source enforces or tests dynamic no-arbitrage, including none of the 31 construction rows.",
+   "paper_locator": "paper-draft.md v1.3, section Abstract",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "stage2/paper-draft.md:53/Appendix B: all 41 rows coded on a single-date static predicate; 0 rows enforce or test a dynamic condition; 0 of 31 construction rows. Round-1 restore of the Stage 1 M2 qualifier (phase6-final.md:18).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "a1f8f67ca862b59805aa45660882f993b6940fec5beadd1f0b280eea4792f105"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X04-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X04",
+   "text": "Proof-level and test-level evidence come from almost disjoint sets, and no two sources state data, metric and tolerance together, so no two rows are directly comparable.",
+   "paper_locator": "paper-draft.md v1.3, section Abstract",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Coding: proof and test sets are disjoint by construction (one status per row); 0 direct comparability (Table 5); G6 is the single proof-and-audit row. Pairwise wording restored to phase6-final.md:18 in round 1.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "1a7ef6fb7fc45c4fae2b28a4dc3a6cb217e35b8e86090121d9ab4d5a773cf4d6"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X05-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X05",
+   "text": "Because the surface is what prices, hedges, and clears, a fitted artefact that admits arbitrage can in principle propagate into risk numbers, margin, and capital; that propagation is a premise, not a measurement: no study in this corpus tests it.",
+   "paper_locator": "paper-draft.md v1.3, section 1.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Corpus-scoped absence: no included row tests propagation of static violations into risk numbers, margin, or capital (phase3-synthesis.md gap analysis, 0 rows).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "d926f3f76abbcfca15d85752993cfca040de8d19aee6f9a666d63eb4169620da"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X06-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X06",
+   "text": "The corpus contains no such test.",
+   "paper_locator": "paper-draft.md v1.3, section 2.2",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Corpus-scoped: no included row states and tests a path-level (process-level) dynamic condition; nearest prior work reviews the conditions without testing (C2).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "339b68ccfbbc0f2a3ac643a1f26024420ceb1e5db93b80ee5d964872a07b05e2"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X07-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X07",
+   "text": "Ten rows engage time; none states a path-level condition and checks it over a path.",
+   "paper_locator": "paper-draft.md v1.3, section 7.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Ten time-engaging rows (P8, R9, G1, G2, G3, G7, R8, C2, C3, C5); none states a path-level condition and checks it over a path (phase3-synthesis.md Theme 1).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "eda31ff19c407e06bc39c1408353464895611c4d4bb64f157eb1fc0b6f2f82ae"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X08-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X08",
+   "text": "Retrieval requested 775 records and returned 750.",
+   "paper_locator": "paper-draft.md v1.3, section 3.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "openalex_candidates.json: 31 queries x 25 records = 775 requested; sum of returned = 750.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "eba7dc6e6a5e38517bbde201798a0d1db93647f2ce1d9d840939c2d97b974ed4"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X09-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X09",
+   "text": "One query (\"SVI stochastic volatility inspired\") was lost after a Hypertext Transfer Protocol (HTTP) 429 response; 21 first-pass responses were rate-limited and 20 were recovered on retry.",
+   "paper_locator": "paper-draft.md v1.3, section 3.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "openalex_candidates.json retry_note: 'Second pass recovered 20 queries; 1 still failed.'; the failed query is 'SVI stochastic volatility inspired' (HTTP 429).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "2fcb4df3be5499674cfd8e5bcab8cc64686d013822998873318ae238cdb38dea"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X10-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X10",
+   "text": "De-duplication left 430 unique records.",
+   "paper_locator": "paper-draft.md v1.3, section 3.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "750 returned - 320 de-duplicated = 430 unique records (phase6-revision-log.md:32; screening_log.json records length 430).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "89573c2345ab5eaf9c5ec47cb816ec6be2f8d823a3cdcbb0af103321eeef3cf3"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X11-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X11",
+   "text": "Screening excluded 389 under eight reason codes: off-topic (141), pre-2015 background (86), relevant but not selected (40), out-of-scope asset class (34), publication type (32), duplicate version (31), forecasting or trading (21), and model-calibration pricing (4).",
+   "paper_locator": "paper-draft.md v1.3, section 3.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "screening_log.json counts: 141 off-topic + 86 pre-2015 + 40 not-selected + 34 asset class + 32 publication type + 31 duplicate + 21 forecasting/trading + 4 calibration = 389; 430 - 389 = 41.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "ad36d558e25c8c02d1be131a9e3e72cb6ee7c5756055bfdd0a16529c10734fd5"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X12-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X12",
+   "text": "Forty-one studies were included: 36 in-window records and five declared seminal precursors dated 1999–2014, comprising 29 peer-reviewed articles or proceedings papers, 11 preprints (26.8%), and one practitioner magazine article.",
+   "paper_locator": "paper-draft.md v1.3, section 3.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "selected_sources.json: 41 records = 36 in-window + 5 seminal (1999-2014); 29 peer-reviewed; 11 preprints = 26.8%; 1 practitioner magazine article (S3, Wilmott).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "48ebe4dca7e56fdb979c6bd536347840d3e40e826738d4c40aef0f51d3554176"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X13-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X13",
+   "text": "All 41 records were resolved to a DOI-bearing index record (41/41); no record was flagged retracted by the OpenAlex `is_retracted` field.",
+   "paper_locator": "paper-draft.md v1.3, section 3.2",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Live OpenAlex re-check on 2026-11-23: 41/41 DOI lookups HTTP 200; is_retracted false for all 41; no independent retraction-database sweep, as disclosed.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "5419cd19d08fc8c3a34af7b0206032f2eb11fdef6e12e8dfcbcbb4bcc5cea037"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X14-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X14",
+   "text": "Evidence is abstract-level: 34 records were read in full abstract, four only partially, and three at title level, so every claim about what a study did is a claim about what its abstract reports.",
+   "paper_locator": "paper-draft.md v1.3, section 1.3",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "phase2-verification.md: 34 full abstracts, 4 partial (R2, G3, C4, S1), 3 metadata-only (P4, P7, R4); 34+4+3 = 41.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "d2bd295d2c6410ef95887eb267e8d32bf008fef69699594df97339b67f47e70b"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X15-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X15",
+   "text": "The corpus splits into 17 proof-level rows, 16 numerical tests, and 8 assumptions; within the 36 in-window records the split is 16 / 14 / 6, and the five seminal precursors contribute 1 / 2 / 2.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Table 3 / Appendix B: 17 proof, 16 test, 8 assumption; in-window 16/14/6 over 36 rows; seminal 1/2/2 over 5 rows.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "edeb6ce02a0fc5e8c1e7a6337850da462871be55bd572e1811d57b6c11933f70"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X16-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X16",
+   "text": "The cross-tabulation is the finding: among the 17 proof-level rows, only one reports a violation rate on its own output, and among the six audit rows only that row also reports a structural guarantee — and it does so on synthetic data.",
+   "paper_locator": "paper-draft.md v1.3, section 5.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Cross-tabulation: G6 is proof-level and reports 0.00% violations at 1e-4 over 15 runs on synthetic data; no other proof-level row reports a violation rate; G6 is the only audit row with a structural guarantee (1 proof-and-audit overlap).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "b410c525503c1660719c0081c27d770cd296f38f3b23d8f511f6a570a035aa03"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X17-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X17",
+   "text": "The comparability coding returns 0 direct, 30 context, and 11 not comparable, and the breakdown by family is uneven in an informative way (Table 5).",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Table 5 totals: 0 direct + 30 context + 11 not comparable = 41.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "42aa9ad42baca3a8770524c47d9faecd27079ceb4a1b0dcb6ac928357a023453"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X18-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X18",
+   "text": "The pattern is consistent: zero of six rows are proof-level, all six report a numerical test, and the residual violations are the mechanism working as designed rather than a defect.",
+   "paper_locator": "paper-draft.md v1.3, section 4.2",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Table 3 N row: 0 proof, 6 numerical test, 0 assumption; all six penalty rows report residual numbers and none states a tolerance.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "0f694e2d0e6a70cfa45eb32e7149186350240f67e389824e22d9ebc615ea19f5"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X19-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X19",
+   "text": "The evidence profile is the sharpest in the corpus: six of eight rows are proof-level, two assumption-level, and no row reports a residual audit on observed quotes.",
+   "paper_locator": "paper-draft.md v1.3, section 4.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Table 3 P row: 6 proof, 0 test, 2 assumption, audit count 0.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "8f6d90d766d375423e43f16837d1d18a3f687fad5a378fd4ed136c46fdc8bcf8"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X20-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X20",
+   "text": "Seventeen rows are proof-level and only one reports a violation rate on its own output; six rows audit their own output and that one also reports a structural guarantee, on synthetic data.",
+   "paper_locator": "paper-draft.md v1.3, section 7.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Section 7.1 restates Section 5.1 after the round-1 correction: one proof-level row reports a violation rate; the same row is the single audit row with a structural guarantee, on synthetic data.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "a9c793754ea00ce85546c5285180692dc1c78fd84f8a9477d7e5de99d3016089"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X21-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X21",
+   "text": "The claim is bounded: 0 of 41 abstracts, 0 of 36 in-window records, and 0 of 31 construction records, not a statement about the field.",
+   "paper_locator": "paper-draft.md v1.3, section 7.1",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Bounded absence: 0 of 41 abstracts, 0 of 36 in-window records, 0 of 31 construction records.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "cae687c913b265364f2b2d2b7f692f643b30662be4ad256ee91ed1bd598e889c"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X22-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X22",
+   "text": "The first is populated: static no-arbitrage is coded for all 41 rows, with 17 proof, 16 test, and 8 assumption, and tolerances are rarely stated.",
+   "paper_locator": "paper-draft.md v1.3, section 5.3",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Section 5.3 / Table 6: static no-arbitrage coded for all 41 rows; 17 proof, 16 test, 8 assumption; tolerances rarely stated.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "2af54349c3f8bf6ba6e2bf0ee1264fa7781434746163891263bc1e51bb204ba3"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X23-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X23",
+   "text": "Third, the evidence is abstract-level, single-analyst, English-only, and OpenAlex-only, with no full text, proof, or code retrieval.",
+   "paper_locator": "paper-draft.md v1.3, section 3.3",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Section 3.3 limits: abstract-level evidence, single analyst, English-only, OpenAlex-only; no full text, proof, or code retrieval.",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "1ead88ec3c3138666e372a05d4a44a9bd318f2c788d15df53fc2445353e8badf"
+ },
+ {
+  "schema_version": "evidence-row/1.0",
+  "surface": "phase_e_claim_verification",
+  "row_id": "EVR-CLM-X24-LEDGER",
+  "claim": {
+   "claim_id": "CLM-X24",
+   "text": "Every parametric row is context or not comparable; no penalty or generation row is not comparable, because their objects and metrics fall inside the same loose vocabulary; the conditions group carries the largest share of not-comparable rows (three of five) and the parametric group the largest number (four of eight), because their objects differ.",
+   "paper_locator": "paper-draft.md v1.3, section 5.2",
+   "selection_tier": "HIGH-IMPACT"
+  },
+  "source": {
+   "ref_slug": null,
+   "display_label": "Stage 1 research records (phase3-synthesis.md; search/*.json; phase2-verification.md; phase6-revision-log.md)",
+   "source_content_sha256": null,
+   "source_content_utf8_bytes": null,
+   "source_artifact_sha256": null
+  },
+  "anchor": {
+   "kind": "none",
+   "value_encoded": "",
+   "value_decoded": ""
+  },
+  "verdict": "VERIFIED",
+  "detail": "Table 5: P 0 direct / 4 context / 4 not comparable; N and G 0 not comparable; C 3 of 5 not comparable (60%, largest share); P 4 (largest count).",
+  "content_handling": {
+   "contains_external_text": false,
+   "sharing_scope": "session_only",
+   "rights_basis": "not_assessed"
+  },
+  "cache": {
+   "status": "not_used",
+   "key_sha256": null
+  },
+  "excerpt": {
+   "state": "anchorless",
+   "text": null,
+   "excerpt_sha256": null,
+   "source_span_utf8": null,
+   "captured_at": null
+  },
+  "row_sha256": "0bd2354548c9b5a327860fc40af44c3725ee620983cbc9c2b8e4fb13f42d4d2a"
+ }
+]

@@ -1,0 +1,28 @@
+{
+ "registered_claims": 202,
+ "claims_audited": 59,
+ "rows": 112,
+ "refs_covered": 41,
+ "row_verdicts": {
+  "VERIFIED": 109,
+  "MINOR_DISTORTION": 0,
+  "MAJOR_DISTORTION": 0,
+  "UNVERIFIABLE": 0,
+  "UNVERIFIABLE_ACCESS": 3
+ },
+ "claim_verdicts": {
+  "VERIFIED": 56,
+  "MINOR_DISTORTION": 0,
+  "MAJOR_DISTORTION": 0,
+  "UNVERIFIABLE": 0,
+  "UNVERIFIABLE_ACCESS": 3
+ },
+ "carried_from_round1": 106,
+ "freshly_checked_rows": 3,
+ "draft_sha256": "d05dd0508ef7ff38eea4f319a0a9883f76a94cd762939d8cc68263e805431009",
+ "unavailable_refs": [
+  "P4",
+  "P7",
+  "R4"
+ ]
+}

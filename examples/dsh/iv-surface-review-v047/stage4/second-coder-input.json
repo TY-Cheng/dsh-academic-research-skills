@@ -1,0 +1,162 @@
+[
+ {
+  "id": "P1",
+  "title": "Generalized Arbitrage-Free SVI Volatility Surfaces",
+  "year": 2016,
+  "venue": "SIAM Journal on Financial Mathematics",
+  "type": "article",
+  "doi": "10.1137/120900320",
+  "abstract_status": "abstract",
+  "abstract": "In this paper we propose a generalization of the recent work by Gatheral and Jacquier [J. Gatheral and A. Jacquier, Quant. Finance, 14 (2014), pp. 59--71] on explicit arbitrage-free parameterizations of implied volatility surfaces. We also discuss extensively the notion of arbitrage freeness and Roger Lee's moment formula using the recent analysis by Roper [M. Roper, Arbitrage-Free Implied Volatility Surfaces, preprint, School of Mathematics and Statistics, The University of Sydney, Sydney, New South Wales, Australia, 2010, ŭlhttp://www.maths.usyd.edu.au/u/pubs/publist/preprints/2010/roper-9.pdf]. We further exhibit an arbitrage-free volatility surface different from Gatheral's SVI parameterization."
+ },
+ {
+  "id": "P4",
+  "title": "Robust calibration and arbitrage-free interpolation of SSVI slices",
+  "year": 2019,
+  "venue": "Decisions in Economics and Finance",
+  "type": "article",
+  "doi": "10.1007/s10203-019-00249-8",
+  "abstract_status": "metadata-only",
+  "abstract": ""
+ },
+ {
+  "id": "P7",
+  "title": "Necessary and Sufficient No-Arbitrage Conditions for the SSVI/S3 Volatility Curve",
+  "year": 2016,
+  "venue": "SSRN Electronic Journal",
+  "type": "preprint",
+  "doi": "10.2139/ssrn.2725700",
+  "abstract_status": "metadata-only",
+  "abstract": ""
+ },
+ {
+  "id": "N2",
+  "title": "Operator Deep Smoothing for Implied Volatility",
+  "year": 2025,
+  "venue": "International Conference on Learning Representations",
+  "type": "conference-paper",
+  "doi": "10.48550/arxiv.2406.11520",
+  "abstract_status": "abstract",
+  "abstract": "We devise a novel method for nowcasting implied volatility based on neural operators. Better known as implied volatility smoothing in the financial industry, nowcasting of implied volatility means constructing a smooth surface that is consistent with the prices presently observed on a given option market. Option price data arises highly dynamically in ever-changing spatial configurations, which poses a major limitation to foundational machine learning approaches using classical neural networks. While large models in language and image processing deliver breakthrough results on vast corpora of raw data, in financial engineering the generalization from big historical datasets has been hindered by the need for considerable data pre-processing. In particular, implied volatility smoothing has remained an instance-by-instance, hands-on process both for neural network-based and traditional parametric strategies. Our general operator deep smoothing approach, instead, directly maps observed data to smoothed surfaces. We adapt the graph neural operator architecture to do so with high accuracy on ten years of raw intraday S&P 500 options data, using a single model instance. The trained operator adheres to critical no-arbitrage constraints and is robust with respect to subsampling of inputs (occurring in practice in the context of outlier removal). We provide extensive historical benchmarks and showcase the generalization capability of our approach in a comparison with classical neural networks and SVI, an industry standard parametrization for implied volatility. The operator deep smoothing approach thus opens up the use of neural networks on large historical datasets in financial engineering."
+ },
+ {
+  "id": "N5",
+  "title": "Computing Volatility Surfaces using Generative Adversarial Networks with Minimal Arbitrage Violations",
+  "year": 2023,
+  "venue": "RePEc: Research Papers in Economics",
+  "type": "preprint",
+  "doi": "10.48550/arxiv.2304.13128",
+  "abstract_status": "abstract",
+  "abstract": "In this paper, we propose a generative adversarial network (GAN) approach for efficiently computing volatility surfaces. The idea is to make use of the special GAN neural architecture so that on one hand, we can learn volatility surfaces from training data and on the other hand, enforce no-arbitrage conditions. In particular, the generator network is assisted in training by a discriminator that evaluates whether the generated volatility matches the target distribution. Meanwhile, our framework trains the GAN network to satisfy the no-arbitrage constraints by introducing penalties as regularization terms. The proposed GAN model allows the use of shallow networks which results in much less computational costs. In our experiments, we demonstrate the performance of the proposed method by comparing with the state-of-the-art methods for computing implied and local volatility surfaces. We show that our GAN model can outperform artificial neural network (ANN) approaches in terms of accuracy and computational time."
+ },
+ {
+  "id": "R2",
+  "title": "Building Arbitrage-Free Implied Volatility: Sinkhorn's Algorithm and Variants",
+  "year": 2019,
+  "venue": "SSRN Electronic Journal",
+  "type": "preprint",
+  "doi": "10.2139/ssrn.3326486",
+  "abstract_status": "partial",
+  "abstract": "We consider the classical problem of building an arbitrage-free implied volatility surface from bid-ask quotes. We design a fast numerical procedure, for which we prove the convergence, based on the Sinkhorn algorithm that has been recently used to solve efficiently (martingale) optimal transport problems."
+ },
+ {
+  "id": "R3",
+  "title": "Arbitrage-free interpolation of call option prices",
+  "year": 2020,
+  "venue": "Statistics & Risk Modeling",
+  "type": "article",
+  "doi": "10.1515/strm-2018-0026",
+  "abstract_status": "abstract",
+  "abstract": "In this paper, we introduce a new interpolation method for call option prices and implied volatilities with respect to the strike, which first generates, for fixed maturity, an implied volatility curve that is smooth and free of static arbitrage. Our interpolation method is based on a distortion of the call price function of an arbitrage-free financial “reference” model of one’s choice. It reproduces the call prices of the reference model if the market data is compatible with the model. Given a set of call prices for different strikes and maturities, we can construct a call price surface by using this one-dimensional interpolation method on every input maturity and interpolating the generated curves in the maturity dimension. We obtain the algorithm of N. Kahalé [An arbitrage-free interpolation of volatilities, Risk 17 2004, 5, 102–106] as a special case, when applying the Black–Scholes model as reference model."
+ },
+ {
+  "id": "R4",
+  "title": "Joint arbitrage-free smoothing of American call and put options surfaces",
+  "year": 2026,
+  "venue": "European Journal of Operational Research",
+  "type": "article",
+  "doi": "10.1016/j.ejor.2026.07.049",
+  "abstract_status": "metadata-only",
+  "abstract": ""
+ },
+ {
+  "id": "R5",
+  "title": "Observation-Anchored Arbitrage Repair for Sparse Implied Volatility Surface Completion",
+  "year": 2026,
+  "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+  "type": "conference-paper",
+  "doi": "10.1109/cifer67845.2026.11692406",
+  "abstract_status": "abstract",
+  "abstract": "Completing dense implied volatility surfaces (IVS) from sparse option quotes is central to derivatives pricing and risk management. A financially admissible surface must satisfy calendar and butterfly no-arbitrage conditions, yet existing completion methods do not enforce these constraints while preserving observed market quotes. We propose a deterministic, observation-anchored two-step repair algorithm enforcing calendar constraints in total-variance space and butterfly constraints in normalized call-price space, modifying only unobserved grid cells. The algorithm is evaluated across five completion backends—linear interpolation, cubic spline, SABR, U-Net, and a conditional diffusion model—using real S&P 500 index (SPX) option data from OptionMetrics Ivy DB over 252 out-of-sample trading days at three holdout levels. Calendar violation rates were reduced to near-zero across all backends and sparsity levels. Butterfly violations were partially reduced, bounded below by an empirically observed floor of approximately 5.4% attributable to finite-precision rounding in the IV-to-call-price round-trip. Cubic spline with repair achieved the lowest reconstruction error at all holdout levels; the diffusion backend showed increased reconstruction error after repair alongside substantial calendar violation reduction. Ablation analysis confirmed that calendar and butterfly repair interact asymmetrically and that the combined pipeline is necessary. These findings support observation-anchored post-processing as a practical, model-agnostic approach for enforcing financial consistency in sparse IVS completion."
+ },
+ {
+  "id": "G6",
+  "title": "Trainable Hard Constraints: Architectural Enforcement of Arbitrage-Free Implied Volatility Surfaces via Automatic Differentiation",
+  "year": 2026,
+  "venue": "SSRN Electronic Journal",
+  "type": "preprint",
+  "doi": "10.2139/ssrn.7577418",
+  "abstract_status": "abstract",
+  "abstract": "Static no-arbitrage conditions on implied volatility surfaces are usually imposed through a parametric form or a training penalty. Parametric fits to sparse, noisy quotes are not auto- matically arbitrage-free, and penalties give no confidence away from the points where they are applied. As a proof of concept, we ask whether convexity in log-moneyness and monotonicity in Maturity can be built into a neural total-variance surface by architecture while it stays trainable. with automatic differentiation, and what this costs in accuracy. The network is positive, con- vex in log-moneyness and non-decreasing in maturity at every input; it combines input-convex blocks gated by non-negative maturity ramps and uses an output-scale calibration at initializa- tion. We test it on synthetic data from rejection-sampled arbitrage-free SVI slices with Gaussian noise (standard deviation 0.02) and stratified masking, in three regimes with five seeds each, against per-slice SVI, SSVI, a soft-penalty MLP, and a Dugas-style ablation, on clean data and under a calendar-inversion stress test. On clean data the hard-constrained model has 0.00%. convexity, Durrleman, and calendar violations in all 15 runs (tolerance 10⁻⁴). The soft penalty MLP shows 0.00–0.04% convexity, 0.00–0.84% Durrleman, and 0.00–0.02% calendar violations and per-slice SVI shows 2.69–3.88% Durrleman and 17.86–31.02% calendar violations. The guarantee costs accuracy: overall RMSE in total variance is 0.0099, 0.0124, and 0.0176 (normal, high-skew, stressed) against 0.0074, 0.0096, and 0.0135 for SSVI and 0.0092, 0.0112, and 0.0154 for the soft-penalty MLP. Removing the output-scale calibration raises RMSE by about an or der of magnitude. Under a calendar-inversion stress test, the hard-constrained model again has 0.00% violations, against 0.20% calendar violations for the soft-penalty MLP and 29.86% for per-slice SVI, and every model’s accuracy degrades. The data are synthetic and well specified for SVI; convexity and monotonicity are guaranteed, whereas Durrleman’s condition is audited empirically."
+ },
+ {
+  "id": "G7",
+  "title": "Arbitrage-Free Neural-SDE Market Models",
+  "year": 2021,
+  "venue": "Applied Mathematical Finance",
+  "type": "article",
+  "doi": "10.1080/1350486x.2023.2257217",
+  "abstract_status": "abstract",
+  "abstract": "Modelling joint dynamics of liquid vanilla options is crucial for arbitrage-free pricing of illiquid derivatives and managing risks of option trade books. This paper develops a nonparametric model for the European options book respecting underlying financial constraints and while being practically implementable. We derive a state space for prices which are free from static (or model-independent) arbitrage and study the inference problem where a model is learnt from discrete time series data of stock and option prices. We use neural networks as function approximators for the drift and diffusion of the modelled SDE system, and impose constraints on the neural nets such that no-arbitrage conditions are preserved. In particular, we give methods to calibrate neural SDE models which are guaranteed to satisfy a set of linear inequalities. We validate our approach with numerical experiments using data generated from a Heston stochastic local volatility model."
+ },
+ {
+  "id": "C3",
+  "title": "The implied volatility surface (also) is path-dependent",
+  "year": 2026,
+  "venue": "Quantitative Finance",
+  "type": "article",
+  "doi": "10.1080/14697688.2026.2637739",
+  "abstract_status": "abstract",
+  "abstract": "We propose a new model for the simulation of both the implied volatility surfaces and the underlying asset price. In the spirit of [Guyon, J. and Lekeufack, J., Volatility is (mostly) path-dependent. Quant. Finance, 2023, 23(9), 1221–1258] who are interested in the dependence of volatility indices (e.g. the VIX) on the paths of the associated equity indices (e.g. the S&P 500), we first study how vanilla options implied volatility can be predicted using the past trajectory of the underlying asset price. Our empirical study reveals that a large part of the movements in the at-the-money-forward implied volatility for times-to-maturity of up to two years can be explained using the past returns and their squares. Moreover, we show that this feedback effect gets weaker when the time-to-maturity increases. Building on this new stylized fact, we fit to historical data a parsimonious version of the SSVI parameterization [Gatheral, J. and Jacquier, A., Arbitrage-free SVI volatility surfaces. Quant. Finance, 2014, 14(1), 59–71] of the implied volatility surface relying on only four parameters and show that the two parameters ruling the at-the-money-forward implied volatility as a function of the time-to-maturity exhibit a path-dependent behavior with respect to the underlying asset price. Finally, we propose a model for the joint dynamics of the implied volatility surface and the underlying asset price. The latter is modeled using a variant of the path-dependent volatility model of Guyon and Lekeufack and the former is obtained by adding a feedback effect of the underlying asset price onto the two parameters ruling the at-the-money-forward implied volatility in the parsimonious SSVI parameterization and by specifying Ornstein-Uhlenbeck processes for the residuals of these two parameters and Jacobi processes for the two other parameters. Thanks to this model, we are able to simulate highly realistic paths of implied volatility surfaces that are free from static arbitrage."
+ },
+ {
+  "id": "C4",
+  "title": "On asymptotically arbitrage-free approximations of the implied volatility",
+  "year": 2022,
+  "venue": "Frontiers of Mathematical Finance",
+  "type": "article",
+  "doi": "10.3934/fmf.2022006",
+  "abstract_status": "partial",
+  "abstract": "Following-up Fukasawa and Gatheral (Frontiers of Mathematical Finance, 2022), we prove that the BBF formula, the SABR formula, and the rough SABR formula provide asymptotically arbitrage-free approximations of the implied volatility under, respectively, the local volatility model, the SABR model, and the rough SABR model."
+ },
+ {
+  "id": "C5",
+  "title": "Martingale defects in the volatility surface and bubble conditions in the underlying",
+  "year": 2024,
+  "venue": "Review of Derivatives Research",
+  "type": "article",
+  "doi": "10.1007/s11147-023-09200-x",
+  "abstract_status": "abstract",
+  "abstract": "The martingale theory of bubbles enables testing for asset price bubbles by analyzing option prices. As recently shown by Piiroinen et al. (Asset price bubbles: an option-based indicator, 2018), the SABR model is a strict local martingale when its parameterization implies a positive correlation between stock and option prices. We operationalize this theoretical result and analyze stock price bubbles in 2576 stocks over 26 years. Martingale defect conditions are absorbed quickly by options markets, but identify high proportions in significant and permanent changes in distribution of price returns, option trading activity, short interest in the underlying, and institutional ownership. These results confirm many common assumptions about stock price bubbles. These bubbles are temporally clustered, and tend to occur in periods of positive market development. Martingale defects are rare in market corrections, which indicates that they are a result of overoptimistic speculation."
+ },
+ {
+  "id": "S1",
+  "title": "Arbitrage-free SVI volatility surfaces",
+  "year": 2013,
+  "venue": "Quantitative Finance",
+  "type": "article",
+  "doi": "10.1080/14697688.2013.819986",
+  "abstract_status": "partial",
+  "abstract": "In this article, we show how to calibrate the widely used SVI parameterization of the implied volatility smile in such a way as to guarantee the absence of static arbitrage. In particular, we exhibit a large class of arbitrage-free SVI volatility surfaces with a simple closed-form representation. We demonstrate the high quality of typical SVI fits with a numerical example using recent SPX options data."
+ },
+ {
+  "id": "S2",
+  "title": "Arbitrage-free smoothing of the implied volatility surface",
+  "year": 2009,
+  "venue": "Quantitative Finance",
+  "type": "article",
+  "doi": "10.1080/14697680802595585",
+  "abstract_status": "abstract",
+  "abstract": "The pricing accuracy and pricing performance of local volatility models depends on the absence of arbitrage in the implied volatility surface. An input implied volatility surface that is not arbitrage-free can result in negative transition probabilities and consequently mispricings and false greeks. We propose an approach for smoothing the implied volatility smile in an arbitrage-free way. The method is simple to implement, computationally cheap and builds on the well-founded theory of natural smoothing splines under suitable shape constraints."
+ }
+]

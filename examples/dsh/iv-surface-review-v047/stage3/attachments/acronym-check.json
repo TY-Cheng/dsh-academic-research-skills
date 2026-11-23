@@ -1,0 +1,382 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "examples/dsh/iv-surface-review-v047/stage2/paper-draft.md",
+  "input_sha256": "b19f4acbf9ffb39cb164b0dcf3b7824a4e4f9e274d8c8e9780b09b73bd241033",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "checked",
+    "abstract_zh": "checked"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        2,
+        8
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        32,
+        36
+      ],
+      [
+        38,
+        44
+      ],
+      [
+        46,
+        48
+      ],
+      [
+        50,
+        50
+      ],
+      [
+        52,
+        58
+      ],
+      [
+        60,
+        66
+      ],
+      [
+        68,
+        92
+      ],
+      [
+        94,
+        94
+      ],
+      [
+        96,
+        134
+      ],
+      [
+        136,
+        142
+      ],
+      [
+        144,
+        150
+      ],
+      [
+        152,
+        152
+      ],
+      [
+        154,
+        176
+      ],
+      [
+        178,
+        186
+      ],
+      [
+        188,
+        196
+      ],
+      [
+        198,
+        206
+      ],
+      [
+        208,
+        208
+      ],
+      [
+        210,
+        238
+      ],
+      [
+        240,
+        261
+      ],
+      [
+        263,
+        284
+      ],
+      [
+        286,
+        286
+      ],
+      [
+        288,
+        294
+      ],
+      [
+        296,
+        304
+      ],
+      [
+        306,
+        314
+      ],
+      [
+        316,
+        320
+      ],
+      [
+        322,
+        322
+      ],
+      [
+        324,
+        334
+      ],
+      [
+        336,
+        344
+      ],
+      [
+        346,
+        360
+      ],
+      [
+        408,
+        416
+      ],
+      [
+        418,
+        466
+      ],
+      [
+        468,
+        475
+      ]
+    ],
+    "abstract_en": [
+      [
+        10,
+        10
+      ],
+      [
+        12,
+        18
+      ]
+    ],
+    "abstract_zh": [
+      [
+        20,
+        26
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 55,
+      "acronym": "SVI",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 57,
+      "acronym": "PDE",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 57,
+      "acronym": "SABR",
+      "reason": "unread_definition_form"
+    },
+    {
+      "scope": "body",
+      "line": 63,
+      "acronym": "SDE",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 97,
+      "acronym": "HTTP",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 97,
+      "acronym": "REST",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 101,
+      "acronym": "PRISMA",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 145,
+      "acronym": "SSVI",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 181,
+      "acronym": "ALSI",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 181,
+      "acronym": "SPX",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 193,
+      "acronym": "SPY",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 201,
+      "acronym": "RMSE",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 203,
+      "acronym": "MSE",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 357,
+      "acronym": "AI",
+      "reason": "unconfirmed_definition"
+    },
+    {
+      "scope": "body",
+      "line": 357,
+      "acronym": "DSH",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "body",
+      "line": 5,
+      "rule": "undefined",
+      "acronym": "TY",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 39,
+      "rule": "undefined",
+      "acronym": "SQ1",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 39,
+      "rule": "undefined",
+      "acronym": "SQ2",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 39,
+      "rule": "undefined",
+      "acronym": "SQ3",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 181,
+      "rule": "undefined",
+      "acronym": "FTSE",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 181,
+      "rule": "undefined",
+      "acronym": "JSE",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 193,
+      "rule": "undefined",
+      "acronym": "ETF",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 193,
+      "rule": "undefined",
+      "acronym": "SPDR",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 195,
+      "rule": "undefined",
+      "acronym": "DAX",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 203,
+      "rule": "undefined",
+      "acronym": "VolGAN",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 351,
+      "rule": "undefined",
+      "acronym": "CRediT",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 419,
+      "rule": "undefined",
+      "acronym": "DC",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 419,
+      "rule": "undefined",
+      "acronym": "NC",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 419,
+      "rule": "undefined",
+      "acronym": "RC",
+      "expansion": null,
+      "occurrences": 2
+    }
+  ]
+}

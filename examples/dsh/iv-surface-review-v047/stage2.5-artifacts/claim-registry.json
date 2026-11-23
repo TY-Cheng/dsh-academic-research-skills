@@ -1,0 +1,2615 @@
+{
+ "schema_version": "claim-registry/1.0",
+ "draft_raw_sha256": "b19f4acbf9ffb39cb164b0dcf3b7824a4e4f9e274d8c8e9780b09b73bd241033",
+ "claims": [
+  {
+   "claim_id": "CLM-001",
+   "claim_text": "Firms consume not quotes but a fitted implied-volatility surface, from which prices, Greeks, and risk-neutral densities are derived (Fengler, 2009)<!--ref:S2--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 4197,
+    "end_byte": 4383
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "S2"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-002",
+   "claim_text": "On a single date, call prices must be non-increasing and convex in strike, total variance must not decrease with maturity, and the zero-maturity limit must match intrinsic value (Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:1.1-->; Guo et al., 2016)<!--ref:P1--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 4454,
+    "end_byte": 4754
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P1",
+    "S1"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-003",
+   "claim_text": "Across dates, no self-financing strategy in the option panel may produce a riskless profit (Niu, 2015 [preprint])<!--ref:C2--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 4755,
+    "end_byte": 4907
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-004",
+   "claim_text": "Construction is therefore constrained estimation rather than interpolation, run at scale on dense, noisy quotes (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 4908,
+    "end_byte": 5083
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N2"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-005",
+   "claim_text": "A method may be arbitrage-free because its parameter domain excludes violations (Guo et al., 2016)<!--ref:P1--><!--anchor:section:1.1-->, because a penalty discourages them (Na et al., 2023 [preprint])<!--ref:N5--><!--anchor:section:1.1-->, because a post-fit map removes them (Bender & Thiel, 2020)<!--ref:R3--><!--anchor:section:1.1-->, or because a generator is screened before output (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 5390,
+    "end_byte": 5840
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5",
+    "N5",
+    "P1",
+    "R3"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-006",
+   "claim_text": "The literature rarely separates them, and uses the same phrase for the static condition and for the dynamic one, although the second concerns the joint law of a surface process rather than the admissibility of one surface (Niu, 2015)<!--ref:C2--><!--anchor:section:1.1-->.",
+   "draft_span": {
+    "start_byte": 5902,
+    "end_byte": 6174
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2"
+   ],
+   "writer_anchors": [
+    "section:1.1"
+   ],
+   "paper_section": "1.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-007",
+   "claim_text": "One disclosed exception is retained: a single-stock panel (Stahl & Blauth, 2024)<!--ref:C5--><!--anchor:section:1.3-->, admitted because it tests a martingale-defect condition directly, is scope-flagged throughout, and is never generalised to index surfaces.",
+   "draft_span": {
+    "start_byte": 9089,
+    "end_byte": 9347
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C5"
+   ],
+   "writer_anchors": [
+    "section:1.3"
+   ],
+   "paper_section": "1.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-008",
+   "claim_text": "A surface is statically admissible if, expressed through the normalised call price $c(k,\\tau)=C/F_{\\tau}$, it satisfies five conditions: **SC1**, non-negative time value, $c(k,\\tau)\\ge\\max(1-e^{k},0)$; **SC2**, monotone decreasing call prices in strike, $\\partial c/\\partial k\\le 0$; **SC3**, strike convexity, the butterfly or Durrleman condition, $\\partial^{2} c/\\partial k^{2}\\ge 0$; **SC4**, the zero-maturity limit $c(\\cdot,0)=\\max(1-e^{k},0)$; and **SC5**, calendar monotonicity of total variance, $w$ non-decreasing in $\\tau$ (Anagha, 2026 [preprint]; Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:2.1-->; Martini & Mingone, 2022<!--ref:P2--><!--anchor:section:2.1-->)<!--ref:G6--><!--anchor:section:2.1-->.",
+   "draft_span": {
+    "start_byte": 9841,
+    "end_byte": 10566
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6",
+    "P2",
+    "S1"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-009",
+   "claim_text": "Gatheral and Jacquier (2013)<!--ref:S1--><!--anchor:section:2.1--> give closed-form **sufficient** conditions on the raw stochastic-volatility-inspired (SVI) parameters that guarantee SC1–SC4 on each slice, with a separate condition for SC5.",
+   "draft_span": {
+    "start_byte": 10792,
+    "end_byte": 11035
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "S1"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-010",
+   "claim_text": "Martini and Mingone (2022)<!--ref:P2--><!--anchor:section:2.1--> establish a characterisation that is **exact** for the SVI slice, expressed through monotonicity of the quantities $-d_{1}$ and $-d_{2}$ rather than through a restricted parameter box.",
+   "draft_span": {
+    "start_byte": 11036,
+    "end_byte": 11285
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P2"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-011",
+   "claim_text": "(2016)<!--ref:P1--><!--anchor:section:2.1--> generalise the family and show that arbitrage-free surfaces exist outside the SVI class, with the guarantee carried by the parameter domain itself.",
+   "draft_span": {
+    "start_byte": 11297,
+    "end_byte": 11489
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P1"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-012",
+   "claim_text": "The canonical failure is instructive: the SABR (stochastic alpha, beta, rho) implied-volatility approximation admits negative implied densities at low strikes for long maturities, a finite-strike violation that required a one-dimensional partial-differential-equation (PDE) density fix (Hagan et al., 2014)<!--ref:S3--><!--anchor:section:2.1-->.",
+   "draft_span": {
+    "start_byte": 11959,
+    "end_byte": 12304
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "S3"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-013",
+   "claim_text": "Asymptotic statements sit on the other side of the same distinction: a family can be asymptotically arbitrage-free in the wings while violating a condition at the strikes a desk actually quotes (Fukasawa, 2022)<!--ref:C4--><!--anchor:section:2.1-->.",
+   "draft_span": {
+    "start_byte": 12305,
+    "end_byte": 12554
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C4"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-014",
+   "claim_text": "Operationally, the corpus's conditions are exercised by repair and generation rows as well as by parametric ones (Bajalica et al., 2026; Xiong & Liu, 2026<!--ref:R5--><!--anchor:section:2.1-->)<!--ref:G5--><!--anchor:section:2.1-->, which is why SC1–SC5 serve as the review's static predicate rather than as a description of one family.",
+   "draft_span": {
+    "start_byte": 12652,
+    "end_byte": 12990
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5",
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:2.1"
+   ],
+   "paper_section": "2.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-015",
+   "claim_text": "A dynamic condition constrains a family of surfaces indexed by calendar time, and the natural formulation is a filtered probability space on which the option-price process is a martingale under a measure consistent with the numéraire (Niu, 2015)<!--ref:C2--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 13107,
+    "end_byte": 13392
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-016",
+   "claim_text": "One review of static and dynamic conditions discusses the question without testing it (Niu, 2015)<!--ref:C2--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 13753,
+    "end_byte": 13889
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-017",
+   "claim_text": "A neural stochastic-differential-equation (SDE) market model constructs a state space of statically arbitrage-free prices and explicitly limits its claim to static, model-independent admissibility (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 13890,
+    "end_byte": 14146
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G7"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-018",
+   "claim_text": "A path-dependent construction builds surfaces along stochastic paths that are statically free but does not test dynamic consistency across the resulting family (Andrès et al., 2026)<!--ref:C3--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 14147,
+    "end_byte": 14368
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C3"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-019",
+   "claim_text": "A parametric family reports time-indexed arbitrage probabilities, which is a statement about a model's parameters over time rather than a path-level test of the fitted surface (Barski & Wiśniewolski, 2026 [preprint])<!--ref:P8--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 14369,
+    "end_byte": 14625
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P8"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-020",
+   "claim_text": "A single-stock panel examines martingale defects and bubble conditions and is dynamic-adjacent, but it is scope-flagged (Stahl & Blauth, 2024)<!--ref:C5--><!--anchor:section:2.2-->.",
+   "draft_span": {
+    "start_byte": 14626,
+    "end_byte": 14807
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C5"
+   ],
+   "writer_anchors": [
+    "section:2.2"
+   ],
+   "paper_section": "2.2",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-021",
+   "claim_text": "Two rows construct by distorting a reference function and also repair an existing quote set, so they sit between construction and repair (Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:2.3-->; Buehler et al., 2026 [preprint])<!--ref:R6--><!--anchor:section:2.3-->.",
+   "draft_span": {
+    "start_byte": 17545,
+    "end_byte": 17814
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R3",
+    "R6"
+   ],
+   "writer_anchors": [
+    "section:2.3"
+   ],
+   "paper_section": "2.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-022",
+   "claim_text": "One row's constraint is architectural rather than a penalty term, which makes it a hybrid (Cao et al., 2020)<!--ref:N1--><!--anchor:section:2.3-->.",
+   "draft_span": {
+    "start_byte": 17815,
+    "end_byte": 17962
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N1"
+   ],
+   "writer_anchors": [
+    "section:2.3"
+   ],
+   "paper_section": "2.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-023",
+   "claim_text": "Two constructions are model-level rather than data-driven, so their guarantee is inherited from the model class (Andrès et al., 2026; Cohen et al., 2021<!--ref:G7--><!--anchor:section:2.3-->)<!--ref:C3--><!--anchor:section:2.3-->.",
+   "draft_span": {
+    "start_byte": 17963,
+    "end_byte": 18194
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C3",
+    "G7"
+   ],
+   "writer_anchors": [
+    "section:2.3"
+   ],
+   "paper_section": "2.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-024",
+   "claim_text": "| Families | P 8, N 6, R 9, G 8, C 5, S 5 |",
+   "draft_span": {
+    "start_byte": 22918,
+    "end_byte": 22961
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-025",
+   "claim_text": "| Abstract coverage | 34 full, 4 partial (R2, G3, C4, S1), 3 metadata-only (P4, P7, R4) |",
+   "draft_span": {
+    "start_byte": 22962,
+    "end_byte": 23051
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-026",
+   "claim_text": "Abstract coverage is uneven: 34 abstracts were read in full, four only partially (R2, G3, C4, S1), and three were unavailable, leaving those rows at title level (P4, P7, R4).",
+   "draft_span": {
+    "start_byte": 24479,
+    "end_byte": 24653
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-027",
+   "claim_text": "Within-study baselines are the only licensed comparisons: a hard-constrained generator against surface SVI (SSVI) and a soft-penalty network (Anagha, 2026)<!--ref:G6--><!--anchor:section:3.3-->, a generative adversarial network (GAN) against a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:3.3-->, a penalty model against an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:3.3-->, and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:3.3-->.",
+   "draft_span": {
+    "start_byte": 26336,
+    "end_byte": 26888
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6",
+    "N4",
+    "N5",
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:3.3"
+   ],
+   "paper_section": "3.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-028",
+   "claim_text": "The clearest case is a generalised SVI family whose arbitrage-freeness is inherited from the structure of the parameter set, with the guarantee holding for all admitted parameters rather than only at the fitted optimum (Guo et al., 2016)<!--ref:P1--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 28581,
+    "end_byte": 28857
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P1"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-029",
+   "claim_text": "A second line replaces a sufficient parameter box with an exact butterfly characterisation, so that the admissible set is not narrower than necessary and calibration proceeds on the true admissible region (Martini & Mingone, 2022)<!--ref:P2--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 28858,
+    "end_byte": 29127
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P2"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-030",
+   "claim_text": "A third extends the construction across maturities jointly, calibrating an extended SSVI parameterisation as one object rather than slice by slice, so that calendar monotonicity is a property of the joint fit (Mingone, 2022)<!--ref:P3--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 29128,
+    "end_byte": 29391
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P3"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-031",
+   "claim_text": "A sequential slice-wise counterpart reaches the same family by a different route, available here only at title level (Corbetta et al., 2019)<!--ref:P4--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 29521,
+    "end_byte": 29700
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P4"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-032",
+   "claim_text": "A random-coefficient parameterisation widens the set of shapes the family can represent, including bimodal short-dated densities that fixed-coefficient forms cannot produce, while retaining a structural guarantee (Zaugg et al., 2025)<!--ref:P5--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 29789,
+    "end_byte": 30061
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P5"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-033",
+   "claim_text": "A class-C3 interpolation constructs from a smaller knot set rather than calibrating to quotes, which changes what the guarantee is a claim about: the interpolant is admissible by construction, and the fit to data is a separate question (Le Floc’h, 2025)<!--ref:P6--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 30062,
+    "end_byte": 30356
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P6"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-034",
+   "claim_text": "A bounded-factor model derives conditions under which the implied surface of a Gaussian-factor structure is free of static arbitrage and reports time-indexed arbitrage probabilities; it is the only parametric row that reports anything indexed by time (Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 30357,
+    "end_byte": 30677
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P8"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-035",
+   "claim_text": "A further row claims necessary-and-sufficient conditions for the SSVI/S3 curve but is metadata-only here and cannot corroborate them (Klassen, 2016 [preprint])<!--ref:P7--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 30678,
+    "end_byte": 30876
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "P7"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-036",
+   "claim_text": "An interpolation-by-distortion that begins from an arbitrage-free reference and a linear-programming construction both embed the constraint in a deterministic construction, yet what they certify is a transformed object rather than an admitted parameter vector (Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:4.1-->; Buehler et al., 2026)<!--ref:R6--><!--anchor:section:4.1-->.",
+   "draft_span": {
+    "start_byte": 31405,
+    "end_byte": 31786
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R3",
+    "R6"
+   ],
+   "writer_anchors": [
+    "section:4.1"
+   ],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-037",
+   "claim_text": "| Projection–repair (R) | 9 | Output image | Surface after a map | Conditional on the projection | Proof (3), test (4), assumption (2); distortion plus residual | Residual floor | R1–R9 |",
+   "draft_span": {
+    "start_byte": 32600,
+    "end_byte": 32791
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-038",
+   "claim_text": "| Generation–filtering (G) | 8 | Sampler / acceptance | Accepted sample or inherited class | Within test power or model support | Proof (4), test (3), assumption (1); pass rate or architecture argument | Pass rate or proof | G1–G8 |",
+   "draft_span": {
+    "start_byte": 32792,
+    "end_byte": 33028
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "4.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-039",
+   "claim_text": "The clearest architectural case is a gated network whose slopes and weights are constructed so that the option-price function is frictionless and convex by design; the gate is a constraint-bearing architecture, so the row sits on the penalty/architectural boundary (Cao et al., 2020)<!--ref:N1--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 33935,
+    "end_byte": 34257
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N1"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-040",
+   "claim_text": "A graph neural operator is trained across a ten-year intraday S&P 500 index (SPX) panel and reports adherence without a stated tolerance, which makes the claim hard to audit (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 34258,
+    "end_byte": 34495
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N2"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-041",
+   "claim_text": "A deep-smoothing approach adds soft penalties plus a plug-in correction, aimed at sparse and erroneous quotes, and the penalty is not a guarantee (Ackerer et al., 2019 [preprint])<!--ref:N3--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 34496,
+    "end_byte": 34714
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N3"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-042",
+   "claim_text": "A GAN with a static-arbitrage loss on the FTSE/JSE All Share (ALSI) index states plainly that the condition cannot be directly learned through the penalty route, which is the most explicit statement in the corpus of what a penalty can and cannot deliver (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 34715,
+    "end_byte": 35029
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N4"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-043",
+   "claim_text": "A second penalty model minimises violations and compares accuracy and runtime against an artificial neural network, reporting a residual rather than a certificate (Na et al., 2023)<!--ref:N5--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 35030,
+    "end_byte": 35249
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N5"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-044",
+   "claim_text": "A deep convolutional network embeds derivative constraints, including a maturity-derivative term, in the loss and trains on SABR-generated data, so its reported adherence is an in-sample property of a simulated generator (Hoshisashi et al., 2023 [preprint])<!--ref:N6--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 35250,
+    "end_byte": 35546
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N6"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-045",
+   "claim_text": "One row is a hybrid: a gated network's constraint is structural rather than a soft term, so it is flagged and not used to support either claim alone (Cao et al., 2020)<!--ref:N1--><!--anchor:section:4.2-->.",
+   "draft_span": {
+    "start_byte": 36021,
+    "end_byte": 36227
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N1"
+   ],
+   "writer_anchors": [
+    "section:4.2"
+   ],
+   "paper_section": "4.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-046",
+   "claim_text": "The projection line is represented by a linear-programming repair that moves prices minimally inside the bid–ask without any cross-date enforcement claim (Cohen et al., 2020)<!--ref:R1--><!--anchor:section:4.3-->, and by an entropic projection to the arbitrage-free set built on Sinkhorn's algorithm, whose convergence proof is a proof about the projection (De March & Henry-Labordère, 2019 [preprint])<!--ref:R2--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 36855,
+    "end_byte": 37299
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R1",
+    "R2"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-047",
+   "claim_text": "A third line begins from an arbitrage-free reference function and distorts it, so the construction and the repair share the same observable; the Kahalé approach appears as a special case (Bender & Thiel, 2020)<!--ref:R3--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 37300,
+    "end_byte": 37549
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R3"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-048",
+   "claim_text": "A strictly arbitrage-free non-parametric construction calibrates by linear programming with a positive discrete local volatility, which places it at the construction edge of the repair locus (Buehler et al., 2026)<!--ref:R6--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 37550,
+    "end_byte": 37802
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R6"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-049",
+   "claim_text": "An observation-anchored repair runs over 252 out-of-sample SPX days and five completion backends and reports a butterfly violation floor of about 5.4%, so the repaired surface is not violation-free on real quotes; a cubic-spline backend has the lowest reconstruction error after repair (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 37842,
+    "end_byte": 38186
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-050",
+   "claim_text": "A Chebyshev-tensor surface with a quadratic-programming stage and a post-fit adjustment reports under 1% static violations and 98–99% inside-spread coverage in calm years, with out-of-band leakage under stress (Alvarez, 2025 [preprint])<!--ref:R7--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 38187,
+    "end_byte": 38464
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R7"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-051",
+   "claim_text": "A Markov-chain approximation over 2,695 SPDR S&P 500 ETF (SPY) options across 28 maturities carries a time axis without a dynamic audit (Madan & Schoutens, 2019)<!--ref:R9--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 38465,
+    "end_byte": 38665
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R9"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-052",
+   "claim_text": "One row asserts transformations without either proof or test (Zetocha, 2023 [preprint])<!--ref:R8--><!--anchor:section:4.3-->, and another expands the scope to joint American call-and-put smoothing at title level (Yao et al., 2026)<!--ref:R4--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 38666,
+    "end_byte": 38936
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R4",
+    "R8"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-053",
+   "claim_text": "The family's baseline is the shape-constrained smoothing spline, which showed that ignoring the constraint matters, before the four-family split existed (Fengler, 2009)<!--ref:S2--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 38938,
+    "end_byte": 39145
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "S2"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-054",
+   "claim_text": "Two earlier constructions did not enforce admissibility at all: a nonparametric inversion solved for a surface without an explicit constraint set (Bodurtha & Jermakyan, 1999)<!--ref:S4--><!--anchor:section:4.3-->, and a semiparametric factor model on DAX (Deutscher Aktienindex) data estimated dynamics without enforcement (Fengler et al., 2006)<!--ref:S5--><!--anchor:section:4.3-->.",
+   "draft_span": {
+    "start_byte": 39146,
+    "end_byte": 39530
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "S4",
+    "S5"
+   ],
+   "writer_anchors": [
+    "section:4.3"
+   ],
+   "paper_section": "4.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-055",
+   "claim_text": "A variational autoencoder over the parameters of stochastic-volatility models generates surfaces whose admissibility follows from the SDE class rather than from the training objective (Ning et al., 2023)<!--ref:G1--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 40027,
+    "end_byte": 40269
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G1"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-056",
+   "claim_text": "A neural-SDE state space defines a family of statically arbitrage-free prices and explicitly disclaims a dynamic guarantee (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 40270,
+    "end_byte": 40452
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G7"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-057",
+   "claim_text": "A gated rational network is arbitrage-free by design, one of the earliest architectural guarantees in the corpus (Yang et al., 2017)<!--ref:G8--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 40453,
+    "end_byte": 40624
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G8"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-058",
+   "claim_text": "Trainable hard constraints go further: the constraint is imposed as a differentiable but hard architectural element, and the row reports 0.00% violations at a $10^{-4}$ tolerance over 15 runs on synthetic SVI data (Anagha, 2026)<!--ref:G6--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 40625,
+    "end_byte": 40892
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-059",
+   "claim_text": "A VolGAN (a volatility GAN) generates joint surface and underlying scenarios and evaluates them through hedging against a Black–Scholes delta, while the enforcement mechanism is not described (Vuletić & Cont, 2024)<!--ref:G2--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 41285,
+    "end_byte": 41541
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G2"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-060",
+   "claim_text": "A simulation approach places static constraints inside a generated process but is only partly available at abstract level (Cont & Vuletić, 2023)<!--ref:G3--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 41542,
+    "end_byte": 41726
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G3"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-061",
+   "claim_text": "A GAN denoiser reports lower mean-squared error (MSE) and runtime without a guarantee claim, which makes it a smoothing tool rather than a certified generator (Ginart Belmonte & Cole, 2025)<!--ref:G4--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 41727,
+    "end_byte": 41955
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G4"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-062",
+   "claim_text": "A latent flow-matching generator reports that 90.8% of generated surfaces pass all tested static conditions, the corpus's clearest pass-rate statement (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:4.4-->.",
+   "draft_span": {
+    "start_byte": 41956,
+    "end_byte": 42169
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5"
+   ],
+   "writer_anchors": [
+    "section:4.4"
+   ],
+   "paper_section": "4.4",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-063",
+   "claim_text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+   "draft_span": {
+    "start_byte": 43338,
+    "end_byte": 44091
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5",
+    "G6",
+    "N2",
+    "N6",
+    "R5",
+    "R7"
+   ],
+   "writer_anchors": [
+    "section:5.1"
+   ],
+   "paper_section": "5.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-064",
+   "claim_text": "H2 is unsupported in its fit-error clause — no penalty or repair row reports a lower fit error than a constrained parametric baseline on the same data, and the one paired measurement reports a higher error for the stronger guarantee — while its burden-displacement clause is supported: weights, tolerances, repair steps, and acceptance thresholds are where the constraint work is absorbed (Na et al., 2023<!--ref:N5--><!--anchor:section:5.1-->; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:5.1-->; Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->.",
+   "draft_span": {
+    "start_byte": 44908,
+    "end_byte": 45473
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N4",
+    "N5",
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:5.1"
+   ],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-065",
+   "claim_text": "H3 is supported for the penalised-sampling branch, where a pass rate is the whole claim, and disconfirmed for the inherited-guarantee branch, where four rows are structural rather than sample-filtered (Anagha, 2026<!--ref:G6--><!--anchor:section:5.1-->; Cohen et al., 2021<!--ref:G7--><!--anchor:section:5.1-->; Ning et al., 2023<!--ref:G1--><!--anchor:section:5.1-->; Yang et al., 2017)<!--ref:G8--><!--anchor:section:5.1-->.",
+   "draft_span": {
+    "start_byte": 45474,
+    "end_byte": 45900
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G1",
+    "G6",
+    "G7",
+    "G8"
+   ],
+   "writer_anchors": [
+    "section:5.1"
+   ],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-066",
+   "claim_text": "Preprints are labelled wherever cited, so a reader can see that three of the six audit rows are preprints (N6, R7, G6).",
+   "draft_span": {
+    "start_byte": 46068,
+    "end_byte": 46187
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-067",
+   "claim_text": "| R (projection–repair) | 3 | 4 | 2 | 9 | 2 (R5, R7) |",
+   "draft_span": {
+    "start_byte": 46599,
+    "end_byte": 46655
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-068",
+   "claim_text": "| G (generation) | 4 | 3 | 1 | 8 | 2 (G5, G6) |",
+   "draft_span": {
+    "start_byte": 46656,
+    "end_byte": 46703
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-069",
+   "claim_text": "An audit row reports a residual or violation check on its own output; G6 is the only row that also reports a structural guarantee.",
+   "draft_span": {
+    "start_byte": 46934,
+    "end_byte": 47064
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-070",
+   "claim_text": "| H2 — penalty and repair routes displace rather than remove the constraint burden | Burden-displacement clause supported; fit-error clause unsupported | No penalty or repair row reports lower fit error than a constrained parametric baseline on the same data; tolerances, weights, and repair steps absorb the constraint; one paired measurement reports a higher error (G6) | Adequacy of any residual rate is not assessable without a loss and tolerance the corpus does not supply |",
+   "draft_span": {
+    "start_byte": 47598,
+    "end_byte": 48079
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-071",
+   "claim_text": "| H3 — generation's \"arbitrage-free\" often means \"not rejected on this sample\" | Supported for the penalised-sampling branch; disconfirmed for the inherited-guarantee branch | G5 reports a 90.8% pass rate; G1, G6, G7, G8 are structural rather than sample-filtered | Small branches (four and four); enforcement mechanism is under-described in several rows |",
+   "draft_span": {
+    "start_byte": 48080,
+    "end_byte": 48438
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-072",
+   "claim_text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+   "draft_span": {
+    "start_byte": 50264,
+    "end_byte": 50731
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6",
+    "N4",
+    "N5",
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:5.2"
+   ],
+   "paper_section": "5.2",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-073",
+   "claim_text": "A neural detector of model-free static arbitrage exists as an independent auditor, but it is never applied to another row in this corpus (Neufeld & Sester, 2024)<!--ref:C1--><!--anchor:section:5.2-->.",
+   "draft_span": {
+    "start_byte": 50732,
+    "end_byte": 50932
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C1"
+   ],
+   "writer_anchors": [
+    "section:5.2"
+   ],
+   "paper_section": "5.2",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-074",
+   "claim_text": "A hard-constrained generator reports a structural guarantee and a 0.00% audit, and also reports a higher total-variance error than two baselines (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.3-->.",
+   "draft_span": {
+    "start_byte": 53653,
+    "end_byte": 53851
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6"
+   ],
+   "writer_anchors": [
+    "section:5.3"
+   ],
+   "paper_section": "5.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-075",
+   "claim_text": "A repair reports a 5.4% floor and selects a backend by reconstruction error (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.3-->.",
+   "draft_span": {
+    "start_byte": 53852,
+    "end_byte": 53986
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:5.3"
+   ],
+   "paper_section": "5.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-076",
+   "claim_text": "A Chebyshev construction reports sub-1% violations and inside-spread coverage with stressed-year leakage (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.3-->.",
+   "draft_span": {
+    "start_byte": 53987,
+    "end_byte": 54146
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R7"
+   ],
+   "writer_anchors": [
+    "section:5.3"
+   ],
+   "paper_section": "5.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-077",
+   "claim_text": "A flow-matching generator reports a pass rate without a paired fit-cost comparison (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.3-->.",
+   "draft_span": {
+    "start_byte": 54147,
+    "end_byte": 54292
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5"
+   ],
+   "writer_anchors": [
+    "section:5.3"
+   ],
+   "paper_section": "5.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-078",
+   "claim_text": "The one row that reports all three does so on synthetic data (Anagha, 2026)<!--ref:G6--><!--anchor:section:6.1-->, which shows that the triple is reportable rather than idealised.",
+   "draft_span": {
+    "start_byte": 57191,
+    "end_byte": 57370
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G6"
+   ],
+   "writer_anchors": [
+    "section:6.1"
+   ],
+   "paper_section": "6.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-079",
+   "claim_text": "The two penalty rows that concede the limit of their route are the clearest evidence that the authors know which claim they are making (Na et al., 2023; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:6.1-->)<!--ref:N5--><!--anchor:section:6.1-->.",
+   "draft_span": {
+    "start_byte": 57371,
+    "end_byte": 57621
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "N4",
+    "N5"
+   ],
+   "writer_anchors": [
+    "section:6.1"
+   ],
+   "paper_section": "6.1",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-080",
+   "claim_text": "To our knowledge, based on searches of OpenAlex covering 2015-01-01 to 2026-11-23, as of 2026-11-23 no included study states and tests a process-level dynamic no-arbitrage condition for an equity-index implied-volatility surface; the nearest prior work reviews the conditions without testing them (Niu, 2015)<!--ref:C2--><!--anchor:section:6.2-->.",
+   "draft_span": {
+    "start_byte": 58344,
+    "end_byte": 58691
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2"
+   ],
+   "writer_anchors": [
+    "section:6.2"
+   ],
+   "paper_section": "6.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-081",
+   "claim_text": "A generator that constrains maturity monotonicity has made a static claim (Anagha, 2026<!--ref:G6--><!--anchor:section:6.2-->; Bajalica et al., 2026<!--ref:G5--><!--anchor:section:6.2-->), as has a repair that enforces it (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:6.2-->.",
+   "draft_span": {
+    "start_byte": 59498,
+    "end_byte": 59778
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "G5",
+    "G6",
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:6.2"
+   ],
+   "paper_section": "6.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-082",
+   "claim_text": "The neural-SDE row explicitly disclaims dynamics (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:6.2-->; the one review that treats dynamic conditions at length does not test them (Niu, 2015)<!--ref:C2--><!--anchor:section:6.2-->; and the path-dependent and time-indexed constructions build objects along a time axis without a process-level test (Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.2-->; Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:6.2-->.",
+   "draft_span": {
+    "start_byte": 59779,
+    "end_byte": 60258
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C2",
+    "C3",
+    "G7",
+    "P8"
+   ],
+   "writer_anchors": [
+    "section:6.2"
+   ],
+   "paper_section": "6.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-083",
+   "claim_text": "A finite-strike SABR failure and an asymptotic arbitrage-free approximation are compatible statements because they hold in different regimes: the first says a quoted surface admits a negative density at long maturities, the second says the wings behave correctly as strikes grow (Fukasawa, 2022; Hagan et al., 2014<!--ref:S3--><!--anchor:section:6.2-->)<!--ref:C4--><!--anchor:section:6.2-->.",
+   "draft_span": {
+    "start_byte": 60324,
+    "end_byte": 60716
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C4",
+    "S3"
+   ],
+   "writer_anchors": [
+    "section:6.2"
+   ],
+   "paper_section": "6.2",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-084",
+   "claim_text": "Starting from a surface family with a stated process (Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.3-->; Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:6.3-->, it would define a path-level admissibility condition and run it over a multi-year index panel.",
+   "draft_span": {
+    "start_byte": 61065,
+    "end_byte": 61342
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C3",
+    "P8"
+   ],
+   "writer_anchors": [
+    "section:6.3"
+   ],
+   "paper_section": "6.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-085",
+   "claim_text": "The third is a residual audit for proof constructions: applying an independent detector (Neufeld & Sester, 2024)<!--ref:C1--><!--anchor:section:6.3--> to proof-bearing parametric and repair rows would test whether their guarantees survive finite-sample implementation, reporting violations at a stated tolerance on observed quotes.",
+   "draft_span": {
+    "start_byte": 61854,
+    "end_byte": 62185
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "C1"
+   ],
+   "writer_anchors": [
+    "section:6.3"
+   ],
+   "paper_section": "6.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-086",
+   "claim_text": "The fourth is a test-power and noise-floor study, which would estimate false-positive and false-negative rates of violation tests and separate data noise from method error; the 5.4% repair floor is the motivating case (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:6.3-->.",
+   "draft_span": {
+    "start_byte": 62186,
+    "end_byte": 62462
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "R5"
+   ],
+   "writer_anchors": [
+    "section:6.3"
+   ],
+   "paper_section": "6.3",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-087",
+   "claim_text": "| P2 | Martini & Mingone (2022) | Parametric | proof | RC | full | yes | 2.1, 4.1 |",
+   "draft_span": {
+    "start_byte": 82436,
+    "end_byte": 82519
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-088",
+   "claim_text": "| P3 | Mingone (2022) | Parametric | proof | RC | full | yes | 4.1 |",
+   "draft_span": {
+    "start_byte": 82520,
+    "end_byte": 82588
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-089",
+   "claim_text": "| P6 | Le Floc’h (2025) | Parametric | proof | RC | full | yes | 4.1 |",
+   "draft_span": {
+    "start_byte": 82754,
+    "end_byte": 82826
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-090",
+   "claim_text": "| P7 | Klassen (2016) | Parametric | assumption | NC | metadata-only | no [preprint] | 4.1 |",
+   "draft_span": {
+    "start_byte": 82827,
+    "end_byte": 82919
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-091",
+   "claim_text": "| P8 | Barski & Wiśniewolski (2026) | Parametric | proof | NC | full | no [preprint] | 2.2, 4.1, 6.2, 6.3 |",
+   "draft_span": {
+    "start_byte": 82920,
+    "end_byte": 83028
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-092",
+   "claim_text": "| R1 | Cohen et al.",
+   "draft_span": {
+    "start_byte": 83611,
+    "end_byte": 83630
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-093",
+   "claim_text": "| R2 | De March & Henry-Labordère (2019) | Repair | proof | RC | partial | no [preprint] | 4.3 |",
+   "draft_span": {
+    "start_byte": 83690,
+    "end_byte": 83787
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-094",
+   "claim_text": "| R3 | Bender & Thiel (2020) | Repair | proof | NC | full | yes | 1.1, 2.3, 4.1, 4.3 |",
+   "draft_span": {
+    "start_byte": 83788,
+    "end_byte": 83874
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-095",
+   "claim_text": "| R4 | Yao et al.",
+   "draft_span": {
+    "start_byte": 83875,
+    "end_byte": 83892
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-096",
+   "claim_text": "| R5 | Xiong & Liu (2026) | Repair | numerical test | RC | full | yes | 2.1, 3.3, 4.3, 5.1, 5.2, 5.3, 6.2, 6.3 |",
+   "draft_span": {
+    "start_byte": 83957,
+    "end_byte": 84069
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-097",
+   "claim_text": "| R6 | Buehler et al.",
+   "draft_span": {
+    "start_byte": 84070,
+    "end_byte": 84091
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-098",
+   "claim_text": "| R7 | Alvarez (2025) | Repair | numerical test | RC | full | no [preprint] | 4.3, 5.1, 5.3 |",
+   "draft_span": {
+    "start_byte": 84162,
+    "end_byte": 84255
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-099",
+   "claim_text": "| R8 | Zetocha (2023) | Repair | assumption | NC | full | no [preprint] | 4.3 |",
+   "draft_span": {
+    "start_byte": 84256,
+    "end_byte": 84335
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-100",
+   "claim_text": "| R9 | Madan & Schoutens (2019) | Repair | numerical test | RC | full | yes | 4.3 |",
+   "draft_span": {
+    "start_byte": 84336,
+    "end_byte": 84419
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "RANDOM"
+  },
+  {
+   "claim_id": "CLM-101",
+   "claim_text": "| G1 | Ning et al.",
+   "draft_span": {
+    "start_byte": 84420,
+    "end_byte": 84438
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-102",
+   "claim_text": "| G2 | Vuletić & Cont (2024) | Generation | numerical test | RC | full | yes | 4.4 |",
+   "draft_span": {
+    "start_byte": 84498,
+    "end_byte": 84583
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-103",
+   "claim_text": "| G3 | Cont & Vuletić (2023) | Generation | assumption | RC | partial | yes | 4.4 |",
+   "draft_span": {
+    "start_byte": 84584,
+    "end_byte": 84668
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-104",
+   "claim_text": "| G4 | Ginart Belmonte & Cole (2025) | Generation | numerical test | RC | full | yes | 4.4 |",
+   "draft_span": {
+    "start_byte": 84669,
+    "end_byte": 84761
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-105",
+   "claim_text": "| G5 | Bajalica et al.",
+   "draft_span": {
+    "start_byte": 84762,
+    "end_byte": 84784
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-106",
+   "claim_text": "| G6 | Anagha (2026) | Generation | proof | RC | full | no [preprint] | 2.1, 3.3, 4.4, 5.1, 5.2, 5.3, 6.1, 6.2 |",
+   "draft_span": {
+    "start_byte": 84873,
+    "end_byte": 84985
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-107",
+   "claim_text": "| G7 | Cohen et al.",
+   "draft_span": {
+    "start_byte": 84986,
+    "end_byte": 85005
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-108",
+   "claim_text": "| G8 | Yang et al.",
+   "draft_span": {
+    "start_byte": 85080,
+    "end_byte": 85098
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-109",
+   "claim_text": "| C1 | Neufeld & Sester (2024) | Conditions | proof | RC | full | yes | 5.2, 6.3 |",
+   "draft_span": {
+    "start_byte": 85158,
+    "end_byte": 85240
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-110",
+   "claim_text": "| C2 | Niu (2015) | Conditions | assumption | NC | full | no [preprint] | 1.1, 2.2, 6.2 |",
+   "draft_span": {
+    "start_byte": 85241,
+    "end_byte": 85330
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-111",
+   "claim_text": "| C4 | Fukasawa (2022) | Conditions | proof | NC | partial | yes | 2.1, 6.2 |",
+   "draft_span": {
+    "start_byte": 85422,
+    "end_byte": 85499
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-112",
+   "claim_text": "| C5 | Stahl & Blauth (2024) | Conditions | numerical test | NC | full | yes | 1.3, 2.2 |",
+   "draft_span": {
+    "start_byte": 85500,
+    "end_byte": 85589
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-113",
+   "claim_text": "| S1 | Gatheral & Jacquier (2013) | Seminal | proof | RC | partial | yes | 1.1, 2.1 |",
+   "draft_span": {
+    "start_byte": 85590,
+    "end_byte": 85675
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-114",
+   "claim_text": "| S2 | Fengler (2009) | Seminal | numerical test | NC | full | yes | 1.1, 4.3 |",
+   "draft_span": {
+    "start_byte": 85676,
+    "end_byte": 85755
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-115",
+   "claim_text": "| S4 | Bodurtha & Jermakyan (1999) | Seminal | assumption | RC | full | yes | 4.3 |",
+   "draft_span": {
+    "start_byte": 85851,
+    "end_byte": 85934
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix B",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-116",
+   "claim_text": "R3 is a repair built on an admissible reference function, so its mechanism is closer to construction; it stays in R because the manuscript's repair locus is defined by the certified object, and R3 certifies its output.",
+   "draft_span": {
+    "start_byte": 87951,
+    "end_byte": 88169
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix C",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-117",
+   "claim_text": "R6 claims a strict guarantee through parameter positivity, which is architecturally parametric, but its object is a completed surface, and it anchors the repair family's strict end.",
+   "draft_span": {
+    "start_byte": 88170,
+    "end_byte": 88351
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix C",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-118",
+   "claim_text": "G7 satisfies its constraints on a modelled state space and explicitly disclaims a dynamic-arbitrage guarantee, which is why it marks the static/dynamic boundary rather than a gap in it.",
+   "draft_span": {
+    "start_byte": 88512,
+    "end_byte": 88697
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Appendix C",
+   "selection_tier": "NOT-SELECTED"
+  },
+  {
+   "claim_id": "CLM-X01",
+   "claim_text": "The corpus is 41 sources — 36 published in 2015–2026 and 5 seminal precursors — of which 29 are peer-reviewed and 11 are preprints, coded on eight fields and read at abstract level; no systematic-review compliance or method ranking is claimed.",
+   "draft_span": {
+    "start_byte": 1269,
+    "end_byte": 1518
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Abstract",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X02",
+   "claim_text": "Seventeen sources assert their guarantee at proof level, 16 report a numerical test, and 8 assert admissibility with neither.",
+   "draft_span": {
+    "start_byte": 1519,
+    "end_byte": 1644
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Abstract",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X03",
+   "claim_text": "As reported in the abstracts, the certified object in all 41 rows is a single date's surface, and no source enforces or tests dynamic no-arbitrage, including none of the 31 construction rows.",
+   "draft_span": {
+    "start_byte": 1645,
+    "end_byte": 1836
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Abstract",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X04",
+   "claim_text": "Proof-level and test-level evidence come from almost disjoint sets, and no two sources state data, metric and tolerance together, so no two rows are directly comparable.",
+   "draft_span": {
+    "start_byte": 1837,
+    "end_byte": 2006
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Abstract",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X05",
+   "claim_text": "Because the surface is what prices, hedges, and clears, a fitted artefact that admits arbitrage can in principle propagate into risk numbers, margin, and capital; that propagation is a premise, not a measurement: no study in this corpus tests it.",
+   "draft_span": {
+    "start_byte": 5084,
+    "end_byte": 5330
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "1.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X06",
+   "claim_text": "The corpus contains no such test.",
+   "draft_span": {
+    "start_byte": 13719,
+    "end_byte": 13752
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "2.2",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X07",
+   "claim_text": "Ten rows engage time; none states a path-level condition and checks it over a path.",
+   "draft_span": {
+    "start_byte": 65495,
+    "end_byte": 65578
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "7.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X08",
+   "claim_text": "Retrieval requested 775 records and returned 750.",
+   "draft_span": {
+    "start_byte": 20176,
+    "end_byte": 20225
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X09",
+   "claim_text": "One query (\"SVI stochastic volatility inspired\") was lost after a Hypertext Transfer Protocol (HTTP) 429 response; 21 first-pass responses were rate-limited and 20 were recovered on retry.",
+   "draft_span": {
+    "start_byte": 20226,
+    "end_byte": 20414
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X10",
+   "claim_text": "De-duplication left 430 unique records.",
+   "draft_span": {
+    "start_byte": 20560,
+    "end_byte": 20599
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X11",
+   "claim_text": "Screening excluded 389 under eight reason codes: off-topic (141), pre-2015 background (86), relevant but not selected (40), out-of-scope asset class (34), publication type (32), duplicate version (31), forecasting or trading (21), and model-calibration pricing (4).",
+   "draft_span": {
+    "start_byte": 20600,
+    "end_byte": 20865
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X12",
+   "claim_text": "Forty-one studies were included: 36 in-window records and five declared seminal precursors dated 1999–2014, comprising 29 peer-reviewed articles or proceedings papers, 11 preprints (26.8%), and one practitioner magazine article.",
+   "draft_span": {
+    "start_byte": 20866,
+    "end_byte": 21096
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X13",
+   "claim_text": "All 41 records were resolved to a DOI-bearing index record (41/41); no record was flagged retracted by the OpenAlex `is_retracted` field.",
+   "draft_span": {
+    "start_byte": 24239,
+    "end_byte": 24376
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.2",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X14",
+   "claim_text": "Evidence is abstract-level: 34 records were read in full abstract, four only partially, and three at title level, so every claim about what a study did is a claim about what its abstract reports.",
+   "draft_span": {
+    "start_byte": 8893,
+    "end_byte": 9088
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "1.3",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X15",
+   "claim_text": "The corpus splits into 17 proof-level rows, 16 numerical tests, and 8 assumptions; within the 36 in-window records the split is 16 / 14 / 6, and the five seminal precursors contribute 1 / 2 / 2.",
+   "draft_span": {
+    "start_byte": 42721,
+    "end_byte": 42915
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X16",
+   "claim_text": "The cross-tabulation is the finding: among the 17 proof-level rows, only one reports a violation rate on its own output, and among the six audit rows only that row also reports a structural guarantee — and it does so on synthetic data.",
+   "draft_span": {
+    "start_byte": 44092,
+    "end_byte": 44329
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical",
+    "disputed"
+   ]
+  },
+  {
+   "claim_id": "CLM-X17",
+   "claim_text": "The comparability coding returns 0 direct, 30 context, and 11 not comparable, and the breakdown by family is uneven in an informative way (Table 5).",
+   "draft_span": {
+    "start_byte": 48489,
+    "end_byte": 48637
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.2",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X18",
+   "claim_text": "The pattern is consistent: zero of six rows are proof-level, all six report a numerical test, and the residual violations are the mechanism working as designed rather than a defect.",
+   "draft_span": {
+    "start_byte": 35548,
+    "end_byte": 35729
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "4.2",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X19",
+   "claim_text": "The evidence profile is the sharpest in the corpus: six of eight rows are proof-level, two assumption-level, and no row reports a residual audit on observed quotes.",
+   "draft_span": {
+    "start_byte": 30878,
+    "end_byte": 31042
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "4.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X20",
+   "claim_text": "Seventeen rows are proof-level and only one reports a violation rate on its own output; six rows audit their own output and that one also reports a structural guarantee, on synthetic data.",
+   "draft_span": {
+    "start_byte": 65899,
+    "end_byte": 66087
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "7.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X21",
+   "claim_text": "The claim is bounded: 0 of 41 abstracts, 0 of 36 in-window records, and 0 of 31 construction records, not a statement about the field.",
+   "draft_span": {
+    "start_byte": 65579,
+    "end_byte": 65713
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "7.1",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "CLM-X22",
+   "claim_text": "The first is populated: static no-arbitrage is coded for all 41 rows, with 17 proof, 16 test, and 8 assumption, and tolerances are rarely stated.",
+   "draft_span": {
+    "start_byte": 51902,
+    "end_byte": 52047
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.3",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X23",
+   "claim_text": "Third, the evidence is abstract-level, single-analyst, English-only, and OpenAlex-only, with no full text, proof, or code retrieval.",
+   "draft_span": {
+    "start_byte": 27179,
+    "end_byte": 27311
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3.3",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "CLM-X24",
+   "claim_text": "Every parametric row is context or not comparable; no penalty or generation row is not comparable, because their objects and metrics fall inside the same loose vocabulary; the conditions group carries the largest share of not-comparable rows (three of five) and the parametric group the largest number (four of eight), because their objects differ.",
+   "draft_span": {
+    "start_byte": 48638,
+    "end_byte": 48986
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.2",
+   "selection_tier": "HIGH-IMPACT",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  }
+ ]
+}

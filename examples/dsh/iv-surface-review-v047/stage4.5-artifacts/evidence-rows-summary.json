@@ -1,0 +1,29 @@
+{
+ "registered_claims": 202,
+ "claims_audited": 59,
+ "rows": 112,
+ "refs_covered": 41,
+ "row_verdicts": {
+  "VERIFIED": 109,
+  "MINOR_DISTORTION": 0,
+  "MAJOR_DISTORTION": 0,
+  "UNVERIFIABLE": 0,
+  "UNVERIFIABLE_ACCESS": 3
+ },
+ "claim_verdicts": {
+  "VERIFIED": 56,
+  "MINOR_DISTORTION": 0,
+  "MAJOR_DISTORTION": 0,
+  "UNVERIFIABLE": 0,
+  "UNVERIFIABLE_ACCESS": 3
+ },
+ "carried_from_stage2_5": [
+  "EVR-CLM-079-C2"
+ ],
+ "freshly_checked_rows": 111,
+ "unavailable_refs": [
+  "P4",
+  "P7",
+  "R4"
+ ]
+}

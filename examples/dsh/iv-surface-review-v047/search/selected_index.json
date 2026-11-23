@@ -1,0 +1,594 @@
+[
+  {
+    "id": "P1",
+    "family": "P",
+    "doi": "10.1137/120900320",
+    "title": "Generalized Arbitrage-Free SVI Volatility Surfaces",
+    "openalex_id": "https://openalex.org/W3100730164",
+    "year": 2016,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "type": "article",
+    "authors": [
+      "Gaoyue Guo",
+      "Antoine Jacquier",
+      "Claude Martini",
+      "Leo Neufcourt"
+    ]
+  },
+  {
+    "id": "P2",
+    "family": "P",
+    "doi": "10.1137/20m1351060",
+    "title": "No Arbitrage SVI",
+    "openalex_id": "https://openalex.org/W3023887377",
+    "year": 2022,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "type": "article",
+    "authors": [
+      "Claude Martini",
+      "Arianna Mingone"
+    ]
+  },
+  {
+    "id": "P3",
+    "family": "P",
+    "doi": "10.1080/14697688.2022.2117076",
+    "title": "No arbitrage global parametrization for the eSSVI volatility surface",
+    "openalex_id": "https://openalex.org/W4297053339",
+    "year": 2022,
+    "venue": "Quantitative Finance",
+    "type": "article",
+    "authors": [
+      "Arianna Mingone"
+    ]
+  },
+  {
+    "id": "P4",
+    "family": "P",
+    "doi": "10.1007/s10203-019-00249-8",
+    "title": "Robust calibration and arbitrage-free interpolation of SSVI slices",
+    "openalex_id": "https://openalex.org/W2964348725",
+    "year": 2019,
+    "venue": "Decisions in Economics and Finance",
+    "type": "article",
+    "authors": [
+      "Jacopo Corbetta",
+      "Pierre Cohort",
+      "Ismail Laachir",
+      "Claude Martini"
+    ]
+  },
+  {
+    "id": "P5",
+    "family": "P",
+    "doi": "10.1137/24m1713107",
+    "title": "Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces",
+    "openalex_id": "https://openalex.org/W4417488419",
+    "year": 2025,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "type": "article",
+    "authors": [
+      "Nicola F. Zaugg",
+      "Leonardo Perotti",
+      "Lech Aleksander Grzelak"
+    ]
+  },
+  {
+    "id": "P6",
+    "family": "P",
+    "doi": "10.3905/jod.2025.1.228",
+    "title": "The Quadratic Local Variance Gamma Model: An Arbitrage-Free Interpolation of Class C3 for Option Prices",
+    "openalex_id": "https://openalex.org/W4409211433",
+    "year": 2025,
+    "venue": "The Journal of Derivatives",
+    "type": "article",
+    "authors": [
+      "Fabien Le Floc’h"
+    ]
+  },
+  {
+    "id": "P7",
+    "family": "P",
+    "doi": "10.2139/ssrn.2725700",
+    "title": "Necessary and Sufficient No-Arbitrage Conditions for the SSVI/S3 Volatility Curve",
+    "openalex_id": "https://openalex.org/W2259942204",
+    "year": 2016,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Timothy Klassen"
+    ]
+  },
+  {
+    "id": "P8",
+    "family": "P",
+    "doi": "10.48550/arxiv.2611.18937",
+    "title": "Implied volatility models without static arbitrage",
+    "openalex_id": "https://openalex.org/W7234804315",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "authors": [
+      "Michał Barski",
+      "Maciej Wiśniewolski"
+    ]
+  },
+  {
+    "id": "N1",
+    "family": "N",
+    "doi": "10.1016/j.ejor.2020.12.003",
+    "title": "Option valuation under no-arbitrage constraints with neural networks",
+    "openalex_id": "https://openalex.org/W3112507188",
+    "year": 2020,
+    "venue": "European Journal of Operational Research",
+    "type": "article",
+    "authors": [
+      "Yi Cao",
+      "Xiaoquan Liu",
+      "Jia Zhai"
+    ]
+  },
+  {
+    "id": "N2",
+    "family": "N",
+    "doi": "10.48550/arxiv.2406.11520",
+    "title": "Operator Deep Smoothing for Implied Volatility",
+    "openalex_id": "https://openalex.org/W4399795226",
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "type": "conference-paper",
+    "authors": [
+      "Ruben Wiedemann",
+      "Antoine Jacquier",
+      "Lukas Gonon"
+    ]
+  },
+  {
+    "id": "N3",
+    "family": "N",
+    "doi": "10.2139/ssrn.3402942",
+    "title": "Deep Smoothing of the Implied Volatility Surface",
+    "openalex_id": "https://openalex.org/W2951241921",
+    "year": 2019,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Damien Ackerer",
+      "Nataša Tagasovska",
+      "Thibault Vatter"
+    ]
+  },
+  {
+    "id": "N4",
+    "family": "N",
+    "doi": "10.1109/ssci51031.2022.10022219",
+    "title": "Creating Synthetic Volatility Surfaces using Generative Adversarial Networks with Static Arbitrage Loss Conditions",
+    "openalex_id": "https://openalex.org/W4320031310",
+    "year": 2022,
+    "venue": "IEEE Symposium Series on Computational Intelligence (SSCI)",
+    "type": "conference-paper",
+    "authors": [
+      "Thendo Sidogi",
+      "Wilson Tsakane Mongwe",
+      "Rendani Mbuvha",
+      "Tshilidzi Marwala"
+    ]
+  },
+  {
+    "id": "N5",
+    "family": "N",
+    "doi": "10.48550/arxiv.2304.13128",
+    "title": "Computing Volatility Surfaces using Generative Adversarial Networks with Minimal Arbitrage Violations",
+    "openalex_id": "https://openalex.org/W4367189531",
+    "year": 2023,
+    "venue": "RePEc: Research Papers in Economics",
+    "type": "preprint",
+    "authors": [
+      "Andrew Na",
+      "Zhang, Meixin",
+      "Justin W. L. Wan"
+    ]
+  },
+  {
+    "id": "N6",
+    "family": "N",
+    "doi": "10.48550/arxiv.2310.16703",
+    "title": "No-Arbitrage Deep Calibration for Volatility Smile and Skewness",
+    "openalex_id": "https://openalex.org/W4387964091",
+    "year": 2023,
+    "venue": "RePEc: Research Papers in Economics",
+    "type": "preprint",
+    "authors": [
+      "Kentaro Hoshisashi",
+      "Carolyn E. Phelan",
+      "Paolo Barucca"
+    ]
+  },
+  {
+    "id": "R1",
+    "family": "R",
+    "doi": "10.1080/1350486x.2020.1846573",
+    "title": "Detecting and Repairing Arbitrage in Traded Option Prices",
+    "openalex_id": "https://openalex.org/W3080283204",
+    "year": 2020,
+    "venue": "Applied Mathematical Finance",
+    "type": "article",
+    "authors": [
+      "Samuel N. Cohen",
+      "Christoph Reisinger",
+      "Sheng Wang"
+    ]
+  },
+  {
+    "id": "R2",
+    "family": "R",
+    "doi": "10.2139/ssrn.3326486",
+    "title": "Building Arbitrage-Free Implied Volatility: Sinkhorn's Algorithm and Variants",
+    "openalex_id": "https://openalex.org/W2914260934",
+    "year": 2019,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Hadrien De March",
+      "Pierre Henry‐Labordère"
+    ]
+  },
+  {
+    "id": "R3",
+    "family": "R",
+    "doi": "10.1515/strm-2018-0026",
+    "title": "Arbitrage-free interpolation of call option prices",
+    "openalex_id": "https://openalex.org/W3002495312",
+    "year": 2020,
+    "venue": "Statistics & Risk Modeling",
+    "type": "article",
+    "authors": [
+      "Christian Bender",
+      "Matthias Thiel"
+    ]
+  },
+  {
+    "id": "R4",
+    "family": "R",
+    "doi": "10.1016/j.ejor.2026.07.049",
+    "title": "Joint arbitrage-free smoothing of American call and put options surfaces",
+    "openalex_id": "https://openalex.org/W7202089472",
+    "year": 2026,
+    "venue": "European Journal of Operational Research",
+    "type": "article",
+    "authors": [
+      "Yuhang Yao",
+      "Zhenyu Cui",
+      "Qian Pan"
+    ]
+  },
+  {
+    "id": "R5",
+    "family": "R",
+    "doi": "10.1109/cifer67845.2026.11692406",
+    "title": "Observation-Anchored Arbitrage Repair for Sparse Implied Volatility Surface Completion",
+    "openalex_id": "https://openalex.org/W7213913986",
+    "year": 2026,
+    "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+    "type": "conference-paper",
+    "authors": [
+      "Yilin Xiong",
+      "Bofan Liu"
+    ]
+  },
+  {
+    "id": "R6",
+    "family": "R",
+    "doi": "10.48550/arxiv.2601.11209",
+    "title": "SANOS Smooth strictly Arbitrage-free Non-parametric Option Surfaces",
+    "openalex_id": "https://openalex.org/W7124695289",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "authors": [
+      "Hans Buehler",
+      "Blanka N. Horvath",
+      "Anastasis Kratsios",
+      "Yannick Limmer",
+      "Raeid Saqur"
+    ]
+  },
+  {
+    "id": "R7",
+    "family": "R",
+    "doi": "10.48550/arxiv.2512.01967",
+    "title": "Arbitrage-Free Option Price Surfaces via Chebyshev Tensor Bases and a Hamiltonian Fog Post-Fit",
+    "openalex_id": "https://openalex.org/W4416968705",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "authors": [
+      "Alvarez, Robert Jenkinson"
+    ]
+  },
+  {
+    "id": "R8",
+    "family": "R",
+    "doi": "10.2139/ssrn.4623940",
+    "title": "Volatility Transformers: an optimal transport-inspired approach to arbitrage-free shaping of implied volatility surfaces",
+    "openalex_id": "https://openalex.org/W4389116974",
+    "year": 2023,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Valer Zetocha"
+    ]
+  },
+  {
+    "id": "R9",
+    "family": "R",
+    "doi": "10.3390/jrfm12020069",
+    "title": "Arbitrage Free Approximations to Candidate Volatility Surface Quotations",
+    "openalex_id": "https://openalex.org/W2937029074",
+    "year": 2019,
+    "venue": "Journal of risk and financial management",
+    "type": "article",
+    "authors": [
+      "Dilip B. Madan",
+      "Wim Schoutens"
+    ]
+  },
+  {
+    "id": "G1",
+    "family": "G",
+    "doi": "10.1137/21m1443546",
+    "title": "Arbitrage-Free Implied Volatility Surface Generation with Variational Autoencoders",
+    "openalex_id": "https://openalex.org/W3193234940",
+    "year": 2023,
+    "venue": "SIAM Journal on Financial Mathematics",
+    "type": "article",
+    "authors": [
+      "Brian Ning",
+      "Sebastian Jaimungal",
+      "Xiaorong Zhang",
+      "Maxime Bergeron"
+    ]
+  },
+  {
+    "id": "G2",
+    "family": "G",
+    "doi": "10.1080/1350486x.2025.2471317",
+    "title": "VolGAN: A Generative Model for Arbitrage-Free Implied Volatility Surfaces",
+    "openalex_id": "https://openalex.org/W4408238689",
+    "year": 2024,
+    "venue": "Applied Mathematical Finance",
+    "type": "article",
+    "authors": [
+      "Milena Vuletić",
+      "Rama Cont"
+    ]
+  },
+  {
+    "id": "G3",
+    "family": "G",
+    "doi": "10.1080/1350486x.2023.2277960",
+    "title": "Simulation of Arbitrage-Free Implied Volatility Surfaces",
+    "openalex_id": "https://openalex.org/W4388832643",
+    "year": 2023,
+    "venue": "Applied Mathematical Finance",
+    "type": "article",
+    "authors": [
+      "Rama Cont",
+      "Milena Vuletić"
+    ]
+  },
+  {
+    "id": "G4",
+    "family": "G",
+    "doi": "10.1145/3768292.3771252",
+    "title": "Arbitrage-Free Implied Volatility Surface Smoothing via Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W4416198556",
+    "year": 2025,
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "type": "conference-paper",
+    "authors": [
+      "Victor Ginart Belmonte",
+      "Thomas Cole"
+    ]
+  },
+  {
+    "id": "G5",
+    "family": "G",
+    "doi": "10.1145/3858063.3858741",
+    "title": "Latent Flow Matching for Arbitrage-Aware Implied Volatility Surface Generation",
+    "openalex_id": "https://openalex.org/W7223070923",
+    "year": 2026,
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "type": "conference-paper",
+    "authors": [
+      "Dusica Bajalica",
+      "Oscar Brooks",
+      "Imen Ben Tahar",
+      "Tahar, Imen, Ben"
+    ]
+  },
+  {
+    "id": "G6",
+    "family": "G",
+    "doi": "10.2139/ssrn.7577418",
+    "title": "Trainable Hard Constraints: Architectural Enforcement of Arbitrage-Free Implied Volatility Surfaces via Automatic Differentiation",
+    "openalex_id": "https://openalex.org/W7221033217",
+    "year": 2026,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Anagha S"
+    ]
+  },
+  {
+    "id": "G7",
+    "family": "G",
+    "doi": "10.1080/1350486x.2023.2257217",
+    "title": "Arbitrage-Free Neural-SDE Market Models",
+    "openalex_id": "https://openalex.org/W3165731524",
+    "year": 2021,
+    "venue": "Applied Mathematical Finance",
+    "type": "article",
+    "authors": [
+      "Samuel N. Cohen",
+      "Christoph Reisinger",
+      "Sheng Wang"
+    ]
+  },
+  {
+    "id": "G8",
+    "family": "G",
+    "doi": "10.1609/aaai.v31i1.10505",
+    "title": "Gated Neural Networks for Option Pricing: Rationality by Design",
+    "openalex_id": "https://openalex.org/W2524982171",
+    "year": 2017,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "type": "conference-paper",
+    "authors": [
+      "Yongxin Yang",
+      "Yu Zheng",
+      "Timothy M. Hospedales"
+    ]
+  },
+  {
+    "id": "C1",
+    "family": "C",
+    "doi": "10.1007/s00245-024-10184-9",
+    "title": "Neural Networks Can Detect Model-Free Static Arbitrage Strategies",
+    "openalex_id": "https://openalex.org/W4402703396",
+    "year": 2024,
+    "venue": "Applied Mathematics & Optimization",
+    "type": "article",
+    "authors": [
+      "Ariel Neufeld",
+      "Julian Sester"
+    ]
+  },
+  {
+    "id": "C2",
+    "family": "C",
+    "doi": "10.2139/ssrn.2672416",
+    "title": "No Arbitrage Conditions and Characters of Implied Volatility Surface: A Review for Implied Volatility Modelers",
+    "openalex_id": "https://openalex.org/W2340657484",
+    "year": 2015,
+    "venue": "SSRN Electronic Journal",
+    "type": "preprint",
+    "authors": [
+      "Qiankun Niu"
+    ]
+  },
+  {
+    "id": "C3",
+    "family": "C",
+    "doi": "10.1080/14697688.2026.2637739",
+    "title": "The implied volatility surface (also) is path-dependent",
+    "openalex_id": "https://openalex.org/W7147192631",
+    "year": 2026,
+    "venue": "Quantitative Finance",
+    "type": "article",
+    "authors": [
+      "Hervé Andrès",
+      "Alexandre Boumezoued",
+      "Benjamin Jourdain"
+    ]
+  },
+  {
+    "id": "C4",
+    "family": "C",
+    "doi": "10.3934/fmf.2022006",
+    "title": "On asymptotically arbitrage-free approximations of the implied volatility",
+    "openalex_id": "https://openalex.org/W4312767971",
+    "year": 2022,
+    "venue": "Frontiers of Mathematical Finance",
+    "type": "article",
+    "authors": [
+      "Masaaki Fukasawa"
+    ]
+  },
+  {
+    "id": "C5",
+    "family": "C",
+    "doi": "10.1007/s11147-023-09200-x",
+    "title": "Martingale defects in the volatility surface and bubble conditions in the underlying",
+    "openalex_id": "https://openalex.org/W4391022748",
+    "year": 2024,
+    "venue": "Review of Derivatives Research",
+    "type": "article",
+    "authors": [
+      "Philip Stahl",
+      "Jérôme Blauth"
+    ]
+  },
+  {
+    "id": "S1",
+    "family": "S",
+    "doi": "10.1080/14697688.2013.819986",
+    "title": "Arbitrage-free SVI volatility surfaces",
+    "openalex_id": "https://openalex.org/W2951800488",
+    "year": 2013,
+    "venue": "Quantitative Finance",
+    "type": "article",
+    "authors": [
+      "Jim Gatheral",
+      "Antoine Jacquier"
+    ]
+  },
+  {
+    "id": "S2",
+    "family": "S",
+    "doi": "10.1080/14697680802595585",
+    "title": "Arbitrage-free smoothing of the implied volatility surface",
+    "openalex_id": "https://openalex.org/W2119074269",
+    "year": 2009,
+    "venue": "Quantitative Finance",
+    "type": "article",
+    "authors": [
+      "Matthias Reginald Fengler"
+    ]
+  },
+  {
+    "id": "S3",
+    "family": "S",
+    "doi": "10.1002/wilm.10290",
+    "title": "Arbitrage-Free SABR",
+    "openalex_id": "https://openalex.org/W1997534286",
+    "year": 2014,
+    "venue": "Wilmott",
+    "type": "article",
+    "authors": [
+      "Patrick S. Hagan",
+      "Deep Kumar",
+      "Andrew S. Lesniewski",
+      "Diana E. Woodward"
+    ]
+  },
+  {
+    "id": "S4",
+    "family": "S",
+    "doi": "10.21314/jcf.1999.034",
+    "title": "Nonparametric estimation of an implied volatility surface",
+    "openalex_id": "https://openalex.org/W1561261962",
+    "year": 1999,
+    "venue": "The Journal of Computational Finance",
+    "type": "article",
+    "authors": [
+      "James N. Bodurtha",
+      "Martin Jermakyan"
+    ]
+  },
+  {
+    "id": "S5",
+    "family": "S",
+    "doi": "10.1093/jjfinec/nbm005",
+    "title": "A semiparametric factor model for implied volatility surface dynamics",
+    "openalex_id": "https://openalex.org/W2009110431",
+    "year": 2006,
+    "venue": "Journal of Financial Econometrics",
+    "type": "article",
+    "authors": [
+      "Matthias Reginald Fengler",
+      "Wolfgang Karl Härdle",
+      "Enno Mammen"
+    ]
+  }
+]

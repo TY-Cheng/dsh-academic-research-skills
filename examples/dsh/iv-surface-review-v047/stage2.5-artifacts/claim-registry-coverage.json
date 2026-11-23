@@ -1,0 +1,5785 @@
+{
+  "candidate_unregistered_count": 0,
+  "candidates": [
+    {
+      "candidate_id": "CAND-B4197-4383-93185ba49ce0",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 4383,
+      "line": 33,
+      "matched_claim_ids": [
+        "CLM-001"
+      ],
+      "sentence_index": 2,
+      "start_byte": 4197,
+      "text": "Firms consume not quotes but a fitted implied-volatility surface, from which prices, Greeks, and risk-neutral densities are derived (Fengler, 2009)<!--ref:S2--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4344,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-001"
+          ],
+          "start_byte": 4329,
+          "text": "(Fengler, 2009)",
+          "trigger_id": "TRIG-B4329-4344-4a6b40e2129d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4357,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-001"
+          ],
+          "start_byte": 4344,
+          "text": "<!--ref:S2-->",
+          "trigger_id": "TRIG-B4344-4357-3b34d5fe8ee1"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B4454-4754-a8ae93911a5f",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 4754,
+      "line": 33,
+      "matched_claim_ids": [
+        "CLM-002"
+      ],
+      "sentence_index": 4,
+      "start_byte": 4454,
+      "text": "On a single date, call prices must be non-increasing and convex in strike, total variance must not decrease with maturity, and the zero-maturity limit must match intrinsic value (Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:1.1-->; Guo et al., 2016)<!--ref:P1--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4715,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-002"
+          ],
+          "start_byte": 4632,
+          "text": "(Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:1.1-->; Guo et al., 2016)",
+          "trigger_id": "TRIG-B4632-4715-3700a72c5596"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4671,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-002"
+          ],
+          "start_byte": 4658,
+          "text": "<!--ref:S1-->",
+          "trigger_id": "TRIG-B4658-4671-322540be00ac"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4728,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-002"
+          ],
+          "start_byte": 4715,
+          "text": "<!--ref:P1-->",
+          "trigger_id": "TRIG-B4715-4728-75d74b1ac8b3"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B4755-4907-1715f1eb4505",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 4907,
+      "line": 33,
+      "matched_claim_ids": [
+        "CLM-003"
+      ],
+      "sentence_index": 5,
+      "start_byte": 4755,
+      "text": "Across dates, no self-financing strategy in the option panel may produce a riskless profit (Niu, 2015 [preprint])<!--ref:C2--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4868,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-003"
+          ],
+          "start_byte": 4846,
+          "text": "(Niu, 2015 [preprint])",
+          "trigger_id": "TRIG-B4846-4868-d774b9bb08d4"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 4881,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-003"
+          ],
+          "start_byte": 4868,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B4868-4881-943d0375dad5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B4908-5083-33caa96a73dd",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 5083,
+      "line": 33,
+      "matched_claim_ids": [
+        "CLM-004"
+      ],
+      "sentence_index": 6,
+      "start_byte": 4908,
+      "text": "Construction is therefore constrained estimation rather than interpolation, run at scale on dense, noisy quotes (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5044,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-004"
+          ],
+          "start_byte": 5020,
+          "text": "(Wiedemann et al., 2025)",
+          "trigger_id": "TRIG-B5020-5044-77e5f1906f45"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5057,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-004"
+          ],
+          "start_byte": 5044,
+          "text": "<!--ref:N2-->",
+          "trigger_id": "TRIG-B5044-5057-acf602a7c1b4"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B5390-5840-7386b7039322",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 5840,
+      "line": 35,
+      "matched_claim_ids": [
+        "CLM-005"
+      ],
+      "sentence_index": 2,
+      "start_byte": 5390,
+      "text": "A method may be arbitrage-free because its parameter domain excludes violations (Guo et al., 2016)<!--ref:P1--><!--anchor:section:1.1-->, because a penalty discourages them (Na et al., 2023 [preprint])<!--ref:N5--><!--anchor:section:1.1-->, because a post-fit map removes them (Bender & Thiel, 2020)<!--ref:R3--><!--anchor:section:1.1-->, or because a generator is screened before output (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5488,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5470,
+          "text": "(Guo et al., 2016)",
+          "trigger_id": "TRIG-B5470-5488-466aee6ac61d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5501,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5488,
+          "text": "<!--ref:P1-->",
+          "trigger_id": "TRIG-B5488-5501-75d74b1ac8b3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5591,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5563,
+          "text": "(Na et al., 2023 [preprint])",
+          "trigger_id": "TRIG-B5563-5591-ef5e2ea96dd3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5604,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5591,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B5591-5604-7c525fead73f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5689,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5667,
+          "text": "(Bender & Thiel, 2020)",
+          "trigger_id": "TRIG-B5667-5689-866371bda0ba"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5702,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5689,
+          "text": "<!--ref:R3-->",
+          "trigger_id": "TRIG-B5689-5702-2711d29df1b6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5699,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5697,
+          "text": "R3",
+          "trigger_id": "TRIG-B5697-5699-606a38dcfff3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5801,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5778,
+          "text": "(Bajalica et al., 2026)",
+          "trigger_id": "TRIG-B5778-5801-94b19724d095"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5814,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5801,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B5801-5814-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5811,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-005"
+          ],
+          "start_byte": 5809,
+          "text": "G5",
+          "trigger_id": "TRIG-B5809-5811-579743dee2d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B5902-6174-2c5a59222f6d",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 6174,
+      "line": 35,
+      "matched_claim_ids": [
+        "CLM-006"
+      ],
+      "sentence_index": 4,
+      "start_byte": 5902,
+      "text": "The literature rarely separates them, and uses the same phrase for the static condition and for the dynamic one, although the second concerns the joint law of a surface process rather than the admissibility of one surface (Niu, 2015)<!--ref:C2--><!--anchor:section:1.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 6135,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-006"
+          ],
+          "start_byte": 6124,
+          "text": "(Niu, 2015)",
+          "trigger_id": "TRIG-B6124-6135-cbfd1fa4a8d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 6148,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-006"
+          ],
+          "start_byte": 6135,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B6135-6148-943d0375dad5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B9089-9347-a3f6e96ec50e",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 9347,
+      "line": 47,
+      "matched_claim_ids": [
+        "CLM-007"
+      ],
+      "sentence_index": 4,
+      "start_byte": 9089,
+      "text": "One disclosed exception is retained: a single-stock panel (Stahl & Blauth, 2024)<!--ref:C5--><!--anchor:section:1.3-->, admitted because it tests a martingale-defect condition directly, is scope-flagged throughout, and is never generalised to index surfaces.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 9169,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-007"
+          ],
+          "start_byte": 9147,
+          "text": "(Stahl & Blauth, 2024)",
+          "trigger_id": "TRIG-B9147-9169-fe02a90037ad"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 9182,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-007"
+          ],
+          "start_byte": 9169,
+          "text": "<!--ref:C5-->",
+          "trigger_id": "TRIG-B9169-9182-eaf8b5f897ac"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B9841-10566-10fbe5c207df",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 10566,
+      "line": 53,
+      "matched_claim_ids": [
+        "CLM-008"
+      ],
+      "sentence_index": 2,
+      "start_byte": 9841,
+      "text": "A surface is statically admissible if, expressed through the normalised call price $c(k,\\tau)=C/F_{\\tau}$, it satisfies five conditions: **SC1**, non-negative time value, $c(k,\\tau)\\ge\\max(1-e^{k},0)$; **SC2**, monotone decreasing call prices in strike, $\\partial c/\\partial k\\le 0$; **SC3**, strike convexity, the butterfly or Durrleman condition, $\\partial^{2} c/\\partial k^{2}\\ge 0$; **SC4**, the zero-maturity limit $c(\\cdot,0)=\\max(1-e^{k},0)$; and **SC5**, calendar monotonicity of total variance, $w$ non-decreasing in $\\tau$ (Anagha, 2026 [preprint]; Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:2.1-->; Martini & Mingone, 2022<!--ref:P2--><!--anchor:section:2.1-->)<!--ref:G6--><!--anchor:section:2.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10527,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-008"
+          ],
+          "start_byte": 10374,
+          "text": "(Anagha, 2026 [preprint]; Gatheral & Jacquier, 2013<!--ref:S1--><!--anchor:section:2.1-->; Martini & Mingone, 2022<!--ref:P2--><!--anchor:section:2.1-->)",
+          "trigger_id": "TRIG-B10374-10527-fc6ab746e307"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10438,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-008"
+          ],
+          "start_byte": 10425,
+          "text": "<!--ref:S1-->",
+          "trigger_id": "TRIG-B10425-10438-322540be00ac"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10501,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-008"
+          ],
+          "start_byte": 10488,
+          "text": "<!--ref:P2-->",
+          "trigger_id": "TRIG-B10488-10501-d95341e294c6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10540,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-008"
+          ],
+          "start_byte": 10527,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B10527-10540-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10537,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-008"
+          ],
+          "start_byte": 10535,
+          "text": "G6",
+          "trigger_id": "TRIG-B10535-10537-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B10792-11035-ced25bad7fd2",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 11035,
+      "line": 55,
+      "matched_claim_ids": [
+        "CLM-009"
+      ],
+      "sentence_index": 2,
+      "start_byte": 10792,
+      "text": "Gatheral and Jacquier (2013)<!--ref:S1--><!--anchor:section:2.1--> give closed-form **sufficient** conditions on the raw stochastic-volatility-inspired (SVI) parameters that guarantee SC1–SC4 on each slice, with a separate condition for SC5.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10820,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-009"
+          ],
+          "start_byte": 10792,
+          "text": "Gatheral and Jacquier (2013)",
+          "trigger_id": "TRIG-B10792-10820-ec5d921d3fdd"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10833,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-009"
+          ],
+          "start_byte": 10820,
+          "text": "<!--ref:S1-->",
+          "trigger_id": "TRIG-B10820-10833-322540be00ac"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B11036-11285-49440b32f5a0",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 11285,
+      "line": 55,
+      "matched_claim_ids": [
+        "CLM-010"
+      ],
+      "sentence_index": 3,
+      "start_byte": 11036,
+      "text": "Martini and Mingone (2022)<!--ref:P2--><!--anchor:section:2.1--> establish a characterisation that is **exact** for the SVI slice, expressed through monotonicity of the quantities $-d_{1}$ and $-d_{2}$ rather than through a restricted parameter box.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 11062,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-010"
+          ],
+          "start_byte": 11036,
+          "text": "Martini and Mingone (2022)",
+          "trigger_id": "TRIG-B11036-11062-411099d3b021"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 11075,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-010"
+          ],
+          "start_byte": 11062,
+          "text": "<!--ref:P2-->",
+          "trigger_id": "TRIG-B11062-11075-d95341e294c6"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B11297-11489-a365c1668d6c",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 11489,
+      "line": 55,
+      "matched_claim_ids": [
+        "CLM-011"
+      ],
+      "sentence_index": 5,
+      "start_byte": 11297,
+      "text": "(2016)<!--ref:P1--><!--anchor:section:2.1--> generalise the family and show that arbitrage-free surfaces exist outside the SVI class, with the guarantee carried by the parameter domain itself.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 11316,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-011"
+          ],
+          "start_byte": 11303,
+          "text": "<!--ref:P1-->",
+          "trigger_id": "TRIG-B11303-11316-75d74b1ac8b3"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B11959-12304-57cce7f62996",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 12304,
+      "line": 57,
+      "matched_claim_ids": [
+        "CLM-012"
+      ],
+      "sentence_index": 3,
+      "start_byte": 11959,
+      "text": "The canonical failure is instructive: the SABR (stochastic alpha, beta, rho) implied-volatility approximation admits negative implied densities at low strikes for long maturities, a finite-strike violation that required a one-dimensional partial-differential-equation (PDE) density fix (Hagan et al., 2014)<!--ref:S3--><!--anchor:section:2.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12265,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-012"
+          ],
+          "start_byte": 12245,
+          "text": "(Hagan et al., 2014)",
+          "trigger_id": "TRIG-B12245-12265-16417435acbd"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12278,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-012"
+          ],
+          "start_byte": 12265,
+          "text": "<!--ref:S3-->",
+          "trigger_id": "TRIG-B12265-12278-9dc791f68500"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B12305-12554-c5b8b032e121",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 12554,
+      "line": 57,
+      "matched_claim_ids": [
+        "CLM-013"
+      ],
+      "sentence_index": 4,
+      "start_byte": 12305,
+      "text": "Asymptotic statements sit on the other side of the same distinction: a family can be asymptotically arbitrage-free in the wings while violating a condition at the strikes a desk actually quotes (Fukasawa, 2022)<!--ref:C4--><!--anchor:section:2.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12515,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-013"
+          ],
+          "start_byte": 12499,
+          "text": "(Fukasawa, 2022)",
+          "trigger_id": "TRIG-B12499-12515-66ccbb9e772f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12528,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-013"
+          ],
+          "start_byte": 12515,
+          "text": "<!--ref:C4-->",
+          "trigger_id": "TRIG-B12515-12528-c52d0160b602"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B12652-12990-1396c0573a28",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 12990,
+      "line": 57,
+      "matched_claim_ids": [
+        "CLM-014"
+      ],
+      "sentence_index": 6,
+      "start_byte": 12652,
+      "text": "Operationally, the corpus's conditions are exercised by repair and generation rows as well as by parametric ones (Bajalica et al., 2026; Xiong & Liu, 2026<!--ref:R5--><!--anchor:section:2.1-->)<!--ref:G5--><!--anchor:section:2.1-->, which is why SC1–SC5 serve as the review's static predicate rather than as a description of one family.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12845,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-014"
+          ],
+          "start_byte": 12765,
+          "text": "(Bajalica et al., 2026; Xiong & Liu, 2026<!--ref:R5--><!--anchor:section:2.1-->)",
+          "trigger_id": "TRIG-B12765-12845-c6fc54525cec"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12819,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-014"
+          ],
+          "start_byte": 12806,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B12806-12819-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12816,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-014"
+          ],
+          "start_byte": 12814,
+          "text": "R5",
+          "trigger_id": "TRIG-B12814-12816-43d40906ae9a"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12858,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-014"
+          ],
+          "start_byte": 12845,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B12845-12858-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12855,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-014"
+          ],
+          "start_byte": 12853,
+          "text": "G5",
+          "trigger_id": "TRIG-B12853-12855-579743dee2d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B13107-13392-06497aaba2d9",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 13392,
+      "line": 61,
+      "matched_claim_ids": [
+        "CLM-015"
+      ],
+      "sentence_index": 2,
+      "start_byte": 13107,
+      "text": "A dynamic condition constrains a family of surfaces indexed by calendar time, and the natural formulation is a filtered probability space on which the option-price process is a martingale under a measure consistent with the numéraire (Niu, 2015)<!--ref:C2--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 13353,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-015"
+          ],
+          "start_byte": 13342,
+          "text": "(Niu, 2015)",
+          "trigger_id": "TRIG-B13342-13353-cbfd1fa4a8d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 13366,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-015"
+          ],
+          "start_byte": 13353,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B13353-13366-943d0375dad5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B13753-13889-a9553e1922df",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 13889,
+      "line": 63,
+      "matched_claim_ids": [
+        "CLM-016"
+      ],
+      "sentence_index": 2,
+      "start_byte": 13753,
+      "text": "One review of static and dynamic conditions discusses the question without testing it (Niu, 2015)<!--ref:C2--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 13850,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-016"
+          ],
+          "start_byte": 13839,
+          "text": "(Niu, 2015)",
+          "trigger_id": "TRIG-B13839-13850-cbfd1fa4a8d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 13863,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-016"
+          ],
+          "start_byte": 13850,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B13850-13863-943d0375dad5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B13890-14146-75cdcc14c50d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 14146,
+      "line": 63,
+      "matched_claim_ids": [
+        "CLM-017"
+      ],
+      "sentence_index": 3,
+      "start_byte": 13890,
+      "text": "A neural stochastic-differential-equation (SDE) market model constructs a state space of statically arbitrage-free prices and explicitly limits its claim to static, model-independent admissibility (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14107,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-017"
+          ],
+          "start_byte": 14087,
+          "text": "(Cohen et al., 2021)",
+          "trigger_id": "TRIG-B14087-14107-2a4e4cf8c6c0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14120,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-017"
+          ],
+          "start_byte": 14107,
+          "text": "<!--ref:G7-->",
+          "trigger_id": "TRIG-B14107-14120-21b05806a27f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14117,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-017"
+          ],
+          "start_byte": 14115,
+          "text": "G7",
+          "trigger_id": "TRIG-B14115-14117-4f5228b28968"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B14147-14368-55a213d0015e",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 14368,
+      "line": 63,
+      "matched_claim_ids": [
+        "CLM-018"
+      ],
+      "sentence_index": 4,
+      "start_byte": 14147,
+      "text": "A path-dependent construction builds surfaces along stochastic paths that are statically free but does not test dynamic consistency across the resulting family (Andrès et al., 2026)<!--ref:C3--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14329,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-018"
+          ],
+          "start_byte": 14307,
+          "text": "(Andrès et al., 2026)",
+          "trigger_id": "TRIG-B14307-14329-692548a7bd3b"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14342,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-018"
+          ],
+          "start_byte": 14329,
+          "text": "<!--ref:C3-->",
+          "trigger_id": "TRIG-B14329-14342-8034ab6ee889"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B14369-14625-cb0856cc45c5",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 14625,
+      "line": 63,
+      "matched_claim_ids": [
+        "CLM-019"
+      ],
+      "sentence_index": 5,
+      "start_byte": 14369,
+      "text": "A parametric family reports time-indexed arbitrage probabilities, which is a statement about a model's parameters over time rather than a path-level test of the fitted surface (Barski & Wiśniewolski, 2026 [preprint])<!--ref:P8--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14586,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-019"
+          ],
+          "start_byte": 14545,
+          "text": "(Barski & Wiśniewolski, 2026 [preprint])",
+          "trigger_id": "TRIG-B14545-14586-cb49fa6321c6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14599,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-019"
+          ],
+          "start_byte": 14586,
+          "text": "<!--ref:P8-->",
+          "trigger_id": "TRIG-B14586-14599-da51070485f7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B14626-14807-3c831f0cabc2",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 14807,
+      "line": 63,
+      "matched_claim_ids": [
+        "CLM-020"
+      ],
+      "sentence_index": 6,
+      "start_byte": 14626,
+      "text": "A single-stock panel examines martingale defects and bubble conditions and is dynamic-adjacent, but it is scope-flagged (Stahl & Blauth, 2024)<!--ref:C5--><!--anchor:section:2.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14768,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-020"
+          ],
+          "start_byte": 14746,
+          "text": "(Stahl & Blauth, 2024)",
+          "trigger_id": "TRIG-B14746-14768-fe02a90037ad"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 14781,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-020"
+          ],
+          "start_byte": 14768,
+          "text": "<!--ref:C5-->",
+          "trigger_id": "TRIG-B14768-14781-eaf8b5f897ac"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B17545-17814-b1ebf7d87f18",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 17814,
+      "line": 75,
+      "matched_claim_ids": [
+        "CLM-021"
+      ],
+      "sentence_index": 2,
+      "start_byte": 17545,
+      "text": "Two rows construct by distorting a reference function and also repair an existing quote set, so they sit between construction and repair (Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:2.3-->; Buehler et al., 2026 [preprint])<!--ref:R6--><!--anchor:section:2.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17775,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-021"
+          ],
+          "start_byte": 17682,
+          "text": "(Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:2.3-->; Buehler et al., 2026 [preprint])",
+          "trigger_id": "TRIG-B17682-17775-90c8827a97d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17716,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-021"
+          ],
+          "start_byte": 17703,
+          "text": "<!--ref:R3-->",
+          "trigger_id": "TRIG-B17703-17716-2711d29df1b6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17713,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-021"
+          ],
+          "start_byte": 17711,
+          "text": "R3",
+          "trigger_id": "TRIG-B17711-17713-606a38dcfff3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17788,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-021"
+          ],
+          "start_byte": 17775,
+          "text": "<!--ref:R6-->",
+          "trigger_id": "TRIG-B17775-17788-67fbfaf402b0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17785,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-021"
+          ],
+          "start_byte": 17783,
+          "text": "R6",
+          "trigger_id": "TRIG-B17783-17785-fc57904b0634"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B17815-17962-6e4e2c8d5347",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 17962,
+      "line": 75,
+      "matched_claim_ids": [
+        "CLM-022"
+      ],
+      "sentence_index": 3,
+      "start_byte": 17815,
+      "text": "One row's constraint is architectural rather than a penalty term, which makes it a hybrid (Cao et al., 2020)<!--ref:N1--><!--anchor:section:2.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17923,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-022"
+          ],
+          "start_byte": 17905,
+          "text": "(Cao et al., 2020)",
+          "trigger_id": "TRIG-B17905-17923-fc7e722e7f2f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 17936,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-022"
+          ],
+          "start_byte": 17923,
+          "text": "<!--ref:N1-->",
+          "trigger_id": "TRIG-B17923-17936-328f4dcda41b"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B17963-18194-200b67ecf016",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 18194,
+      "line": 75,
+      "matched_claim_ids": [
+        "CLM-023"
+      ],
+      "sentence_index": 4,
+      "start_byte": 17963,
+      "text": "Two constructions are model-level rather than data-driven, so their guarantee is inherited from the model class (Andrès et al., 2026; Cohen et al., 2021<!--ref:G7--><!--anchor:section:2.3-->)<!--ref:C3--><!--anchor:section:2.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 18155,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-023"
+          ],
+          "start_byte": 18075,
+          "text": "(Andrès et al., 2026; Cohen et al., 2021<!--ref:G7--><!--anchor:section:2.3-->)",
+          "trigger_id": "TRIG-B18075-18155-f1f2bc1f1c20"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 18129,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-023"
+          ],
+          "start_byte": 18116,
+          "text": "<!--ref:G7-->",
+          "trigger_id": "TRIG-B18116-18129-21b05806a27f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 18126,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-023"
+          ],
+          "start_byte": 18124,
+          "text": "G7",
+          "trigger_id": "TRIG-B18124-18126-4f5228b28968"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 18168,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-023"
+          ],
+          "start_byte": 18155,
+          "text": "<!--ref:C3-->",
+          "trigger_id": "TRIG-B18155-18168-8034ab6ee889"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B22918-22961-a3a64e41c480",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 22961,
+      "line": 114,
+      "matched_claim_ids": [
+        "CLM-024"
+      ],
+      "sentence_index": 1,
+      "start_byte": 22918,
+      "text": "| Families | P 8, N 6, R 9, G 8, C 5, S 5 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 22944,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-024"
+          ],
+          "start_byte": 22941,
+          "text": "R 9",
+          "trigger_id": "TRIG-B22941-22944-ef931534c751"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 22949,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-024"
+          ],
+          "start_byte": 22946,
+          "text": "G 8",
+          "trigger_id": "TRIG-B22946-22949-e5400eb7a6c7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B22962-23051-666f26d9c228",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 23051,
+      "line": 115,
+      "matched_claim_ids": [
+        "CLM-025"
+      ],
+      "sentence_index": 1,
+      "start_byte": 22962,
+      "text": "| Abstract coverage | 34 full, 4 partial (R2, G3, C4, S1), 3 metadata-only (P4, P7, R4) |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 23006,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-025"
+          ],
+          "start_byte": 23004,
+          "text": "R2",
+          "trigger_id": "TRIG-B23004-23006-ce61b5f1051d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 23010,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-025"
+          ],
+          "start_byte": 23008,
+          "text": "G3",
+          "trigger_id": "TRIG-B23008-23010-32e59f1c64d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 23048,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-025"
+          ],
+          "start_byte": 23046,
+          "text": "R4",
+          "trigger_id": "TRIG-B23046-23048-c0f672498e10"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B24479-24653-7b8d5ed09d7b",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 24653,
+      "line": 137,
+      "matched_claim_ids": [
+        "CLM-026"
+      ],
+      "sentence_index": 3,
+      "start_byte": 24479,
+      "text": "Abstract coverage is uneven: 34 abstracts were read in full, four only partially (R2, G3, C4, S1), and three were unavailable, leaving those rows at title level (P4, P7, R4).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 24563,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-026"
+          ],
+          "start_byte": 24561,
+          "text": "R2",
+          "trigger_id": "TRIG-B24561-24563-ce61b5f1051d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 24567,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-026"
+          ],
+          "start_byte": 24565,
+          "text": "G3",
+          "trigger_id": "TRIG-B24565-24567-32e59f1c64d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 24651,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-026"
+          ],
+          "start_byte": 24649,
+          "text": "R4",
+          "trigger_id": "TRIG-B24649-24651-c0f672498e10"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B26336-26888-6052528abbe6",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 26888,
+      "line": 145,
+      "matched_claim_ids": [
+        "CLM-027"
+      ],
+      "sentence_index": 6,
+      "start_byte": 26336,
+      "text": "Within-study baselines are the only licensed comparisons: a hard-constrained generator against surface SVI (SSVI) and a soft-penalty network (Anagha, 2026)<!--ref:G6--><!--anchor:section:3.3-->, a generative adversarial network (GAN) against a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:3.3-->, a penalty model against an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:3.3-->, and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:3.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26491,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26477,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B26477-26491-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26504,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26491,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B26491-26504-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26501,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26499,
+          "text": "G6",
+          "trigger_id": "TRIG-B26499-26501-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26625,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26604,
+          "text": "(Sidogi et al., 2022)",
+          "trigger_id": "TRIG-B26604-26625-be98d12e7f84"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26638,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26625,
+          "text": "<!--ref:N4-->",
+          "trigger_id": "TRIG-B26625-26638-3de09ba9147d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26735,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26718,
+          "text": "(Na et al., 2023)",
+          "trigger_id": "TRIG-B26718-26735-aa963c76dc4c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26748,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26735,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B26735-26748-7c525fead73f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26849,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26830,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B26830-26849-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26862,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26849,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B26849-26862-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 26859,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-027"
+          ],
+          "start_byte": 26857,
+          "text": "R5",
+          "trigger_id": "TRIG-B26857-26859-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B28581-28857-22da6658cd3e",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 28857,
+      "line": 157,
+      "matched_claim_ids": [
+        "CLM-028"
+      ],
+      "sentence_index": 1,
+      "start_byte": 28581,
+      "text": "The clearest case is a generalised SVI family whose arbitrage-freeness is inherited from the structure of the parameter set, with the guarantee holding for all admitted parameters rather than only at the fitted optimum (Guo et al., 2016)<!--ref:P1--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 28818,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-028"
+          ],
+          "start_byte": 28800,
+          "text": "(Guo et al., 2016)",
+          "trigger_id": "TRIG-B28800-28818-466aee6ac61d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 28831,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-028"
+          ],
+          "start_byte": 28818,
+          "text": "<!--ref:P1-->",
+          "trigger_id": "TRIG-B28818-28831-75d74b1ac8b3"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B28858-29127-35f0f067ba5b",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 29127,
+      "line": 157,
+      "matched_claim_ids": [
+        "CLM-029"
+      ],
+      "sentence_index": 2,
+      "start_byte": 28858,
+      "text": "A second line replaces a sufficient parameter box with an exact butterfly characterisation, so that the admissible set is not narrower than necessary and calibration proceeds on the true admissible region (Martini & Mingone, 2022)<!--ref:P2--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29088,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-029"
+          ],
+          "start_byte": 29063,
+          "text": "(Martini & Mingone, 2022)",
+          "trigger_id": "TRIG-B29063-29088-63b84cd0ec81"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29101,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-029"
+          ],
+          "start_byte": 29088,
+          "text": "<!--ref:P2-->",
+          "trigger_id": "TRIG-B29088-29101-d95341e294c6"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B29128-29391-420dc751fc1e",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 29391,
+      "line": 157,
+      "matched_claim_ids": [
+        "CLM-030"
+      ],
+      "sentence_index": 3,
+      "start_byte": 29128,
+      "text": "A third extends the construction across maturities jointly, calibrating an extended SSVI parameterisation as one object rather than slice by slice, so that calendar monotonicity is a property of the joint fit (Mingone, 2022)<!--ref:P3--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29352,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-030"
+          ],
+          "start_byte": 29337,
+          "text": "(Mingone, 2022)",
+          "trigger_id": "TRIG-B29337-29352-a5166da01d6f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29365,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-030"
+          ],
+          "start_byte": 29352,
+          "text": "<!--ref:P3-->",
+          "trigger_id": "TRIG-B29352-29365-6848b967c8f5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B29521-29700-b42ebf09b156",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 29700,
+      "line": 157,
+      "matched_claim_ids": [
+        "CLM-031"
+      ],
+      "sentence_index": 5,
+      "start_byte": 29521,
+      "text": "A sequential slice-wise counterpart reaches the same family by a different route, available here only at title level (Corbetta et al., 2019)<!--ref:P4--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29661,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-031"
+          ],
+          "start_byte": 29638,
+          "text": "(Corbetta et al., 2019)",
+          "trigger_id": "TRIG-B29638-29661-b50af24efefc"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 29674,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-031"
+          ],
+          "start_byte": 29661,
+          "text": "<!--ref:P4-->",
+          "trigger_id": "TRIG-B29661-29674-9c0d7cabe99a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B29789-30061-fc933071159d",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 30061,
+      "line": 159,
+      "matched_claim_ids": [
+        "CLM-032"
+      ],
+      "sentence_index": 2,
+      "start_byte": 29789,
+      "text": "A random-coefficient parameterisation widens the set of shapes the family can represent, including bimodal short-dated densities that fixed-coefficient forms cannot produce, while retaining a structural guarantee (Zaugg et al., 2025)<!--ref:P5--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30022,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-032"
+          ],
+          "start_byte": 30002,
+          "text": "(Zaugg et al., 2025)",
+          "trigger_id": "TRIG-B30002-30022-47b05daf12af"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30035,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-032"
+          ],
+          "start_byte": 30022,
+          "text": "<!--ref:P5-->",
+          "trigger_id": "TRIG-B30022-30035-a13517dfe6b2"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B30062-30356-03f33c9b0c09",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 30356,
+      "line": 159,
+      "matched_claim_ids": [
+        "CLM-033"
+      ],
+      "sentence_index": 3,
+      "start_byte": 30062,
+      "text": "A class-C3 interpolation constructs from a smaller knot set rather than calibrating to quotes, which changes what the guarantee is a claim about: the interpolant is admissible by construction, and the fit to data is a separate question (Le Floc’h, 2025)<!--ref:P6--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30317,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-033"
+          ],
+          "start_byte": 30298,
+          "text": "(Le Floc’h, 2025)",
+          "trigger_id": "TRIG-B30298-30317-35b6a3475847"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30330,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-033"
+          ],
+          "start_byte": 30317,
+          "text": "<!--ref:P6-->",
+          "trigger_id": "TRIG-B30317-30330-67580e7a9e74"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B30357-30677-9ff236f29e0f",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 30677,
+      "line": 159,
+      "matched_claim_ids": [
+        "CLM-034"
+      ],
+      "sentence_index": 4,
+      "start_byte": 30357,
+      "text": "A bounded-factor model derives conditions under which the implied surface of a Gaussian-factor structure is free of static arbitrage and reports time-indexed arbitrage probabilities; it is the only parametric row that reports anything indexed by time (Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30638,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-034"
+          ],
+          "start_byte": 30608,
+          "text": "(Barski & Wiśniewolski, 2026)",
+          "trigger_id": "TRIG-B30608-30638-5776f239b2a0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30651,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-034"
+          ],
+          "start_byte": 30638,
+          "text": "<!--ref:P8-->",
+          "trigger_id": "TRIG-B30638-30651-da51070485f7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B30678-30876-4521423bf974",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 30876,
+      "line": 159,
+      "matched_claim_ids": [
+        "CLM-035"
+      ],
+      "sentence_index": 5,
+      "start_byte": 30678,
+      "text": "A further row claims necessary-and-sufficient conditions for the SSVI/S3 curve but is metadata-only here and cannot corroborate them (Klassen, 2016 [preprint])<!--ref:P7--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30837,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-035"
+          ],
+          "start_byte": 30811,
+          "text": "(Klassen, 2016 [preprint])",
+          "trigger_id": "TRIG-B30811-30837-23f378711aae"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30850,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-035"
+          ],
+          "start_byte": 30837,
+          "text": "<!--ref:P7-->",
+          "trigger_id": "TRIG-B30837-30850-a5fb42780490"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B31405-31786-9fd605e907a4",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 31786,
+      "line": 163,
+      "matched_claim_ids": [
+        "CLM-036"
+      ],
+      "sentence_index": 2,
+      "start_byte": 31405,
+      "text": "An interpolation-by-distortion that begins from an arbitrage-free reference and a linear-programming construction both embed the constraint in a deterministic construction, yet what they certify is a transformed object rather than an admitted parameter vector (Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:4.1-->; Buehler et al., 2026)<!--ref:R6--><!--anchor:section:4.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 31747,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-036"
+          ],
+          "start_byte": 31665,
+          "text": "(Bender & Thiel, 2020<!--ref:R3--><!--anchor:section:4.1-->; Buehler et al., 2026)",
+          "trigger_id": "TRIG-B31665-31747-e3d93f76c46e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 31699,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-036"
+          ],
+          "start_byte": 31686,
+          "text": "<!--ref:R3-->",
+          "trigger_id": "TRIG-B31686-31699-2711d29df1b6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 31696,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-036"
+          ],
+          "start_byte": 31694,
+          "text": "R3",
+          "trigger_id": "TRIG-B31694-31696-606a38dcfff3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 31760,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-036"
+          ],
+          "start_byte": 31747,
+          "text": "<!--ref:R6-->",
+          "trigger_id": "TRIG-B31747-31760-67fbfaf402b0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 31757,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-036"
+          ],
+          "start_byte": 31755,
+          "text": "R6",
+          "trigger_id": "TRIG-B31755-31757-fc57904b0634"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B32600-32791-72497460e273",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 32791,
+      "line": 170,
+      "matched_claim_ids": [
+        "CLM-037"
+      ],
+      "sentence_index": 1,
+      "start_byte": 32600,
+      "text": "| Projection–repair (R) | 9 | Output image | Surface after a map | Conditional on the projection | Proof (3), test (4), assumption (2); distortion plus residual | Residual floor | R1–R9 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 32784,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-037"
+          ],
+          "start_byte": 32782,
+          "text": "R1",
+          "trigger_id": "TRIG-B32782-32784-cdac462e75d2"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 32789,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-037"
+          ],
+          "start_byte": 32787,
+          "text": "R9",
+          "trigger_id": "TRIG-B32787-32789-056f96c63ded"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B32792-33028-7b2a70493007",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 33028,
+      "line": 171,
+      "matched_claim_ids": [
+        "CLM-038"
+      ],
+      "sentence_index": 1,
+      "start_byte": 32792,
+      "text": "| Generation–filtering (G) | 8 | Sampler / acceptance | Accepted sample or inherited class | Within test power or model support | Proof (4), test (3), assumption (1); pass rate or architecture argument | Pass rate or proof | G1–G8 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 33021,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-038"
+          ],
+          "start_byte": 33019,
+          "text": "G1",
+          "trigger_id": "TRIG-B33019-33021-6a58ee13cb79"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 33026,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-038"
+          ],
+          "start_byte": 33024,
+          "text": "G8",
+          "trigger_id": "TRIG-B33024-33026-f7e51b3d09aa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B33935-34257-b7c1924235f5",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 34257,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-039"
+      ],
+      "sentence_index": 1,
+      "start_byte": 33935,
+      "text": "The clearest architectural case is a gated network whose slopes and weights are constructed so that the option-price function is frictionless and convex by design; the gate is a constraint-bearing architecture, so the row sits on the penalty/architectural boundary (Cao et al., 2020)<!--ref:N1--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34218,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-039"
+          ],
+          "start_byte": 34200,
+          "text": "(Cao et al., 2020)",
+          "trigger_id": "TRIG-B34200-34218-fc7e722e7f2f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34231,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-039"
+          ],
+          "start_byte": 34218,
+          "text": "<!--ref:N1-->",
+          "trigger_id": "TRIG-B34218-34231-328f4dcda41b"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B34258-34495-4d6185c12d11",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 34495,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-040"
+      ],
+      "sentence_index": 2,
+      "start_byte": 34258,
+      "text": "A graph neural operator is trained across a ten-year intraday S&P 500 index (SPX) panel and reports adherence without a stated tolerance, which makes the claim hard to audit (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34456,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-040"
+          ],
+          "start_byte": 34432,
+          "text": "(Wiedemann et al., 2025)",
+          "trigger_id": "TRIG-B34432-34456-77e5f1906f45"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34469,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-040"
+          ],
+          "start_byte": 34456,
+          "text": "<!--ref:N2-->",
+          "trigger_id": "TRIG-B34456-34469-acf602a7c1b4"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B34496-34714-d4bd9faf05a3",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 34714,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-041"
+      ],
+      "sentence_index": 3,
+      "start_byte": 34496,
+      "text": "A deep-smoothing approach adds soft penalties plus a plug-in correction, aimed at sparse and erroneous quotes, and the penalty is not a guarantee (Ackerer et al., 2019 [preprint])<!--ref:N3--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34675,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-041"
+          ],
+          "start_byte": 34642,
+          "text": "(Ackerer et al., 2019 [preprint])",
+          "trigger_id": "TRIG-B34642-34675-02b1bbd3e4a1"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34688,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-041"
+          ],
+          "start_byte": 34675,
+          "text": "<!--ref:N3-->",
+          "trigger_id": "TRIG-B34675-34688-0b2a5208d4c7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B34715-35029-c00772719629",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 35029,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-042"
+      ],
+      "sentence_index": 4,
+      "start_byte": 34715,
+      "text": "A GAN with a static-arbitrage loss on the FTSE/JSE All Share (ALSI) index states plainly that the condition cannot be directly learned through the penalty route, which is the most explicit statement in the corpus of what a penalty can and cannot deliver (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 34990,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-042"
+          ],
+          "start_byte": 34969,
+          "text": "(Sidogi et al., 2022)",
+          "trigger_id": "TRIG-B34969-34990-be98d12e7f84"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 35003,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-042"
+          ],
+          "start_byte": 34990,
+          "text": "<!--ref:N4-->",
+          "trigger_id": "TRIG-B34990-35003-3de09ba9147d"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B35030-35249-45282122bf0b",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 35249,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-043"
+      ],
+      "sentence_index": 5,
+      "start_byte": 35030,
+      "text": "A second penalty model minimises violations and compares accuracy and runtime against an artificial neural network, reporting a residual rather than a certificate (Na et al., 2023)<!--ref:N5--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 35210,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-043"
+          ],
+          "start_byte": 35193,
+          "text": "(Na et al., 2023)",
+          "trigger_id": "TRIG-B35193-35210-aa963c76dc4c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 35223,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-043"
+          ],
+          "start_byte": 35210,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B35210-35223-7c525fead73f"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B35250-35546-3651f73c6149",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 35546,
+      "line": 181,
+      "matched_claim_ids": [
+        "CLM-044"
+      ],
+      "sentence_index": 6,
+      "start_byte": 35250,
+      "text": "A deep convolutional network embeds derivative constraints, including a maturity-derivative term, in the loss and trains on SABR-generated data, so its reported adherence is an in-sample property of a simulated generator (Hoshisashi et al., 2023 [preprint])<!--ref:N6--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 35507,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-044"
+          ],
+          "start_byte": 35471,
+          "text": "(Hoshisashi et al., 2023 [preprint])",
+          "trigger_id": "TRIG-B35471-35507-500055a8290f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 35520,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-044"
+          ],
+          "start_byte": 35507,
+          "text": "<!--ref:N6-->",
+          "trigger_id": "TRIG-B35507-35520-43a1b1a00720"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B36021-36227-69682065e84c",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 36227,
+      "line": 185,
+      "matched_claim_ids": [
+        "CLM-045"
+      ],
+      "sentence_index": 1,
+      "start_byte": 36021,
+      "text": "One row is a hybrid: a gated network's constraint is structural rather than a soft term, so it is flagged and not used to support either claim alone (Cao et al., 2020)<!--ref:N1--><!--anchor:section:4.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 36188,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-045"
+          ],
+          "start_byte": 36170,
+          "text": "(Cao et al., 2020)",
+          "trigger_id": "TRIG-B36170-36188-fc7e722e7f2f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 36201,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-045"
+          ],
+          "start_byte": 36188,
+          "text": "<!--ref:N1-->",
+          "trigger_id": "TRIG-B36188-36201-328f4dcda41b"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B36855-37299-6adc64ced205",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 37299,
+      "line": 191,
+      "matched_claim_ids": [
+        "CLM-046"
+      ],
+      "sentence_index": 1,
+      "start_byte": 36855,
+      "text": "The projection line is represented by a linear-programming repair that moves prices minimally inside the bid–ask without any cross-date enforcement claim (Cohen et al., 2020)<!--ref:R1--><!--anchor:section:4.3-->, and by an entropic projection to the arbitrage-free set built on Sinkhorn's algorithm, whose convergence proof is a proof about the projection (De March & Henry-Labordère, 2019 [preprint])<!--ref:R2--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37031,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37011,
+          "text": "(Cohen et al., 2020)",
+          "trigger_id": "TRIG-B37011-37031-daca86e13fca"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37044,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37031,
+          "text": "<!--ref:R1-->",
+          "trigger_id": "TRIG-B37031-37044-6a3f644dd0fe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37041,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37039,
+          "text": "R1",
+          "trigger_id": "TRIG-B37039-37041-cdac462e75d2"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37260,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37214,
+          "text": "(De March & Henry-Labordère, 2019 [preprint])",
+          "trigger_id": "TRIG-B37214-37260-47b63a118da6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37273,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37260,
+          "text": "<!--ref:R2-->",
+          "trigger_id": "TRIG-B37260-37273-e45d86f9cd01"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37270,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-046"
+          ],
+          "start_byte": 37268,
+          "text": "R2",
+          "trigger_id": "TRIG-B37268-37270-ce61b5f1051d"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B37300-37549-d743c4c7ddb2",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 37549,
+      "line": 191,
+      "matched_claim_ids": [
+        "CLM-047"
+      ],
+      "sentence_index": 2,
+      "start_byte": 37300,
+      "text": "A third line begins from an arbitrage-free reference function and distorts it, so the construction and the repair share the same observable; the Kahalé approach appears as a special case (Bender & Thiel, 2020)<!--ref:R3--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37510,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-047"
+          ],
+          "start_byte": 37488,
+          "text": "(Bender & Thiel, 2020)",
+          "trigger_id": "TRIG-B37488-37510-866371bda0ba"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37523,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-047"
+          ],
+          "start_byte": 37510,
+          "text": "<!--ref:R3-->",
+          "trigger_id": "TRIG-B37510-37523-2711d29df1b6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37520,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-047"
+          ],
+          "start_byte": 37518,
+          "text": "R3",
+          "trigger_id": "TRIG-B37518-37520-606a38dcfff3"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B37550-37802-9f12d92f7e8a",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 37802,
+      "line": 191,
+      "matched_claim_ids": [
+        "CLM-048"
+      ],
+      "sentence_index": 3,
+      "start_byte": 37550,
+      "text": "A strictly arbitrage-free non-parametric construction calibrates by linear programming with a positive discrete local volatility, which places it at the construction edge of the repair locus (Buehler et al., 2026)<!--ref:R6--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37763,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-048"
+          ],
+          "start_byte": 37741,
+          "text": "(Buehler et al., 2026)",
+          "trigger_id": "TRIG-B37741-37763-429255e1a8e2"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37776,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-048"
+          ],
+          "start_byte": 37763,
+          "text": "<!--ref:R6-->",
+          "trigger_id": "TRIG-B37763-37776-67fbfaf402b0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 37773,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-048"
+          ],
+          "start_byte": 37771,
+          "text": "R6",
+          "trigger_id": "TRIG-B37771-37773-fc57904b0634"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B37842-38186-bd872b23ee89",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 38186,
+      "line": 193,
+      "matched_claim_ids": [
+        "CLM-049"
+      ],
+      "sentence_index": 2,
+      "start_byte": 37842,
+      "text": "An observation-anchored repair runs over 252 out-of-sample SPX days and five completion backends and reports a butterfly violation floor of about 5.4%, so the repaired surface is not violation-free on real quotes; a cubic-spline backend has the lowest reconstruction error after repair (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38147,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-049"
+          ],
+          "start_byte": 38128,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B38128-38147-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38160,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-049"
+          ],
+          "start_byte": 38147,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B38147-38160-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38157,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-049"
+          ],
+          "start_byte": 38155,
+          "text": "R5",
+          "trigger_id": "TRIG-B38155-38157-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B38187-38464-527c92cb1913",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 38464,
+      "line": 193,
+      "matched_claim_ids": [
+        "CLM-050"
+      ],
+      "sentence_index": 3,
+      "start_byte": 38187,
+      "text": "A Chebyshev-tensor surface with a quadratic-programming stage and a post-fit adjustment reports under 1% static violations and 98–99% inside-spread coverage in calm years, with out-of-band leakage under stress (Alvarez, 2025 [preprint])<!--ref:R7--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38425,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-050"
+          ],
+          "start_byte": 38399,
+          "text": "(Alvarez, 2025 [preprint])",
+          "trigger_id": "TRIG-B38399-38425-2b70802880ae"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38438,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-050"
+          ],
+          "start_byte": 38425,
+          "text": "<!--ref:R7-->",
+          "trigger_id": "TRIG-B38425-38438-723d68860ca8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38435,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-050"
+          ],
+          "start_byte": 38433,
+          "text": "R7",
+          "trigger_id": "TRIG-B38433-38435-b25362f42b6c"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B38465-38665-c9471ffe9408",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 38665,
+      "line": 193,
+      "matched_claim_ids": [
+        "CLM-051"
+      ],
+      "sentence_index": 4,
+      "start_byte": 38465,
+      "text": "A Markov-chain approximation over 2,695 SPDR S&P 500 ETF (SPY) options across 28 maturities carries a time axis without a dynamic audit (Madan & Schoutens, 2019)<!--ref:R9--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38626,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-051"
+          ],
+          "start_byte": 38601,
+          "text": "(Madan & Schoutens, 2019)",
+          "trigger_id": "TRIG-B38601-38626-c30d10439034"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38639,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-051"
+          ],
+          "start_byte": 38626,
+          "text": "<!--ref:R9-->",
+          "trigger_id": "TRIG-B38626-38639-12def2b96929"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38636,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-051"
+          ],
+          "start_byte": 38634,
+          "text": "R9",
+          "trigger_id": "TRIG-B38634-38636-056f96c63ded"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B38666-38936-2a4c1fd230ae",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 38936,
+      "line": 193,
+      "matched_claim_ids": [
+        "CLM-052"
+      ],
+      "sentence_index": 5,
+      "start_byte": 38666,
+      "text": "One row asserts transformations without either proof or test (Zetocha, 2023 [preprint])<!--ref:R8--><!--anchor:section:4.3-->, and another expands the scope to joint American call-and-put smoothing at title level (Yao et al., 2026)<!--ref:R4--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38753,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38727,
+          "text": "(Zetocha, 2023 [preprint])",
+          "trigger_id": "TRIG-B38727-38753-cb0d1a2303d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38766,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38753,
+          "text": "<!--ref:R8-->",
+          "trigger_id": "TRIG-B38753-38766-af4e2c7e49a6"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38763,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38761,
+          "text": "R8",
+          "trigger_id": "TRIG-B38761-38763-10e5138f77a9"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38897,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38879,
+          "text": "(Yao et al., 2026)",
+          "trigger_id": "TRIG-B38879-38897-22b9333ef1e2"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38910,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38897,
+          "text": "<!--ref:R4-->",
+          "trigger_id": "TRIG-B38897-38910-b6b435a408a5"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 38907,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-052"
+          ],
+          "start_byte": 38905,
+          "text": "R4",
+          "trigger_id": "TRIG-B38905-38907-c0f672498e10"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B38938-39145-7f9b73dda6c1",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 39145,
+      "line": 195,
+      "matched_claim_ids": [
+        "CLM-053"
+      ],
+      "sentence_index": 1,
+      "start_byte": 38938,
+      "text": "The family's baseline is the shape-constrained smoothing spline, which showed that ignoring the constraint matters, before the four-family split existed (Fengler, 2009)<!--ref:S2--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39106,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-053"
+          ],
+          "start_byte": 39091,
+          "text": "(Fengler, 2009)",
+          "trigger_id": "TRIG-B39091-39106-4a6b40e2129d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39119,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-053"
+          ],
+          "start_byte": 39106,
+          "text": "<!--ref:S2-->",
+          "trigger_id": "TRIG-B39106-39119-3b34d5fe8ee1"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B39146-39530-5c13c933a04c",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 39530,
+      "line": 195,
+      "matched_claim_ids": [
+        "CLM-054"
+      ],
+      "sentence_index": 2,
+      "start_byte": 39146,
+      "text": "Two earlier constructions did not enforce admissibility at all: a nonparametric inversion solved for a surface without an explicit constraint set (Bodurtha & Jermakyan, 1999)<!--ref:S4--><!--anchor:section:4.3-->, and a semiparametric factor model on DAX (Deutscher Aktienindex) data estimated dynamics without enforcement (Fengler et al., 2006)<!--ref:S5--><!--anchor:section:4.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39320,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-054"
+          ],
+          "start_byte": 39292,
+          "text": "(Bodurtha & Jermakyan, 1999)",
+          "trigger_id": "TRIG-B39292-39320-d87169b9abd9"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39333,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-054"
+          ],
+          "start_byte": 39320,
+          "text": "<!--ref:S4-->",
+          "trigger_id": "TRIG-B39320-39333-ecc2e61983de"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39491,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-054"
+          ],
+          "start_byte": 39469,
+          "text": "(Fengler et al., 2006)",
+          "trigger_id": "TRIG-B39469-39491-1907c7f11d58"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 39504,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-054"
+          ],
+          "start_byte": 39491,
+          "text": "<!--ref:S5-->",
+          "trigger_id": "TRIG-B39491-39504-84db129d52fb"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B40027-40269-619245da0b2d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 40269,
+      "line": 201,
+      "matched_claim_ids": [
+        "CLM-055"
+      ],
+      "sentence_index": 2,
+      "start_byte": 40027,
+      "text": "A variational autoencoder over the parameters of stochastic-volatility models generates surfaces whose admissibility follows from the SDE class rather than from the training objective (Ning et al., 2023)<!--ref:G1--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40230,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-055"
+          ],
+          "start_byte": 40211,
+          "text": "(Ning et al., 2023)",
+          "trigger_id": "TRIG-B40211-40230-96caaf5cb4ed"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40243,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-055"
+          ],
+          "start_byte": 40230,
+          "text": "<!--ref:G1-->",
+          "trigger_id": "TRIG-B40230-40243-807f77e1a979"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40240,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-055"
+          ],
+          "start_byte": 40238,
+          "text": "G1",
+          "trigger_id": "TRIG-B40238-40240-6a58ee13cb79"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B40270-40452-852799efaa11",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 40452,
+      "line": 201,
+      "matched_claim_ids": [
+        "CLM-056"
+      ],
+      "sentence_index": 3,
+      "start_byte": 40270,
+      "text": "A neural-SDE state space defines a family of statically arbitrage-free prices and explicitly disclaims a dynamic guarantee (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40413,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-056"
+          ],
+          "start_byte": 40393,
+          "text": "(Cohen et al., 2021)",
+          "trigger_id": "TRIG-B40393-40413-2a4e4cf8c6c0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40426,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-056"
+          ],
+          "start_byte": 40413,
+          "text": "<!--ref:G7-->",
+          "trigger_id": "TRIG-B40413-40426-21b05806a27f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40423,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-056"
+          ],
+          "start_byte": 40421,
+          "text": "G7",
+          "trigger_id": "TRIG-B40421-40423-4f5228b28968"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B40453-40624-a75a879d3cb4",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 40624,
+      "line": 201,
+      "matched_claim_ids": [
+        "CLM-057"
+      ],
+      "sentence_index": 4,
+      "start_byte": 40453,
+      "text": "A gated rational network is arbitrage-free by design, one of the earliest architectural guarantees in the corpus (Yang et al., 2017)<!--ref:G8--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40585,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-057"
+          ],
+          "start_byte": 40566,
+          "text": "(Yang et al., 2017)",
+          "trigger_id": "TRIG-B40566-40585-f74520b71e86"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40598,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-057"
+          ],
+          "start_byte": 40585,
+          "text": "<!--ref:G8-->",
+          "trigger_id": "TRIG-B40585-40598-990067bc81ce"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40595,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-057"
+          ],
+          "start_byte": 40593,
+          "text": "G8",
+          "trigger_id": "TRIG-B40593-40595-f7e51b3d09aa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B40625-40892-9b033febcb36",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 40892,
+      "line": 201,
+      "matched_claim_ids": [
+        "CLM-058"
+      ],
+      "sentence_index": 5,
+      "start_byte": 40625,
+      "text": "Trainable hard constraints go further: the constraint is imposed as a differentiable but hard architectural element, and the row reports 0.00% violations at a $10^{-4}$ tolerance over 15 runs on synthetic SVI data (Anagha, 2026)<!--ref:G6--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40853,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-058"
+          ],
+          "start_byte": 40839,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B40839-40853-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40866,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-058"
+          ],
+          "start_byte": 40853,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B40853-40866-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 40863,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-058"
+          ],
+          "start_byte": 40861,
+          "text": "G6",
+          "trigger_id": "TRIG-B40861-40863-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B41285-41541-ca6c73921927",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 41541,
+      "line": 203,
+      "matched_claim_ids": [
+        "CLM-059"
+      ],
+      "sentence_index": 2,
+      "start_byte": 41285,
+      "text": "A VolGAN (a volatility GAN) generates joint surface and underlying scenarios and evaluates them through hedging against a Black–Scholes delta, while the enforcement mechanism is not described (Vuletić & Cont, 2024)<!--ref:G2--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41502,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-059"
+          ],
+          "start_byte": 41479,
+          "text": "(Vuletić & Cont, 2024)",
+          "trigger_id": "TRIG-B41479-41502-4099a8286dd1"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41515,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-059"
+          ],
+          "start_byte": 41502,
+          "text": "<!--ref:G2-->",
+          "trigger_id": "TRIG-B41502-41515-6db94d171f11"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41512,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-059"
+          ],
+          "start_byte": 41510,
+          "text": "G2",
+          "trigger_id": "TRIG-B41510-41512-5f3e81df8410"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B41542-41726-9156ef648176",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 41726,
+      "line": 203,
+      "matched_claim_ids": [
+        "CLM-060"
+      ],
+      "sentence_index": 3,
+      "start_byte": 41542,
+      "text": "A simulation approach places static constraints inside a generated process but is only partly available at abstract level (Cont & Vuletić, 2023)<!--ref:G3--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41687,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-060"
+          ],
+          "start_byte": 41664,
+          "text": "(Cont & Vuletić, 2023)",
+          "trigger_id": "TRIG-B41664-41687-f2688eb7ca9a"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41700,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-060"
+          ],
+          "start_byte": 41687,
+          "text": "<!--ref:G3-->",
+          "trigger_id": "TRIG-B41687-41700-05bf35a102a2"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41697,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-060"
+          ],
+          "start_byte": 41695,
+          "text": "G3",
+          "trigger_id": "TRIG-B41695-41697-32e59f1c64d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B41727-41955-3bfc896a74bd",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 41955,
+      "line": 203,
+      "matched_claim_ids": [
+        "CLM-061"
+      ],
+      "sentence_index": 4,
+      "start_byte": 41727,
+      "text": "A GAN denoiser reports lower mean-squared error (MSE) and runtime without a guarantee claim, which makes it a smoothing tool rather than a certified generator (Ginart Belmonte & Cole, 2025)<!--ref:G4--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41916,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-061"
+          ],
+          "start_byte": 41886,
+          "text": "(Ginart Belmonte & Cole, 2025)",
+          "trigger_id": "TRIG-B41886-41916-bb6a178bf193"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41929,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-061"
+          ],
+          "start_byte": 41916,
+          "text": "<!--ref:G4-->",
+          "trigger_id": "TRIG-B41916-41929-f11a2d843797"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 41926,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-061"
+          ],
+          "start_byte": 41924,
+          "text": "G4",
+          "trigger_id": "TRIG-B41924-41926-c9752333d8b1"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B41956-42169-021e7a2743df",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 42169,
+      "line": 203,
+      "matched_claim_ids": [
+        "CLM-062"
+      ],
+      "sentence_index": 5,
+      "start_byte": 41956,
+      "text": "A latent flow-matching generator reports that 90.8% of generated surfaces pass all tested static conditions, the corpus's clearest pass-rate statement (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:4.4-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 42130,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-062"
+          ],
+          "start_byte": 42107,
+          "text": "(Bajalica et al., 2026)",
+          "trigger_id": "TRIG-B42107-42130-94b19724d095"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 42143,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-062"
+          ],
+          "start_byte": 42130,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B42130-42143-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 42140,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-062"
+          ],
+          "start_byte": 42138,
+          "text": "G5",
+          "trigger_id": "TRIG-B42138-42140-579743dee2d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B43338-44091-46764a983612",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 44091,
+      "line": 213,
+      "matched_claim_ids": [
+        "CLM-063"
+      ],
+      "sentence_index": 1,
+      "start_byte": 43338,
+      "text": "Six rows audit their own output: a graph neural operator reporting adherence on ten years of intraday data (Wiedemann et al., 2025)<!--ref:N2--><!--anchor:section:5.1-->, a deep network with derivative constraints on simulated data (Hoshisashi et al., 2023)<!--ref:N6--><!--anchor:section:5.1-->, a repair reporting a 5.4% butterfly floor (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->, a Chebyshev construction reporting under 1% violations (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.1-->, a flow-matching generator reporting a 90.8% pass rate (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.1-->, and a hard-constrained generator reporting 0.00% at $10^{-4}$ over 15 runs (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43469,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43445,
+          "text": "(Wiedemann et al., 2025)",
+          "trigger_id": "TRIG-B43445-43469-77e5f1906f45"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43482,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43469,
+          "text": "<!--ref:N2-->",
+          "trigger_id": "TRIG-B43469-43482-acf602a7c1b4"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43595,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43570,
+          "text": "(Hoshisashi et al., 2023)",
+          "trigger_id": "TRIG-B43570-43595-c202d4f4df66"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43608,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43595,
+          "text": "<!--ref:N6-->",
+          "trigger_id": "TRIG-B43595-43608-43a1b1a00720"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43696,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43677,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B43677-43696-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43709,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43696,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B43696-43709-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43706,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43704,
+          "text": "R5",
+          "trigger_id": "TRIG-B43704-43706-43d40906ae9a"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43806,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43791,
+          "text": "(Alvarez, 2025)",
+          "trigger_id": "TRIG-B43791-43806-8f4f3774fa95"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43819,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43806,
+          "text": "<!--ref:R7-->",
+          "trigger_id": "TRIG-B43806-43819-723d68860ca8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43816,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43814,
+          "text": "R7",
+          "trigger_id": "TRIG-B43814-43816-b25362f42b6c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43923,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43900,
+          "text": "(Bajalica et al., 2026)",
+          "trigger_id": "TRIG-B43900-43923-94b19724d095"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43936,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43923,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B43923-43936-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 43933,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 43931,
+          "text": "G5",
+          "trigger_id": "TRIG-B43931-43933-579743dee2d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 44052,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 44038,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B44038-44052-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 44065,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 44052,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B44052-44065-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 44062,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-063"
+          ],
+          "start_byte": 44060,
+          "text": "G6",
+          "trigger_id": "TRIG-B44060-44062-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B44908-45473-ace9c73d7262",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 45473,
+      "line": 215,
+      "matched_claim_ids": [
+        "CLM-064"
+      ],
+      "sentence_index": 4,
+      "start_byte": 44908,
+      "text": "H2 is unsupported in its fit-error clause — no penalty or repair row reports a lower fit error than a constrained parametric baseline on the same data, and the one paired measurement reports a higher error for the stronger guarantee — while its burden-displacement clause is supported: weights, tolerances, repair steps, and acceptance thresholds are where the constraint work is absorbed (Na et al., 2023<!--ref:N5--><!--anchor:section:5.1-->; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:5.1-->; Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45434,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-064"
+          ],
+          "start_byte": 45301,
+          "text": "(Na et al., 2023<!--ref:N5--><!--anchor:section:5.1-->; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:5.1-->; Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B45301-45434-69130ecf038c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45330,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-064"
+          ],
+          "start_byte": 45317,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B45317-45330-7c525fead73f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45389,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-064"
+          ],
+          "start_byte": 45376,
+          "text": "<!--ref:N4-->",
+          "trigger_id": "TRIG-B45376-45389-3de09ba9147d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45447,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-064"
+          ],
+          "start_byte": 45434,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B45434-45447-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45444,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-064"
+          ],
+          "start_byte": 45442,
+          "text": "R5",
+          "trigger_id": "TRIG-B45442-45444-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B45474-45900-96d62a712c21",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 45900,
+      "line": 215,
+      "matched_claim_ids": [
+        "CLM-065"
+      ],
+      "sentence_index": 5,
+      "start_byte": 45474,
+      "text": "H3 is supported for the penalised-sampling branch, where a pass rate is the whole claim, and disconfirmed for the inherited-guarantee branch, where four rows are structural rather than sample-filtered (Anagha, 2026<!--ref:G6--><!--anchor:section:5.1-->; Cohen et al., 2021<!--ref:G7--><!--anchor:section:5.1-->; Ning et al., 2023<!--ref:G1--><!--anchor:section:5.1-->; Yang et al., 2017)<!--ref:G8--><!--anchor:section:5.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45861,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45675,
+          "text": "(Anagha, 2026<!--ref:G6--><!--anchor:section:5.1-->; Cohen et al., 2021<!--ref:G7--><!--anchor:section:5.1-->; Ning et al., 2023<!--ref:G1--><!--anchor:section:5.1-->; Yang et al., 2017)",
+          "trigger_id": "TRIG-B45675-45861-e2bff0ddb5ec"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45701,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45688,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B45688-45701-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45698,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45696,
+          "text": "G6",
+          "trigger_id": "TRIG-B45696-45698-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45759,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45746,
+          "text": "<!--ref:G7-->",
+          "trigger_id": "TRIG-B45746-45759-21b05806a27f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45756,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45754,
+          "text": "G7",
+          "trigger_id": "TRIG-B45754-45756-4f5228b28968"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45816,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45803,
+          "text": "<!--ref:G1-->",
+          "trigger_id": "TRIG-B45803-45816-807f77e1a979"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45813,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45811,
+          "text": "G1",
+          "trigger_id": "TRIG-B45811-45813-6a58ee13cb79"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45874,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45861,
+          "text": "<!--ref:G8-->",
+          "trigger_id": "TRIG-B45861-45874-990067bc81ce"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 45871,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-065"
+          ],
+          "start_byte": 45869,
+          "text": "G8",
+          "trigger_id": "TRIG-B45869-45871-f7e51b3d09aa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B46068-46187-c2b560f71ccf",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 46187,
+      "line": 217,
+      "matched_claim_ids": [
+        "CLM-066"
+      ],
+      "sentence_index": 3,
+      "start_byte": 46068,
+      "text": "Preprints are labelled wherever cited, so a reader can see that three of the six audit rows are preprints (N6, R7, G6).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46181,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-066"
+          ],
+          "start_byte": 46179,
+          "text": "R7",
+          "trigger_id": "TRIG-B46179-46181-b25362f42b6c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46185,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-066"
+          ],
+          "start_byte": 46183,
+          "text": "G6",
+          "trigger_id": "TRIG-B46183-46185-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B46599-46655-db15c0509353",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 46655,
+      "line": 224,
+      "matched_claim_ids": [
+        "CLM-067"
+      ],
+      "sentence_index": 1,
+      "start_byte": 46599,
+      "text": "| R (projection–repair) | 3 | 4 | 2 | 9 | 2 (R5, R7) |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46648,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-067"
+          ],
+          "start_byte": 46646,
+          "text": "R5",
+          "trigger_id": "TRIG-B46646-46648-43d40906ae9a"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46652,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-067"
+          ],
+          "start_byte": 46650,
+          "text": "R7",
+          "trigger_id": "TRIG-B46650-46652-b25362f42b6c"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B46656-46703-3d92e0381052",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 46703,
+      "line": 225,
+      "matched_claim_ids": [
+        "CLM-068"
+      ],
+      "sentence_index": 1,
+      "start_byte": 46656,
+      "text": "| G (generation) | 4 | 3 | 1 | 8 | 2 (G5, G6) |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46696,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-068"
+          ],
+          "start_byte": 46694,
+          "text": "G5",
+          "trigger_id": "TRIG-B46694-46696-579743dee2d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 46700,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-068"
+          ],
+          "start_byte": 46698,
+          "text": "G6",
+          "trigger_id": "TRIG-B46698-46700-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B46934-47064-7ae688346f43",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 47064,
+      "line": 230,
+      "matched_claim_ids": [
+        "CLM-069"
+      ],
+      "sentence_index": 2,
+      "start_byte": 46934,
+      "text": "An audit row reports a residual or violation check on its own output; G6 is the only row that also reports a structural guarantee.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 47006,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-069"
+          ],
+          "start_byte": 47004,
+          "text": "G6",
+          "trigger_id": "TRIG-B47004-47006-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B47598-48079-9de37be5c31c",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 48079,
+      "line": 236,
+      "matched_claim_ids": [
+        "CLM-070"
+      ],
+      "sentence_index": 1,
+      "start_byte": 47598,
+      "text": "| H2 — penalty and repair routes displace rather than remove the constraint burden | Burden-displacement clause supported; fit-error clause unsupported | No penalty or repair row reports lower fit error than a constrained parametric baseline on the same data; tolerances, weights, and repair steps absorb the constraint; one paired measurement reports a higher error (G6) | Adequacy of any residual rate is not assessable without a loss and tolerance the corpus does not supply |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 47970,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-070"
+          ],
+          "start_byte": 47968,
+          "text": "G6",
+          "trigger_id": "TRIG-B47968-47970-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B48080-48438-566590eb1d1c",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 48438,
+      "line": 237,
+      "matched_claim_ids": [
+        "CLM-071"
+      ],
+      "sentence_index": 1,
+      "start_byte": 48080,
+      "text": "| H3 — generation's \"arbitrage-free\" often means \"not rejected on this sample\" | Supported for the penalised-sampling branch; disconfirmed for the inherited-guarantee branch | G5 reports a 90.8% pass rate; G1, G6, G7, G8 are structural rather than sample-filtered | Small branches (four and four); enforcement mechanism is under-described in several rows |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 48260,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-071"
+          ],
+          "start_byte": 48258,
+          "text": "G5",
+          "trigger_id": "TRIG-B48258-48260-579743dee2d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 48290,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-071"
+          ],
+          "start_byte": 48288,
+          "text": "G1",
+          "trigger_id": "TRIG-B48288-48290-6a58ee13cb79"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 48294,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-071"
+          ],
+          "start_byte": 48292,
+          "text": "G6",
+          "trigger_id": "TRIG-B48292-48294-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 48298,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-071"
+          ],
+          "start_byte": 48296,
+          "text": "G7",
+          "trigger_id": "TRIG-B48296-48298-4f5228b28968"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 48302,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-071"
+          ],
+          "start_byte": 48300,
+          "text": "G8",
+          "trigger_id": "TRIG-B48300-48302-f7e51b3d09aa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B50264-50731-49e2727fb963",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 50731,
+      "line": 247,
+      "matched_claim_ids": [
+        "CLM-072"
+      ],
+      "sentence_index": 2,
+      "start_byte": 50264,
+      "text": "A hard-constrained generator is compared with SSVI and a soft-penalty network on the same data (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.2-->; a GAN with a variational autoencoder (Sidogi et al., 2022)<!--ref:N4--><!--anchor:section:5.2-->; a penalty model with an artificial neural network (Na et al., 2023)<!--ref:N5--><!--anchor:section:5.2-->; and a repair procedure across five completion backends (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50373,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50359,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B50359-50373-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50386,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50373,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B50373-50386-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50383,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50381,
+          "text": "G6",
+          "trigger_id": "TRIG-B50381-50383-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50471,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50450,
+          "text": "(Sidogi et al., 2022)",
+          "trigger_id": "TRIG-B50450-50471-be98d12e7f84"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50484,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50471,
+          "text": "<!--ref:N4-->",
+          "trigger_id": "TRIG-B50471-50484-3de09ba9147d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50578,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50561,
+          "text": "(Na et al., 2023)",
+          "trigger_id": "TRIG-B50561-50578-aa963c76dc4c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50591,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50578,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B50578-50591-7c525fead73f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50692,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50673,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B50673-50692-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50705,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50692,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B50692-50705-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50702,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-072"
+          ],
+          "start_byte": 50700,
+          "text": "R5",
+          "trigger_id": "TRIG-B50700-50702-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B50732-50932-648e5ecff56b",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 50932,
+      "line": 247,
+      "matched_claim_ids": [
+        "CLM-073"
+      ],
+      "sentence_index": 3,
+      "start_byte": 50732,
+      "text": "A neural detector of model-free static arbitrage exists as an independent auditor, but it is never applied to another row in this corpus (Neufeld & Sester, 2024)<!--ref:C1--><!--anchor:section:5.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50893,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-073"
+          ],
+          "start_byte": 50869,
+          "text": "(Neufeld & Sester, 2024)",
+          "trigger_id": "TRIG-B50869-50893-f0a006a7d01f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 50906,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-073"
+          ],
+          "start_byte": 50893,
+          "text": "<!--ref:C1-->",
+          "trigger_id": "TRIG-B50893-50906-ed7b01a91821"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B53653-53851-50131ac65452",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 53851,
+      "line": 268,
+      "matched_claim_ids": [
+        "CLM-074"
+      ],
+      "sentence_index": 2,
+      "start_byte": 53653,
+      "text": "A hard-constrained generator reports a structural guarantee and a 0.00% audit, and also reports a higher total-variance error than two baselines (Anagha, 2026)<!--ref:G6--><!--anchor:section:5.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53812,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-074"
+          ],
+          "start_byte": 53798,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B53798-53812-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53825,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-074"
+          ],
+          "start_byte": 53812,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B53812-53825-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53822,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-074"
+          ],
+          "start_byte": 53820,
+          "text": "G6",
+          "trigger_id": "TRIG-B53820-53822-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B53852-53986-cbe52a71d27d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 53986,
+      "line": 268,
+      "matched_claim_ids": [
+        "CLM-075"
+      ],
+      "sentence_index": 3,
+      "start_byte": 53852,
+      "text": "A repair reports a 5.4% floor and selects a backend by reconstruction error (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:5.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53947,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-075"
+          ],
+          "start_byte": 53928,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B53928-53947-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53960,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-075"
+          ],
+          "start_byte": 53947,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B53947-53960-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 53957,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-075"
+          ],
+          "start_byte": 53955,
+          "text": "R5",
+          "trigger_id": "TRIG-B53955-53957-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B53987-54146-d133b265713d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 54146,
+      "line": 268,
+      "matched_claim_ids": [
+        "CLM-076"
+      ],
+      "sentence_index": 4,
+      "start_byte": 53987,
+      "text": "A Chebyshev construction reports sub-1% violations and inside-spread coverage with stressed-year leakage (Alvarez, 2025)<!--ref:R7--><!--anchor:section:5.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54107,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-076"
+          ],
+          "start_byte": 54092,
+          "text": "(Alvarez, 2025)",
+          "trigger_id": "TRIG-B54092-54107-8f4f3774fa95"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54120,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-076"
+          ],
+          "start_byte": 54107,
+          "text": "<!--ref:R7-->",
+          "trigger_id": "TRIG-B54107-54120-723d68860ca8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54117,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-076"
+          ],
+          "start_byte": 54115,
+          "text": "R7",
+          "trigger_id": "TRIG-B54115-54117-b25362f42b6c"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B54147-54292-7b393ec2dda4",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 54292,
+      "line": 268,
+      "matched_claim_ids": [
+        "CLM-077"
+      ],
+      "sentence_index": 5,
+      "start_byte": 54147,
+      "text": "A flow-matching generator reports a pass rate without a paired fit-cost comparison (Bajalica et al., 2026)<!--ref:G5--><!--anchor:section:5.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54253,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-077"
+          ],
+          "start_byte": 54230,
+          "text": "(Bajalica et al., 2026)",
+          "trigger_id": "TRIG-B54230-54253-94b19724d095"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54266,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-077"
+          ],
+          "start_byte": 54253,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B54253-54266-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 54263,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-077"
+          ],
+          "start_byte": 54261,
+          "text": "G5",
+          "trigger_id": "TRIG-B54261-54263-579743dee2d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B57191-57370-e54120891aaf",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 57370,
+      "line": 291,
+      "matched_claim_ids": [
+        "CLM-078"
+      ],
+      "sentence_index": 4,
+      "start_byte": 57191,
+      "text": "The one row that reports all three does so on synthetic data (Anagha, 2026)<!--ref:G6--><!--anchor:section:6.1-->, which shows that the triple is reportable rather than idealised.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57266,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-078"
+          ],
+          "start_byte": 57252,
+          "text": "(Anagha, 2026)",
+          "trigger_id": "TRIG-B57252-57266-59a1eca5e5f8"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57279,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-078"
+          ],
+          "start_byte": 57266,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B57266-57279-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57276,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-078"
+          ],
+          "start_byte": 57274,
+          "text": "G6",
+          "trigger_id": "TRIG-B57274-57276-81cb44c57bbe"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B57371-57621-f407e40e42ec",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 57621,
+      "line": 291,
+      "matched_claim_ids": [
+        "CLM-079"
+      ],
+      "sentence_index": 5,
+      "start_byte": 57371,
+      "text": "The two penalty rows that concede the limit of their route are the clearest evidence that the authors know which claim they are making (Na et al., 2023; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:6.1-->)<!--ref:N5--><!--anchor:section:6.1-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57582,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-079"
+          ],
+          "start_byte": 57506,
+          "text": "(Na et al., 2023; Sidogi et al., 2022<!--ref:N4--><!--anchor:section:6.1-->)",
+          "trigger_id": "TRIG-B57506-57582-035b6558dd15"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57556,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-079"
+          ],
+          "start_byte": 57543,
+          "text": "<!--ref:N4-->",
+          "trigger_id": "TRIG-B57543-57556-3de09ba9147d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 57595,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-079"
+          ],
+          "start_byte": 57582,
+          "text": "<!--ref:N5-->",
+          "trigger_id": "TRIG-B57582-57595-7c525fead73f"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B58344-58691-795a36f51e80",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 58691,
+      "line": 297,
+      "matched_claim_ids": [
+        "CLM-080"
+      ],
+      "sentence_index": 3,
+      "start_byte": 58344,
+      "text": "To our knowledge, based on searches of OpenAlex covering 2015-01-01 to 2026-11-23, as of 2026-11-23 no included study states and tests a process-level dynamic no-arbitrage condition for an equity-index implied-volatility surface; the nearest prior work reviews the conditions without testing them (Niu, 2015)<!--ref:C2--><!--anchor:section:6.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 58652,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-080"
+          ],
+          "start_byte": 58641,
+          "text": "(Niu, 2015)",
+          "trigger_id": "TRIG-B58641-58652-cbfd1fa4a8d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 58665,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-080"
+          ],
+          "start_byte": 58652,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B58652-58665-943d0375dad5"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B59498-59778-c5cf7f726e98",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 59778,
+      "line": 301,
+      "matched_claim_ids": [
+        "CLM-081"
+      ],
+      "sentence_index": 3,
+      "start_byte": 59498,
+      "text": "A generator that constrains maturity monotonicity has made a static claim (Anagha, 2026<!--ref:G6--><!--anchor:section:6.2-->; Bajalica et al., 2026<!--ref:G5--><!--anchor:section:6.2-->), as has a repair that enforces it (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:6.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59685,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59572,
+          "text": "(Anagha, 2026<!--ref:G6--><!--anchor:section:6.2-->; Bajalica et al., 2026<!--ref:G5--><!--anchor:section:6.2-->)",
+          "trigger_id": "TRIG-B59572-59685-e899813be15b"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59598,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59585,
+          "text": "<!--ref:G6-->",
+          "trigger_id": "TRIG-B59585-59598-9b05c505a6d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59595,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59593,
+          "text": "G6",
+          "trigger_id": "TRIG-B59593-59595-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59659,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59646,
+          "text": "<!--ref:G5-->",
+          "trigger_id": "TRIG-B59646-59659-7c72ac9d1b9e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59656,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59654,
+          "text": "G5",
+          "trigger_id": "TRIG-B59654-59656-579743dee2d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59739,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59720,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B59720-59739-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59752,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59739,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B59739-59752-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59749,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-081"
+          ],
+          "start_byte": 59747,
+          "text": "R5",
+          "trigger_id": "TRIG-B59747-59749-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B59779-60258-c37ce500a886",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 60258,
+      "line": 301,
+      "matched_claim_ids": [
+        "CLM-082"
+      ],
+      "sentence_index": 4,
+      "start_byte": 59779,
+      "text": "The neural-SDE row explicitly disclaims dynamics (Cohen et al., 2021)<!--ref:G7--><!--anchor:section:6.2-->; the one review that treats dynamic conditions at length does not test them (Niu, 2015)<!--ref:C2--><!--anchor:section:6.2-->; and the path-dependent and time-indexed constructions build objects along a time axis without a process-level test (Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.2-->; Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:6.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59848,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 59828,
+          "text": "(Cohen et al., 2021)",
+          "trigger_id": "TRIG-B59828-59848-2a4e4cf8c6c0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59861,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 59848,
+          "text": "<!--ref:G7-->",
+          "trigger_id": "TRIG-B59848-59861-21b05806a27f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59858,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 59856,
+          "text": "G7",
+          "trigger_id": "TRIG-B59856-59858-4f5228b28968"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59974,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 59963,
+          "text": "(Niu, 2015)",
+          "trigger_id": "TRIG-B59963-59974-cbfd1fa4a8d3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 59987,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 59974,
+          "text": "<!--ref:C2-->",
+          "trigger_id": "TRIG-B59974-59987-943d0375dad5"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60219,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 60129,
+          "text": "(Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.2-->; Barski & Wiśniewolski, 2026)",
+          "trigger_id": "TRIG-B60129-60219-1d5a4b24c5ce"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60163,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 60150,
+          "text": "<!--ref:C3-->",
+          "trigger_id": "TRIG-B60150-60163-8034ab6ee889"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60232,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-082"
+          ],
+          "start_byte": 60219,
+          "text": "<!--ref:P8-->",
+          "trigger_id": "TRIG-B60219-60232-da51070485f7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B60324-60716-c64dcbd61679",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 60716,
+      "line": 303,
+      "matched_claim_ids": [
+        "CLM-083"
+      ],
+      "sentence_index": 2,
+      "start_byte": 60324,
+      "text": "A finite-strike SABR failure and an asymptotic arbitrage-free approximation are compatible statements because they hold in different regimes: the first says a quoted surface admits a negative density at long maturities, the second says the wings behave correctly as strikes grow (Fukasawa, 2022; Hagan et al., 2014<!--ref:S3--><!--anchor:section:6.2-->)<!--ref:C4--><!--anchor:section:6.2-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60677,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-083"
+          ],
+          "start_byte": 60603,
+          "text": "(Fukasawa, 2022; Hagan et al., 2014<!--ref:S3--><!--anchor:section:6.2-->)",
+          "trigger_id": "TRIG-B60603-60677-174921ac258e"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60651,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-083"
+          ],
+          "start_byte": 60638,
+          "text": "<!--ref:S3-->",
+          "trigger_id": "TRIG-B60638-60651-9dc791f68500"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 60690,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-083"
+          ],
+          "start_byte": 60677,
+          "text": "<!--ref:C4-->",
+          "trigger_id": "TRIG-B60677-60690-c52d0160b602"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B61065-61342-54d70ce603ca",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 61342,
+      "line": 309,
+      "matched_claim_ids": [
+        "CLM-084"
+      ],
+      "sentence_index": 2,
+      "start_byte": 61065,
+      "text": "Starting from a surface family with a stated process (Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.3-->; Barski & Wiśniewolski, 2026)<!--ref:P8--><!--anchor:section:6.3-->, it would define a path-level admissibility condition and run it over a multi-year index panel.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 61208,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-084"
+          ],
+          "start_byte": 61118,
+          "text": "(Andrès et al., 2026<!--ref:C3--><!--anchor:section:6.3-->; Barski & Wiśniewolski, 2026)",
+          "trigger_id": "TRIG-B61118-61208-a0d062ae312d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 61152,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-084"
+          ],
+          "start_byte": 61139,
+          "text": "<!--ref:C3-->",
+          "trigger_id": "TRIG-B61139-61152-8034ab6ee889"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 61221,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-084"
+          ],
+          "start_byte": 61208,
+          "text": "<!--ref:P8-->",
+          "trigger_id": "TRIG-B61208-61221-da51070485f7"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B61854-62185-a1d28e16629a",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 62185,
+      "line": 311,
+      "matched_claim_ids": [
+        "CLM-085"
+      ],
+      "sentence_index": 3,
+      "start_byte": 61854,
+      "text": "The third is a residual audit for proof constructions: applying an independent detector (Neufeld & Sester, 2024)<!--ref:C1--><!--anchor:section:6.3--> to proof-bearing parametric and repair rows would test whether their guarantees survive finite-sample implementation, reporting violations at a stated tolerance on observed quotes.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 61966,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-085"
+          ],
+          "start_byte": 61942,
+          "text": "(Neufeld & Sester, 2024)",
+          "trigger_id": "TRIG-B61942-61966-f0a006a7d01f"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 61979,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-085"
+          ],
+          "start_byte": 61966,
+          "text": "<!--ref:C1-->",
+          "trigger_id": "TRIG-B61966-61979-ed7b01a91821"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B62186-62462-fc6b0a127d7d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 62462,
+      "line": 311,
+      "matched_claim_ids": [
+        "CLM-086"
+      ],
+      "sentence_index": 4,
+      "start_byte": 62186,
+      "text": "The fourth is a test-power and noise-floor study, which would estimate false-positive and false-negative rates of violation tests and separate data noise from method error; the 5.4% repair floor is the motivating case (Xiong & Liu, 2026)<!--ref:R5--><!--anchor:section:6.3-->.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 62423,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-086"
+          ],
+          "start_byte": 62404,
+          "text": "(Xiong & Liu, 2026)",
+          "trigger_id": "TRIG-B62404-62423-3c5d6a7ad203"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 62436,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-086"
+          ],
+          "start_byte": 62423,
+          "text": "<!--ref:R5-->",
+          "trigger_id": "TRIG-B62423-62436-37d54b600dea"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 62433,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-086"
+          ],
+          "start_byte": 62431,
+          "text": "R5",
+          "trigger_id": "TRIG-B62431-62433-43d40906ae9a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B82436-82519-70ffd6e2aafa",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 82519,
+      "line": 424,
+      "matched_claim_ids": [
+        "CLM-087"
+      ],
+      "sentence_index": 1,
+      "start_byte": 82436,
+      "text": "| P2 | Martini & Mingone (2022) | Parametric | proof | RC | full | yes | 2.1, 4.1 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 82467,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-087"
+          ],
+          "start_byte": 82443,
+          "text": "Martini & Mingone (2022)",
+          "trigger_id": "TRIG-B82443-82467-4d103e585819"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B82520-82588-fb5da0960e15",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 82588,
+      "line": 425,
+      "matched_claim_ids": [
+        "CLM-088"
+      ],
+      "sentence_index": 1,
+      "start_byte": 82520,
+      "text": "| P3 | Mingone (2022) | Parametric | proof | RC | full | yes | 4.1 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 82541,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-088"
+          ],
+          "start_byte": 82527,
+          "text": "Mingone (2022)",
+          "trigger_id": "TRIG-B82527-82541-3cc3fe7310ae"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B82754-82826-196daf649a4f",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 82826,
+      "line": 428,
+      "matched_claim_ids": [
+        "CLM-089"
+      ],
+      "sentence_index": 1,
+      "start_byte": 82754,
+      "text": "| P6 | Le Floc’h (2025) | Parametric | proof | RC | full | yes | 4.1 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 82779,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-089"
+          ],
+          "start_byte": 82764,
+          "text": "Floc’h (2025)",
+          "trigger_id": "TRIG-B82764-82779-42f03f953e00"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B82827-82919-c317646d00cd",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 82919,
+      "line": 429,
+      "matched_claim_ids": [
+        "CLM-090"
+      ],
+      "sentence_index": 1,
+      "start_byte": 82827,
+      "text": "| P7 | Klassen (2016) | Parametric | assumption | NC | metadata-only | no [preprint] | 4.1 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 82848,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-090"
+          ],
+          "start_byte": 82834,
+          "text": "Klassen (2016)",
+          "trigger_id": "TRIG-B82834-82848-43beb628f244"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B82920-83028-5cf5f856ed14",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 83028,
+      "line": 430,
+      "matched_claim_ids": [
+        "CLM-091"
+      ],
+      "sentence_index": 1,
+      "start_byte": 82920,
+      "text": "| P8 | Barski & Wiśniewolski (2026) | Parametric | proof | NC | full | no [preprint] | 2.2, 4.1, 6.2, 6.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 82956,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-091"
+          ],
+          "start_byte": 82927,
+          "text": "Barski & Wiśniewolski (2026)",
+          "trigger_id": "TRIG-B82927-82956-4d1b27702d2b"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B83611-83630-8172db632031",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 83630,
+      "line": 437,
+      "matched_claim_ids": [
+        "CLM-092"
+      ],
+      "sentence_index": 1,
+      "start_byte": 83611,
+      "text": "| R1 | Cohen et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83615,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-092"
+          ],
+          "start_byte": 83613,
+          "text": "R1",
+          "trigger_id": "TRIG-B83613-83615-cdac462e75d2"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B83690-83787-c10e0eba558e",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 83787,
+      "line": 438,
+      "matched_claim_ids": [
+        "CLM-093"
+      ],
+      "sentence_index": 1,
+      "start_byte": 83690,
+      "text": "| R2 | De March & Henry-Labordère (2019) | Repair | proof | RC | partial | no [preprint] | 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83694,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-093"
+          ],
+          "start_byte": 83692,
+          "text": "R2",
+          "trigger_id": "TRIG-B83692-83694-ce61b5f1051d"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83731,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-093"
+          ],
+          "start_byte": 83700,
+          "text": "March & Henry-Labordère (2019)",
+          "trigger_id": "TRIG-B83700-83731-2048554d0aba"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B83788-83874-3e1645304684",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 83874,
+      "line": 439,
+      "matched_claim_ids": [
+        "CLM-094"
+      ],
+      "sentence_index": 1,
+      "start_byte": 83788,
+      "text": "| R3 | Bender & Thiel (2020) | Repair | proof | NC | full | yes | 1.1, 2.3, 4.1, 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83792,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-094"
+          ],
+          "start_byte": 83790,
+          "text": "R3",
+          "trigger_id": "TRIG-B83790-83792-606a38dcfff3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83816,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-094"
+          ],
+          "start_byte": 83795,
+          "text": "Bender & Thiel (2020)",
+          "trigger_id": "TRIG-B83795-83816-cff6596bba7a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B83875-83892-81bf6cd86769",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 83892,
+      "line": 440,
+      "matched_claim_ids": [
+        "CLM-095"
+      ],
+      "sentence_index": 1,
+      "start_byte": 83875,
+      "text": "| R4 | Yao et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83879,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-095"
+          ],
+          "start_byte": 83877,
+          "text": "R4",
+          "trigger_id": "TRIG-B83877-83879-c0f672498e10"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B83957-84069-cfb5e25440cb",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84069,
+      "line": 441,
+      "matched_claim_ids": [
+        "CLM-096"
+      ],
+      "sentence_index": 1,
+      "start_byte": 83957,
+      "text": "| R5 | Xiong & Liu (2026) | Repair | numerical test | RC | full | yes | 2.1, 3.3, 4.3, 5.1, 5.2, 5.3, 6.2, 6.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83961,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-096"
+          ],
+          "start_byte": 83959,
+          "text": "R5",
+          "trigger_id": "TRIG-B83959-83961-43d40906ae9a"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 83982,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-096"
+          ],
+          "start_byte": 83964,
+          "text": "Xiong & Liu (2026)",
+          "trigger_id": "TRIG-B83964-83982-a0170802a450"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84070-84091-0dee8968cb3b",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84091,
+      "line": 442,
+      "matched_claim_ids": [
+        "CLM-097"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84070,
+      "text": "| R6 | Buehler et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84074,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-097"
+          ],
+          "start_byte": 84072,
+          "text": "R6",
+          "trigger_id": "TRIG-B84072-84074-fc57904b0634"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84162-84255-a07f249c469d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84255,
+      "line": 443,
+      "matched_claim_ids": [
+        "CLM-098"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84162,
+      "text": "| R7 | Alvarez (2025) | Repair | numerical test | RC | full | no [preprint] | 4.3, 5.1, 5.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84166,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-098"
+          ],
+          "start_byte": 84164,
+          "text": "R7",
+          "trigger_id": "TRIG-B84164-84166-b25362f42b6c"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84183,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-098"
+          ],
+          "start_byte": 84169,
+          "text": "Alvarez (2025)",
+          "trigger_id": "TRIG-B84169-84183-334af5cafe78"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84256-84335-78d33a315eea",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84335,
+      "line": 444,
+      "matched_claim_ids": [
+        "CLM-099"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84256,
+      "text": "| R8 | Zetocha (2023) | Repair | assumption | NC | full | no [preprint] | 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84260,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-099"
+          ],
+          "start_byte": 84258,
+          "text": "R8",
+          "trigger_id": "TRIG-B84258-84260-10e5138f77a9"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84277,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-099"
+          ],
+          "start_byte": 84263,
+          "text": "Zetocha (2023)",
+          "trigger_id": "TRIG-B84263-84277-25f557014842"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84336-84419-72467fc97b7d",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84419,
+      "line": 445,
+      "matched_claim_ids": [
+        "CLM-100"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84336,
+      "text": "| R9 | Madan & Schoutens (2019) | Repair | numerical test | RC | full | yes | 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84340,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-100"
+          ],
+          "start_byte": 84338,
+          "text": "R9",
+          "trigger_id": "TRIG-B84338-84340-056f96c63ded"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84367,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-100"
+          ],
+          "start_byte": 84343,
+          "text": "Madan & Schoutens (2019)",
+          "trigger_id": "TRIG-B84343-84367-565a3f771bfa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84420-84438-b4200e9e0eb2",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84438,
+      "line": 446,
+      "matched_claim_ids": [
+        "CLM-101"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84420,
+      "text": "| G1 | Ning et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84424,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-101"
+          ],
+          "start_byte": 84422,
+          "text": "G1",
+          "trigger_id": "TRIG-B84422-84424-6a58ee13cb79"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84498-84583-f0d31f9446cc",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84583,
+      "line": 447,
+      "matched_claim_ids": [
+        "CLM-102"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84498,
+      "text": "| G2 | Vuletić & Cont (2024) | Generation | numerical test | RC | full | yes | 4.4 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84502,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-102"
+          ],
+          "start_byte": 84500,
+          "text": "G2",
+          "trigger_id": "TRIG-B84500-84502-5f3e81df8410"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84527,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-102"
+          ],
+          "start_byte": 84505,
+          "text": "Vuletić & Cont (2024)",
+          "trigger_id": "TRIG-B84505-84527-997334a4c18e"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84584-84668-5d0dec5d1657",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84668,
+      "line": 448,
+      "matched_claim_ids": [
+        "CLM-103"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84584,
+      "text": "| G3 | Cont & Vuletić (2023) | Generation | assumption | RC | partial | yes | 4.4 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84588,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-103"
+          ],
+          "start_byte": 84586,
+          "text": "G3",
+          "trigger_id": "TRIG-B84586-84588-32e59f1c64d0"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84613,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-103"
+          ],
+          "start_byte": 84591,
+          "text": "Cont & Vuletić (2023)",
+          "trigger_id": "TRIG-B84591-84613-f4e8410488ba"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84669-84761-2a6994a31b76",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84761,
+      "line": 449,
+      "matched_claim_ids": [
+        "CLM-104"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84669,
+      "text": "| G4 | Ginart Belmonte & Cole (2025) | Generation | numerical test | RC | full | yes | 4.4 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84673,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-104"
+          ],
+          "start_byte": 84671,
+          "text": "G4",
+          "trigger_id": "TRIG-B84671-84673-c9752333d8b1"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84705,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-104"
+          ],
+          "start_byte": 84683,
+          "text": "Belmonte & Cole (2025)",
+          "trigger_id": "TRIG-B84683-84705-1be0a9dbdee0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84762-84784-b72942adf551",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84784,
+      "line": 450,
+      "matched_claim_ids": [
+        "CLM-105"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84762,
+      "text": "| G5 | Bajalica et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84766,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-105"
+          ],
+          "start_byte": 84764,
+          "text": "G5",
+          "trigger_id": "TRIG-B84764-84766-579743dee2d0"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84873-84985-7fe8d52107ce",
+      "candidate_kinds": [
+        "citation_bearing_sentence",
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 84985,
+      "line": 451,
+      "matched_claim_ids": [
+        "CLM-106"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84873,
+      "text": "| G6 | Anagha (2026) | Generation | proof | RC | full | no [preprint] | 2.1, 3.3, 4.4, 5.1, 5.2, 5.3, 6.1, 6.2 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84877,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-106"
+          ],
+          "start_byte": 84875,
+          "text": "G6",
+          "trigger_id": "TRIG-B84875-84877-81cb44c57bbe"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84893,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-106"
+          ],
+          "start_byte": 84880,
+          "text": "Anagha (2026)",
+          "trigger_id": "TRIG-B84880-84893-d3ae7637e746"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B84986-85005-5e4ddbd96cba",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85005,
+      "line": 452,
+      "matched_claim_ids": [
+        "CLM-107"
+      ],
+      "sentence_index": 1,
+      "start_byte": 84986,
+      "text": "| G7 | Cohen et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 84990,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-107"
+          ],
+          "start_byte": 84988,
+          "text": "G7",
+          "trigger_id": "TRIG-B84988-84990-4f5228b28968"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85080-85098-ee891bbdf967",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85098,
+      "line": 453,
+      "matched_claim_ids": [
+        "CLM-108"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85080,
+      "text": "| G8 | Yang et al.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85084,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-108"
+          ],
+          "start_byte": 85082,
+          "text": "G8",
+          "trigger_id": "TRIG-B85082-85084-f7e51b3d09aa"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85158-85240-28f97faf8111",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85240,
+      "line": 454,
+      "matched_claim_ids": [
+        "CLM-109"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85158,
+      "text": "| C1 | Neufeld & Sester (2024) | Conditions | proof | RC | full | yes | 5.2, 6.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85188,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-109"
+          ],
+          "start_byte": 85165,
+          "text": "Neufeld & Sester (2024)",
+          "trigger_id": "TRIG-B85165-85188-5139d4166745"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85241-85330-eeee371d911c",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85330,
+      "line": 455,
+      "matched_claim_ids": [
+        "CLM-110"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85241,
+      "text": "| C2 | Niu (2015) | Conditions | assumption | NC | full | no [preprint] | 1.1, 2.2, 6.2 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85258,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-110"
+          ],
+          "start_byte": 85248,
+          "text": "Niu (2015)",
+          "trigger_id": "TRIG-B85248-85258-055134cd3301"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85422-85499-0c2b49c4d1c5",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85499,
+      "line": 457,
+      "matched_claim_ids": [
+        "CLM-111"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85422,
+      "text": "| C4 | Fukasawa (2022) | Conditions | proof | NC | partial | yes | 2.1, 6.2 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85444,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-111"
+          ],
+          "start_byte": 85429,
+          "text": "Fukasawa (2022)",
+          "trigger_id": "TRIG-B85429-85444-0a67eeafdf14"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85500-85589-94aab08f09c1",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85589,
+      "line": 458,
+      "matched_claim_ids": [
+        "CLM-112"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85500,
+      "text": "| C5 | Stahl & Blauth (2024) | Conditions | numerical test | NC | full | yes | 1.3, 2.2 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85528,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-112"
+          ],
+          "start_byte": 85507,
+          "text": "Stahl & Blauth (2024)",
+          "trigger_id": "TRIG-B85507-85528-6e70d6bf67c8"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85590-85675-ae0cd3da9887",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85675,
+      "line": 459,
+      "matched_claim_ids": [
+        "CLM-113"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85590,
+      "text": "| S1 | Gatheral & Jacquier (2013) | Seminal | proof | RC | partial | yes | 1.1, 2.1 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85623,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-113"
+          ],
+          "start_byte": 85597,
+          "text": "Gatheral & Jacquier (2013)",
+          "trigger_id": "TRIG-B85597-85623-5da27e72e2f6"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85676-85755-508c849b3107",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85755,
+      "line": 460,
+      "matched_claim_ids": [
+        "CLM-114"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85676,
+      "text": "| S2 | Fengler (2009) | Seminal | numerical test | NC | full | yes | 1.1, 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85697,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-114"
+          ],
+          "start_byte": 85683,
+          "text": "Fengler (2009)",
+          "trigger_id": "TRIG-B85683-85697-0b8f84514266"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B85851-85934-748924930023",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 85934,
+      "line": 462,
+      "matched_claim_ids": [
+        "CLM-115"
+      ],
+      "sentence_index": 1,
+      "start_byte": 85851,
+      "text": "| S4 | Bodurtha & Jermakyan (1999) | Seminal | assumption | RC | full | yes | 4.3 |",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 85885,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "CLM-115"
+          ],
+          "start_byte": 85858,
+          "text": "Bodurtha & Jermakyan (1999)",
+          "trigger_id": "TRIG-B85858-85885-87bce6bfe947"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B87951-88169-179b7e5207f2",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 88169,
+      "line": 473,
+      "matched_claim_ids": [
+        "CLM-116"
+      ],
+      "sentence_index": 2,
+      "start_byte": 87951,
+      "text": "R3 is a repair built on an admissible reference function, so its mechanism is closer to construction; it stays in R because the manuscript's repair locus is defined by the certified object, and R3 certifies its output.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 87953,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-116"
+          ],
+          "start_byte": 87951,
+          "text": "R3",
+          "trigger_id": "TRIG-B87951-87953-606a38dcfff3"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 88147,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-116"
+          ],
+          "start_byte": 88145,
+          "text": "R3",
+          "trigger_id": "TRIG-B88145-88147-606a38dcfff3"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B88170-88351-31adbd8040ac",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 88351,
+      "line": 473,
+      "matched_claim_ids": [
+        "CLM-117"
+      ],
+      "sentence_index": 3,
+      "start_byte": 88170,
+      "text": "R6 claims a strict guarantee through parameter positivity, which is architecturally parametric, but its object is a completed surface, and it anchors the repair family's strict end.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 88172,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-117"
+          ],
+          "start_byte": 88170,
+          "text": "R6",
+          "trigger_id": "TRIG-B88170-88172-fc57904b0634"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B88512-88697-0c5ae9477b01",
+      "candidate_kinds": [
+        "quantitative_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 88697,
+      "line": 473,
+      "matched_claim_ids": [
+        "CLM-118"
+      ],
+      "sentence_index": 5,
+      "start_byte": 88512,
+      "text": "G7 satisfies its constraints on a modelled state space and explicitly disclaims a dynamic-arbitrage guarantee, which is why it marks the static/dynamic boundary rather than a gap in it.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 88514,
+          "kind": "quantitative_sentence",
+          "matched_claim_ids": [
+            "CLM-118"
+          ],
+          "start_byte": 88512,
+          "text": "G7",
+          "trigger_id": "TRIG-B88512-88514-4f5228b28968"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    }
+  ],
+  "draft_raw_sha256": "b19f4acbf9ffb39cb164b0dcf3b7824a4e4f9e274d8c8e9780b09b73bd241033",
+  "mechanical_candidate_scope": [
+    "citation_bearing_sentence",
+    "quantitative_sentence"
+  ],
+  "registered_claims_outside_candidate_classes": [
+    "CLM-X01",
+    "CLM-X02",
+    "CLM-X03",
+    "CLM-X04",
+    "CLM-X05",
+    "CLM-X06",
+    "CLM-X07",
+    "CLM-X08",
+    "CLM-X09",
+    "CLM-X10",
+    "CLM-X11",
+    "CLM-X12",
+    "CLM-X13",
+    "CLM-X14",
+    "CLM-X15",
+    "CLM-X16",
+    "CLM-X17",
+    "CLM-X18",
+    "CLM-X19",
+    "CLM-X20",
+    "CLM-X21",
+    "CLM-X22",
+    "CLM-X23",
+    "CLM-X24"
+  ],
+  "registry_claim_count": 142,
+  "registry_raw_sha256": "2d0da6643759f288c36d3d29568f052736722753a914173f7649f95e932110da",
+  "registry_schema_version": "claim-registry/1.0",
+  "schema_version": "claim-registry-coverage/1.0",
+  "semantic_extraction_coverage": "not_machine_detectable"
+}
