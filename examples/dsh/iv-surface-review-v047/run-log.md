@@ -58,3 +58,9 @@
 - Final Markdown = certified draft v3.1 with hidden provenance comments stripped; LaTeX/PDF built by `stage5/build_formats.py` (xelatex, ctex). PDF 54 pages; zero undefined refs/citations, zero missing glyphs, 101 overfull hboxes ≤ 57 pt from long DOI strings. Citations lint PASSED on the final Markdown.
 - Completion checkpoint (FULL) recorded in `stage5-completion.md`: deliverables confirmed, Stage 6 proceeds.
 - Corrections made during Stage 5 were formatting-only (formatter table widths, Greek kappa mapped to math mode in LaTeX); the certified bytes were never edited.
+
+## Stage 6 — process record
+
+- `stage6/paper_creation_process.md`: paper info and deliverables; stage-by-stage table with the two verbatim operator turns; iteration statistics; user key decisions; key lessons; Collaboration Quality Evaluation (64/100, six dimensions, honest N/A notes); AI Self-Reflection Report (metrics table, LOW sycophancy risk with caveats, what the AI got wrong, 7-mode failure-mode audit log); advisory collaboration-depth chapter (Delegation Intensity 8/10, Cognitive Vigilance 2/10, Reallocation N/A, Zone 2 window-only, blocking: false).
+- No PDF of the process record and no English version — not requested for this e2e.
+- Pipeline terminal state: `completed`. Terminal acknowledgement recorded as given by the run's operator preauthorization (the e2e closes here).
