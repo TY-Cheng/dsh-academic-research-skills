@@ -18,7 +18,7 @@ Draft for the v0.4.4 community Plugin Market submission. The 0.3.0 package is th
 
 - 5 vendored ARS skills: `deep-research`, `academic-paper`, `academic-paper-reviewer`, `academic-pipeline`, `sr-screener`.
 - 16 `/ars-*` commands generated from the upstream command sources.
-- Full upstream core: `scripts/`, `shared/`, `agents/`, `MODE_REGISTRY.md`, `THIRD_PARTY.md`, `requirements*.txt` — 1,017 files pinned to ARS `v3.24.4` (`23807f9`).
+- Full upstream core: `scripts/`, `shared/`, `agents/`, `MODE_REGISTRY.md`, `THIRD_PARTY.md`, `requirements*.txt` — 1,018 files pinned to ARS `v3.24.5` (`74453f8`).
 - Native 0.4.4 layer: `ars-team` and `ars-pipeline-team` skills, selectable `ars-team` agent preset, and `ars_search`, `ars_lookup`, `ars_integrity`, `ars_pipeline_status`, `ars_manifest`.
 - 0.4.4 fix: workspace-scoped tools resolve relative paths against the calling Session's current directory via the Host `workingDirectory` service.
 - E2E evidence: a complete academic-pipeline run in `examples/dsh/iv-surface-review/` (6,804-word paper, 40 refs, 8 tables, appendices, PDF/DOCX/TeX).

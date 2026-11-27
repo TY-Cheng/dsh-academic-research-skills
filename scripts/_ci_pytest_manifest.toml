@@ -209,6 +209,14 @@ id = "v3.10-182-arxiv-client"
 path = "scripts/test_arxiv_client.py"
 
 [[pytest]]
+id = "1163-openalex-client"
+path = "scripts/test_openalex_client.py"
+
+[[pytest]]
+id = "1163-crossref-client"
+path = "scripts/test_crossref_client.py"
+
+[[pytest]]
 id = "511-transport-fixture-citation-gate"
 path = "scripts/test_transport_fixture_citation_gate.py"
 
@@ -327,6 +335,10 @@ path = "scripts/test_render_claim_standing_view.py"
 [[pytest]]
 id = "250-title-fuzzy-false-positive-pin"
 path = "scripts/test_title_fuzzy_false_positive.py"
+
+[[pytest]]
+id = "1146-tier0-prompt-title-gate"
+path = "scripts/test_tier0_title_gate_prompt_sync.py"
 
 [[pytest]]
 id = "396-rubric-weight-consistency"

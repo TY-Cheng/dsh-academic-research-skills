@@ -10,8 +10,8 @@ outer DSH routing/adapter layer is platform-specific.
 | Field | Value |
 | --- | --- |
 | Repository | https://github.com/Imbad0202/academic-research-skills |
-| Version | ARS v3.24.4 |
-| Commit | `23807f987024f2e038d12fd9e4e5d2a7cc228674` (`v3.24.4`) |
+| Version | ARS v3.24.5 |
+| Commit | `74453f859a4625954e5d2a7dd30c5d716842d060` (`v3.24.5`) |
 | License | CC-BY-NC-4.0 |
 
 [manifest.json](manifest.json) is the source of truth for the pin and the
@@ -20,12 +20,12 @@ checked by `tooling/verify-vendor.mjs`.
 
 ## What is vendored
 
-**Byte-identical, no local edits** (1,017 files at this pin):
+**Byte-identical, no local edits** (1,018 files at this pin):
 
 - `skills/` — the 5 upstream root skill directories, 200 files:
   `deep-research/`, `academic-paper/`, `academic-paper-reviewer/`,
   `academic-pipeline/`, `sr-screener/`.
-- `scripts/` — upstream root `scripts/`, 654 files (474 Python helpers,
+- `scripts/` — upstream root `scripts/`, 655 files (475 Python helpers,
   checkers, ledger/citation clients, adapters, fixtures, and tests).
 - `shared/` — upstream root `shared/`, 155 files (118 JSON schemas/contracts,
   36 Markdown references, 1 YAML file).

@@ -9,7 +9,7 @@
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin
 port of Claude Code's
 [Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)
-(v3.24.4, CC-BY-NC-4.0). The package also carries the full ARS core:
+(v3.24.5, CC-BY-NC-4.0). The package also carries the full ARS core:
 `scripts/`, `shared/`, root `agents/`, and `MODE_REGISTRY.md`.
 
 Provides, out of the box:
@@ -49,7 +49,7 @@ Provides, out of the box:
 
 ## Install
 
-The current version is `v0.4.7`. See the [release notes](docs/releases/v0.4.7.md).
+The current version is `v0.4.8`. See the [release notes](docs/releases/v0.4.8.md).
 
 Requires DeepSeek Harness 0.2.x (tested on 0.2.2-rc.5) and pnpm. The
 deterministic tooling also needs Python 3.9+; a plugin-local `.venv` is
@@ -63,8 +63,8 @@ python3 -m venv .venv
 ```
 
 ```bash
-# current release (v0.4.7)
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.7
+# current release (v0.4.8)
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.8
 # v0.3.0 used for the e2e submitted for upstream review (no 0.4.4 native layer)
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0
 # or from a local checkout:
@@ -132,7 +132,7 @@ npm run verify                                      # hashes + 23 registration a
 
 DeepSeek Harness（DSH）插件：把 Claude Code 的
 [Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)
-（v3.24.4，CC-BY-NC-4.0）移植为 DSH 技能，并随包携带完整 ARS 核心工具层
+（v3.24.5，CC-BY-NC-4.0）移植为 DSH 技能，并随包携带完整 ARS 核心工具层
 （`scripts/`、`shared/`、根 `agents/` 与 `MODE_REGISTRY.md`）。
 
 安装后自动获得：
@@ -172,7 +172,7 @@ DeepSeek Harness（DSH）插件：把 Claude Code 的
 
 ## 安装
 
-当前版本为 `v0.4.7`；详见[发布说明](docs/releases/v0.4.7.md)。
+当前版本为 `v0.4.8`；详见[发布说明](docs/releases/v0.4.8.md)。
 
 要求：DeepSeek Harness（`dsh`）0.2.x（本次 e2e 在 0.2.2-rc.5 上验证），
 pnpm 可用。完整确定性工具链另需 Python 3.9+；建议在插件目录建 `.venv`：
@@ -185,8 +185,8 @@ python3 -m venv .venv
 ```
 
 ```bash
-# 方式一：GitHub 仓库（当前 v0.4.7）
-dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.7
+# 方式一：GitHub 仓库（当前 v0.4.8）
+dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.4.8
 
 # 提交上游审查的 e2e 使用 v0.3.0（不含 0.4.4 原生层）
 dsh plugin --profile web add github:TY-Cheng/dsh-academic-research-skills#v0.3.0

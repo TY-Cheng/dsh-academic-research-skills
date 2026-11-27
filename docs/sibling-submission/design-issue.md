@@ -10,14 +10,14 @@ distribution*, before any recognition request.
 
 The sibling shape is:
 
-- Separate repository; ARS `v3.24.4` pinned at
-  [`23807f9`](https://github.com/Imbad0202/academic-research-skills/commit/23807f987024f2e038d12fd9e4e5d2a7cc228674)
-  (`v3.24.4`) in
+- Separate repository; ARS `v3.24.5` pinned at
+  [`74453f8`](https://github.com/Imbad0202/academic-research-skills/commit/74453f859a4625954e5d2a7dd30c5d716842d060)
+  (`v3.24.5`) in
   [`manifest.json`](https://github.com/TY-Cheng/dsh-academic-research-skills/blob/main/manifest.json).
 - Written sync policy:
   [`SYNC_POLICY.md`](https://github.com/TY-Cheng/dsh-academic-research-skills/blob/main/SYNC_POLICY.md)
   (six-week cadence, offline drift check, immutable release tags).
-- **1,017 vendored files** kept byte-identical: 200 skill files, 654 root
+- **1,018 vendored files** kept byte-identical: 200 skill files, 655 root
   `scripts/` files, 155 `shared/` files, 4 root `agents/` files, and 4 root
   files (`MODE_REGISTRY.md`, `THIRD_PARTY.md`, two requirements files).
   `npm run verify` checks the per-file SHA-256 and 23 registrations; CI

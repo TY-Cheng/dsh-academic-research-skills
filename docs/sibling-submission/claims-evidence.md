@@ -6,16 +6,16 @@ sentence in those documents: qualitative statements about usefulness or fit are
 not treated as measured claims.
 
 **Snapshot:** plugin 0.3.0 e2e submitted for upstream review; 0.4.4 native layer (additive); upstream pin
-`23807f987024f2e038d12fd9e4e5d2a7cc228674` (v0.4.7 sync); e2e commit `40b7e77`;
+`74453f859a4625954e5d2a7dd30c5d716842d060` (v0.4.8 sync); e2e commit `40b7e77`;
 CI run `44530710616`; 2026-11-19, pin updated 2026-11-23.
 
 ## A. Upstream sibling-distribution requirements
 
 | Requirement | Claim | Evidence | Coverage / caveat |
 | --- | --- | --- | --- |
-| Separate repo with a pinned upstream commit | The sibling pins ARS `v3.24.4` at `23807f9` | [`manifest.json`](../../manifest.json) `upstream.commit`, `tag`, `version`; [`SYNC_POLICY.md`](../../SYNC_POLICY.md) § Upstream pin | The pin is a commit hash, not a moving branch. |
+| Separate repo with a pinned upstream commit | The sibling pins ARS `v3.24.5` at `74453f8` | [`manifest.json`](../../manifest.json) `upstream.commit`, `tag`, `version`; [`SYNC_POLICY.md`](../../SYNC_POLICY.md) § Upstream pin | The pin is a commit hash, not a moving branch. |
 | Written sync / update policy | The port follows a documented six-week sync cadence | [`SYNC_POLICY.md`](../../SYNC_POLICY.md) § Sync cadence, § Drift check, § Versioning | The policy is a commitment; it has not yet survived multiple upstream minors. |
-| Vendored content unmodified | 1,017 upstream files are vendored byte-for-byte | `npm run verify` → 200 skills, 654 `scripts/`, 155 `shared/`, 4 `agents/`, 4 root files; per-file SHA-256 in `manifest.json`; CI `verify-vendor` | CI checks the committed manifest, not a live upstream checkout. A development `diff -qr` against the pinned upstream was empty. |
+| Vendored content unmodified | 1,018 upstream files are vendored byte-for-byte | `npm run verify` → 200 skills, 655 `scripts/`, 155 `shared/`, 4 `agents/`, 4 root files; per-file SHA-256 in `manifest.json`; CI `verify-vendor` | CI checks the committed manifest, not a live upstream checkout. A development `diff -qr` against the pinned upstream was empty. |
 | Only the outer adapter is platform-specific | DSH-specific code is confined to the porting layer | `lib/startup.js`, `cordis.patch.yml`, `tooling/*.mjs`, generated `commands/`, docs/CI; no local edits under `skills/`, `scripts/`, `shared/`, `agents/` | `commands/` is generated from upstream command sources, not vendored; this is the adapter layer. |
 | Named maintainer | TY-Cheng maintains the port and triages DSH issues | [`README.md`](../../README.md) attribution block; [`maintainer.md`](maintainer.md); [`NOTICE.md`](../../NOTICE.md); `manifest.json.maintainer` | One maintainer; no backup owner is claimed. |
 | Full `academic-pipeline` e2e under `examples/` | The port ran the full pipeline on a real topic | [`examples/dsh/iv-surface-review/README.md`](../../examples/dsh/iv-surface-review/README.md); final paper and stage reports | One run; see the limits in § E. |
@@ -29,10 +29,10 @@ CI run `44530710616`; 2026-11-19, pin updated 2026-11-23.
 | --- | --- | --- |
 | 5 model-invocable skills | `find skills -maxdepth 1 -mindepth 1 -type d` → 5; `npm run verify` registers 5 skills | Registration is proven; model routing quality is not benchmarked. |
 | 16 user-invocable commands | `find commands -mindepth 2 -name SKILL.md` → 16; `npm run verify` → 16 commands; `lib/startup.js` registers them | The e2e exercised the **skills**, not every slash wrapper. Command registration is proven; per-command runtime behavior is not exhaustively exercised. |
-| Full ARS core is carried | 1,017 vendored files: 200 + 654 + 155 + 4 + 4 | `commands/` is generated, and `docs/`, `evals/`, `examples/`, `hooks/`, `pi/`, `audits/` are not vendored. “Core” here means the five skills plus root `scripts/`, `shared/`, `agents/`, and four root files. |
+| Full ARS core is carried | 1,018 vendored files: 200 + 655 + 155 + 4 + 4 | `commands/` is generated, and `docs/`, `evals/`, `examples/`, `hooks/`, `pi/`, `audits/` are not vendored. “Core” here means the five skills plus root `scripts/`, `shared/`, `agents/`, and four root files. |
 | Vendored files are byte-identical | `manifest.json` per-file SHA-256; `npm run verify`; CI | CI is offline against the manifest; the live `diff -qr` was run in the development checkout at sync time. |
 | 21 skills registered in 0.3.0; 23 in 0.4.4 | `npm run verify` → “registered 21 skills” (0.3.0); 0.4.4 registers 23 (21 + `ars-team` + `ars-pipeline-team`) | 0.3.0: 5 skills + 16 commands. 0.4.4 adds `ars-team` and `ars-pipeline-team`; the vendored count is unchanged. |
-| The Python tool layer ships | 654 `scripts/` files; `requirements-*.txt`; `480` Python files parsed by the CI AST check | Installed and smoke-tested. The e2e workflow used the skills, custom search scripts, and the format builder; it did **not** run every core checker end-to-end. |
+| The Python tool layer ships | 655 `scripts/` files; `requirements-*.txt`; `481` Python files parsed by the CI AST check | Installed and smoke-tested. The e2e workflow used the skills, custom search scripts, and the format builder; it did **not** run every core checker end-to-end. |
 | `DSH_ARS_ROOT` path note prevents mis-resolution | `lib/startup.js`; e2e README § “What the e2e actually exercised”; Python calls used the profile-local `.venv` | Proves the note is injected; does not prove every possible relative path in every skill. `sr-screener`’s own `scripts/` is intentionally skill-local. |
 | The upstream Claude Code hooks are not ported | README § Differences; upstream `hooks/` | The per-role write-scope guard is unavailable in this port. |
 | DSH enforced the tested workspace write boundary | [Contributor-run sandbox smoke test](#g-dsh-sandbox-write-boundary-smoke-test) | Bundled file and Bash backends on macOS, under the tested `workspace-write` policy only; not ARS hook equivalence. |

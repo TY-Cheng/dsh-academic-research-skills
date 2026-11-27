@@ -12,7 +12,7 @@ submission scaffold, not a claim of endorsement.
 | Sibling repository | https://github.com/TY-Cheng/dsh-academic-research-skills |
 | Plugin version | `dsh-academic-research-skills` 0.3.0 (official baseline); 0.4.4 native layer is additive, not part of the baseline |
 | Upstream | https://github.com/Imbad0202/academic-research-skills |
-| Upstream pin | `23807f987024f2e038d12fd9e4e5d2a7cc228674` (`v3.24.4`), tag `v3.24.4` |
+| Upstream pin | `74453f859a4625954e5d2a7dd30c5d716842d060` (`v3.24.5`), tag `v3.24.5` |
 | License | CC-BY-NC-4.0, attribution retained |
 | Named maintainer | TY-Cheng ([@TY-Cheng](https://github.com/TY-Cheng)) |
 | E2E evidence | [`examples/dsh/iv-surface-review/`](../../examples/dsh/iv-surface-review/README.md) |
@@ -24,7 +24,7 @@ submission scaffold, not a claim of endorsement.
 | --- | --- | --- |
 | Sibling shape: separate repo, upstream pinned in `manifest.json` | [`manifest.json`](../../manifest.json) (`upstream.commit`, `tag`, `version`, per-file SHA-256) | done |
 | Written update / sync policy | [`SYNC_POLICY.md`](../../SYNC_POLICY.md) (6-week cadence, drift check, release rules) | done |
-| Vendored content unmodified; only outer adapter platform-specific | 1,017 vendored files: 200 skills, 654 `scripts/`, 155 `shared/`, 4 `agents/`, 4 root files; `npm run verify`; CI `verify-vendor` | done |
+| Vendored content unmodified; only outer adapter platform-specific | 1,018 vendored files: 200 skills, 655 `scripts/`, 155 `shared/`, 4 `agents/`, 4 root files; `npm run verify`; CI `verify-vendor` | done |
 | Named maintainer in repo README | [`README.md`](../../README.md) attribution block; [`maintainer.md`](maintainer.md); [`NOTICE.md`](../../NOTICE.md) | done |
 | Full `academic-pipeline` run under `examples/` | [`examples/dsh/iv-surface-review/README.md`](../../examples/dsh/iv-surface-review/README.md); final paper and all stage reports | done |
 | Claims–evidence alignment | [`claims-evidence.md`](claims-evidence.md) | done |
